@@ -49,6 +49,8 @@ A draft clears all three or parks with an honest status label (`THEORY` · `OPER
     │   ├── plan.md            ← what we are building toward
     │   ├── flag.md            ← locked decisions
     │   └── research/          ← dated, cited research snapshots
+    ├── guides/                ← operational handbook (depth on every workflow step)
+    │   └── lab-workflow.md    ← idea lifecycle · gates · output format · research protocol
     ├── drafts/                ← raw incoming (voice notes, poetry, rough sketches)
     ├── shaped/                ← cleared artifacts (instrument cards, papers, seeds)
     └── papers/                ← finalized; ready to push downstream
@@ -58,6 +60,7 @@ A draft clears all three or parks with an honest status label (`THEORY` · `OPER
 Each shaped artifact carries: **Concept** · **Mapping** · **Prior art** (with status +
 build-readiness + freshness tag) · **Production** · **NOTES (majkee)**. Living document —
 a map to build against, not an argument to defend.
+→ Full format and status labels: `guides/lab-workflow.md` Chapter 3.
 
 ## Decisions (inline — promote to flag.md when they accrue)
 
@@ -76,4 +79,5 @@ None yet.
 1. `session/pulse.md` — volatile state (thin, always first) →
 2. this file (`AGENTS.md`) →
 3. `PROJECT.yaml` →
-4. active draft in `drafts/` or `shaped/`
+4. active draft in `drafts/` or `shaped/` →
+5. `guides/lab-workflow.md` — if you need depth on any workflow step or the full gate protocol
