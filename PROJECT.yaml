@@ -1,0 +1,24 @@
+# PROJECT.yaml v1
+# nabla-lab — mathematical-poetic ideation laboratory
+# A research supplier. Does not own implementations.
+
+name: nabla-lab
+
+stack:
+  lang: markdown          # file-native; no app code — drafts, instrument cards, shaped papers
+  framework: none
+
+commands:
+  test:   none            # validity = three reality gates (see AGENTS.md)
+  run:    none            # sessions run by hand; shaping in claude.ai, validation via CLI globals
+  health: none
+
+docs:
+  architecture: AGENTS.md
+  decisions:    AGENTS.md   # inline until formal decisions accrue
+  conventions:  AGENTS.md
+
+agents: []                  # no project-scoped CLI agents yet; globals spawned per need
+
+mcp_profile: none
+guidelines_channel: stable

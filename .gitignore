@@ -1,0 +1,6 @@
+# Tier 3 — generated, gitignored (temple file-tree §1b)
+CLAUDE.md
+.claude/agents/
+.claude/skills/
+.cursor/rules
+.mcp.json
