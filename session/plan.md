@@ -1,21 +1,24 @@
 # nabla-lab — plan
 
-`status: run — Atlas №2 pipeline · rewritten: 2026-07-02 · authority: handoff.oraculum.2026-07-02.md + flag.md locks 1–8`
+`status: run COMPLETE — awaiting gavels · rewritten: 2026-07-02 · authority: handoff.oraculum.2026-07-02.md + flag.md locks 1–8`
 
-## The run (P0–P4)
+## The run (P0–P4) — done
 
-- [x] **P0 — Housekeeping** — delete v1 atlas duplicate · restore `# Part III` header in atlas v2 · project-bed checked (pollution absent, nothing to trim) · `to-show-atlas/` already erased · pulse/plan refreshed · git checkpoint
-- [ ] **P1 — Atlas №2 blind fan-out (gate 1)** — three legs, blind to each other (lock 6): @Epoch (depth: prior-art, `[t]`-lead verify/kill, R-questions, §5 attack) · Gemini via `bluebottle.zsh` (heterogeneity; fallback chain per lock 6) · @Color (in-house verification of the "mathematically certain" claims). Cross-measure → dated cited snapshot in `session/research-atlas2-stance-geometry/` → **GATE: keep/kill per fork to majkee**
-- [ ] **P2 — Split-map synthesis** — one doc in `session/`: research area vs development area, destinations pre-filled → majkee reviews async (non-blocking; P3 proceeds for uncontested scopes)
-- [ ] **P3 — Instrument cards** → `shaped/` — derived from WHOLE Atlas №1 + processed №2 (lock 3); one spectral-core card with two mounting faces (subai bus-side / reposoma.devenv metabolism-side, lock 4) → **GATE: @Janus before `papers/`** (lock 5: artifacts stay in `papers/`, architects notified, nothing pushed)
-- [ ] **P4 — Mount checks (thin, after P1)** — subai.devenv (dev scope; engine-decision comparison, lock 8) · reposoma.devenv (reality-check, rank-what-to-finish, lock 7) · piql.dev (edge note only) → **GATE: final reports to majkee**
+- [x] **P0 — Housekeeping** — commit `0b90045`
+- [x] **P1 — Atlas №2 blind fan-out (gate 1)** — 4 legs + cross-measure + follow-up in `session/research-atlas2-stance-geometry/`; Gemini leg degraded (bluebottle artifact only), flagged per lock 6 — commit `dc5f2f0`
+- [x] **P2 — Split-map** — `session/split-map.2026-07-02.md` (dev A1–A4 / research B1–B12)
+- [x] **P3 — Instrument cards** — @Janus REVISE applied in full; 4 cards crossed to `papers/`
+- [x] **P4 — Mount checks** — subai (fence found, Face A re-aimed, lock-8 call: they lead their scope) · reposoma.devenv (charter convergent; rank-to-finish 0→5) · piql (edge, concrete attach points)
+- [x] **Final report** — `session/report.final.oraculum.2026-07-02.md` (incl. topology section per majkee request)
 
-## Constraints (standing, this run)
+## Next (blocked on majkee)
 
-- Writes only inside `/home/hruzam/nabla-lab/` · commit checkpoints, never push · ≥30% token reserve · bulk reads via subagents · no canon audits of siblings.
+1. Gavel queue — report §8 (fork verdicts · split-map/PICK · lock-4 anchor · cards confirm · delivery approval).
+2. On delivery approval: notification memos → sibling `_mail` (info-exchange only, lock 5).
+3. Next research candidates (post-gavel): B5 stance-flow operationalization (text→coupling) · B1 curl detector · B12 optimal-stopping card (closest to dev promotion).
 
 ## Parked
 
-- Sibling communication protocol (delivery per lock 5 — `_mail`/`_bus` is info-exchange only, never payload)
-- Project-scoped CLI agents (earn the seat by load)
-- piql.dev third-bond decision (edge note this run, lock 4)
+- B9 cross-vendor directional alignment (named research gap — hard prerequisite under B5–B8 and A3's cross-vendor face).
+- piql.dev third bond (edge note, report §5).
+- Project-scoped CLI agents (earn the seat by load).

@@ -4,13 +4,13 @@
 
 ## Now
 
-P2 done: split-map written (`session/split-map.2026-07-02.md`) — pending majkee one-pass async review (non-blocking). P1 closed: cross-measure + targeted follow-up complete; git checkpoint dispatching. Next: P3 — instrument cards for uncontested scopes A1–A4 into `shaped/` (Choquet gate → subai · ρ monitor → subai · spectral core dual-face → subai+reposoma.devenv · tensor analytics → reposoma.devenv), then @Janus gate before `papers/`.
+RUN COMPLETE (Oraculum, P0→P4). Final report: `session/report.final.oraculum.2026-07-02.md` — read that first. Four instrument cards revised per @Janus (REVISE, accepted in full) and crossed to `papers/`. Mount checks done: subai further on its scoped diagnostics engine (lab extends, not beats); reposoma charter convergent with Atlas — rank-to-finish delivered; piql third-bond concrete, parked. Awaiting majkee gavels only.
 
-## Open
+## Open (= the gavel queue, report §8)
 
-- majkee gavel/review queue: gate-1 fork verdicts (F1 COND-KEEP · F2 KEEP · F3 COND-KEEP restructured · §5 refuted-as-written→typed program) · split-map one-pass · fork-menu PICK (frontrunners B1 curl / B5 stance-flow).
-- Topology note (Flight-drives vs Oraculum-seat) → WRITTEN section in the final report (majkee request, 2026-07-02).
-- Gemini heterogeneity leg FINAL: parked; bluebottle finding (cross-check instrument, not research-pass) → final report.
-- Cross-vendor directional alignment = named research gap (B9) — no downstream artifact may assume it solved.
-- Atlas №1 `[t]`→`[v]` upgrades + secretary-problem attribution fix → fold into cards at P3.
-- piql.dev edge note → P4.
+1. Gate-1 fork verdicts: F1 COND-KEEP · F2 KEEP · F3 COND-KEEP restructured · §5 refuted-as-written → typed program.
+2. Split-map one-pass + fork-menu PICK (B1 curl / B5 stance-flow frontrunners).
+3. Lock-4 "shared anchor" reality delta (sibling fence: "two engines, two graphs").
+4. Cards in `papers/`: confirm / bounce / Janus re-pass.
+5. Delivery: `_mail` notification memos to siblings on approval (drafts on request).
+6. Optional: bluebottle `--raw` mode request.
