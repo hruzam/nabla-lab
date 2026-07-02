@@ -4,12 +4,13 @@
 
 ## Now
 
-Autonomous run LIVE (Oraculum; goal gaveled — flag.md locks 1–8; authority: `session/handoff.oraculum.2026-07-02.md`). P0 housekeeping executing (v1 atlas deletion, Part III header, state refresh, commit). P1 blind fan-out dispatching next: @Epoch (depth) · Gemini via bluebottle (heterogeneity) · @Color (math) — legs blind until cross-measure → keep/kill verdicts to majkee (gate 1).
+P2 done: split-map written (`session/split-map.2026-07-02.md`) — pending majkee one-pass async review (non-blocking). P1 closed: cross-measure + targeted follow-up complete; git checkpoint dispatching. Next: P3 — instrument cards for uncontested scopes A1–A4 into `shaped/` (Choquet gate → subai · ρ monitor → subai · spectral core dual-face → subai+reposoma.devenv · tensor analytics → reposoma.devenv), then @Janus gate before `papers/`.
 
 ## Open
 
-- Fork-menu `PICK (majkee)` slot in atlas v2 still empty — carry to split-map review.
-- Atlas v2 `[t]`-claims spot-check folded into the Epoch leg.
-- project-bed: expected MCP pollution absent (file is a one-line stub) — P0 item closed by absence.
-- piql.dev edge note due at P4.
-- bluebottle.zsh behavior report due in final report (script in testing).
+- majkee gavel/review queue: gate-1 fork verdicts (F1 COND-KEEP · F2 KEEP · F3 COND-KEEP restructured · §5 refuted-as-written→typed program) · split-map one-pass · fork-menu PICK (frontrunners B1 curl / B5 stance-flow).
+- Topology note (Flight-drives vs Oraculum-seat) → WRITTEN section in the final report (majkee request, 2026-07-02).
+- Gemini heterogeneity leg FINAL: parked; bluebottle finding (cross-check instrument, not research-pass) → final report.
+- Cross-vendor directional alignment = named research gap (B9) — no downstream artifact may assume it solved.
+- Atlas №1 `[t]`→`[v]` upgrades + secretary-problem attribution fix → fold into cards at P3.
+- piql.dev edge note → P4.
