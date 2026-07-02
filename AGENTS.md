@@ -25,6 +25,7 @@ The lab does not own implementations.
 | @Epoch | CLI global | Reality check — prior-art search, literature re-verification |
 | @Color | CLI global | Mathematical rigor — proofs, bounds, formal-language correctness |
 | @Janus | CLI global | Adversarial gate — "is it theatre?" — one verdict, one risk |
+| @atlas-ui | CLI global | harness architect, project builder |
 
 No project-scoped CLI agents. Globals are spawned per need from the main session.
 
@@ -48,7 +49,8 @@ A draft clears all three or parks with an honest status label (`THEORY` · `OPER
     │   ├── pulse.md           ← volatile state (read this first)
     │   ├── plan.md            ← what we are building toward
     │   ├── flag.md            ← locked decisions
-    │   └── research/          ← dated, cited research snapshots
+    │   ├── research.journal.md   ← backtracking
+    │   └── research-<slug>/   ← dated, cited research snapshots
     ├── guides/                ← operational handbook (depth on every workflow step)
     │   └── lab-workflow.md    ← idea lifecycle · gates · output format · research protocol
     ├── drafts/                ← raw incoming (voice notes, poetry, rough sketches)
@@ -73,6 +75,11 @@ None yet.
 - **Verify before build.** @Epoch prior-art check before any artifact is treated as original.
 - **Challenge before lock.** @Janus pass before any draft crosses from `shaped/` to `papers/`.
 - **Living documents.** Shaped artifacts are maps to extend, not arguments to defend.
+
+## Standing disciplines
+
+- **Token economy / ask-first** — surface what exists before reading large files or inbox items; ask before loading. Full protocol: `/home/hruzam/reposoma/raw.canon/canon.mail-protocol.md`.
+- **Context discipline** — read thin first; load depth only when the task demands it. Inbox items: list filenames first, ask before reading content.
 
 ## Read order
 
