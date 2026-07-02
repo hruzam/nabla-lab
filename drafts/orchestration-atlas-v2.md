@@ -2,7 +2,7 @@
 
 ### A living reference for a file-backed agentic RAG + coordination stack — every mathematical instrument, mapped to its existing research and production prior art, with open slots for your own findings.
 
-*Nabla & majkee. Drafted 2026-06-25. This is an **atlas**, not a paper: a map you build against and extend, not an argument to defend. Prior-art and production claims verified against literature current to mid-2026; re-verify anything tagged volatile before formal use.*
+*Nabla & majkee. Drafted 2026-06-25. **v2 — 2026-07-02: Fourth Spine (Part II-B, I.9–I.12) folded in; health scalar and master table extended.** This is an **atlas**, not a paper: a map you build against and extend, not an argument to defend. Prior-art and production claims verified against literature current to mid-2026; re-verify anything tagged volatile before formal use.*
 
 ---
 
@@ -278,7 +278,7 @@ Spines I–III (Part III) describe the dynamics *of* a system — how the field 
 
 ---
 
-
+# Part III — The Spine Synthesis
 
 The eight instruments collapse into three spines sharing one object.
 
