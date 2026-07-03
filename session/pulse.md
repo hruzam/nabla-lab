@@ -1,16 +1,14 @@
 # nabla-lab — pulse (volatile state)
 
-`updated: 2026-07-02 · keep this thin`
+`updated: 2026-07-03 · keep this thin`
 
 ## Now
 
-RUN COMPLETE (Oraculum, P0→P4). Final report: `session/report.final.oraculum.2026-07-02.md` — read that first. Four instrument cards revised per @Janus (REVISE, accepted in full) and crossed to `papers/`. Mount checks done: subai further on its scoped diagnostics engine (lab extends, not beats); reposoma charter convergent with Atlas — rank-to-finish delivered; piql third-bond concrete, parked. Awaiting majkee gavels only.
+Run of 2026-07-02 CLOSED (see `session/report.final.oraculum.2026-07-02.md`, gavel queue §8). New cycle opened 2026-07-03 by majkee: (1) reincarnation-audit plan written (`session/plan.reincarnation-audits.2026-07-03.md` — S0 prep → S1 reposoma → S2 subai → S3 consolidation), awaiting his go; (2) run-shape harness request mailed to Atlas (`reposoma/_mail/atlas/inbox/oraculum.run-shape-harness-request.2026-07-03.md`); (3) delegated-gavel protocol PROPOSED (technical gavels → Oraculum with Janus counter-sign, `gaveled-by-delegation` tag; taste/ownership gavels stay majkee) — awaiting grant.
 
-## Open (= the gavel queue, report §8)
+## Open
 
-1. Gate-1 fork verdicts: F1 COND-KEEP · F2 KEEP · F3 COND-KEEP restructured · §5 refuted-as-written → typed program.
-2. Split-map one-pass + fork-menu PICK (B1 curl / B5 stance-flow frontrunners).
-3. Lock-4 "shared anchor" reality delta (sibling fence: "two engines, two graphs").
-4. Cards in `papers/`: confirm / bounce / Janus re-pass.
-5. Delivery: `_mail` notification memos to siblings on approval (drafts on request).
-6. Optional: bluebottle `--raw` mode request.
+- majkee: grant/deny delegated-gavel protocol · go on audit plan · gavel queue from report §8 still standing (PICK, lock-4 anchor, delivery approval at minimum stay his).
+- subai nabla studies (`nabla.terminal-onion-study` + `nabla.interposition-study`, 2026-06-20) — NOT yet read; queued as first read of S2 subai audit.
+- Atlas ack pending on harness request.
+- OVUM monorepo question answered in-chat 2026-07-03: keep federation, strengthen registry/fleet-pulse visibility — no merge.
