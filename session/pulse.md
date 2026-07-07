@@ -1,14 +1,28 @@
 # nabla-lab — pulse (volatile state)
 
-`updated: 2026-07-03 · keep this thin`
+`updated: 2026-07-07 · keep this thin`
 
 ## Now
 
-Run of 2026-07-02 CLOSED (see `session/report.final.oraculum.2026-07-02.md`, gavel queue §8). New cycle opened 2026-07-03 by majkee: (1) reincarnation-audit plan written (`session/plan.reincarnation-audits.2026-07-03.md` — S0 prep → S1 reposoma → S2 subai → S3 consolidation), awaiting his go; (2) run-shape harness request mailed to Atlas (`reposoma/_mail/atlas/inbox/oraculum.run-shape-harness-request.2026-07-03.md`); (3) delegated-gavel protocol PROPOSED (technical gavels → Oraculum with Janus counter-sign, `gaveled-by-delegation` tag; taste/ownership gavels stay majkee) — awaiting grant.
+Driven-mode run 2026-07-07 CLOSED (Oraculum, autonomous per majkee's grant, majkee mobile-only).
+`drafts/interposition-study.md` + `brick1.py` extended full-range →
+**`shaped/card.interposition-driven-mode.2026-07-07.md` + `shaped/seed.brick2.py`**.
+Gates: Epoch `[v]` (policy re-verified 2026-07-07; economics inversion: `-p` metered since 06-15,
+interactive = only subscription-native path) · Color (brick1 pane sentinel condemned —
+echo-indistinguishable; hooks+transcript channel-split adopted; schema ground-truthed on this box) ·
+Janus REVISE→applied (canary grace window; first-inject smoke target named).
+Research snapshot: `session/research-interposition-fullrange/epoch.findings.2026-07-07.md`.
+Drafts copies are pointer stubs; `shaped/` is canonical. Gate-3 co-sign majkee pending.
 
 ## Open
 
-- majkee: grant/deny delegated-gavel protocol · go on audit plan · gavel queue from report §8 still standing (PICK, lock-4 anchor, delivery approval at minimum stay his).
-- subai nabla studies (`nabla.terminal-onion-study` + `nabla.interposition-study`, 2026-06-20) — NOT yet read; queued as first read of S2 subai audit.
-- Atlas ack pending on harness request.
-- OVUM monorepo question answered in-chat 2026-07-03: keep federation, strengthen registry/fleet-pulse visibility — no merge.
+- **majkee gavels — NEW (this run):** (1) always-on/unattended posture (GREY: throttling +
+  reclassification exposure, not ToS breach); (2) Gate-3 co-sign + shaped→papers crossing for the
+  driven-mode card; (3) adoption into subai `_bus` + run the brick2 smoke test (first-inject
+  readiness + `sid_via` env probe are the two things it settles).
+- **majkee gavels — standing (2026-07-03):** grant/deny delegated-gavel protocol · go on
+  reincarnation-audit plan (`session/plan.reincarnation-audits.2026-07-03.md`) · gavel queue from
+  report §8 (PICK, lock-4 anchor, delivery approval).
+- subai nabla studies: `interposition-study` consumed by this run; `terminal-onion-study.md`
+  still unread and NOT in `drafts/` (referenced but absent — `part1.blueprint.md` fills its role).
+- Atlas ack pending on run-shape harness request (2026-07-03).
