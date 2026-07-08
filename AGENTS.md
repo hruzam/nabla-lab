@@ -13,7 +13,18 @@ mathematically-grounded instrument cards, papers, and seeds. Each draft passes t
 gates before it clears. Cleared artifacts push downstream to existing projects or, when large
 enough, earn their own project seat.
 
-The lab does not own implementations.
+The lab does not own implementations. 
+
+###### majkees addendum
+*( 2026-07-08 should be canonized by Atlas)*
+ With Flight as project architect can majkee make some small structural changes - improovement based on Oraculum proses/suggestions. With human in the loop is possible make them from side of Oraculum (unlock some bad shaped mechanism) as team leader.
+ 
+ **Team leaders**
+ - Flight - executive architect
+ - Oraculum - leader scientist, architect, process orchestrator
+
+1. on cross-brand blind truiangulation if we want full range of this term meaning not bonded by brand family angle of sight we need from different brand
+
 
 ## The shaping team
 
@@ -80,6 +91,11 @@ None yet.
 
 - **Token economy / ask-first** — surface what exists before reading large files or inbox items; ask before loading. Full protocol: `/home/hruzam/reposoma/raw.canon/canon.mail-protocol.md`.
 - **Context discipline** — read thin first; load depth only when the task demands it. Inbox items: list filenames first, ask before reading content.
+
+## FYI untracked personal majkee space
+
+This is ***NOT*** canonical, majkee need some folder for his personal notes and temporary process files, human stuff. Acessible for others but not in process scope.
+- `_monkeynet/` is derivated neologism from 'monkey' and 'cabinet'. 
 
 ## Read order
 
