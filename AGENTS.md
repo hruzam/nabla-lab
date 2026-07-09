@@ -13,30 +13,23 @@ mathematically-grounded instrument cards, papers, and seeds. Each draft passes t
 gates before it clears. Cleared artifacts push downstream to existing projects or, when large
 enough, earn their own project seat.
 
-The lab does not own implementations. 
+The lab does not own implementations.
 
-###### majkees addendum
-*( 2026-07-08 should be canonized by Atlas)*
- With Flight as project architect can majkee make some small structural changes - improovement based on Oraculum proses/suggestions. With human in the loop is possible make them from side of Oraculum (unlock some bad shaped mechanism) as team leader.
- 
- **Team leaders**
- - Flight - executive architect
- - Oraculum - leader scientist, architect, process orchestrator
-
-1. on cross-brand blind truiangulation if we want full range of this term meaning not bonded by brand family angle of sight we need from different brand
-
+---
 
 ## The shaping team
 
 | Seat | Surface | Role |
 |------|---------|------|
 | majkee | — | Brings the rough idea; gavels all canon |
+| @Flight | CLI global | Executive architect — project direction, structural improvements |
+| @Oraculum | CLI global | Lead scientist · process orchestrator · architecture |
 | Nabla | claude.ai | Mathematical shaper — context, grounding, prior-art framing |
 | Symmetry | claude.ai | Doctrine / invariants layer — tests whether the idea holds across frames |
 | @Epoch | CLI global | Reality check — prior-art search, literature re-verification |
 | @Color | CLI global | Mathematical rigor — proofs, bounds, formal-language correctness |
 | @Janus | CLI global | Adversarial gate — "is it theatre?" — one verdict, one risk |
-| @atlas-ui | CLI global | harness architect, project builder |
+| @atlas-ui | CLI global | Primitive builder — harness architect, project scaffolding |
 
 No project-scoped CLI agents. Globals are spawned per need from the main session.
 
@@ -66,7 +59,8 @@ A draft clears all three or parks with an honest status label (`THEORY` · `OPER
     │   └── lab-workflow.md    ← idea lifecycle · gates · output format · research protocol
     ├── drafts/                ← raw incoming (voice notes, poetry, rough sketches)
     ├── shaped/                ← cleared artifacts (instrument cards, papers, seeds)
-    └── papers/                ← finalized; ready to push downstream
+    ├── papers/                ← finalized; ready to push downstream
+    └── _mail/                 ← inter-agent mail bus (ask-first; gitignored except README + .gitignore)
 
 ## Output format (instrument card)
 
@@ -86,6 +80,7 @@ None yet.
 - **Verify before build.** @Epoch prior-art check before any artifact is treated as original.
 - **Challenge before lock.** @Janus pass before any draft crosses from `shaped/` to `papers/`.
 - **Living documents.** Shaped artifacts are maps to extend, not arguments to defend.
+- **Cross-brand triangulation.** Full-range blind triangulation requires at least one leg from outside the Claude family. Staying within one model brand constrains the angle of sight. Source one leg from a different brand for any genuine cross-check. Current roster: `reposoma/triangle.md`.
 
 ## Standing disciplines
 
