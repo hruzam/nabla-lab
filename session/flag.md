@@ -26,7 +26,7 @@
 | 7 | reposoma.devenv mount = reality-check of architectural track vs Atlas №1 + processed №2; rank what is worth finishing and in what order — finishing is the intent, abandonment is not on the table. | locked |
 | 8 | Spectral core: open comparison — if lab output beats the project-side plan, say so; rethink allowed on the project side. | locked |
 
-→ Full run state + plan: `session/handoff.oraculum.2026-07-02.md` (reincarnation handoff; wake read order inside).
+→ Full run state + plan: `session/handoff/archive/handoff.oraculum.2026-07-02.md` (reincarnation handoff; wake read order inside).
 
 ## Locks — 2026-07-07 (Oraculum session · nine-gavel ballot, majkee in-chat, pre-Fable-sunset · record: `session/gavels.2026-07-07.md`)
 
@@ -44,3 +44,10 @@
 |---|------|--------|
 | 14 | **Residual** — new operator-side partner agent (Sonnet tier), name gaveled by majkee ("Perfect: Residual"; Oraculum's substrate-native proposal, honoring He et al. 2015 residual connections). Seat: the operator-side transducer — carries majkee's raw X forward untransformed alongside team processing; raw impulse → blind-clean briefs; team output → majkee-language. Inherits Nabla-genome skeleton (triad · buffering · honesty; `reposoma/raw.claude-ai.agents/nabla.md`); never Phase C, never gavels. Charter draft → Atlas after the calm ballot. Runner-up **Adjoint** parked: `session/parked/adjoint-naming-fork.md`. | locked |
 | 15 | Rush-gavel review agreed: locks 9–13 stand but get a **calm ballot** next session — G3/G4 (lock 11) with deep briefings, the rest light re-touch; review-depth markers (`rush`/`briefed`/`deep`) recorded from now on; supersessions append-only. | locked |
+
+## Locks — 2026-07-09 (Oraculum session · majkee in-chat)
+
+| # | Lock | Status |
+|---|------|--------|
+| 16 | **Handoff discipline:** all handoff artifacts live in `session/handoff/` — courier files `FOR-<addressee>.*` + wake docs `handoff.<agent>.<date>.md`; nothing handoff-shaped in `session/` root. Delivered or superseded items → `session/handoff/archive/` (delivered = addressee holds the authoritative copy, e.g. temple `_mail`). Exactly one live wake doc per agent; pulse names it. Convention text: `session/handoff/README.md`. | locked · briefed |
+| 17 | **Calm ballot split (refines lock 15):** ballot runs in two parts along the knowledge line. **Ballot A** = G1–G6 this session, deep briefings on G3/G4. **Ballot B** = G7–G9 re-touch + expected new gavels, held until after the terminal-onion study (`drafts/terminal-onion-study.md`) — one ballot per knowledge state, no double-gaveling. brick2 smoke remains subai-side (G8 stands); the lab receives data only (`sid_via`, env-passthrough, first-inject). | locked · briefed |
