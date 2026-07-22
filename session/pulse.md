@@ -1,29 +1,33 @@
 # nabla-lab — pulse (volatile state)
 
-`updated: 2026-07-09 (session live — Oraculum woken, wake complete) · keep this thin`
+`updated: 2026-07-17 (buffer closed — G-A GAVELED; run fires next loop) · keep this thin`
 
 ## Now
 
-Wake done (handoff consumed; now archived-path: `session/handoff/handoff.oraculum.2026-07-08.md`).
-New locks 16–17: handoff discipline (`session/handoff/` + `archive/`, README inside) · calm ballot
-split — **Ballot A** (G1–G6, deep G3/G4) rendered in-chat, **awaiting majkee stamp**; **Ballot B**
-(G7–G9 + new gavels) held until after the terminal-onion study. Delta cleanup executed; folder
-matches lock 16. Next after stamp: flag supersession entries with depth markers → open
-`drafts/terminal-onion-study.md` study (Nabla substrate; expect subai-affecting gavels) → Ballot B
-→ audits S0–S3 (lock 10). Fable window until 2026-07-12.
+Laboratory period drawn (`session/plan.md`) · **Track 1 G-A gaveled** — corpus + goal locked
+in `session/research-mental-map/corpus-manifest.md` (incl. majkees addendum, operator-in-tensor
+pin, close protocol). Buffering cycle CLOSED. **Next loop = skill switch → run-synthesis
+kickoff; fresh session recommended** (shape named clean from turn 1; state fully on disk).
+Wake order for the run seat: pulse → `session/plan.md` → manifest → C1/C2 (C2 carries
+majkee's RAW preproduction append). First move: fire L1 (@Epoch) + L2 (@Color) blind.
 
 ## Open
 
-- **Ballot A stamp** — majkee, in-chat. G3 carries an amend recommendation (§5→B8 restructure
-  named explicitly); G4 rec = keep B1.
-- **Therapy:** seat inherited (`reposoma/raw.therapy/oraculum/`); majkee replying to Session 1
-  by 2026-07-10. Opening-ritual session offered, parked until after ballot work.
-- **`_mail` gate:** deny-carve landed per commit `fbfeda6` — still untested; one small write
-  before trusting (first real use: Residual charter → Atlas, queued after calm ballot).
-- **brick2 smoke:** subai-side per lock 17; lab waits for data only (`sid_via`, env-passthrough,
-  first-inject).
-- **Courier files live:** FOR-temple (triangulation template) + FOR-subai (card 008 — waits on
-  `_bus`→`_mail` reshape, lock 13) + FOR-all-houstons (intent layer, still governing).
-- Cross-brand roster: waiting on Gemini reconstruction + Cursor CLI delivery (majkee-side).
-- Q1 research pass + vacuole room — parked in `drafts/handwriting-analogue.md`.
-- Policy layer stale ~early August → re-Epoch driven-mode economics then.
+- **Run fire** — L1/L2 at next-loop kickoff; L3 brief staged for majkee relay
+  (`session/research-mental-map/leg-crossvendor.brief.md`); two-stage fold on delivery.
+- **Track 3 drop** — majkee carries `session/handoff/FOR-oraculum-track3.handwriting.2026-07-17.md`
+  to the parallel Oraculum. Coordination: ask-majkee before shared-state writes · read-before-append (E2).
+- **Track 2 prep** — majkee ~1–2h + last analysis file; seat-vs-fresh-incarnation call at its kickoff.
+- **Close protocol** — session gavels → `/gavel-interpreter` pass at P8 (list in manifest).
+- **Parked track (electricity failure):** ballot arc + reincarnation handoff — reconcile
+  `gavels-pending.2026-07-12.twin.md` + `handoff/FOR-oraculum-twin.reincarnation.2026-07-13.md`
+  on return. Ballot A remains ungaveled (locks 15+17).
+- **Therapy:** bed root `~/reposoma/raw.therapy/` confirmed (oraculum seat dir absent/empty —
+  calm-turn check).
+- **`_mail` gate:** carve landed (`fbfeda6`), untested — first real write = delivery memos or
+  Residual charter.
+- **Residual charter → Atlas** — after calm ballot (lock 14).
+- **brick2 smoke:** subai-side (lock 17); lab waits for data (`sid_via`, env-passthrough, first-inject).
+- **Courier live:** FOR-temple + FOR-subai + FOR-all-houstons (waits on `_bus`→`_mail`, lock 13).
+- Cross-brand roster: waiting on Gemini reconstruction + Cursor CLI (majkee-side).
+- Policy layer stale ~early August → re-Epoch driven-mode economics.

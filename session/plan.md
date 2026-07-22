@@ -1,24 +1,59 @@
-# nabla-lab — plan
+# nabla-lab — plan (laboratory period: 2026-07 research mosaic)
 
-`status: run COMPLETE — awaiting gavels · rewritten: 2026-07-02 · authority: handoff.oraculum.2026-07-02.md + flag.md locks 1–8`
+`status: DRAWN 2026-07-17 · Track 1 staged (G-A pending) · Track 2 gated on majkee prep · Track 3 handoff ready`
+`authority: buffering-cycle session 2026-07-17 (Oraculum seat) + flag locks · shape: run-synthesis per track`
 
-## The run (P0–P4) — done
+## Period architecture (mosaic)
 
-- [x] **P0 — Housekeeping** — commit `0b90045`
-- [x] **P1 — Atlas №2 blind fan-out (gate 1)** — 4 legs + cross-measure + follow-up in `session/research-atlas2-stance-geometry/`; Gemini leg degraded (bluebottle artifact only), flagged per lock 6 — commit `dc5f2f0`
-- [x] **P2 — Split-map** — `session/split-map.2026-07-02.md` (dev A1–A4 / research B1–B12)
-- [x] **P3 — Instrument cards** — @Janus REVISE applied in full; 4 cards crossed to `papers/`
-- [x] **P4 — Mount checks** — subai (fence found, Face A re-aimed, lock-8 call: they lead their scope) · reposoma.devenv (charter convergent; rank-to-finish 0→5) · piql (edge, concrete attach points)
-- [x] **Final report** — `session/report.final.oraculum.2026-07-02.md` (incl. topology section per majkee request)
+Cuts that live alone — majkee-cut, deliberately independent — with **one final synthesis
+above**. Overlaps between tracks = free convergence signal. Gaps = the real risk → every
+track carries a **seam register**; final synthesis reads seam registers first (gap scan
+before content). Backstop: targeted local rerun loop if a mosaic piece is missing
+(majkee-approved cost).
 
-## Next (blocked on majkee)
+| Track | Object | Seat | Status |
+|-------|--------|------|--------|
+| 1 | mental-map + stone — small grep-engine pilot; practical data | Oraculum (this session) | staged — **G-A pending** |
+| 2 | RAG pillar engine synthesis — brief + 3 studies (incl. substrate specs) | TBD at kickoff — saturation call: this seat vs fresh incarnation | gated: majkee source prep (~1–2h + last analysis file) |
+| 3 | handwriting analogue + vacuole | parallel Oraculum | handoff ready: `session/handoff/FOR-oraculum-track3.handwriting.2026-07-17.md` |
+| Σ | **final synthesis** — perspective-selection mode · what-beats-what · drawer routing → projects by style | TBD | after tracks 1–3 + project audit data |
 
-1. Gavel queue — report §8 (fork verdicts · split-map/PICK · lock-4 anchor · cards confirm · delivery approval).
-2. On delivery approval: notification memos → sibling `_mail` (info-exchange only, lock 5).
-3. Next research candidates (post-gavel): B5 stance-flow operationalization (text→coupling) · B1 curl detector · B12 optimal-stopping card (closest to dev promotion).
+## Final stage of the period (the big occasion)
 
-## Parked
+Not only above tracks 1–3. At period close the final synthesis consumes:
+- track outputs (cards · research snapshots · consolidated gavel queues)
+- seam-register cross-check (gap scan first)
+- **audit data from projects influenced by the research conclusions** — collected at close
+- delivery: downstream notification per lock 5 (notification, never payload)
 
-- B9 cross-vendor directional alignment (named research gap — hard prerequisite under B5–B8 and A3's cross-vendor face).
-- piql.dev third bond (edge note, report §5).
-- Project-scoped CLI agents (earn the seat by load).
+## Track 1 — order of operations
+
+- [ ] **P1** G-A kickoff gavel (majkee: goal confirm; corpus per manifest)
+- [ ] **P2** Fire L1 (@Epoch, online depth) + L2 (@Color, offline math) blind ·
+      hand L3 brief to majkee (cross-vendor relay, phased)
+- [ ] **P3** Seat full-corpus read + live harness sampling (bed ≥11 entries · therapy arcs — read-only)
+- [ ] **P4** Cross-measure provisional → **G-B** verdicts + gavel queue → one follow-up round max
+- [ ] **P5** L4 philosophy leg (seat; triad + why-and-how) — **surviving output → Track 2 feeder**
+- [ ] **P6** Card(s) derivation-locked → **G-C** majkee review → `shaped/`
+      (@Janus reserved for `shaped/` → `papers/`)
+- [ ] **P7** L3 delivery fold (two-stage cross-measure) → amend card if verdicts move
+- [ ] **P8** Close: consolidated gavel queue · notification memo → Nabla+Symmetry (lock 5) ·
+      archive-after-process confirm (manifest)
+
+Parameters: `session/research-mental-map/corpus-manifest.md` · reserve ≥0.30 ·
+delegation per lock 9 (technical: Oraculum + @Janus counter-sign; taste/ownership: majkee) ·
+commit-never-push.
+
+## Coordination (parallel tracks — hard rules)
+
+- Shared state (`plan.md` · `pulse.md` · `flag.md`): **ask majkee before writing** —
+  "how is the other track now? can I do logs?" First finished logs first.
+- **Read-before-append**, always (E2 collision invariant).
+- Track workspaces are collision-free: `session/research-mental-map/` vs `session/research-handwriting/`.
+
+## Parked (not this period's active line)
+
+- Ballot A/B + reincarnation track (electricity failure) — reconcile
+  `session/gavels-pending.2026-07-12.twin.md` + `session/handoff/FOR-oraculum-twin.reincarnation.2026-07-13.md` on return; Ballot A remains ungaveled (locks 15+17)
+- R-1 full experiment → research-pattern shape, post-Track-1
+- '42' trigger-condition naming · Agol cold-start budget call → Track 1 gavel queue
