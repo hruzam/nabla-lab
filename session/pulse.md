@@ -1,22 +1,21 @@
 # nabla-lab — pulse (volatile state)
 
-`updated: 2026-08-01 (loop A re-scoped: as-if-arrived walkthrough, mount v2) · keep this thin`
+`updated: 2026-08-02 (loop A CLOSED — locks 26–29) · keep this thin`
 
 ## Now
 
-**Gavel-clearing arc (majkee + Oraculum):** Track 1 ✓ → Track 3 ✓ → **loop A → loop B**.
+**Gavel-clearing arc (majkee + Oraculum):** Track 1 ✓ → Track 3 ✓ → **loop A ✓ → loop B**.
+**Loop A closed 2026-08-02:** as-if-arrived walkthrough of the full-range study ran clean
+under the gavel-loop skill — locks **26** (gates + labels + MAKE-RESEARCH amendment, OP1) ·
+**27** (in-situ disposition; pre-authorized single card touch at research-pass landing) ·
+**28** (ONE merged research pass at Ballot B prep, backstop ~08-31) · **29**
+(`research.journal.md` seat-owned, seeded). All briefed depth, no rush stamps. SEALED
+prior-seat lean opened post-verdict, divergences resolved on the table.
+**Next: loop B** (atlas2 + Ballot A calm walkthrough):
+`~/.remote/nabla-lab.gavel-loop-B.atlas2-ballot.2026-07-31.md`.
 **Track 3 (handwriting) gavels DONE in chat 07-28 — UNLANDED on disk**; majkee dictates
-them at a desk session (run-manifest + flag append). Commit 13536f2 = Track 1 Delta pass,
-its message mislabels; disk truth is here.
-**Loop A RE-SCOPED (majkee, 08-01):** rush-era gavels get the calm process lock 15/17
-promised. Loop A = **as-if-just-arrived walkthrough** of the full-range study under
-majkee's process skill (shakedown on the smallest ungaveled object) — no longer a
-single-disposition gavel. Fresh seat; mount v2 (overwritten in place):
-`~/.remote/nabla-lab.gavel-loop-A.interposition.2026-07-31.md` — prior-seat lean SEALED
-at its bottom, open only post-verdict. Then **loop B**
-(atlas2 + Ballot A calm walkthrough): `~/.remote/nabla-lab.gavel-loop-B.atlas2-ballot.2026-07-31.md`.
-Note: interposition CARD already gaveled (G7 → `papers/`); loop A's object is the
-ungaveled full-range study (`research-interposition-fullrange/epoch.findings.2026-07-07.md`).
+them at a desk session (run-manifest + flag append). Commit 13536f2 message mislabels;
+disk truth is here.
 
 ## Open
 
@@ -24,10 +23,13 @@ ungaveled full-range study (`research-interposition-fullrange/epoch.findings.202
   staged memo fires (`session/handoff/FOR-nabla-symmetry.card-notification.2026-07-25.md`).
 - **Track 3 gavel landing** — chat verdicts 07-28 → dictate to run-manifest gavel log +
   flag; then Janus counter-sign state + card path re-check.
-- **Loop A → Loop B** — see Now; study ≠ re-gavel; Ballot B (G7–G9) stays gated on
+- **Loop B** — atlas2 + Ballot A calm walkthrough; Ballot B (G7–G9) stays gated on
   terminal-onion study (lock 17) unless majkee waives; lock 18 protocol per beat.
-- **`research.journal.md` gap** — promised by AGENTS.md, missing on disk; loop A
-  walkthrough decides whether the process skill owns creating it.
+- **Merged research pass (lock 28)** — MAKE-RESEARCH (tmuxlet depth + multi-vendor
+  wrapper-shift volatility: Anthropic, OpenAI, …) + re-Epoch (Q1 policy + credit-pool
+  drift); fires at Ballot B prep; **backstop: standalone if not fired by ~2026-08-31**.
+  Card `stale ~2026-08` tag folds at its landing (lock 27). Supersedes the standing
+  "re-Epoch timing = loop A's call" item — timing decided.
 - **`larva.contract.v0.1.md`** — parked, future part (majkee 07-31); route via lock-19
   ingest at its own loop.
 - **Agol cold-start run (lock 24)** — schedule at an attended session; Codex CLI roster
@@ -40,5 +42,3 @@ ungaveled full-range study (`research-interposition-fullrange/epoch.findings.202
 - **Residual charter → Atlas** — after calm ballot (lock 14). · **brick2 smoke:** subai-side
   (lock 17). · **Courier live:** FOR-temple + FOR-subai + FOR-all-houstons (lock 13 wait).
 - Cross-brand roster: Gemini reconstruction pending (majkee-side) + Codex CLI new entrant.
-- Policy layer stale ~early August (now current) → re-Epoch driven-mode economics;
-  TIMING is the loop-A walkthrough's call (also unlocks T6/lock 12 revisit).
