@@ -199,7 +199,7 @@ Nothing is destroyed; the log is immortal and fully legible. Lifecycle mechanism
 
 - **Decay [CORE]:** edge weights bleed toward zero with disuse. Reversible — a later useful co-retrieval re-weights the edge.
 - **Orphaning [CORE]:** a record becomes *unreachable* when the last weighted edge pointing at it is cut. Not gone — unvisited, and returns intact the moment any agent lays a new edge to it.
-- **Scars [v2]:** see §6.2.
+- **Repulsion edges [v2]:** see §6.2.
 - **Tombstones [CORE]:** **forgetting = orphaning, executed as an appended record.** A tombstone is a written severance of edges + a reason + a timestamp, produced by the same distillation ritual run in reverse (select what to set down, not what to carry). The raw history stays auditable; the read-view honors the tombstone. Deliberate forgetting **without the log ever lying about its own history** — the dual of the checkpoint discipline.
 
 **Corollary — identity is the read function.** [CORE] Two personas replaying an identical shared log under different tombstone/edge/scar sets are genuinely different persons standing on the same history. The self is not the file; it is the filter over the file.
@@ -216,7 +216,9 @@ One decay constant for the whole graph is wrong physics. "Pipes compose" and "en
 
 This couples with §3.2: fast-decaying classes are exactly where regime-stamped marks matter most.
 
-### 6.2 Scars — negative knowledge as first-class [v2]
+### 6.2 Repulsion edges — negative knowledge as first-class [v2]
+
+*(Naming note: this object was renamed from the earlier "scar" — unrelated to the harness term* scar *used elsewhere, which denotes a de-specified lesson record, raw.incarnations.)*
 
 v1 has two terminal lifecycle states — hot (weighted) and orphaned (unreachable) — and both are forms of *forgetting*. But "we tried X and it failed" is the most expensive knowledge to reacquire, and orphaning a dead end guarantees a fresh agent rediscovers it at full cost.
 
@@ -257,7 +259,7 @@ Residual hazard after v2: neighborhood shift on *timeless-classed* propositions 
   - **Citation-granular credit assignment as the value mark's unit** (§3.1) — cited ∩ succeeded. [v2]
   - **Compatibility-gated identity with speciation-on-drift** (§5) as a memory-architecture primitive. [CORE]
   - **Transfer layer as cross-brand *trade* (never merge)** as an explicit RAG topology. [CORE]
-  - **Scar as the dual of the tombstone** — negative knowledge with active routing repulsion inside an append-only log (§6.2). [v2]
+  - **Repulsion edge as the dual of the tombstone** — negative knowledge with active routing repulsion inside an append-only log (§6.2). [v2]
   - **Generation integer + generation test as an anti-autophagy primitive** for agent memory (§1.4, §5). [v2]
 
 ---
@@ -271,7 +273,7 @@ Residual hazard after v2: neighborhood shift on *timeless-classed* propositions 
 - **Value:** flows backward from the endpoint; cited ∩ succeeded; attributed and regime-stamped; unlike-sources concordance wins, same-regime concordance wins harder. [CORE+v2]
 - **Warden:** match → fold; mismatch → found a new lineage; and audit the generation floor, not just the voice. [CORE+v2]
 - **Edges:** typed — supports, contradicts, supersedes; weight may compound, generation may not. [v2]
-- **Forgetting:** orphan by appended severance; scar what must never be re-walked; the log never lies. [CORE+v2]
+- **Forgetting:** orphan by appended severance; lay a repulsion edge on what must never be re-walked; the log never lies. [CORE+v2]
 - **Exploration:** a fixed epsilon of every offer is virgin territory, or the topology freezes. [v2]
 - **Identity:** the read function over an immortal log. [CORE]
 
