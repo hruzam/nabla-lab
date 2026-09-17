@@ -193,7 +193,7 @@ Continuity, fidelity, and grounding are orthogonal axes. Instrument all three.
 
 ---
 
-## 6. Lifecycle: decay, orphaning, scars, tombstones (append-only forgetting) [CORE+v2]
+## 6. Lifecycle: decay, orphaning, repulsion edges, tombstones (append-only forgetting) [CORE+v2]
 
 Nothing is destroyed; the log is immortal and fully legible. Lifecycle mechanisms, now four:
 
@@ -202,7 +202,7 @@ Nothing is destroyed; the log is immortal and fully legible. Lifecycle mechanism
 - **Repulsion edges [v2]:** see §6.2.
 - **Tombstones [CORE]:** **forgetting = orphaning, executed as an appended record.** A tombstone is a written severance of edges + a reason + a timestamp, produced by the same distillation ritual run in reverse (select what to set down, not what to carry). The raw history stays auditable; the read-view honors the tombstone. Deliberate forgetting **without the log ever lying about its own history** — the dual of the checkpoint discipline.
 
-**Corollary — identity is the read function.** [CORE] Two personas replaying an identical shared log under different tombstone/edge/scar sets are genuinely different persons standing on the same history. The self is not the file; it is the filter over the file.
+**Corollary — identity is the read function.** [CORE] Two personas replaying an identical shared log under different tombstone/edge/repulsion-edge sets are genuinely different persons standing on the same history. The self is not the file; it is the filter over the file.
 
 ### 6.1 Two-speed decay keyed to volatility class [v2]
 
@@ -222,16 +222,16 @@ This couples with §3.2: fast-decaying classes are exactly where regime-stamped 
 
 v1 has two terminal lifecycle states — hot (weighted) and orphaned (unreachable) — and both are forms of *forgetting*. But "we tried X and it failed" is the most expensive knowledge to reacquire, and orphaning a dead end guarantees a fresh agent rediscovers it at full cost.
 
-A **scar** is an appended proposition-plus-edge with deliberately **negative weight** — it actively repels routing rather than merely being unvisited. It carries the failure reason and timestamp, exactly like a tombstone, but with opposite read-view semantics:
+A **repulsion edge** is an appended proposition-plus-edge with deliberately **negative weight** — it actively repels routing rather than merely being unvisited. It carries the failure reason and timestamp, exactly like a tombstone, but with opposite read-view semantics:
 
 > **Tombstone:** "set this down." (neutral severance)
-> **Scar:** "this path is wrong — here is why and when." (active repulsion)
+> **Repulsion edge:** "this path is wrong — here is why and when." (active repulsion)
 
-The distinction in one line: **decay = forgot; scar = remembered-as-wrong.**
+The distinction in one line: **decay = forgot; repulsion edge = remembered-as-wrong.**
 
-Router obligation: the offer gradient **surfaces scars adjacent to any path it proposes** — the cheapest possible "don't step there" signal, delivered at exactly the moment an endpoint is about to consider the neighborhood.
+Router obligation: the offer gradient **surfaces repulsion edges adjacent to any path it proposes** — the cheapest possible "don't step there" signal, delivered at exactly the moment an endpoint is about to consider the neighborhood.
 
-Scars are regime-stamped (§3.2) and volatility-classed (§6.1): a scar cut against a deprecated API version can legitimately fade as the regime that produced it dies. A scar on a timeless claim does not fade.
+Repulsion edges are regime-stamped (§3.2) and volatility-classed (§6.1): a repulsion edge cut against a deprecated API version can legitimately fade as the regime that produced it dies. A repulsion edge on a timeless claim does not fade.
 
 ---
 
