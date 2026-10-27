@@ -1,0 +1,126 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>File lineage, retrieval and the mental map</title><style>body{margin:0;background:#f4f1eb;color:#20303b;font:18px/1.65 Georgia,serif}main{max-width:880px;margin:48px auto;padding:56px 64px;background:#fffdf8;border-top:7px solid #087f8c;box-shadow:0 10px 45px #18344512}h1,h2,h3,th,.masthead{font-family:Arial,sans-serif}h1{font-size:42px;line-height:1.12;letter-spacing:-1px;color:#173c49}h2{font-size:24px;margin-top:2em;border-top:1px solid #d9e2e2;padding-top:22px}h3{font-size:19px}p{margin:1em 0}a{color:#087080;text-decoration-thickness:1px}table{border-collapse:collapse;width:100%;font-size:14px;line-height:1.45;margin:25px 0}th,td{border-bottom:1px solid #d5dfdf;padding:12px 10px;text-align:left;vertical-align:top}th{background:#e8efed}pre{background:#edf2f2;padding:18px;font:13px/1.65 monospace;overflow:auto;border-left:3px solid #087f8c}code{font-size:.84em}pre code{font-size:inherit}img,svg{max-width:100%;height:auto}figure{margin:32px 0}u{text-decoration-color:#087f8c;text-underline-offset:4px}li{margin:.65em 0}.masthead{font-size:12px;letter-spacing:2px;text-transform:uppercase;color:#607580}footer{font:12px/1.5 Arial,sans-serif;color:#657781;margin-top:45px;border-top:1px solid #d5dfdf;padding-top:18px}@media(max-width:720px){main{margin:0;padding:28px 22px}h1{font-size:32px}table{display:block;overflow:auto}}@media print{body{background:white;font-size:11pt}main{max-width:none;margin:0;padding:0;box-shadow:none;border:0}h1{font-size:26pt}h2{break-after:avoid}pre,figure,svg{break-inside:avoid}a{color:inherit}table{font-size:9pt}}</style><main><div class="masthead">Nabla-lab / Inner-circle publications / Research edition</div><h1>File lineage, retrieval and the mental map</h1>
+<p><strong>Inner-circle research edition · SHIFT_1 evidence, SHIFT_2 synthesis and corrections · 2026-10-27</strong></p>
+<h2>Abstract</h2>
+<p>A restarted agent can reconstruct working context from durable records, but fluent reconstruction does not establish fidelity to the past. This study separates event history, filtered views and three navigation postures: keyed lookup, exploratory probing and graph traversal. It preserves the original research's useful counterexample to stopping at the first revisited node, while correcting stronger claims about traversal, retrieval, concurrent writes and identity. Its practical contribution is a reproducible evaluation design for retrieval and historical reconstruction. No new agent experiments are reported.</p>
+<h2>Research basis</h2>
+<p>The <a href="../../../drafts/agent-memory-architecture.md">memory architecture</a>, <a href="../../../drafts/reincarnation-meditation-stone.md">reincarnation stone</a> and <a href="../../../drafts/mental-map-collective-mind.md">mental-map seed</a> supply the questions. SHIFT_1 produced an <a href="../../../session/research-mental-map/leg-online.result.2026-07-17.md">online literature leg</a>, <a href="../../../session/research-mental-map/leg-offline-math.result.2026-07-17.md">formal leg</a>, <a href="../../../session/research-mental-map/cross-measure.2026-07-17.md">cross-measure</a>, <a href="../../../session/research-mental-map/leg-philosophy.result.2026-07-18.md">philosophy leg</a>, <a href="../../../session/research-mental-map/card.mental-map.DRAFT.2026-07-19.md">draft card</a> and <a href="../../../session/research-mental-map/card.amendment-A1.composer.2026-07-25.md">composer amendment</a>. Their full bodies were read for this edition. The <a href="../../../session/research-mental-map/corpus-manifest.md">manifest</a> records one cold-start observation and one identifier collision, not a controlled performance study.</p>
+<h2>Theory: what persists</h2>
+<p>Let an append-only log L contain events with stable identifiers, provenance and timestamps. Let A be the identifiers added and T the identifiers suppressed by a read policy. The view <code>V(L) = A \ T</code> is a simple remove-once model. It preserves the underlying record while suppressing selected entries from a projection; it is not physical erasure. Two tombstone sets need not yield different views: suppressing different identifiers that never occur in A changes nothing. Distinct read policies therefore do not by themselves prove distinct identities.</p>
+<p>The formal leg conflates two-phase and observed-remove sets. A two-phase set forbids re-adding a removed element; an observed-remove design associates removals with observed additions and has different concurrency semantics. An engineering specification must choose its semantics before claiming convergence. <a href="https://www.lip6.fr/Marc.Shapiro/papers/2011/Comprehensive-CRDTs-RR7506-2011-01.pdf">Shapiro et al., 2011, §§3.3.2–3.3.5</a>.</p>
+<p>Preserving lineage enables an audit of reconstruction. It does not establish consciousness or personal continuity. HOLA supplies a narrower analogy: a compressed recurrent state can be supplemented by an exact cache of associations selected using prediction residuals. Its in-context experiments do not validate durable cross-session memory or surprise as a universal record-writing policy. <a href="https://arxiv.org/abs/2607.02303">Cui, <em>A Hippocampus for Linear Attention</em>, 2026</a>.</p>
+<h2>Navigation and a corrected coverage theorem</h2>
+<p>The seed's ladder retrieves a keyed record; gravity explores a partly specified question; a deep dive maps related records. Keeping a trajectory of failed probes may help explain how an answer was reached. These are useful operational distinctions, but output arity does not prove that three separate tools or documents are mathematically necessary. A single typed interface can represent their different returns, and a mixed strategy may outperform any pure posture.</p>
+<p>Consider the directed graph with edges <code>s→a</code>, <code>a→s</code>, <code>s→b</code>. The walk <code>s,a,s</code> encounters its own mark while b remains unseen. A revisit is not a coverage certificate. Conversely, a tree can be completely traversed without revisiting a node.</p>
+<p><strong>Proposition.</strong> In a fixed graph, let W contain s and only vertices reachable from s. If every successor of every vertex in W is also in W, then W is exactly the reachable set R(s).</p>
+<p><strong>Proof.</strong> Reachability of members gives <code>W ⊆ R(s)</code>. For any path from s, induction on path length and successor closure place every vertex on the path in W; hence <code>R(s) ⊆ W</code>. An empty worklist is a certificate only if the traversal has correctly enumerated and processed every successor. The worklist, marks and edge enumeration do not disappear because an outstanding-work count fits in one integer.</p>
+<figure><svg role="img" aria-label="Synthetic graph example: a revisit leaves a branch undiscovered" width="720" height="390" preserveAspectRatio="xMinYMin meet" viewBox="0 0 720 390" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="720" height="390"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-390)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="18" y="365" style="font-family: Helvetica-Bold; font-size: 16px;fill: rgb(9%,15%,21%); stroke:none;" transform="translate(0,730) scale(1,-1)">A revisit does not establish coverage</text>
+			<text x="18" y="345" style="font-family: Helvetica; font-size: 10px;fill: rgb(32%,40%,45%); stroke:none;" transform="translate(0,690) scale(1,-1)">Constructed graph: s -&gt; a -&gt; s, with another edge s -&gt; b</text>
+			<g transform="">
+				<g transform="">
+					<g transform="">
+						<path d="M 65,76 L 690,76 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<path d="M 65,76 L 65,71 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 169.166667,76 L 169.166667,71 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 273.333333,76 L 273.333333,71 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 377.5,76 L 377.5,71 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 481.666667,76 L 481.666667,71 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 585.833333,76 L 585.833333,71 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 690,76 L 690,71 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,65,71)">
+							<text x="-2.25" y="-9.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-18) scale(1,-1)">0</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,169.166667,71)">
+							<text x="-5.625" y="-9.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-18) scale(1,-1)">0.5</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,273.333333,71)">
+							<text x="-2.25" y="-9.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-18) scale(1,-1)">1</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,377.5,71)">
+							<text x="-5.625" y="-9.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-18) scale(1,-1)">1.5</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,481.666667,71)">
+							<text x="-2.25" y="-9.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-18) scale(1,-1)">2</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,585.833333,71)">
+							<text x="-5.625" y="-9.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-18) scale(1,-1)">2.5</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,690,71)">
+							<text x="-2.25" y="-9.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-18) scale(1,-1)">3</text>
+						</g>
+					</g>
+				</g>
+				<g transform="">
+					<g transform="">
+						<path d="M 65,76 L 65,321 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<path d="M 65,76 L 60,76 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 65,120.545455 L 60,120.545455 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 65,165.090909 L 60,165.090909 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 65,209.636364 L 60,209.636364 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 65,254.181818 L 60,254.181818 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 65,298.727273 L 60,298.727273 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,60,76)">
+							<text x="-4.5" y="-3.6000000000000005" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-7) scale(1,-1)">0</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,60,120.545455)">
+							<text x="-11.25" y="-3.6000000000000005" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-7) scale(1,-1)">0.2</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,60,165.090909)">
+							<text x="-11.25" y="-3.6000000000000005" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-7) scale(1,-1)">0.4</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,60,209.636364)">
+							<text x="-11.25" y="-3.6000000000000005" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-7) scale(1,-1)">0.6</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,60,254.181818)">
+							<text x="-11.25" y="-3.6000000000000005" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-7) scale(1,-1)">0.8</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,60,298.727273)">
+							<text x="-4.5" y="-3.6000000000000005" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-7) scale(1,-1)">1</text>
+						</g>
+					</g>
+				</g>
+				<path d="M 65,120.545455 L 690,120.545455 Z" style="stroke: rgb(89%,91%,92%); stroke-linecap: butt; stroke-width: 0.25;"/>
+				<path d="M 65,165.090909 L 690,165.090909 Z" style="stroke: rgb(89%,91%,92%); stroke-linecap: butt; stroke-width: 0.25;"/>
+				<path d="M 65,209.636364 L 690,209.636364 Z" style="stroke: rgb(89%,91%,92%); stroke-linecap: butt; stroke-width: 0.25;"/>
+				<path d="M 65,254.181818 L 690,254.181818 Z" style="stroke: rgb(89%,91%,92%); stroke-linecap: butt; stroke-width: 0.25;"/>
+				<path d="M 65,298.727273 L 690,298.727273 Z" style="stroke: rgb(89%,91%,92%); stroke-linecap: butt; stroke-width: 0.25;"/>
+				<g transform="">
+					<polyline points="65 150.2424, 273.3333 224.4848, 481.6667 224.4848, 690 224.4848" style="stroke: rgb(3%,49%,54%); stroke-linecap: round; stroke-width: 2.2; fill: None; fill-rule: evenodd;"/>
+					<polyline points="65 150.2424, 273.3333 224.4848, 481.6667 224.4848, 690 298.7273" style="stroke: rgb(78%,41%,19%); stroke-linecap: round; stroke-width: 2.2; fill: None; fill-rule: evenodd;"/>
+				</g>
+			</g>
+			<text x="65" y="330" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,660) scale(1,-1)">fraction of reachable vertices visited</text>
+			<text x="305.7" y="45" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,90) scale(1,-1)">walk / processing step</text>
+			<text x="65" y="20" style="font-family: Times-Roman; font-size: 9px;fill: rgb(3%,49%,54%); stroke:none;" transform="translate(0,40) scale(1,-1)">stop on first revisit</text>
+			<text x="270" y="20" style="font-family: Times-Roman; font-size: 9px;fill: rgb(78%,41%,19%); stroke:none;" transform="translate(0,40) scale(1,-1)">exhaust the frontier</text>
+		</g>
+	</g>
+</svg>
+</figure>
+<p><em>Figure 1. Constructed example, not a measured crawl. A walk stops after <code>s,a,s</code> with two of three reachable vertices visited; a complete traversal also visits b. Coverage is relative to the declared fixed graph. A changing corpus or inaccessible edge creates a new boundary.</em></p>
+<p>The original formal leg correctly identifies the false-closure risk but incorrectly equates the first DFS/BFS revisit with frontier exhaustion. This edition retains the counterexample and replaces that equivalence with the proposition above.</p>
+<h2>Retrieval and the write side</h2>
+<p>Exact lookup, sparse lexical ranking and dense learned retrieval have different error modes. They do not define a boundary between “RAG” and “not RAG”: generation informed by retrieved material can use lexical or dense retrieval. The foundational RAG system used dense retrieval; that choice is an implementation, not a universal definition. Adaptive retrieval also has prior art, including Self-RAG. <a href="https://arxiv.org/abs/2005.11401">Lewis et al., 2020</a>; <a href="https://arxiv.org/abs/2310.11511">Asai et al., 2023</a>.</p>
+<p>Practitioner observations in the online leg do not establish universal accuracy or corpus-size thresholds. Query distribution, record structure and shared vocabulary affect performance. The composer amendment contributes a useful design hypothesis: better identifiers, source markers and extractive summaries can reduce retrieval ambiguity. Its identity-bearing versus mechanical composition split is a local design discipline, not an experimentally established law about which model family may summarize a record.</p>
+<p><u>Freeze a query set with independently labeled relevant records. Compare exact lookup, sparse ranking and candidate alternatives at a fixed retrieval budget, measuring recall, answer support, latency and cost. Stratify exact-key, paraphrase and multi-record questions.</u> Version the corpus, retrieval method and scoring rubric. Measure vocabulary drift and composition backlog separately from query failure. A reduction in backlog is not automatically an improvement in answers.</p>
+<h2>Concurrent writes and reconstruction tests</h2>
+<p>The <a href="../../../drafts/2026-07-17-epoch-gavel-id-collision.md">recorded duplicate-ID incident</a> involved appending without first reading existing identifiers. Separately, a check-then-act race is possible when two writers read the same maximum identifier and select its successor. Serializing the complete read–assign–append transaction is sufficient under that model. Non-overlapping wall-clock intervals are not a necessary condition for every collision-free execution, and the original universal sequential-ID/concurrency/lock-free impossibility claim is unproved. Atomic allocation primitives change the model. Linux <code>O_APPEND</code> atomically combines end-of-file positioning with an individual write, but does not itself allocate a sequential record identifier; network filesystems require additional care. <a href="https://man7.org/linux/man-pages/man2/open.2.html">Linux <code>open(2)</code></a>.</p>
+<p>An anchor test compares a reconstructed account with held-out historical evidence. It measures agreement under a rubric, not honesty, intent or the truth of every historical claim. External graders can share biases. <u>Commit a reconstruction before revealing held-out propositions; score agreement, contradiction and abstention using independent raters, including known, omitted and intentionally revised beliefs as controls.</u> Report rater agreement and sample selection. Calling the score “historical fidelity” keeps the observable separate from moral or identity interpretations.</p>
+<h2>Practical study and remaining evidence</h2>
+<p><u>Evaluate graph coverage on fixed graphs with branches and cycles, then evaluate the navigation selector on held-out queries; treat selector thresholds and mixed strategies as empirical choices.</u> The source variables for coverage, query width, cost and sufficiency change meaning between the formal leg and later card. A trial must define them consistently rather than inherit their symbols.</p>
+<p>The full format-preference experiment, selector calibration, anchor validation and comparative retrieval trial remain unperformed in the inspected corpus. The <a href="../../../session/research-mental-map/leg-crossvendor.brief.md">cross-vendor brief</a> has no corresponding result file. This informed SHIFT_2 synthesis cannot replace that blind leg. The publication closes a conceptual and methodological scope; it does not claim empirical effectiveness or trigger later project alignment.</p><footer>SHIFT_1 research · SHIFT_2 synthesis · 2026-10-27<br>Self-contained reading copy. Analytic and synthetic figures are identified in their captions. No external scripts or fonts are required.</footer></main></html>

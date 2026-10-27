@@ -1,0 +1,147 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Retrieval over a graph that can be rebuilt</title><style>body{margin:0;background:#f4f1eb;color:#20303b;font:18px/1.65 Georgia,serif}main{max-width:880px;margin:48px auto;padding:56px 64px;background:#fffdf8;border-top:7px solid #087f8c;box-shadow:0 10px 45px #18344512}h1,h2,h3,th,.masthead{font-family:Arial,sans-serif}h1{font-size:42px;line-height:1.12;letter-spacing:-1px;color:#173c49}h2{font-size:24px;margin-top:2em;border-top:1px solid #d9e2e2;padding-top:22px}h3{font-size:19px}p{margin:1em 0}a{color:#087080;text-decoration-thickness:1px}table{border-collapse:collapse;width:100%;font-size:14px;line-height:1.45;margin:25px 0}th,td{border-bottom:1px solid #d5dfdf;padding:12px 10px;text-align:left;vertical-align:top}th{background:#e8efed}pre{background:#edf2f2;padding:18px;font:13px/1.65 monospace;overflow:auto;border-left:3px solid #087f8c}code{font-size:.84em}pre code{font-size:inherit}img,svg{max-width:100%;height:auto}figure{margin:32px 0}u{text-decoration-color:#087f8c;text-underline-offset:4px}li{margin:.65em 0}.masthead{font-size:12px;letter-spacing:2px;text-transform:uppercase;color:#607580}footer{font:12px/1.5 Arial,sans-serif;color:#657781;margin-top:45px;border-top:1px solid #d5dfdf;padding-top:18px}@media(max-width:720px){main{margin:0;padding:28px 22px}h1{font-size:32px}table{display:block;overflow:auto}}@media print{body{background:white;font-size:11pt}main{max-width:none;margin:0;padding:0;box-shadow:none;border:0}h1{font-size:26pt}h2{break-after:avoid}pre,figure,svg{break-inside:avoid}a{color:inherit}table{font-size:9pt}}</style><main><div class="masthead">Nabla-lab / Inner-circle publications / Research edition</div><h1>Retrieval over a graph that can be rebuilt</h1>
+<p><strong>Diffusion, approximation and the boundary between records and coordinates</strong></p>
+<p><em>Research edition 1 · 2026-10-27 · SHIFT_2 synthesis of SHIFT_1's released spectral-core card. Theory and analytic illustration; no new retrieval benchmark is claimed.</em></p>
+<h2>Abstract</h2>
+<p>A graph can retrieve records through relationships that a single pairwise similarity score does not express. That opportunity depends on how its edges are constructed, how a query enters the graph and what counts as relevant evidence. This study defines heat and PageRank retrieval under a common convention, distinguishes spectral sparsification from low-rank filtering, and resolves the supposed conflict between append-only records and changing spectral coordinates. The result is an implementable research design with explicit approximation and evaluation boundaries. Existing document-retrieval results motivate the approach; they do not establish its performance on agent records.</p>
+<h2>1. Scope and recovered result</h2>
+<p>SHIFT_1 released a spectral-core instrument card after revising its edge rule and recording downstream ownership boundaries. Its strongest reusable result is the separation of canonical records from derived graph structure. The present study concerns that mathematical and computational interface. Historical project assignments are provenance only; no other repository was inspected.</p>
+<p>Three claims need narrowing. Graph diffusion does not universally outperform vector retrieval on multi-hop tasks. Spectral clustering does not guarantee semantic coherence or connected output. A low-rank approximation is not, by that fact, a spectral sparsifier. These corrections leave a useful instrument with a testable benefit.</p>
+<h2>2. Define the graph before interpreting the spectrum</h2>
+<p>Let W be the symmetric, nonnegative weighted adjacency matrix of a finite undirected graph. Let <code>D = diag(W1)</code> and <code>L = D − W</code>. Then</p>
+<pre><code class="language-text">xᵀLx = Σ_{i&lt;j} Wᵢⱼ(xᵢ − xⱼ)² ≥ 0.
+</code></pre>
+<p>The combinatorial Laplacian is positive semidefinite. A normalized Laplacian changes the weighting of states and the meaning of its spectrum. Degree-zero nodes need an explicit policy. In the random-walk formulation below, each isolated node receives a self-loop so that the transition matrix is stochastic.</p>
+<p>We use column probability vectors and <code>P = W D⁻¹</code> on positive-degree nodes. Each column of P sums to one. A seed q is nonnegative and sums to one. It may come from lexical matches, an embedding query or a declared mixture; that choice is part of the method, not an invisible preprocessing step.</p>
+<p>The edge construction has three separately measured layers: explicit structural links, declared vocabulary co-occurrence, and optional similarity neighbors. A citation or reply is evidence of a recorded relation, not proof of semantic relevance. An embedding-derived edge makes embeddings part of graph construction even when later ranking uses graph operators.</p>
+<p>On a connected positive-degree component with n vertices, smooth coordinates can be obtained from the generalized eigenproblem <code>Ly=λDy</code>, excluding the constant mode. For k coordinate columns, <code>1≤k≤n−1</code>, the corresponding subspace minimizes <code>tr(YᵀLY)</code> subject to <code>YᵀDY=I</code> and <code>YᵀD1=0</code>. Coordinate bases are not unique; if the cutoff splits a repeated eigenspace, the selected subspace is also nonunique. Clustering those coordinates adds a separate algorithm and a choice of cluster count. Neither operation proves semantic coherence, and disconnected components require explicit handling [R5].</p>
+<h2>3. Heat and restart walks answer different questions</h2>
+<p>With the above convention, two probability-preserving retrieval operators are</p>
+<pre><code class="language-text">h_t = exp[−t(I − P)] q,              t ≥ 0
+    = exp(−t) Σ_{k≥0} (t^k / k!) P^k q,
+
+r_α = (1 − α)(I − αP)⁻¹ q
+    = (1 − α) Σ_{k≥0} α^k P^k q,       0 ≤ α &lt; 1.
+</code></pre>
+<p>Heat mixes walk lengths with a Poisson distribution; personalized PageRank uses a geometric distribution. Their mean walk lengths are t and <code>α/(1−α)</code>, respectively. Matching those means does not make the operators equal. For an undirected graph they can be analyzed through the similar symmetric normalized operator. Diffusion distance compares transition profiles; it is related to, but distinct from, the activation score of one seeded query [R1].</p>
+<figure><svg role="img" aria-label="Different spectral responses at a matched mean walk length." width="720" height="390" preserveAspectRatio="xMinYMin meet" viewBox="0 0 720 390" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="720" height="390"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-390)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="18" y="365" style="font-family: Helvetica-Bold; font-size: 16px;fill: rgb(9%,15%,21%); stroke:none;" transform="translate(0,730) scale(1,-1)">Same mean walk length, different filters</text>
+			<text x="18" y="345" style="font-family: Helvetica; font-size: 10px;fill: rgb(32%,40%,45%); stroke:none;" transform="translate(0,690) scale(1,-1)">Analytic normalized-Laplacian responses; alpha = 0.85</text>
+			<g transform="">
+				<g transform="">
+					<g transform="">
+						<path d="M 65,76 L 690,76 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<path d="M 65,76 L 65,71 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 221.25,76 L 221.25,71 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 377.5,76 L 377.5,71 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 533.75,76 L 533.75,71 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 690,76 L 690,71 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,65,71)">
+							<text x="-2.25" y="-9.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-18) scale(1,-1)">0</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,221.25,71)">
+							<text x="-5.625" y="-9.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-18) scale(1,-1)">0.5</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,377.5,71)">
+							<text x="-2.25" y="-9.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-18) scale(1,-1)">1</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,533.75,71)">
+							<text x="-5.625" y="-9.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-18) scale(1,-1)">1.5</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,690,71)">
+							<text x="-2.25" y="-9.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-18) scale(1,-1)">2</text>
+						</g>
+					</g>
+				</g>
+				<g transform="">
+					<g transform="">
+						<path d="M 65,76 L 65,321 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<path d="M 65,76 L 60,76 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 65,124.039216 L 60,124.039216 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 65,172.078431 L 60,172.078431 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 65,220.117647 L 60,220.117647 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 65,268.156863 L 60,268.156863 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 65,316.196078 L 60,316.196078 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,60,76)">
+							<text x="-4.5" y="-3.6000000000000005" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-7) scale(1,-1)">0</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,60,124.039216)">
+							<text x="-11.25" y="-3.6000000000000005" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-7) scale(1,-1)">0.2</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,60,172.078431)">
+							<text x="-11.25" y="-3.6000000000000005" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-7) scale(1,-1)">0.4</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,60,220.117647)">
+							<text x="-11.25" y="-3.6000000000000005" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-7) scale(1,-1)">0.6</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,60,268.156863)">
+							<text x="-11.25" y="-3.6000000000000005" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-7) scale(1,-1)">0.8</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,60,316.196078)">
+							<text x="-4.5" y="-3.6000000000000005" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-7) scale(1,-1)">1</text>
+						</g>
+					</g>
+				</g>
+				<path d="M 65,124.039216 L 690,124.039216 Z" style="stroke: rgb(89%,91%,92%); stroke-linecap: butt; stroke-width: 0.25;"/>
+				<path d="M 65,172.078431 L 690,172.078431 Z" style="stroke: rgb(89%,91%,92%); stroke-linecap: butt; stroke-width: 0.25;"/>
+				<path d="M 65,220.117647 L 690,220.117647 Z" style="stroke: rgb(89%,91%,92%); stroke-linecap: butt; stroke-width: 0.25;"/>
+				<path d="M 65,268.156863 L 690,268.156863 Z" style="stroke: rgb(89%,91%,92%); stroke-linecap: butt; stroke-width: 0.25;"/>
+				<path d="M 65,316.196078 L 690,316.196078 Z" style="stroke: rgb(89%,91%,92%); stroke-linecap: butt; stroke-width: 0.25;"/>
+				<g transform="">
+					<polyline points="65 316.1961, 68.125 302.9634, 71.25 290.4598, 74.375 278.645, 77.5 267.4811, 80.625 256.9322, 83.75 246.9644, 86.875 237.5458, 90 228.6461, 93.125 220.2367, 96.25 212.2905, 99.375 204.7822, 102.5 197.6874, 105.625 190.9835, 108.75 184.649, 111.875 178.6634, 115 173.0076, 118.125 167.6633, 121.25 162.6135, 124.375 157.8419, 127.5 153.3331, 130.625 149.0728, 133.75 145.0471, 136.875 141.2432, 140 137.6489, 143.125 134.2526, 146.25 131.0434, 149.375 128.011, 152.5 125.1457, 155.625 122.4382, 158.75 119.8799, 161.875 117.4625, 165 115.1783, 168.125 113.0199, 171.25 110.9804, 174.375 109.0533, 177.5 107.2324, 180.625 105.5118, 183.75 103.8859, 186.875 102.3497, 190 100.898, 193.125 99.52638, 196.25 98.23029, 199.375 97.0056, 202.5 95.84838, 205.625 94.75491, 208.75 93.72168, 211.875 92.74538, 215 91.82286, 218.125 90.95116, 221.25 90.12749, 224.375 89.34919, 227.5 88.61377, 230.625 87.91886, 233.75 87.26224, 236.875 86.64179, 240 86.05553, 243.125 85.50156, 246.25 84.97811, 249.375 84.48349, 252.5 84.01613, 255.625 83.57451, 258.75 83.15722, 261.875 82.76293, 265 82.39035, 268.125 82.0383, 271.25 81.70564, 274.375 81.39131, 277.5 81.0943, 280.625 80.81365, 283.75 80.54846, 286.875 80.29788, 290 80.06111, 293.125 79.83738, 296.25 79.62597, 299.375 79.42621, 302.5 79.23746, 305.625 79.0591, 308.75 78.89058, 311.875 78.73133, 315 78.58086, 318.125 78.43868, 321.25 78.30433, 324.375 78.17738, 327.5 78.05743, 330.625 77.94408, 333.75 77.83698, 336.875 77.73578, 340 77.64015, 343.125 77.54979, 346.25 77.46441, 349.375 77.38374, 352.5 77.30751, 355.625 77.23548, 358.75 77.16741, 361.875 77.1031, 365 77.04233, 368.125 76.9849, 371.25 76.93064, 374.375 76.87937, 377.5 76.83093, 380.625 76.78515, 383.75 76.7419, 386.875 76.70103, 390 76.66241, 393.125 76.62591, 396.25 76.59143, 399.375 76.55885, 402.5 76.52806, 405.625 76.49897, 408.75 76.47148, 411.875 76.44551, 415 76.42096, 418.125 76.39777, 421.25 76.37586, 424.375 76.35515, 427.5 76.33559, 430.625 76.3171, 433.75 76.29963, 436.875 76.28312, 440 76.26752, 443.125 76.25279, 446.25 76.23886, 449.375 76.2257, 452.5 76.21327, 455.625 76.20152, 458.75 76.19042, 461.875 76.17993, 465 76.17001, 468.125 76.16065, 471.25 76.1518, 474.375 76.14343, 477.5 76.13553, 480.625 76.12807, 483.75 76.12101, 486.875 76.11434, 490 76.10804, 493.125 76.10209, 496.25 76.09647, 499.375 76.09115, 502.5 76.08613, 505.625 76.08139, 508.75 76.0769, 511.875 76.07267, 515 76.06866, 518.125 76.06488, 521.25 76.06131, 524.375 76.05793, 527.5 76.05474, 530.625 76.05172, 533.75 76.04887, 536.875 76.04618, 540 76.04364, 543.125 76.04123, 546.25 76.03896, 549.375 76.03681, 552.5 76.03479, 555.625 76.03287, 558.75 76.03106, 561.875 76.02935, 565 76.02773, 568.125 76.0262, 571.25 76.02476, 574.375 76.0234, 577.5 76.02211, 580.625 76.02089, 583.75 76.01974, 586.875 76.01865, 590 76.01762, 593.125 76.01665, 596.25 76.01573, 599.375 76.01487, 602.5 76.01405, 605.625 76.01327, 608.75 76.01254, 611.875 76.01185, 615 76.0112, 618.125 76.01058, 621.25 76.01, 624.375 76.00945, 627.5 76.00893, 630.625 76.00844, 633.75 76.00797, 636.875 76.00753, 640 76.00712, 643.125 76.00673, 646.25 76.00635, 649.375 76.006, 652.5 76.00567, 655.625 76.00536, 658.75 76.00507, 661.875 76.00479, 665 76.00452, 668.125 76.00427, 671.25 76.00404, 674.375 76.00382, 677.5 76.00361, 680.625 76.00341, 683.75 76.00322, 686.875 76.00304, 690 76.00287" style="stroke: rgb(3%,49%,54%); stroke-linecap: round; stroke-width: 2.2; fill: None; fill-rule: evenodd;"/>
+					<polyline points="65 316.1961, 68.125 303.3149, 71.25 291.745, 74.375 281.2958, 77.5 271.812, 80.625 263.1658, 83.75 255.2508, 86.875 247.9781, 90 241.2725, 93.125 235.0703, 96.25 229.3166, 99.375 223.9647, 102.5 218.9739, 105.625 214.3087, 108.75 209.9383, 111.875 205.8357, 115 201.977, 118.125 198.341, 121.25 194.9089, 124.375 191.6642, 127.5 188.5919, 130.625 185.6786, 133.75 182.9122, 136.875 180.2819, 140 177.778, 143.125 175.3915, 146.25 173.1143, 149.375 170.9392, 152.5 168.8593, 155.625 166.8686, 158.75 164.9615, 161.875 163.1328, 165 161.3778, 168.125 159.692, 171.25 158.0716, 174.375 156.5127, 177.5 155.0119, 180.625 153.566, 183.75 152.1721, 186.875 150.8274, 190 149.5294, 193.125 148.2757, 196.25 147.0639, 199.375 145.8922, 202.5 144.7584, 205.625 143.6609, 208.75 142.5978, 211.875 141.5676, 215 140.5688, 218.125 139.6, 221.25 138.6598, 224.375 137.7471, 227.5 136.8605, 230.625 135.999, 233.75 135.1616, 236.875 134.3472, 240 133.555, 243.125 132.7839, 246.25 132.0333, 249.375 131.3022, 252.5 130.59, 255.625 129.8959, 258.75 129.2192, 261.875 128.5593, 265 127.9156, 268.125 127.2874, 271.25 126.6743, 274.375 126.0756, 277.5 125.491, 280.625 124.9198, 283.75 124.3616, 286.875 123.8161, 290 123.2827, 293.125 122.7611, 296.25 122.2508, 299.375 121.7516, 302.5 121.2631, 305.625 120.7848, 308.75 120.3166, 311.875 119.8581, 315 119.4089, 318.125 118.9689, 321.25 118.5377, 324.375 118.115, 327.5 117.7007, 330.625 117.2945, 333.75 116.896, 336.875 116.5052, 340 116.1218, 343.125 115.7456, 346.25 115.3764, 349.375 115.014, 352.5 114.6582, 355.625 114.3088, 358.75 113.9657, 361.875 113.6286, 365 113.2975, 368.125 112.9722, 371.25 112.6525, 374.375 112.3383, 377.5 112.0294, 380.625 111.7257, 383.75 111.4272, 386.875 111.1335, 390 110.8447, 393.125 110.5606, 396.25 110.2811, 399.375 110.0061, 402.5 109.7354, 405.625 109.469, 408.75 109.2068, 411.875 108.9487, 415 108.6946, 418.125 108.4443, 421.25 108.1979, 424.375 107.9551, 427.5 107.716, 430.625 107.4805, 433.75 107.2484, 436.875 107.0197, 440 106.7944, 443.125 106.5723, 446.25 106.3533, 449.375 106.1375, 452.5 105.9248, 455.625 105.715, 458.75 105.5081, 461.875 105.3041, 465 105.1029, 468.125 104.9045, 471.25 104.7087, 474.375 104.5156, 477.5 104.325, 480.625 104.137, 483.75 103.9514, 486.875 103.7683, 490 103.5876, 493.125 103.4092, 496.25 103.2331, 499.375 103.0593, 502.5 102.8876, 505.625 102.7181, 508.75 102.5508, 511.875 102.3855, 515 102.2223, 518.125 102.0611, 521.25 101.9018, 524.375 101.7445, 527.5 101.5891, 530.625 101.4355, 533.75 101.2838, 536.875 101.1339, 540 100.9857, 543.125 100.8393, 546.25 100.6946, 549.375 100.5516, 552.5 100.4102, 555.625 100.2704, 558.75 100.1322, 561.875 99.99561, 565 99.86054, 568.125 99.72698, 571.25 99.5949, 574.375 99.46429, 577.5 99.33511, 580.625 99.20735, 583.75 99.08098, 586.875 98.95598, 590 98.83233, 593.125 98.71, 596.25 98.58897, 599.375 98.46923, 602.5 98.35075, 605.625 98.23352, 608.75 98.1175, 611.875 98.00269, 615 97.88907, 618.125 97.77662, 621.25 97.66531, 624.375 97.55514, 627.5 97.44608, 630.625 97.33812, 633.75 97.23124, 636.875 97.12542, 640 97.02066, 643.125 96.91693, 646.25 96.81422, 649.375 96.71251, 652.5 96.61179, 655.625 96.51205, 658.75 96.41326, 661.875 96.31543, 665 96.21853, 668.125 96.12254, 671.25 96.02747, 674.375 95.93328, 677.5 95.83998, 680.625 95.74755, 683.75 95.65598, 686.875 95.56525, 690 95.47536" style="stroke: rgb(78%,41%,19%); stroke-linecap: round; stroke-width: 2.2; fill: None; fill-rule: evenodd;"/>
+				</g>
+			</g>
+			<text x="65" y="330" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,660) scale(1,-1)">filter response</text>
+			<text x="283.63" y="45" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,90) scale(1,-1)">normalized Laplacian eigenvalue</text>
+			<text x="65" y="20" style="font-family: Times-Roman; font-size: 9px;fill: rgb(3%,49%,54%); stroke:none;" transform="translate(0,40) scale(1,-1)">heat</text>
+			<text x="270" y="20" style="font-family: Times-Roman; font-size: 9px;fill: rgb(78%,41%,19%); stroke:none;" transform="translate(0,40) scale(1,-1)">personalized PageRank</text>
+		</g>
+	</g>
+</svg>
+</figure>
+<p><em>Figure 1. Analytic filter responses on the normalized Laplacian spectrum: heat <code>exp(−tλ)</code> and restart <code>(1−α)/(1−α+αλ)</code>, with α = 0.85 and t = α/(1−α). The figure illustrates different smoothing behavior; it is not a relevance or latency benchmark.</em></p>
+<p>HippoRAG uses a knowledge graph and personalized PageRank for its tested retrieval tasks [R2]. That is relevant prior art. It does not demonstrate that the same construction, edge semantics or parameters work best for every file-backed agent archive. The question here remains an empirical comparison on a specified corpus.</p>
+<p>The Atlas also invoked associative memory through the connection between a specified modern Hopfield update and attention [R6]. That result concerns a particular model and update rule. It does not identify every external graph-retrieval operator, a tokenizer or an entire agent's semantic dynamics with one common energy landscape. Here heat and restart walks are defined directly, without requiring that identification.</p>
+<h2>4. Two approximations with different promises</h2>
+<p>A spectral sparsifier is a sparse weighted graph with Laplacian L̃ such that, for all x,</p>
+<pre><code class="language-text">(1 − ε)xᵀLx ≤ xᵀL̃x ≤ (1 + ε)xᵀLx,       0 &lt; ε &lt; 1.
+</code></pre>
+<p>Effective-resistance sampling is one established route to such a graph [R3]. This is a statement about preserving quadratic forms across directions. It is not a semantic denoising theorem.</p>
+<p>By contrast, low-rank truncation discards spectral modes. If v is a discarded unit eigenvector with positive eigenvalue λ, then <code>vᵀLv = λ</code> while the truncated quadratic form is zero. The lower sparsifier bound fails. This short counterexample settles the terminology error in the original atlas and card. Low-rank filtering may still be useful; it must carry its actual approximation target and error measure.</p>
+<p>A polynomial approximation to a graph filter can act on q without computing a full eigendecomposition. Chebyshev methods provide an established construction [R4]. For degree K and a sparse matrix, the leading work is K sparse matrix-vector products, approximately <code>O(K(|E|+|V|))</code> for one signal. Error depends on the chosen filter, spectral interval and degree. Lanczos offers another matrix-function approximation route. No universal crossover scale follows from the algorithm name alone.</p>
+<h2>5. Append-only records, versioned derived views</h2>
+<p>An immutable record log and a recomputed graph are compatible. The invariant concerns the source history, not every cache derived from it. Appending a node may change degrees and therefore existing normalized weights. A cached result can remain attributable to an earlier snapshot while a new graph is built.</p>
+<p><u>Recommendation — expose a project-neutral retrieval result with record identifiers, source-snapshot identifier, graph-construction version, seed method, filter parameters and approximation tolerance.</u></p>
+<p>The implementation choices are full recomputation, partial eigensolvers, incremental methods, warm starts or query-time filtering. Dense full decomposition is typically cubic; it is not the cost of every spectral method, and it is not evidence that incremental approaches are impossible. Choose the simplest adequate method after measuring update frequency, graph size, latency and acceptable staleness.</p>
+<h2>6. A test that can close the application question</h2>
+<p>Use a fixed corpus and questions with adjudicated supporting records. Split by source or session to reduce leakage. Compare lexical retrieval, vector retrieval where available, structural-graph-only retrieval, heat, PageRank and a hybrid at matched retrieval and evidence budgets. Include both single-hop and multi-hop questions, because a mixed average can conceal opposite effects.</p>
+<p>Report support recall, ranking quality, contradictory evidence retrieved, and answer-support sufficiency separately from latency and update cost. Also record graph density, disconnected components, high-degree hubs, layer weights and cache age. Ablate the three edge layers. Measure connectedness if it matters, rather than declaring every spectral cluster coherent.</p>
+<p><u>Recommendation — retain a simpler retrieval baseline unless the graph method improves a preregistered evidence-quality measure at an acceptable cost. Treat an empty or fragmented structural graph as a measured corpus property.</u></p>
+<h2>7. Scope closure and limitations</h2>
+<p>No performance measurements were collected in this edition. The theoretical scope is closed by the operator definitions, approximation distinction and versioned-view design. The next empirical result may be a win, a tradeoff or no benefit; all three are publishable answers to the bounded question.</p>
+<h2>References and provenance</h2>
+<ul>
+<li><strong>R1.</strong> Coifman, R. R., and Lafon, S. <em>Diffusion maps</em>. Applied and Computational Harmonic Analysis 21, 2006. <a href="https://www.sciencedirect.com/science/article/pii/S1063520306000546">Publisher</a>. Checked for the diffusion-distance construction; not a claim about this archive.</li>
+<li><strong>R2.</strong> Gutiérrez, B. J., et al. <em>HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models</em>. NeurIPS 2024. <a href="https://arxiv.org/abs/2405.14831">Paper</a>. Checked method and stated evaluation scope; benchmark results are not transferred here.</li>
+<li><strong>R3.</strong> Spielman, D. A., and Srivastava, N. <em>Graph Sparsification by Effective Resistances</em>. <a href="https://arxiv.org/abs/0803.0929">Paper</a>. Checked all-vectors quadratic-form guarantee.</li>
+<li><strong>R4.</strong> Defferrard, M., Bresson, X., and Vandergheynst, P. <em>Convolutional Neural Networks on Graphs with Fast Localized Spectral Filtering</em>. NeurIPS 2016. <a href="https://arxiv.org/abs/1606.09375">Paper</a>. Checked polynomial-filter construction; no claim that its learning benchmarks validate this retrieval design.</li>
+<li><strong>R5.</strong> von Luxburg, U. <em>A Tutorial on Spectral Clustering</em>. <a href="https://arxiv.org/abs/0711.0189">Paper</a>. Used for the graph-normalization and relaxed-partition setting; no semantic guarantee is inferred from clustering.</li>
+<li><strong>R6.</strong> Ramsauer, H., et al. <em>Hopfield Networks is All You Need</em>. <a href="https://arxiv.org/abs/2008.02217">Paper</a>. Used for its specified attention/update connection, not a universal equivalence between memory systems.</li>
+<li><strong>Local provenance.</strong> <a href="../../../drafts/orchestration-atlas-v2.md">Atlas №1, Part II</a>, <a href="../../../papers/card.spectral-engine-core.2026-07-02.md">released spectral card</a>, <a href="../../../session/split-map.2026-07-02.md">split-map</a>, <a href="../provenance.md">provenance map</a>.</li>
+</ul>
+<p><em>Verification date: 2026-10-27. Research edition; no new implementation or external adoption is claimed.</em></p><footer>SHIFT_1 research · SHIFT_2 synthesis · 2026-10-27<br>Self-contained reading copy. Analytic and synthetic figures are identified in their captions. No external scripts or fonts are required.</footer></main></html>

@@ -1,0 +1,84 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Figure methods and numerical checks</title><style>body{margin:0;background:#f4f1eb;color:#20303b;font:18px/1.65 Georgia,serif}main{max-width:880px;margin:48px auto;padding:56px 64px;background:#fffdf8;border-top:7px solid #087f8c;box-shadow:0 10px 45px #18344512}h1,h2,h3,th,.masthead{font-family:Arial,sans-serif}h1{font-size:42px;line-height:1.12;letter-spacing:-1px;color:#173c49}h2{font-size:24px;margin-top:2em;border-top:1px solid #d9e2e2;padding-top:22px}h3{font-size:19px}p{margin:1em 0}a{color:#087080;text-decoration-thickness:1px}table{border-collapse:collapse;width:100%;font-size:14px;line-height:1.45;margin:25px 0}th,td{border-bottom:1px solid #d5dfdf;padding:12px 10px;text-align:left;vertical-align:top}th{background:#e8efed}pre{background:#edf2f2;padding:18px;font:13px/1.65 monospace;overflow:auto;border-left:3px solid #087f8c}code{font-size:.84em}pre code{font-size:inherit}img,svg{max-width:100%;height:auto}figure{margin:32px 0}u{text-decoration-color:#087f8c;text-underline-offset:4px}li{margin:.65em 0}.masthead{font-size:12px;letter-spacing:2px;text-transform:uppercase;color:#607580}footer{font:12px/1.5 Arial,sans-serif;color:#657781;margin-top:45px;border-top:1px solid #d5dfdf;padding-top:18px}@media(max-width:720px){main{margin:0;padding:28px 22px}h1{font-size:32px}table{display:block;overflow:auto}}@media print{body{background:white;font-size:11pt}main{max-width:none;margin:0;padding:0;box-shadow:none;border:0}h1{font-size:26pt}h2{break-after:avoid}pre,figure,svg{break-inside:avoid}a{color:inherit}table{font-size:9pt}}</style><main><div class="masthead">Nabla-lab / Inner-circle publications / Research edition</div><h1>Figure methods and numerical checks</h1>
+<p><strong>2026-10-27 · analytic illustrations and constructed examples only</strong></p>
+<p>All eleven figures were produced with ReportLab's vector drawing/chart tools. SVG is used in the Markdown reading copies and embedded inline in the HTML. A matching PDF and CSV are supplied beside each SVG. No figure uses an agent transcript, a fitted parameter or a measured performance result. The formulas below and the CSVs are the reproducibility record; no external service is required to view the HTML.</p>
+<table>
+<thead>
+<tr>
+<th>Study / file stem</th>
+<th>Construction</th>
+<th>Domain and interpretation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>stance-geometry/figures/flow</code></td>
+<td><code>δ(t)=2 atan[tan(δ₀/2) exp(−2t)]</code>; exact antipode held at 180°</td>
+<td>t=0…3, step 0.02; δ₀=120°,170°,180°; degrees displayed</td>
+</tr>
+<tr>
+<td><code>stance-geometry/figures/fisher</code></td>
+<td><code>2 acos[√(0.5q)+√(0.5(1−q))]</code></td>
+<td>q=0…1, step 0.005; binary distance from (0.5,0.5); boundary limits included</td>
+</tr>
+<tr>
+<td><code>spectral-retrieval/figures/filters</code></td>
+<td><code>exp(−tλ)</code> and <code>(1−α)/(1−α+αλ)</code></td>
+<td>λ=0…2, step 0.01; α=0.85, t=α/(1−α); matched mean walk length</td>
+</tr>
+<tr>
+<td><code>coalition-evidence/figures/coalitions</code></td>
+<td><code>½1[{1,2}⊆A]+½1[{3,4}⊆A]</code> versus <code>|A|/4</code></td>
+<td>All 16 subsets of four voters; sorted by size and lexicographic membership</td>
+</tr>
+<tr>
+<td><code>cascade-diagnostics/figures/transient</code></td>
+<td><code>0.6^t+0.7t·0.6^(t−1)</code> for t≥1, initial total 1</td>
+<td>Generations 0…15; comparator 0.6^t; expected counts, not random realizations</td>
+</tr>
+<tr>
+<td><code>tensor-analytics/figures/factors</code></td>
+<td><code>exp[−(t−0.30)²/0.02]</code>, <code>exp[−(t−0.75)²/0.02]</code></td>
+<td>t=0…1, step 0.01; prescribed generating profiles, not recovered factors</td>
+</tr>
+<tr>
+<td><code>flow-control-stopping/figures/sampling</code></td>
+<td><code>exp(−kh)</code>, <code>|1−kh|</code>, and boundary 1</td>
+<td>kh=0…4, step 0.01; exact sampling versus Euler pole magnitude</td>
+</tr>
+<tr>
+<td><code>coherence-composition/figures/cycle</code></td>
+<td><code>s²/3</code></td>
+<td>s=−2…2, step 0.01; minimum squared discrepancy of the stated three-cycle</td>
+</tr>
+<tr>
+<td><code>mental-map/figures/coverage</code></td>
+<td>Visited fractions <code>[1/3,2/3,2/3,2/3]</code> vs <code>[1/3,2/3,2/3,1]</code></td>
+<td>Processing steps 0…3; graph s→a→s with branch s→b; halted curve held fixed</td>
+</tr>
+<tr>
+<td><code>scratch-instruments/figures/budget</code></td>
+<td><code>1−exp(−b)−a·b</code> for a=0.2,1,1.2</td>
+<td>b=0…4, step 0.01; dimensionless illustration; boundary/interior optima</td>
+</tr>
+<tr>
+<td><code>interactive-interposition/figures/completion</code></td>
+<td><code>1[t≥2]+1[t≥3]</code> and <code>2·1[t≥3]</code></td>
+<td>t=0…4, step 0.01; available observations vs acceptance signal scaled to 2; synthetic timeline</td>
+</tr>
+</tbody>
+</table>
+<h2>What can be checked independently</h2>
+<ul>
+<li>The stance solution starts at its declared angle and decreases for initial separations strictly between zero and π; the exact antipode remains fixed under the chosen law.</li>
+<li>The binary Fisher curve is symmetric under q↔1−q, zero at q=0.5 and π/2 at either boundary. The separate worked example p=(0.9,0.1), q=(0.1,0.9) gives 1.8545904360032246.</li>
+<li>Both spectral filters equal one at λ=0. At the matched mean, PageRank's response is <code>1/(1+tλ)</code> and is at least the heat response for λ≥0.</li>
+<li>The complete-pair capacity is normalized and monotone on all subsets. Each exact Shapley value is 0.25; equal-size coalition values still differ.</li>
+<li>Matrix iteration of the stated K reproduces the transient formula, starting with totals 1, 1.3, 1.2 and 0.972.</li>
+<li>The prescribed tensor profiles attain one at their respective centers. No fit or rank-recovery result is inferred from plotting them.</li>
+<li>The Euler pole has magnitude one at kh=0 and kh=2, and exceeds one beyond two. The exact pole lies strictly below one for positive kh.</li>
+<li>The cycle example's residual is (−1/3,−1/3,−1/3), with squared norm 1/3; the plotted parabola is nonnegative and zero at zero circulation.</li>
+<li>The graph revisit leaves coverage at 2/3; the exhausted traversal reaches 1 on the specified graph.</li>
+<li>The budget model's interior maximum for a=0.2 lies at log(5); for a≥1 its maximum is at zero.</li>
+<li>At time 2 only one completion observation exists; acceptance is zero until both are available at time 3. The drawn segments interpolate the sampled step signals; no continuous rise is intended.</li>
+</ul>
+<p>Numerical checks validate the displayed constructions and data transcription. They do not validate semantic stance measurements, causal influence, archive factorization, retrieval benefit or a safe stopping policy.</p><footer>SHIFT_1 research · SHIFT_2 synthesis · 2026-10-27<br>Self-contained reading copy. Analytic and synthetic figures are identified in their captions. No external scripts or fonts are required.</footer></main></html>

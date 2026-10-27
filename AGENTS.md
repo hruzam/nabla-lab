@@ -69,9 +69,10 @@ build-readiness + freshness tag) · **Production** · **NOTES (majkee)**. Living
 a map to build against, not an argument to defend.
 → Full format and status labels: `guides/lab-workflow.md` Chapter 3.
 
-## Decisions (inline — promote to flag.md when they accrue)
+## Decisions
 
-None yet.
+Settled decisions live in `session/flag.md` (append-only; including historical
+delegated-gavel qualifications). Read that ledger before a task touches a lock.
 
 ## Conventions
 
@@ -99,3 +100,25 @@ This is ***NOT*** canonical, majkee need some folder for his personal notes and 
 3. `PROJECT.yaml` →
 4. active draft in `drafts/` or `shaped/` →
 5. `guides/lab-workflow.md` — if you need depth on any workflow step or the full gate protocol
+
+
+## Oraculum as Codex main — operator-led trial
+
+Launch `codex --profile oraculum -C /home/hruzam/nabla-lab`. The explicitly selected
+main is **Oraculum**. Cartan is the external harness preparer; the global resident
+name does not replace this main's identity. Repository gates still apply.
+
+After pulse → AGENTS → PROJECT, load the nearest Oraculum project layer:
+`.germline/agents/oraculum/nabla-lab.md`, then `guides/codex-lab.md` for the helper
+ladder and Q1 → reply → operator feedback loop. The global profile loads shared
+identity and Codex binding before this addendum. Report actual paths/stamps and cwd.
+Do not select a historical active draft merely because it appears in pulse.
+
+For this trial, @majkee explicitly permits Oraculum-main to choose bounded native
+read/research/math/challenge helpers as the current question requires. Each receives
+an explicit question, evidence boundary and return; the main integrates. Start with
+no helper when orientation alone suffices. No new local CLI roster is installed.
+Research/planning dialogue is assigned; domain artifact writes or a session pen need
+an explicit destination assignment. The trial activates no historical queue, gavel,
+mail, implementation or external relay. A Codex panel cannot replace a required
+real cross-vendor leg or the named Janus pass.

@@ -1,0 +1,144 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Patterns in the record</title><style>body{margin:0;background:#f4f1eb;color:#20303b;font:18px/1.65 Georgia,serif}main{max-width:880px;margin:48px auto;padding:56px 64px;background:#fffdf8;border-top:7px solid #087f8c;box-shadow:0 10px 45px #18344512}h1,h2,h3,th,.masthead{font-family:Arial,sans-serif}h1{font-size:42px;line-height:1.12;letter-spacing:-1px;color:#173c49}h2{font-size:24px;margin-top:2em;border-top:1px solid #d9e2e2;padding-top:22px}h3{font-size:19px}p{margin:1em 0}a{color:#087080;text-decoration-thickness:1px}table{border-collapse:collapse;width:100%;font-size:14px;line-height:1.45;margin:25px 0}th,td{border-bottom:1px solid #d5dfdf;padding:12px 10px;text-align:left;vertical-align:top}th{background:#e8efed}pre{background:#edf2f2;padding:18px;font:13px/1.65 monospace;overflow:auto;border-left:3px solid #087f8c}code{font-size:.84em}pre code{font-size:inherit}img,svg{max-width:100%;height:auto}figure{margin:32px 0}u{text-decoration-color:#087f8c;text-underline-offset:4px}li{margin:.65em 0}.masthead{font-size:12px;letter-spacing:2px;text-transform:uppercase;color:#607580}footer{font:12px/1.5 Arial,sans-serif;color:#657781;margin-top:45px;border-top:1px solid #d5dfdf;padding-top:18px}@media(max-width:720px){main{margin:0;padding:28px 22px}h1{font-size:32px}table{display:block;overflow:auto}}@media print{body{background:white;font-size:11pt}main{max-width:none;margin:0;padding:0;box-shadow:none;border:0}h1{font-size:26pt}h2{break-after:avoid}pre,figure,svg{break-inside:avoid}a{color:inherit}table{font-size:9pt}}</style><main><div class="masthead">Nabla-lab / Inner-circle publications / Research edition</div><h1>Patterns in the record</h1>
+<p><strong>Tensor analytics with an explicit observation model</strong></p>
+<p><em>Research edition 1 · 2026-10-27 · SHIFT_2 synthesis of SHIFT_1's released tensor-log card. Mathematical construction and synthetic factors; no new archive decomposition is claimed.</em></p>
+<h2>Abstract</h2>
+<p>An agent–time–concept array can separate recurring patterns across participants, time and vocabulary. Its usefulness depends on the meaning of a cell, the observation mask, the chosen concept axis and the identifiability of the factorization. This study defines CP and Tucker models, corrects a confusion between tensor order and rank, and shows why permuting the entire time axis cannot test temporal structure through ordinary reconstruction error. The output is a standalone analysis design with explicit null models and validation criteria. Factors remain descriptive coordinates until evidence supports stronger interpretations about agent contributions or redundancy.</p>
+<h2>1. Scope and inherited finding</h2>
+<p>SHIFT_1 released an offline analytics card with a useful dependency boundary: concept coordinates must come from somewhere. A declared vocabulary gives a simple starting point; graph-derived clusters are a richer candidate that inherits the graph's calibration questions. This study preserves that boundary and does not require a downstream implementation to exist.</p>
+<p>The question is whether a chosen representation of records contains reproducible multiway structure beyond simple activity counts. It is not whether a factorization can draw an attractive map. Any sufficiently flexible model can fit patterns that have little scientific meaning.</p>
+<h2>2. The array is an observation design</h2>
+<p>Let <code>X[a,t,c]</code> measure a declared quantity for agent a, aligned time bin t and concept c. Examples include counts of explicit tags or a normalized, versioned concept score. Those are different measurement scales. Turns need a common alignment rule; each agent's private “turn 5” is not automatically the same time coordinate.</p>
+<p>Record an eligibility and observation mask Ω. An observed zero, a missing measurement and a structurally impossible event are different states. Fit and test only on appropriately eligible observations, and describe how missingness could depend on the process. Unequal exposure can dominate apparent agent factors unless it is modeled or normalized explicitly.</p>
+<p>A three-axis array is an <strong>order-3 tensor</strong>. Its CP rank is not necessarily three. CP represents an approximation as</p>
+<pre><code class="language-text">X̂[a,t,c] = Σ_{r=1}^R A[a,r] B[t,r] C[c,r].
+</code></pre>
+<p>Tucker instead uses a core <code>G[i,j,k]</code> and three factor matrices, summing over their separate latent coordinates. Its multilinear rank is a tuple. These distinctions and their computational consequences are established in the tensor literature [R1].</p>
+<h2>3. What a factor can and cannot mean</h2>
+<p>For one CP component, multiplying a column of A by s and dividing the corresponding column of B by s leaves the reconstructed tensor unchanged. Components can also be permuted. Additional uniqueness requires assumptions; numerical stability under noise is another question. Tucker permits basis changes compensated by the core. A factor's orientation is therefore not intrinsically a causal explanation.</p>
+<p>The following synthetic construction makes the limits visible. Choose two nonnegative temporal profiles</p>
+<pre><code class="language-text">b₁(t) = exp[−(t−0.30)² / 0.02],
+b₂(t) = exp[−(t−0.75)² / 0.02],       0 ≤ t ≤ 1,
+</code></pre>
+<p>and combine them with declared agent and concept loadings in the CP formula. The two phases exist because we put them there. Recovering them from masked noisy observations is a controlled identification test; showing the generating curves alone is not a recovered result.</p>
+<figure><svg role="img" aria-label="Two prescribed temporal factors for a synthetic identification fixture." width="720" height="390" preserveAspectRatio="xMinYMin meet" viewBox="0 0 720 390" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="720" height="390"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-390)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="18" y="365" style="font-family: Helvetica-Bold; font-size: 16px;fill: rgb(9%,15%,21%); stroke:none;" transform="translate(0,730) scale(1,-1)">Known factors for a recovery test</text>
+			<text x="18" y="345" style="font-family: Helvetica; font-size: 10px;fill: rgb(32%,40%,45%); stroke:none;" transform="translate(0,690) scale(1,-1)">Analytic generating profiles, not estimated factors</text>
+			<g transform="">
+				<g transform="">
+					<g transform="">
+						<path d="M 65,76 L 690,76 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<path d="M 65,76 L 65,71 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 190,76 L 190,71 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 315,76 L 315,71 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 440,76 L 440,71 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 565,76 L 565,71 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 690,76 L 690,71 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,65,71)">
+							<text x="-2.25" y="-9.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-18) scale(1,-1)">0</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,190,71)">
+							<text x="-5.625" y="-9.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-18) scale(1,-1)">0.2</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,315,71)">
+							<text x="-5.625" y="-9.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-18) scale(1,-1)">0.4</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,440,71)">
+							<text x="-5.625" y="-9.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-18) scale(1,-1)">0.6</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,565,71)">
+							<text x="-5.625" y="-9.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-18) scale(1,-1)">0.8</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,690,71)">
+							<text x="-2.25" y="-9.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-18) scale(1,-1)">1</text>
+						</g>
+					</g>
+				</g>
+				<g transform="">
+					<g transform="">
+						<path d="M 65,76 L 65,321 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<path d="M 65,76 L 60,76 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 65,122.666667 L 60,122.666667 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 65,169.333333 L 60,169.333333 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 65,216 L 60,216 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 65,262.666667 L 60,262.666667 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 65,309.333333 L 60,309.333333 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,60,76)">
+							<text x="-4.5" y="-3.6000000000000005" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-7) scale(1,-1)">0</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,60,122.666667)">
+							<text x="-11.25" y="-3.6000000000000005" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-7) scale(1,-1)">0.2</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,60,169.333333)">
+							<text x="-11.25" y="-3.6000000000000005" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-7) scale(1,-1)">0.4</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,60,216)">
+							<text x="-11.25" y="-3.6000000000000005" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-7) scale(1,-1)">0.6</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,60,262.666667)">
+							<text x="-11.25" y="-3.6000000000000005" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-7) scale(1,-1)">0.8</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,60,309.333333)">
+							<text x="-4.5" y="-3.6000000000000005" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-7) scale(1,-1)">1</text>
+						</g>
+					</g>
+				</g>
+				<path d="M 65,122.666667 L 690,122.666667 Z" style="stroke: rgb(89%,91%,92%); stroke-linecap: butt; stroke-width: 0.25;"/>
+				<path d="M 65,169.333333 L 690,169.333333 Z" style="stroke: rgb(89%,91%,92%); stroke-linecap: butt; stroke-width: 0.25;"/>
+				<path d="M 65,216 L 690,216 Z" style="stroke: rgb(89%,91%,92%); stroke-linecap: butt; stroke-width: 0.25;"/>
+				<path d="M 65,262.666667 L 690,262.666667 Z" style="stroke: rgb(89%,91%,92%); stroke-linecap: butt; stroke-width: 0.25;"/>
+				<path d="M 65,309.333333 L 690,309.333333 Z" style="stroke: rgb(89%,91%,92%); stroke-linecap: butt; stroke-width: 0.25;"/>
+				<g transform="">
+					<polyline points="65 78.5921, 71.25 79.48152, 77.5 80.62959, 83.75 82.095, 90 83.94441, 96.25 86.25195, 102.5 89.09811, 108.75 92.56792, 115 96.74838, 121.25 101.7251, 127.5 107.5782, 133.75 114.3774, 140 122.1764, 146.25 131.0074, 152.5 140.8754, 158.75 151.7522, 165 163.5726, 171.25 176.2301, 177.5 189.5755, 183.75 203.4174, 190 217.5238, 196.25 231.6279, 202.5 245.4348, 208.75 258.6311, 215 270.8964, 221.25 281.9159, 227.5 291.3938, 233.75 299.0661, 240 304.713, 246.25 308.1696, 252.5 309.3333, 258.75 308.1696, 265 304.713, 271.25 299.0661, 277.5 291.3938, 283.75 281.9159, 290 270.8964, 296.25 258.6311, 302.5 245.4348, 308.75 231.6279, 315 217.5238, 321.25 203.4174, 327.5 189.5755, 333.75 176.2301, 340 163.5726, 346.25 151.7522, 352.5 140.8754, 358.75 131.0074, 365 122.1764, 371.25 114.3774, 377.5 107.5782, 383.75 101.7251, 390 96.74838, 396.25 92.56792, 402.5 89.09811, 408.75 86.25195, 415 83.94441, 421.25 82.095, 427.5 80.62959, 433.75 79.48152, 440 78.5921, 446.25 77.9107, 452.5 77.39441, 458.75 77.0075, 465 76.7207, 471.25 76.51041, 477.5 76.35789, 483.75 76.24845, 490 76.17075, 496.25 76.11619, 502.5 76.07827, 508.75 76.05221, 515 76.03447, 521.25 76.02254, 527.5 76.01459, 533.75 76.00935, 540 76.00593, 546.25 76.00373, 552.5 76.00232, 558.75 76.00143, 565 76.00087, 571.25 76.00052, 577.5 76.00031, 583.75 76.00019, 590 76.00011, 596.25 76.00006, 602.5 76.00004, 608.75 76.00002, 615 76.00001, 621.25 76.00001, 627.5 76, 633.75 76, 640 76, 646.25 76, 652.5 76, 658.75 76, 665 76, 671.25 76, 677.5 76, 683.75 76, 690 76" style="stroke: rgb(3%,49%,54%); stroke-linecap: round; stroke-width: 2.2; fill: None; fill-rule: evenodd;"/>
+					<polyline points="65 76, 71.25 76, 77.5 76, 83.75 76, 90 76, 96.25 76, 102.5 76, 108.75 76, 115 76, 121.25 76, 127.5 76, 133.75 76, 140 76, 146.25 76, 152.5 76, 158.75 76, 165 76.00001, 171.25 76.00001, 177.5 76.00002, 183.75 76.00004, 190 76.00006, 196.25 76.00011, 202.5 76.00019, 208.75 76.00031, 215 76.00052, 221.25 76.00087, 227.5 76.00143, 233.75 76.00232, 240 76.00373, 246.25 76.00593, 252.5 76.00935, 258.75 76.01459, 265 76.02254, 271.25 76.03447, 277.5 76.05221, 283.75 76.07827, 290 76.11619, 296.25 76.17075, 302.5 76.24845, 308.75 76.35789, 315 76.51041, 321.25 76.7207, 327.5 77.0075, 333.75 77.39441, 340 77.9107, 346.25 78.5921, 352.5 79.48152, 358.75 80.62959, 365 82.095, 371.25 83.94441, 377.5 86.25195, 383.75 89.09811, 390 92.56792, 396.25 96.74838, 402.5 101.7251, 408.75 107.5782, 415 114.3774, 421.25 122.1764, 427.5 131.0074, 433.75 140.8754, 440 151.7522, 446.25 163.5726, 452.5 176.2301, 458.75 189.5755, 465 203.4174, 471.25 217.5238, 477.5 231.6279, 483.75 245.4348, 490 258.6311, 496.25 270.8964, 502.5 281.9159, 508.75 291.3938, 515 299.0661, 521.25 304.713, 527.5 308.1696, 533.75 309.3333, 540 308.1696, 546.25 304.713, 552.5 299.0661, 558.75 291.3938, 565 281.9159, 571.25 270.8964, 577.5 258.6311, 583.75 245.4348, 590 231.6279, 596.25 217.5238, 602.5 203.4174, 608.75 189.5755, 615 176.2301, 621.25 163.5726, 627.5 151.7522, 633.75 140.8754, 640 131.0074, 646.25 122.1764, 652.5 114.3774, 658.75 107.5782, 665 101.7251, 671.25 96.74838, 677.5 92.56792, 683.75 89.09811, 690 86.25195" style="stroke: rgb(78%,41%,19%); stroke-linecap: round; stroke-width: 2.2; fill: None; fill-rule: evenodd;"/>
+				</g>
+			</g>
+			<text x="65" y="330" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,660) scale(1,-1)">prescribed loading</text>
+			<text x="317.365" y="45" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,90) scale(1,-1)">normalized time</text>
+			<text x="65" y="20" style="font-family: Times-Roman; font-size: 9px;fill: rgb(3%,49%,54%); stroke:none;" transform="translate(0,40) scale(1,-1)">early profile b1</text>
+			<text x="270" y="20" style="font-family: Times-Roman; font-size: 9px;fill: rgb(78%,41%,19%); stroke:none;" transform="translate(0,40) scale(1,-1)">late profile b2</text>
+		</g>
+	</g>
+</svg>
+</figure>
+<p><em>Figure 1. Analytic generating factors, not fitted factors. A future recovery test should vary exposure, noise and missingness while holding the generating structure known. CSV values specify the displayed profiles.</em></p>
+<p>Similarity between fitted agent factors may reflect common assignments or exposure. It does not establish that one agent is redundant. Likewise a shift in the concept axis can be a representation change rather than a change in behavior.</p>
+<h2>4. A shuffle that cannot answer the intended question</h2>
+<p>Let Π permute every time slice in the same way, and permute the observation mask consistently. If factors A, B, C approximate X, then A, ΠB, C approximate the permuted tensor with the same residual norm. The set of ordinary CP models of rank R is invariant under that permutation. The analogous statement holds for Tucker.</p>
+<p>Consequently, the infimum reconstruction error, the minimum when attained, and representable rank cannot distinguish the original order from a common time-axis permutation. Unconstrained CP approximation need not attain a best low-rank fit. The permutation invariance still holds exactly. The original card's shuffled-tensor suggestion is therefore insufficient if reconstruction fit is the statistic.</p>
+<p>An order-sensitive claim needs an order-sensitive statistic: prediction of held-out future observations, temporal smoothness under an explicitly temporal model, or a defined cross-agent lead–lag relation. Its null must disrupt that relation while preserving relevant marginal structure and observation patterns. Independent circular shifts or justified within-block permutations are candidates, not universal recipes; stationarity and boundary assumptions must be stated.</p>
+<h2>5. What the cited applications establish</h2>
+<p>InfTucker introduces a nonlinear probabilistic tensor model. It uses a sender–receiver–date–content array as an introductory illustration, but its Enron experiment uses a three-way sender–receiver–email representation [R2]. That supports communication-log tensor modeling as prior art; it does not validate this study's agent–time–concept representation.</p>
+<p>Multi-Dictionary Tensor Decomposition supplies a way to incorporate dictionaries, including graph-derived side information [R3]. It motivates a possible coupling between graph and tensor views. It does not show that arbitrary clusters are a semantically valid concept axis.</p>
+<h2>6. Implementation approach</h2>
+<p><u>Recommendation — define a project-neutral tensor dataset with record provenance, agent exposure, aligned time bins, concept-schema version, cell units and explicit eligibility/observation masks.</u></p>
+<p>Start with declared vocabulary. Test known synthetic factors under structured missingness, then compare ordinary count summaries, matrix models and tensor models on held-out eligible observations. Select rank with held-out loss, multiple initializations and stability after component alignment. Core-consistency diagnostics can inform particular CP models; they are not a universal rank oracle for every Tucker fit.</p>
+<p>For a temporal claim, reserve future periods before choosing rank or vocabulary. Ordinary CP alone cannot predict an unseen time row: forecasting requires a specified extrapolation model, temporal covariates or dynamic factor law. Keep held-out-cell completion separate from future-row forecasting. Report the actual order-sensitive statistic against a justified null. For a role interpretation, compare against task mix and exposure rather than treating factor similarity as a verdict on participants.</p>
+<p><u>Recommendation — treat a change from vocabulary coordinates to graph clusters as a new measurement edition requiring validation, even if the same factorization routine accepts both arrays.</u></p>
+<h2>7. Scope closure</h2>
+<p>The study closes the model and measurement questions: order, rank, masks, invariances and the temporal null are explicit. It supplies a viable offline analysis path without claiming recovered causal roles. Whether the archive contains stable, useful structure remains an empirical question. That question can be answered negatively without invalidating the mathematical construction or erasing the earlier instrument release.</p>
+<h2>Atlas router branch</h2>
+<h3>Atlas router branch: a distinct use of bilinear algebra</h3>
+<p>Atlas I.2 also proposes scoring a task q against an agent descriptor k using <code>s(q,k)=qᵀWk</code>, with compatible dimensions. This is a bilinear form for fixed W; projecting queries and keys before a dot product gives the same form with <code>W=W_QᵀW_K</code>. Applying softmax converts scores into normalized weights but does not calibrate them as probabilities of success. This router proposal is separate from CP/Tucker decomposition of a log, and a successful factorization does not validate routing. <u>Fit any scoring parameters on training tasks and evaluate routing utility, calibration and load effects on held-out tasks against a fixed or lexical baseline.</u> The Atlas mapping is retained as an untested proposal, not a claim of a new algebraic primitive.</p>
+<h2>References and provenance</h2>
+<ul>
+<li><strong>R1.</strong> Kolda, T. G., and Bader, B. W. <em>Tensor Decompositions and Applications</em>. SIAM Review 51(3), 455–500, 2009. <a href="https://www.kolda.net/publication/TensorReview.pdf">Author-hosted paper</a>. Checked CP/Tucker definitions and ambiguity/uniqueness distinctions. The permutation argument above is derived directly.</li>
+<li><strong>R2.</strong> Xu, Z., Yan, F., and Qi, Y. <em>Infinite Tucker Decomposition: Nonparametric Bayesian Models for Multiway Data Analysis</em>. <a href="https://arxiv.org/abs/1108.6296">Paper</a>. Checked introductory example versus the actual communication-data experiment; no replication performed.</li>
+<li><strong>R3.</strong> McNeil, M., and Bogdanov, P. <em>Multi-Dictionary Tensor Decomposition</em>. <a href="https://arxiv.org/abs/2309.09717">Paper</a>. Checked dictionary/side-information scope; no assumption that its empirical results transfer to agent records.</li>
+<li><strong>Local provenance.</strong> <a href="../../../drafts/orchestration-atlas-v2.md">Atlas №1, I.2</a>, <a href="../../../papers/card.tensor-log-analytics.2026-07-02.md">released tensor card</a>, <a href="../provenance.md">provenance map</a>.</li>
+</ul>
+<p><em>Verification date: 2026-10-27. Numerical fitting and empirical temporal tests are not reported in this edition.</em></p><footer>SHIFT_1 research · SHIFT_2 synthesis · 2026-10-27<br>Self-contained reading copy. Analytic and synthetic figures are identified in their captions. No external scripts or fonts are required.</footer></main></html>

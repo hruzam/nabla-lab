@@ -1,0 +1,119 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>When activity amplifies</title><style>body{margin:0;background:#f4f1eb;color:#20303b;font:18px/1.65 Georgia,serif}main{max-width:880px;margin:48px auto;padding:56px 64px;background:#fffdf8;border-top:7px solid #087f8c;box-shadow:0 10px 45px #18344512}h1,h2,h3,th,.masthead{font-family:Arial,sans-serif}h1{font-size:42px;line-height:1.12;letter-spacing:-1px;color:#173c49}h2{font-size:24px;margin-top:2em;border-top:1px solid #d9e2e2;padding-top:22px}h3{font-size:19px}p{margin:1em 0}a{color:#087080;text-decoration-thickness:1px}table{border-collapse:collapse;width:100%;font-size:14px;line-height:1.45;margin:25px 0}th,td{border-bottom:1px solid #d5dfdf;padding:12px 10px;text-align:left;vertical-align:top}th{background:#e8efed}pre{background:#edf2f2;padding:18px;font:13px/1.65 monospace;overflow:auto;border-left:3px solid #087f8c}code{font-size:.84em}pre code{font-size:inherit}img,svg{max-width:100%;height:auto}figure{margin:32px 0}u{text-decoration-color:#087f8c;text-underline-offset:4px}li{margin:.65em 0}.masthead{font-size:12px;letter-spacing:2px;text-transform:uppercase;color:#607580}footer{font:12px/1.5 Arial,sans-serif;color:#657781;margin-top:45px;border-top:1px solid #d5dfdf;padding-top:18px}@media(max-width:720px){main{margin:0;padding:28px 22px}h1{font-size:32px}table{display:block;overflow:auto}}@media print{body{background:white;font-size:11pt}main{max-width:none;margin:0;padding:0;box-shadow:none;border:0}h1{font-size:26pt}h2{break-after:avoid}pre,figure,svg{break-inside:avoid}a{color:inherit}table{font-size:9pt}}</style><main><div class="masthead">Nabla-lab / Inner-circle publications / Research edition</div><h1>When activity amplifies</h1>
+<p><strong>Branching models, temporal estimates and the limits of a pollution alarm</strong></p>
+<p><em>Research edition 1 · 2026-10-27 · SHIFT_2 synthesis of SHIFT_1's released branching-monitor card. Model analysis and synthetic expectations; no new agent-activity dataset is claimed.</em></p>
+<h2>Abstract</h2>
+<p>Activity can grow because events reproduce, because an external source drives the system, or because the observation process changes. A branching parameter distinguishes these mechanisms only within an identified model. This study separates an offspring-mean operator from a graph-affinity matrix, distinguishes temporal estimation from cascade-size summaries, and gives a subcritical example with transient growth. It corrects the proposed input to multistep regression while retaining the historical card's aim: a transparent activity diagnostic. The closed result is a measurement contract and conditional model, not a demonstrated detector of semantic pollution.</p>
+<h2>1. The question behind the released card</h2>
+<p>SHIFT_1 released a monitor that distinguished an operator estimate from a behavioral estimate. That separation was useful. However, it still treated an excitation graph too loosely and described multistep regression as consuming per-cascade total sizes. Those totals omit the lagged observations the estimator requires. The new edition corrects the measurement design before assigning meaning to an alarm.</p>
+<p>The bounded question is: under what assumptions can observed activity support an estimate of endogenous propagation? “Is the conversation useful?” is a separate semantic question with separate labels.</p>
+<h2>2. Reproduction is a specified stochastic mechanism</h2>
+<p>For a one-type Galton–Watson process, each event independently produces offspring according to a common distribution with mean m. With one initial event and no continuing immigration,</p>
+<pre><code class="language-text">E[Z_t] = m^t,
+E[total progeny] = Σ_{t≥0} m^t = 1/(1−m),   for m &lt; 1.
+</code></pre>
+<p>The calculation is elementary: condition on the current population, then iterate expectations. It describes expected counts, not a deterministic trajectory. At m = 1, the sum diverges. Under the usual nondegenerate critical assumptions extinction still occurs almost surely; criticality is therefore not synonymous with a small, safely controlled cascade. A mean alone also does not determine the extinction probability in a supercritical process.</p>
+<p>In a multitype model, define <code>Kᵢⱼ</code> as the expected number of type-i children produced directly by one type-j parent. Then column expected populations obey <code>z_{t+1}=Kz_t</code>. Appropriate branching assumptions make the nonnegative offspring operator's spectral radius relevant to the reproduction threshold [R1]. An arbitrary reply adjacency or embedding-affinity matrix is not K. Rescaling similarity weights can change its spectral radius without changing actual event reproduction.</p>
+<h2>3. A small counterexample to a large interpretation</h2>
+<p>Take</p>
+<pre><code class="language-text">K = [[0.6, 0.7],
+     [0.0, 0.6]],       z₀ = (0, 1)ᵀ.
+ρ(K) = 0.6.
+E[total activity in generation t] = 0.6^t + 0.7t · 0.6^(t−1),  t ≥ 1.
+</code></pre>
+<p>The total rises from 1 to 1.3 in the first generation despite a subcritical spectral radius. It then declines. This constructed model illustrates transient amplification caused by type structure; it neither establishes a pollution event nor requires a change in the asymptotic threshold.</p>
+<figure><svg role="img" aria-label="Expected activity in a subcritical two-type model." width="720" height="390" preserveAspectRatio="xMinYMin meet" viewBox="0 0 720 390" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="720" height="390"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-390)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="18" y="365" style="font-family: Helvetica-Bold; font-size: 16px;fill: rgb(9%,15%,21%); stroke:none;" transform="translate(0,730) scale(1,-1)">Subcritical dynamics can amplify transiently</text>
+			<text x="18" y="345" style="font-family: Helvetica; font-size: 10px;fill: rgb(32%,40%,45%); stroke:none;" transform="translate(0,690) scale(1,-1)">Exact expectations; no immigration and one initial type-2 event</text>
+			<g transform="">
+				<g transform="">
+					<g transform="">
+						<path d="M 65,76 L 690,76 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<path d="M 65,76 L 65,71 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 273.333333,76 L 273.333333,71 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 481.666667,76 L 481.666667,71 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 690,76 L 690,71 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,65,71)">
+							<text x="-2.25" y="-9.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-18) scale(1,-1)">0</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,273.333333,71)">
+							<text x="-2.25" y="-9.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-18) scale(1,-1)">5</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,481.666667,71)">
+							<text x="-4.5" y="-9.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-18) scale(1,-1)">10</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,690,71)">
+							<text x="-4.5" y="-9.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-18) scale(1,-1)">15</text>
+						</g>
+					</g>
+				</g>
+				<g transform="">
+					<g transform="">
+						<path d="M 65,76 L 65,321 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<path d="M 65,76 L 60,76 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 65,163.5 L 60,163.5 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 65,251 L 60,251 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,60,76)">
+							<text x="-4.5" y="-3.6000000000000005" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-7) scale(1,-1)">0</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,60,163.5)">
+							<text x="-11.25" y="-3.6000000000000005" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-7) scale(1,-1)">0.5</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,60,251)">
+							<text x="-4.5" y="-3.6000000000000005" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-7) scale(1,-1)">1</text>
+						</g>
+					</g>
+				</g>
+				<path d="M 65,163.5 L 690,163.5 Z" style="stroke: rgb(89%,91%,92%); stroke-linecap: butt; stroke-width: 0.25;"/>
+				<path d="M 65,251 L 690,251 Z" style="stroke: rgb(89%,91%,92%); stroke-linecap: butt; stroke-width: 0.25;"/>
+				<g transform="">
+					<polyline points="65 251, 106.6667 303.5, 148.3333 286, 190 246.1, 231.6667 204.52, 273.3333 168.988, 315 141.3184, 356.6667 120.9064, 398.3333 106.3731, 440 96.28136, 481.6667 89.40334, 523.3333 84.78271, 565 81.71405, 606.6667 79.69509, 648.3333 78.37705, 690 77.52222" style="stroke: rgb(3%,49%,54%); stroke-linecap: round; stroke-width: 2.2; fill: None; fill-rule: evenodd;"/>
+					<polyline points="65 251, 106.6667 181, 148.3333 139, 190 113.8, 231.6667 98.68, 273.3333 89.608, 315 84.1648, 356.6667 80.89888, 398.3333 78.93933, 440 77.7636, 481.6667 77.05816, 523.3333 76.63489, 565 76.38094, 606.6667 76.22856, 648.3333 76.13714, 690 76.08228" style="stroke: rgb(78%,41%,19%); stroke-linecap: round; stroke-width: 2.2; fill: None; fill-rule: evenodd;"/>
+				</g>
+			</g>
+			<text x="65" y="330" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,660) scale(1,-1)">expected total activity</text>
+			<text x="328.895" y="45" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,90) scale(1,-1)">generation</text>
+			<text x="65" y="20" style="font-family: Times-Roman; font-size: 9px;fill: rgb(3%,49%,54%); stroke:none;" transform="translate(0,40) scale(1,-1)">two-type model</text>
+			<text x="270" y="20" style="font-family: Times-Roman; font-size: 9px;fill: rgb(78%,41%,19%); stroke:none;" transform="translate(0,40) scale(1,-1)">one-type mean 0.6</text>
+		</g>
+	</g>
+</svg>
+</figure>
+<p><em>Figure 1. Exact expectations from the displayed matrix, compared with a one-type process of mean 0.6. These curves are synthetic, with no observation noise or immigration. Early growth does not by itself establish supercritical reproduction.</em></p>
+<p>With independent external drive of mean h, a scalar conditional expectation may instead be <code>E[A_{t+1}|A_t]=mA_t+h</code>. If m &lt; 1 and stationarity exists, its mean is <code>h/(1−m)</code>. High average activity can therefore reflect strong drive, weak decay, or both. A scheduled burst of prompts must not be silently interpreted as self-excitation.</p>
+<h2>4. What multistep regression actually estimates</h2>
+<p>Wilting and Priesemann's method fits lagged regression coefficients whose decay takes the form <code>r_k=bm^k</code> under its model and sampling assumptions. The common amplitude b can absorb a stable subsampling effect [R2]. This is a conditional robustness result, not immunity to every missing observation process.</p>
+<p>The official estimator documentation represents sequential observations as one or more trials; its interface uses an equal-length trial × time array, including one row for a single trial [R3]. Counts per declared time bin retain the order and lag structure needed by regression. A bag of cascade totals does not. The bin width is part of the parameter's interpretation; changing it can change the fitted branching factor.</p>
+<p>The following failure cases are distinct: changing logging coverage; correlated or nonstationary external drive; pooling different mechanisms into one series; bounded-capacity saturation; and a mixture of modes that does not fit one exponential decay. A good numerical fit alone does not identify causal influence or the truth of an agent's statements.</p>
+<h2>5. Implementation approach</h2>
+<p><u>Recommendation — define a project-neutral activity record with event identifier, timestamp, event type, observed parent links, external-trigger indicator, observation coverage and a declared binning rule.</u></p>
+<p>Retain both the time series and cascade summaries. They answer different questions. Explicit reply links are useful observations of possible ancestry, while omitted or ambiguous influence remains uncertain. Never fabricate a complete causal graph from adjacency alone.</p>
+<p>The first study fixture should generate data from a known branching or autoregressive model and vary m, drive, observation loss and bin width. A second fixture should violate stationarity or use correlated drive so the method has a chance to fail. Report fitted lag coefficients, uncertainty, residual structure and sensitivity, not only one estimated number.</p>
+<p><u>Recommendation — name the initial output an exploratory propagation statistic. Introduce a semantic pollution alarm only after evaluation against independently labeled benign and harmful episodes.</u></p>
+<p>Compare against simple activity count, recurrence and duration baselines. Split evaluation by session. A policy that rate-limits on the estimate is a separate intervention study: log its effects on useful work and false alarms before allowing automatic action. This edition assigns no actuator or downstream project.</p>
+<h2>6. Scope closure</h2>
+<p>The model scope is closed: reproduction operators, temporal estimators and semantic alarms are distinct objects. The revised measurement contract provides the information an estimator actually needs. The transient example demonstrates why asymptotic thresholds cannot be read as immediate behavioral labels. Empirical identification and semantic validation remain unperformed here and are stated as recommendations, not missing historical releases.</p>
+<h2>Paired-estimator proposal</h2>
+<h3>Preserving the card's paired-estimator proposal</h3>
+<p>The released card calls its structural proxy <code>ρ_op</code> and its behavioral estimate <code>ρ_br</code>, proposing their disagreement as a diagnostic. This is worth retaining as a measurement design. Their equality requires an explicit model linking the observed operator to offspring dynamics, together with suitable mixing and observation assumptions. A spectral radius of arbitrary similarity weights is not automatically the reproduction number estimated from activity. <u>Compare both estimates with uncertainty and known-ground-truth simulations; label divergence as a model/measurement discrepancy until its cause is identified.</u> Agreement of two biased estimators does not establish criticality, and targeting a value near one still requires a task-level utility argument.</p>
+<h2>References and provenance</h2>
+<ul>
+<li><strong>R1.</strong> Hautphenne, S. <em>Extinction Probabilities of Supercritical Decomposable Branching Processes</em>. Journal of Applied Probability 49(3), 639–651, 2012. <a href="https://doi.org/10.1239/jap/1346955323">DOI</a>. Used for the branching-process setting and its structural conditions; the displayed finite-matrix expectation is derived directly.</li>
+<li><strong>R2.</strong> Wilting, J., and Priesemann, V. <em>Inferring collective dynamical states from widely unobserved systems</em>. Nature Communications 9, 2325, 2018. <a href="https://www.nature.com/articles/s41467-018-04725-4">Paper</a>, <a href="https://arxiv.org/abs/1608.07035">preprint</a>. Checked estimator mechanism and assumptions; no transfer of its empirical validations to this corpus.</li>
+<li><strong>R3.</strong> MR. Estimator authors. <a href="https://mrestimator.readthedocs.io/en/latest/doc/gettingstarted.html">Getting started</a>. Checked input representation and temporal-lag workflow on 2026-10-27; this is an input-contract reference, not a current package recommendation.</li>
+<li><strong>Local provenance.</strong> <a href="../../../drafts/orchestration-atlas-v2.md">Atlas №1, I.7</a>, <a href="../../../papers/card.branching-ratio-monitor.2026-07-02.md">released branching card</a>, <a href="../provenance.md">provenance map</a>.</li>
+</ul><footer>SHIFT_1 research · SHIFT_2 synthesis · 2026-10-27<br>Self-contained reading copy. Analytic and synthetic figures are identified in their captions. No external scripts or fonts are required.</footer></main></html>

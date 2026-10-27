@@ -10,12 +10,12 @@ stack:
 
 commands:
   test:   none            # validity = three reality gates (see AGENTS.md)
-  run:    none            # sessions run by hand; shaping in claude.ai, validation via CLI globals
+  run:    none            # manual sessions; claude.ai shaping or explicit Codex Oraculum-main research trial
   health: none
 
 docs:
   architecture: AGENTS.md
-  decisions:    AGENTS.md   # inline until formal decisions accrue
+  decisions:    session/flag.md   # append-only ledger; AGENTS routes entry
   conventions:  AGENTS.md
 
 agents: []                  # no project-scoped CLI agents yet; globals spawned per need

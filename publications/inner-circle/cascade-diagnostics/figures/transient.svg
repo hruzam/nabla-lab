@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="720" height="390" preserveAspectRatio="xMinYMin meet" viewBox="0 0 720 390" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="720" height="390"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-390)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="18" y="365" style="font-family: Helvetica-Bold; font-size: 16px;fill: rgb(9%,15%,21%); stroke:none;" transform="translate(0,730) scale(1,-1)">Subcritical dynamics can amplify transiently</text>
+			<text x="18" y="345" style="font-family: Helvetica; font-size: 10px;fill: rgb(32%,40%,45%); stroke:none;" transform="translate(0,690) scale(1,-1)">Exact expectations; no immigration and one initial type-2 event</text>
+			<g transform="">
+				<g transform="">
+					<g transform="">
+						<path d="M 65,76 L 690,76 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<path d="M 65,76 L 65,71 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 273.333333,76 L 273.333333,71 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 481.666667,76 L 481.666667,71 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 690,76 L 690,71 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,65,71)">
+							<text x="-2.25" y="-9.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-18) scale(1,-1)">0</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,273.333333,71)">
+							<text x="-2.25" y="-9.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-18) scale(1,-1)">5</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,481.666667,71)">
+							<text x="-4.5" y="-9.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-18) scale(1,-1)">10</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,690,71)">
+							<text x="-4.5" y="-9.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-18) scale(1,-1)">15</text>
+						</g>
+					</g>
+				</g>
+				<g transform="">
+					<g transform="">
+						<path d="M 65,76 L 65,321 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<path d="M 65,76 L 60,76 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 65,163.5 L 60,163.5 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 65,251 L 60,251 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,60,76)">
+							<text x="-4.5" y="-3.6000000000000005" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-7) scale(1,-1)">0</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,60,163.5)">
+							<text x="-11.25" y="-3.6000000000000005" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-7) scale(1,-1)">0.5</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,60,251)">
+							<text x="-4.5" y="-3.6000000000000005" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-7) scale(1,-1)">1</text>
+						</g>
+					</g>
+				</g>
+				<path d="M 65,163.5 L 690,163.5 Z" style="stroke: rgb(89%,91%,92%); stroke-linecap: butt; stroke-width: 0.25;"/>
+				<path d="M 65,251 L 690,251 Z" style="stroke: rgb(89%,91%,92%); stroke-linecap: butt; stroke-width: 0.25;"/>
+				<g transform="">
+					<polyline points="65 251, 106.6667 303.5, 148.3333 286, 190 246.1, 231.6667 204.52, 273.3333 168.988, 315 141.3184, 356.6667 120.9064, 398.3333 106.3731, 440 96.28136, 481.6667 89.40334, 523.3333 84.78271, 565 81.71405, 606.6667 79.69509, 648.3333 78.37705, 690 77.52222" style="stroke: rgb(3%,49%,54%); stroke-linecap: round; stroke-width: 2.2; fill: None; fill-rule: evenodd;"/>
+					<polyline points="65 251, 106.6667 181, 148.3333 139, 190 113.8, 231.6667 98.68, 273.3333 89.608, 315 84.1648, 356.6667 80.89888, 398.3333 78.93933, 440 77.7636, 481.6667 77.05816, 523.3333 76.63489, 565 76.38094, 606.6667 76.22856, 648.3333 76.13714, 690 76.08228" style="stroke: rgb(78%,41%,19%); stroke-linecap: round; stroke-width: 2.2; fill: None; fill-rule: evenodd;"/>
+				</g>
+			</g>
+			<text x="65" y="330" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,660) scale(1,-1)">expected total activity</text>
+			<text x="328.895" y="45" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,90) scale(1,-1)">generation</text>
+			<text x="65" y="20" style="font-family: Times-Roman; font-size: 9px;fill: rgb(3%,49%,54%); stroke:none;" transform="translate(0,40) scale(1,-1)">two-type model</text>
+			<text x="270" y="20" style="font-family: Times-Roman; font-size: 9px;fill: rgb(78%,41%,19%); stroke:none;" transform="translate(0,40) scale(1,-1)">one-type mean 0.6</text>
+		</g>
+	</g>
+</svg>

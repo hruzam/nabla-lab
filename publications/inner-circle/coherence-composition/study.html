@@ -1,0 +1,127 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Agreement, composition and the model boundary</title><style>body{margin:0;background:#f4f1eb;color:#20303b;font:18px/1.65 Georgia,serif}main{max-width:880px;margin:48px auto;padding:56px 64px;background:#fffdf8;border-top:7px solid #087f8c;box-shadow:0 10px 45px #18344512}h1,h2,h3,th,.masthead{font-family:Arial,sans-serif}h1{font-size:42px;line-height:1.12;letter-spacing:-1px;color:#173c49}h2{font-size:24px;margin-top:2em;border-top:1px solid #d9e2e2;padding-top:22px}h3{font-size:19px}p{margin:1em 0}a{color:#087080;text-decoration-thickness:1px}table{border-collapse:collapse;width:100%;font-size:14px;line-height:1.45;margin:25px 0}th,td{border-bottom:1px solid #d5dfdf;padding:12px 10px;text-align:left;vertical-align:top}th{background:#e8efed}pre{background:#edf2f2;padding:18px;font:13px/1.65 monospace;overflow:auto;border-left:3px solid #087f8c}code{font-size:.84em}pre code{font-size:inherit}img,svg{max-width:100%;height:auto}figure{margin:32px 0}u{text-decoration-color:#087f8c;text-underline-offset:4px}li{margin:.65em 0}.masthead{font-size:12px;letter-spacing:2px;text-transform:uppercase;color:#607580}footer{font:12px/1.5 Arial,sans-serif;color:#657781;margin-top:45px;border-top:1px solid #d5dfdf;padding-top:18px}@media(max-width:720px){main{margin:0;padding:28px 22px}h1{font-size:32px}table{display:block;overflow:auto}}@media print{body{background:white;font-size:11pt}main{max-width:none;margin:0;padding:0;box-shadow:none;border:0}h1{font-size:26pt}h2{break-after:avoid}pre,figure,svg{break-inside:avoid}a{color:inherit}table{font-size:9pt}}</style><main><div class="masthead">Nabla-lab / Inner-circle publications / Research edition</div><h1>Agreement, composition and the model boundary</h1>
+<p><strong>What three formal frameworks can establish about one system</strong></p>
+<p><em>Research edition 1 · 2026-10-27 · SHIFT_2 synthesis of SHIFT_1's fourth-spine research. Worked mathematical examples and a bounded literature check; no new safety or cross-vendor validation is claimed.</em></p>
+<h2>Abstract</h2>
+<p>Sheaf consistency, typed composition and variational free energy address different questions. A sheaf asks whether local representations agree under chosen maps. A wiring grammar asks whether specified interfaces compose under declared semantics. Variational free energy evaluates inference within a specified probabilistic model. This study makes those distinctions explicit, derives a small inconsistent-cycle example and explains why none of the three certifies semantic truth. The resulting implementation approach preserves the Atlas's interest in system coherence while replacing an unspecified universal health scalar with separately validated measurements.</p>
+<h2>1. Scope and inherited result</h2>
+<p>SHIFT_1's fourth spine connected sheaves, Markov blankets, operads and stopping under the idea of maintaining one system. The Atlas №2 research subsequently rejected the literal sphere-as-linear-stalk construction and retained a narrower typed program. That is useful prior work. This study closes the formal scope of coherence and composition; geometric stance measurement and stopping are treated in their own reading editions.</p>
+<p>The question is what a consistency result actually guarantees, and what evidence is still needed before acting on it. A precise formal result can coexist with a wrong interpretation of the underlying text.</p>
+<h2>2. Linear consistency needs a nontrivial question</h2>
+<p>For a graph with finite-dimensional vertex and edge spaces, let B map vertex assignments to edge discrepancies under the chosen restriction maps. With Euclidean inner products, define <code>L = BᵀB</code>. Then</p>
+<pre><code class="language-text">xᵀLx = ||Bx||²,
+H⁰ = ker B = ker L.
+</code></pre>
+<p>These are the compatible assignments of the linear model. Zero is always one of them. Nontrivial H⁰ is therefore not itself a contradiction, and “no global section at all” is not the correct diagnosis for a homogeneous linear sheaf. Discourse-sheaf dynamics explicitly includes the possibility of convergence to zero when no nontrivial sections exist [R1].</p>
+<p>A useful question fixes observations or introduces affine requirements: can <code>Bx=b</code> be solved? On a graph, b has an obstruction precisely when its class in <code>C¹/im B</code> is nonzero. Alternatively, fix part of x and minimize the residual of its extension. Both formulations say which information must be preserved.</p>
+<h2>3. A cycle that cannot satisfy its own differences</h2>
+<p>Take three scalar states and orient a cycle 1→2→3→1. Its incidence operator returns <code>(x₂−x₁, x₃−x₂, x₁−x₃)</code>. Every such vector sums to zero. Required differences <code>b=(1,1,−1)</code> sum to one, so they cannot all hold.</p>
+<p>The minimum squared residual is the squared norm of the component of b along the all-ones vector. If <code>s=b₁+b₂+b₃</code>, then</p>
+<pre><code class="language-text">min_x ||Bx−b||² = s²/3.
+</code></pre>
+<p>For the stated b the minimum is 1/3. One minimizing assignment is <code>(0, 2/3, 4/3)</code>, giving residual <code>(-1/3, -1/3, -1/3)</code>. By contrast <code>b=(1,1,−2)</code> is consistent. This is an exact algebraic obstruction under declared comparisons, not a detector of contradictory natural language without a measurement map.</p>
+<figure><svg role="img" aria-label="Minimum cycle discrepancy as a function of required circulation." width="720" height="390" preserveAspectRatio="xMinYMin meet" viewBox="0 0 720 390" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="720" height="390"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-390)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="18" y="365" style="font-family: Helvetica-Bold; font-size: 16px;fill: rgb(9%,15%,21%); stroke:none;" transform="translate(0,730) scale(1,-1)">A cycle exposes an affine inconsistency</text>
+			<text x="18" y="345" style="font-family: Helvetica; font-size: 10px;fill: rgb(32%,40%,45%); stroke:none;" transform="translate(0,690) scale(1,-1)">Analytic unweighted three-cycle; residual minimum = circulation squared / 3</text>
+			<g transform="">
+				<g transform="">
+					<g transform="">
+						<path d="M 65,76 L 690,76 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<path d="M 65,76 L 65,71 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 221.25,76 L 221.25,71 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 377.5,76 L 377.5,71 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 533.75,76 L 533.75,71 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 690,76 L 690,71 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,65,71)">
+							<text x="-3.7485" y="-9.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-18) scale(1,-1)">-2</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,221.25,71)">
+							<text x="-3.7485" y="-9.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-18) scale(1,-1)">-1</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,377.5,71)">
+							<text x="-2.25" y="-9.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-18) scale(1,-1)">0</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,533.75,71)">
+							<text x="-2.25" y="-9.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-18) scale(1,-1)">1</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,690,71)">
+							<text x="-2.25" y="-9.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-18) scale(1,-1)">2</text>
+						</g>
+					</g>
+				</g>
+				<g transform="">
+					<g transform="">
+						<path d="M 65,76 L 65,321 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<path d="M 65,76 L 60,76 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 65,163.5 L 60,163.5 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 65,251 L 60,251 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,60,76)">
+							<text x="-4.5" y="-3.6000000000000005" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-7) scale(1,-1)">0</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,60,163.5)">
+							<text x="-11.25" y="-3.6000000000000005" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-7) scale(1,-1)">0.5</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,60,251)">
+							<text x="-4.5" y="-3.6000000000000005" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-7) scale(1,-1)">1</text>
+						</g>
+					</g>
+				</g>
+				<path d="M 65,163.5 L 690,163.5 Z" style="stroke: rgb(89%,91%,92%); stroke-linecap: butt; stroke-width: 0.25;"/>
+				<path d="M 65,251 L 690,251 Z" style="stroke: rgb(89%,91%,92%); stroke-linecap: butt; stroke-width: 0.25;"/>
+				<g transform="">
+					<polyline points="65 309.3333, 66.5625 307.0058, 68.125 304.69, 69.6875 302.3858, 71.25 300.0933, 72.8125 297.8125, 74.375 295.5433, 75.9375 293.2858, 77.5 291.04, 79.0625 288.8058, 80.625 286.5833, 82.1875 284.3725, 83.75 282.1733, 85.3125 279.9858, 86.875 277.81, 88.4375 275.6458, 90 273.4933, 91.5625 271.3525, 93.125 269.2233, 94.6875 267.1058, 96.25 265, 97.8125 262.9058, 99.375 260.8233, 100.9375 258.7525, 102.5 256.6933, 104.0625 254.6458, 105.625 252.61, 107.1875 250.5858, 108.75 248.5733, 110.3125 246.5725, 111.875 244.5833, 113.4375 242.6058, 115 240.64, 116.5625 238.6858, 118.125 236.7433, 119.6875 234.8125, 121.25 232.8933, 122.8125 230.9858, 124.375 229.09, 125.9375 227.2058, 127.5 225.3333, 129.0625 223.4725, 130.625 221.6233, 132.1875 219.7858, 133.75 217.96, 135.3125 216.1458, 136.875 214.3433, 138.4375 212.5525, 140 210.7733, 141.5625 209.0058, 143.125 207.25, 144.6875 205.5058, 146.25 203.7733, 147.8125 202.0525, 149.375 200.3433, 150.9375 198.6458, 152.5 196.96, 154.0625 195.2858, 155.625 193.6233, 157.1875 191.9725, 158.75 190.3333, 160.3125 188.7058, 161.875 187.09, 163.4375 185.4858, 165 183.8933, 166.5625 182.3125, 168.125 180.7433, 169.6875 179.1858, 171.25 177.64, 172.8125 176.1058, 174.375 174.5833, 175.9375 173.0725, 177.5 171.5733, 179.0625 170.0858, 180.625 168.61, 182.1875 167.1458, 183.75 165.6933, 185.3125 164.2525, 186.875 162.8233, 188.4375 161.4058, 190 160, 191.5625 158.6058, 193.125 157.2233, 194.6875 155.8525, 196.25 154.4933, 197.8125 153.1458, 199.375 151.81, 200.9375 150.4858, 202.5 149.1733, 204.0625 147.8725, 205.625 146.5833, 207.1875 145.3058, 208.75 144.04, 210.3125 142.7858, 211.875 141.5433, 213.4375 140.3125, 215 139.0933, 216.5625 137.8858, 218.125 136.69, 219.6875 135.5058, 221.25 134.3333, 222.8125 133.1725, 224.375 132.0233, 225.9375 130.8858, 227.5 129.76, 229.0625 128.6458, 230.625 127.5433, 232.1875 126.4525, 233.75 125.3733, 235.3125 124.3058, 236.875 123.25, 238.4375 122.2058, 240 121.1733, 241.5625 120.1525, 243.125 119.1433, 244.6875 118.1458, 246.25 117.16, 247.8125 116.1858, 249.375 115.2233, 250.9375 114.2725, 252.5 113.3333, 254.0625 112.4058, 255.625 111.49, 257.1875 110.5858, 258.75 109.6933, 260.3125 108.8125, 261.875 107.9433, 263.4375 107.0858, 265 106.24, 266.5625 105.4058, 268.125 104.5833, 269.6875 103.7725, 271.25 102.9733, 272.8125 102.1858, 274.375 101.41, 275.9375 100.6458, 277.5 99.89333, 279.0625 99.1525, 280.625 98.42333, 282.1875 97.70583, 283.75 97, 285.3125 96.30583, 286.875 95.62333, 288.4375 94.9525, 290 94.29333, 291.5625 93.64583, 293.125 93.01, 294.6875 92.38583, 296.25 91.77333, 297.8125 91.1725, 299.375 90.58333, 300.9375 90.00583, 302.5 89.44, 304.0625 88.88583, 305.625 88.34333, 307.1875 87.8125, 308.75 87.29333, 310.3125 86.78583, 311.875 86.29, 313.4375 85.80583, 315 85.33333, 316.5625 84.8725, 318.125 84.42333, 319.6875 83.98583, 321.25 83.56, 322.8125 83.14583, 324.375 82.74333, 325.9375 82.3525, 327.5 81.97333, 329.0625 81.60583, 330.625 81.25, 332.1875 80.90583, 333.75 80.57333, 335.3125 80.2525, 336.875 79.94333, 338.4375 79.64583, 340 79.36, 341.5625 79.08583, 343.125 78.82333, 344.6875 78.5725, 346.25 78.33333, 347.8125 78.10583, 349.375 77.89, 350.9375 77.68583, 352.5 77.49333, 354.0625 77.3125, 355.625 77.14333, 357.1875 76.98583, 358.75 76.84, 360.3125 76.70583, 361.875 76.58333, 363.4375 76.4725, 365 76.37333, 366.5625 76.28583, 368.125 76.21, 369.6875 76.14583, 371.25 76.09333, 372.8125 76.0525, 374.375 76.02333, 375.9375 76.00583, 377.5 76, 379.0625 76.00583, 380.625 76.02333, 382.1875 76.0525, 383.75 76.09333, 385.3125 76.14583, 386.875 76.21, 388.4375 76.28583, 390 76.37333, 391.5625 76.4725, 393.125 76.58333, 394.6875 76.70583, 396.25 76.84, 397.8125 76.98583, 399.375 77.14333, 400.9375 77.3125, 402.5 77.49333, 404.0625 77.68583, 405.625 77.89, 407.1875 78.10583, 408.75 78.33333, 410.3125 78.5725, 411.875 78.82333, 413.4375 79.08583, 415 79.36, 416.5625 79.64583, 418.125 79.94333, 419.6875 80.2525, 421.25 80.57333, 422.8125 80.90583, 424.375 81.25, 425.9375 81.60583, 427.5 81.97333, 429.0625 82.3525, 430.625 82.74333, 432.1875 83.14583, 433.75 83.56, 435.3125 83.98583, 436.875 84.42333, 438.4375 84.8725, 440 85.33333, 441.5625 85.80583, 443.125 86.29, 444.6875 86.78583, 446.25 87.29333, 447.8125 87.8125, 449.375 88.34333, 450.9375 88.88583, 452.5 89.44, 454.0625 90.00583, 455.625 90.58333, 457.1875 91.1725, 458.75 91.77333, 460.3125 92.38583, 461.875 93.01, 463.4375 93.64583, 465 94.29333, 466.5625 94.9525, 468.125 95.62333, 469.6875 96.30583, 471.25 97, 472.8125 97.70583, 474.375 98.42333, 475.9375 99.1525, 477.5 99.89333, 479.0625 100.6458, 480.625 101.41, 482.1875 102.1858, 483.75 102.9733, 485.3125 103.7725, 486.875 104.5833, 488.4375 105.4058, 490 106.24, 491.5625 107.0858, 493.125 107.9433, 494.6875 108.8125, 496.25 109.6933, 497.8125 110.5858, 499.375 111.49, 500.9375 112.4058, 502.5 113.3333, 504.0625 114.2725, 505.625 115.2233, 507.1875 116.1858, 508.75 117.16, 510.3125 118.1458, 511.875 119.1433, 513.4375 120.1525, 515 121.1733, 516.5625 122.2058, 518.125 123.25, 519.6875 124.3058, 521.25 125.3733, 522.8125 126.4525, 524.375 127.5433, 525.9375 128.6458, 527.5 129.76, 529.0625 130.8858, 530.625 132.0233, 532.1875 133.1725, 533.75 134.3333, 535.3125 135.5058, 536.875 136.69, 538.4375 137.8858, 540 139.0933, 541.5625 140.3125, 543.125 141.5433, 544.6875 142.7858, 546.25 144.04, 547.8125 145.3058, 549.375 146.5833, 550.9375 147.8725, 552.5 149.1733, 554.0625 150.4858, 555.625 151.81, 557.1875 153.1458, 558.75 154.4933, 560.3125 155.8525, 561.875 157.2233, 563.4375 158.6058, 565 160, 566.5625 161.4058, 568.125 162.8233, 569.6875 164.2525, 571.25 165.6933, 572.8125 167.1458, 574.375 168.61, 575.9375 170.0858, 577.5 171.5733, 579.0625 173.0725, 580.625 174.5833, 582.1875 176.1058, 583.75 177.64, 585.3125 179.1858, 586.875 180.7433, 588.4375 182.3125, 590 183.8933, 591.5625 185.4858, 593.125 187.09, 594.6875 188.7058, 596.25 190.3333, 597.8125 191.9725, 599.375 193.6233, 600.9375 195.2858, 602.5 196.96, 604.0625 198.6458, 605.625 200.3433, 607.1875 202.0525, 608.75 203.7733, 610.3125 205.5058, 611.875 207.25, 613.4375 209.0058, 615 210.7733, 616.5625 212.5525, 618.125 214.3433, 619.6875 216.1458, 621.25 217.96, 622.8125 219.7858, 624.375 221.6233, 625.9375 223.4725, 627.5 225.3333, 629.0625 227.2058, 630.625 229.09, 632.1875 230.9858, 633.75 232.8933, 635.3125 234.8125, 636.875 236.7433, 638.4375 238.6858, 640 240.64, 641.5625 242.6058, 643.125 244.5833, 644.6875 246.5725, 646.25 248.5733, 647.8125 250.5858, 649.375 252.61, 650.9375 254.6458, 652.5 256.6933, 654.0625 258.7525, 655.625 260.8233, 657.1875 262.9058, 658.75 265, 660.3125 267.1058, 661.875 269.2233, 663.4375 271.3525, 665 273.4933, 666.5625 275.6458, 668.125 277.81, 669.6875 279.9858, 671.25 282.1733, 672.8125 284.3725, 674.375 286.5833, 675.9375 288.8058, 677.5 291.04, 679.0625 293.2858, 680.625 295.5433, 682.1875 297.8125, 683.75 300.0933, 685.3125 302.3858, 686.875 304.69, 688.4375 307.0058, 690 309.3333" style="stroke: rgb(3%,49%,54%); stroke-linecap: round; stroke-width: 2.2; fill: None; fill-rule: evenodd;"/>
+				</g>
+			</g>
+			<text x="65" y="330" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,660) scale(1,-1)">squared comparison residual</text>
+			<text x="307.51" y="45" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,90) scale(1,-1)">required circulation s</text>
+			<text x="65" y="20" style="font-family: Times-Roman; font-size: 9px;fill: rgb(3%,49%,54%); stroke:none;" transform="translate(0,40) scale(1,-1)">minimum squared residual</text>
+		</g>
+	</g>
+</svg>
+</figure>
+<p><em>Figure 1. Analytic illustration for the unweighted scalar three-cycle. Required circulation s has minimum squared residual s²/3. Different weights or comparison maps define a different problem; no semantic labels are present in these data.</em></p>
+<p>An implementation must also test map collapse. If a comparison map sends every claim to zero, the residual vanishes while all information is lost. Anchors, observability or information-preservation conditions are therefore part of the measurement contract. A small residual alone does not prove shared meaning or truth.</p>
+<h2>4. A well-typed composition can behave badly</h2>
+<p>Operadic wiring gives a disciplined way to compose systems with declared interfaces and semantics. Dynamical systems can be assigned as algebras over such wiring structures [R2]. This is stronger than drawing boxes, but its guarantee remains relative to what the boxes and wires mean.</p>
+<p>Two components can both accept and return a score in [0,1] while interpreting it differently: one as confidence in a claim, another as urgency to inspect it. A bare numeric type admits the connection even when the meanings conflict. Enriching the interface can prevent that error, but it still does not prove liveness, latency, stability or factual correctness. Those require behavioral assumptions and separate checks.</p>
+<p><u>Recommendation — define project-neutral ports with units, semantic meaning, uncertainty, provenance, allowed failure values and timing assumptions. Treat composition validity and behavioral validity as separate acceptance questions.</u></p>
+<p>The relevant deliverable is a contract that another project can inspect, not an imposed architecture or a claim that a type system settles the research question.</p>
+<h2>5. Free energy is relative to a model</h2>
+<p>For a specified joint probability model p(o,z), observation o and approximate posterior q(z), with appropriate support, variational free energy is</p>
+<pre><code class="language-text">F(q,o) = E_q[log q(z) − log p(o,z)]
+       = KL(q(z) || p(z|o)) − log p(o).
+</code></pre>
+<p>The identity provides an upper bound on negative log model evidence [R3]. It does not certify that the model is appropriate. Even with q equal to the exact posterior, two models assigning different probabilities to the same observation give different free energies. A model can confidently encode a false assumption.</p>
+<p>A Markov blanket is a conditional-independence structure in a probabilistic model. Calling files “inside” and streams “outside” does not establish that structure. It may suggest an architectural boundary worth modeling; the independence claim still needs a defined distribution and a check.</p>
+<p>The Atlas's recent citations also have different evidential status. <em>Orchestrator</em> reports a framework tested on maze puzzles [R4]. The language-mediated active-inference paper proposes an architecture and future validation [R5]. <em>Markov Blanket Density and Free Energy Minimization</em> proposes a density-based extension [R6]; its abstract does not support the Atlas's characterization of that citation as a restrictive critique of the free-energy principle. None is imported here as a general safety guarantee.</p>
+<h2>6. Implementation approach and the health question</h2>
+<p><u>Recommendation — expose three separate outputs: constrained comparison residuals, interface/behavioral contract results, and model-relative probabilistic scores. Preserve their assumptions instead of compressing them immediately into one health number.</u></p>
+<p>For comparison maps, use known synthetic transformations and deliberately inconsistent cycles, then held-out labeled claims. Test both false conflict and false agreement, including collapsed maps. For composition, test timing, failure propagation and semantic units in addition to type matching. For probabilistic models, measure calibration and predictive performance under distribution change.</p>
+<p>A scalar health score can later be an empirical risk model. It needs a target outcome, calibration data, missing-value handling and a decision threshold with stated costs. A stable, mutually consistent set of agents can agree on a false answer; every proposed structural diagnostic can look favorable in that case. The benchmark must contain such false-safe examples.</p>
+<h2>7. Scope closure</h2>
+<p>The study closes with three bounded guarantees and their limits: agreement under specified maps, composition under specified semantics, and inference under a specified probability model. Their combination is a research design, not an established common energy law. The implementation recommendations remain abstract and project-neutral until an operator assigns a downstream scope.</p>
+<h2>References and provenance</h2>
+<ul>
+<li><strong>R1.</strong> Hansen, J., and Ghrist, R. <em>Opinion Dynamics on Discourse Sheaves</em>. <a href="https://arxiv.org/html/2005.12798">Full text</a>. Checked linear comparison and global-section interpretation. The affine-cycle calculation above is derived directly.</li>
+<li><strong>R2.</strong> Libkind, S., Baas, A., Patterson, E., and Fairbanks, J. <em>Operadic Modeling of Dynamical Systems: Mathematics and Computation</em>. ACT 2021. <a href="https://jamievicary.github.io/act2021/papers/ACT_2021_paper_53.pdf">Paper</a>. Author list corrects the earlier shorthand that omitted Baas; used for specified wiring and dynamical semantics.</li>
+<li><strong>R3.</strong> Friston, K. <em>The Free-energy Principle: A Unified Brain Theory?</em> Nature Reviews Neuroscience 11, 127–138, 2010. <a href="https://www.nature.com/articles/nrn2787">Publisher</a>. Used for the model-relative variational framework; no universal semantic interpretation is assumed.</li>
+<li><strong>R4.</strong> Beckenbauer et al. <em>Orchestrator: Active Inference for Multi-Agent Systems in Long-Horizon Tasks</em>. <a href="https://arxiv.org/abs/2509.05651">arXiv:2509.05651</a>. Abstract-level verification of evaluation scope.</li>
+<li><strong>R5.</strong> Wen, B. <em>A Framework for Inherently Safer AGI through Language-Mediated Active Inference</em>. <a href="https://arxiv.org/abs/2508.05766">arXiv:2508.05766</a>. Abstract-level verification; treated as a proposal.</li>
+<li><strong>R6.</strong> Possati, L. M. <em>Markov Blanket Density and Free Energy Minimization</em>. <a href="https://arxiv.org/abs/2506.05794">arXiv:2506.05794</a>. Abstract-level verification; the paper's proposed extension is not independently validated here.</li>
+<li><strong>Local provenance.</strong> <a href="../../../drafts/orchestration-atlas-v2.md">Atlas №1, fourth spine</a>, <a href="../../../session/research-atlas2-stance-geometry/cross-measure.2026-07-02.md">Atlas №2 cross-measure</a>, <a href="../provenance.md">provenance map</a>.</li>
+</ul>
+<p><em>Verification date: 2026-10-27. This research edition does not claim cross-vendor runtime verification, formal safety certification or a new project lock.</em></p><footer>SHIFT_1 research · SHIFT_2 synthesis · 2026-10-27<br>Self-contained reading copy. Analytic and synthetic figures are identified in their captions. No external scripts or fonts are required.</footer></main></html>

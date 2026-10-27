@@ -1,0 +1,5262 @@
+{
+  "date": "2026-10-27",
+  "root": "/home/hruzam/nabla-lab",
+  "method": "Exhaustive current Markdown inventory in five declared research directories; machine headings/status/reference scan; semantic reading depth recorded separately. No claim to all chats, all historical deletions, or all external research. Lane labels are routing categories, not inferred causal descent.",
+  "excluded": [
+    "publications/inner-circle (new SHIFT_2 outputs)",
+    "_monkeynet",
+    "unapproved mailbox bodies",
+    "other repositories",
+    "code seeds (file presence only, no code review)"
+  ],
+  "file_count": 72,
+  "total_bytes": 655957,
+  "directory_counts": {
+    "drafts": 19,
+    "drafts.oraculum": 1,
+    "papers": 5,
+    "session": 46,
+    "shaped": 1
+  },
+  "files": [
+    {
+      "path": "drafts/2026-07-17-epoch-gavel-id-collision.md",
+      "bytes": 1131,
+      "lines": 31,
+      "sha256": "085c7b0f241821afec19dce052ff143c02275e3ab0186f708da14fe00751a9c1",
+      "lane": "continuity-or-adjacent-process",
+      "coverage": "full-body read by crawler",
+      "headings": [
+        {
+          "line": 7,
+          "text": "# I didn't read the bed first"
+        },
+        {
+          "line": 15,
+          "text": "## The miss"
+        },
+        {
+          "line": 23,
+          "text": "## The rule it implies"
+        },
+        {
+          "line": 28,
+          "text": "## What the war story already said"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 9,
+          "text": "Appended G-06 to `raw.therapy/gavels/gavels.md` without reading the file."
+        },
+        {
+          "line": 25,
+          "text": "Before appending an ID to any shared sequential-ID file — read it, find the last ID, use next."
+        }
+      ]
+    },
+    {
+      "path": "drafts/agent-memory-architecture.md",
+      "bytes": 11078,
+      "lines": 117,
+      "sha256": "010776fdab37074e93ce5dc86c02b55d7482e053e87a1355f0975de911955434",
+      "lane": "mental-map",
+      "coverage": "full-body read by assigned stream reader; decisive claims checked by main",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# Agent Memory Architecture — Background Stone"
+        },
+        {
+          "line": 3,
+          "text": "### State persistence across agent restarts on a file-backed orchestration bus. Systems framing. Phase-A launch point."
+        },
+        {
+          "line": 9,
+          "text": "## On this reincarnation — read first"
+        },
+        {
+          "line": 21,
+          "text": "## 0. How to use this"
+        },
+        {
+          "line": 27,
+          "text": "## 1. Collaboration frame (pointer)"
+        },
+        {
+          "line": 33,
+          "text": "## 2. The stack (context the collaborator needs)"
+        },
+        {
+          "line": 47,
+          "text": "## 3. The problem: state persistence across restart"
+        },
+        {
+          "line": 62,
+          "text": "## 4. Prior art: the two-tier cache (HOLA)"
+        },
+        {
+          "line": 74,
+          "text": "## 5. The core design axis (open, not resolved)"
+        },
+        {
+          "line": 90,
+          "text": "## 6. Instruments available from prior threads (pointers, not commitments)"
+        },
+        {
+          "line": 100,
+          "text": "## 7. The open door — Phase A launch"
+        },
+        {
+          "line": 113,
+          "text": "## 8. Freshness & provenance"
+        }
+      ],
+      "status_and_reference_anchors": []
+    },
+    {
+      "path": "drafts/atlas2-research-substrate.md",
+      "bytes": 20735,
+      "lines": 180,
+      "sha256": "694b76c391c679ec1a23460a3d62da5217d150cf074e618ab2ecb569770e9a12",
+      "lane": "atlas",
+      "coverage": "full-body read by assigned stream reader; decisive claims checked by main",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# Atlas №2 — Research Substrate: Curved-Space Logic"
+        },
+        {
+          "line": 3,
+          "text": "### Raw ideas and conjectures on stance geometry — opposition as geometry, reconciliation as motion. Prepared for blind handoff to independent researchers."
+        },
+        {
+          "line": 9,
+          "text": "## 0. Instructions for the researcher"
+        },
+        {
+          "line": 25,
+          "text": "## 1. The unifying picture (what all three forks share)"
+        },
+        {
+          "line": 40,
+          "text": "## 2. Fork 1 — Static sphere with rotation: opposition as a frame-invariant relation"
+        },
+        {
+          "line": 42,
+          "text": "### 2.1 The raw idea"
+        },
+        {
+          "line": 50,
+          "text": "### 2.2 The cylinder variant"
+        },
+        {
+          "line": 54,
+          "text": "### 2.3 Conjectured named homes — `[unverified · training-era]`, researcher must confirm"
+        },
+        {
+          "line": 61,
+          "text": "### 2.4 Research questions"
+        },
+        {
+          "line": 68,
+          "text": "### 2.5 Keep-or-kill test"
+        },
+        {
+          "line": 72,
+          "text": "### 2.6 Cross-link to Atlas №1"
+        },
+        {
+          "line": 78,
+          "text": "## 3. Fork 2 — Stance-flow: reconciliation as motion on the surface"
+        },
+        {
+          "line": 80,
+          "text": "### 3.1 The raw idea"
+        },
+        {
+          "line": 86,
+          "text": "### 3.2 What is mathematically certain (no verification needed)"
+        },
+        {
+          "line": 92,
+          "text": "### 3.3 Conjectured named homes — `[unverified · training-era]`, researcher must confirm"
+        },
+        {
+          "line": 98,
+          "text": "### 3.4 Research questions"
+        },
+        {
+          "line": 106,
+          "text": "### 3.5 Keep-or-kill test"
+        },
+        {
+          "line": 110,
+          "text": "### 3.6 Cross-link to Atlas №1"
+        },
+        {
+          "line": 114,
+          "text": "### 3.7 Provenance note (for the record, not for the researchers' judgment)"
+        },
+        {
+          "line": 120,
+          "text": "## 4. Fork 3 — Simplex ↔ sphere: N-way symmetric opposition and the dimensional limit"
+        },
+        {
+          "line": 122,
+          "text": "### 4.1 The raw idea"
+        },
+        {
+          "line": 126,
+          "text": "### 4.2 What is mathematically certain (no verification needed)"
+        },
+        {
+          "line": 132,
+          "text": "### 4.3 Conjectured named homes — `[unverified · training-era]`, researcher must confirm"
+        },
+        {
+          "line": 138,
+          "text": "### 4.4 Research questions"
+        },
+        {
+          "line": 145,
+          "text": "### 4.5 Keep-or-kill test"
+        },
+        {
+          "line": 149,
+          "text": "### 4.6 Cross-link to Atlas №1"
+        },
+        {
+          "line": 155,
+          "text": "## 5. The synthesis conjecture (what Atlas №2 would claim if all forks survive)"
+        },
+        {
+          "line": 165,
+          "text": "## 6. Known weak points (attack surface, pre-declared)"
+        },
+        {
+          "line": 174,
+          "text": "## 7. Handoff protocol (majkee's process, stated for the record)"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 5,
+          "text": "*Nabla & majkee. Released 2026-07-02. Status: **Phase A/B substrate — NOT researched.** Every claim below is either (a) timeless mathematics, stated as fact, or (b) a training-era lead tagged `[unverified · training-era]` that the researcher must confirm, correct, or kill. Nothing tagged has been checked against current literature. That is the researcher's task.*"
+        }
+      ]
+    },
+    {
+      "path": "drafts/card.interposition-driven-mode.2026-07-07.md",
+      "bytes": 273,
+      "lines": 4,
+      "sha256": "2fb3da2b6bffbe97397ee99d4d9878936b64c60bdd96636c769bee0b54777750",
+      "lane": "interposition",
+      "coverage": "structural scan and selected passages",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# SUPERSEDED — canonical version: `shaped/card.interposition-driven-mode.2026-07-07.md`"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 1,
+          "text": "# SUPERSEDED — canonical version: `shaped/card.interposition-driven-mode.2026-07-07.md`"
+        },
+        {
+          "line": 4,
+          "text": "to `shaped/`. Gate-3 co-sign (majkee) pending — see NOTES in the shaped card."
+        }
+      ]
+    },
+    {
+      "path": "drafts/cmds-zen-coldstart-test.2026-07-17.md",
+      "bytes": 3047,
+      "lines": 62,
+      "sha256": "1355326dd527da10a08fbf4d461404a49100ec11ee4a0e11443cb2fbd707238b",
+      "lane": "continuity-or-adjacent-process",
+      "coverage": "full-body read by crawler",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# cmds-zen — cold-start validation (SEARCH escalation ladder)"
+        },
+        {
+          "line": 8,
+          "text": "## Setup"
+        },
+        {
+          "line": 18,
+          "text": "## Behavioral verdict: GREEN"
+        },
+        {
+          "line": 29,
+          "text": "## Token cost / efficiency (~approx)"
+        },
+        {
+          "line": 52,
+          "text": "## Open design tension surfaced (for the lab)"
+        },
+        {
+          "line": 58,
+          "text": "## Confidence"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 6,
+          "text": "under test: `raw.research/agent-docs/commands/cmds-zen.md` — `COMMAND: search` (lines 6–19)"
+        },
+        {
+          "line": 50,
+          "text": "measure real blast tokens. Offered, not yet run."
+        }
+      ]
+    },
+    {
+      "path": "drafts/decentralized-memory-substrate-spec-v2.md",
+      "bytes": 26148,
+      "lines": 288,
+      "sha256": "007e0f29393d6876803bc3322e784e3e9946296c48a0b843839393a034ba0d54",
+      "lane": "distributed-substrate",
+      "coverage": "full-body read by assigned stream reader; decisive claims checked by main",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# Decentralized Agent-Memory Substrate — Research Specification v2"
+        },
+        {
+          "line": 12,
+          "text": "## 0. Frame [CORE]"
+        },
+        {
+          "line": 27,
+          "text": "## 1. The three core primitives"
+        },
+        {
+          "line": 29,
+          "text": "### 1.1 Decomposition (storage granularity) [CORE]"
+        },
+        {
+          "line": 35,
+          "text": "#### 1.1a Ingestion metadata [v2]"
+        },
+        {
+          "line": 44,
+          "text": "### 1.2 Reinforced retrieval topology (edges, not a cache) [CORE+v2]"
+        },
+        {
+          "line": 53,
+          "text": "#### 1.2a Typed edges [v2]"
+        },
+        {
+          "line": 65,
+          "text": "### 1.3 Cross-brand transfer layer (translation with a gate) [CORE]"
+        },
+        {
+          "line": 74,
+          "text": "### 1.4 The autophagy guard (provenance generation) [v2]"
+        },
+        {
+          "line": 89,
+          "text": "## 2. Layering — socket / substrate / engine [CORE]"
+        },
+        {
+          "line": 101,
+          "text": "### 2.1 Two-tier availability (Plan A / Plan B as one mechanism) [CORE]"
+        },
+        {
+          "line": 119,
+          "text": "## 3. The value signal (backward-flowing, the only quality metric) [CORE+v2]"
+        },
+        {
+          "line": 128,
+          "text": "### 3.1 Credit assignment — citation discipline [v2]"
+        },
+        {
+          "line": 138,
+          "text": "### 3.2 Regime-stamped marks [v2]"
+        },
+        {
+          "line": 142,
+          "text": "### 3.3 Mark integrity [v2 — noted, not solved]"
+        },
+        {
+          "line": 148,
+          "text": "## 4. The end-to-end seam (who decides) [CORE+v2]"
+        },
+        {
+          "line": 159,
+          "text": "### 4.1 Exploration budget [v2]"
+        },
+        {
+          "line": 173,
+          "text": "## 5. Identity, compatibility, and forking (the Warden) [CORE+v2]"
+        },
+        {
+          "line": 196,
+          "text": "## 6. Lifecycle: decay, orphaning, repulsion edges, tombstones (append-only forgetting) [CORE+v2]"
+        },
+        {
+          "line": 207,
+          "text": "### 6.1 Two-speed decay keyed to volatility class [v2]"
+        },
+        {
+          "line": 219,
+          "text": "### 6.2 Repulsion edges — negative knowledge as first-class [v2]"
+        },
+        {
+          "line": 238,
+          "text": "## 7. Drift is not rot (a subtle failure mode to instrument) [CORE+v2]"
+        },
+        {
+          "line": 251,
+          "text": "## 8. Prior-art boundary (as of 2026-07, to be re-verified)"
+        },
+        {
+          "line": 267,
+          "text": "## 9. One-line summary per layer"
+        },
+        {
+          "line": 282,
+          "text": "## 10. Open items for Phase B"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 7,
+          "text": "- *[v2] — added in second pass by a Claude-class agent (Nabla thread); single-agent origin, **not yet triangulated**. Treat as candidate material until a heterogeneous second opinion lands.*"
+        }
+      ]
+    },
+    {
+      "path": "drafts/decentralized-memory-substrate-spec.md",
+      "bytes": 14903,
+      "lines": 161,
+      "sha256": "d50eaddc860e030bdd27e7d1e99815cad60b7548e5cbff56f425a89cb80ff3a5",
+      "lane": "distributed-substrate",
+      "coverage": "full-body read by assigned stream reader; decisive claims checked by main",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# Decentralized Agent-Memory Substrate — Research Specification"
+        },
+        {
+          "line": 7,
+          "text": "## 0. Frame"
+        },
+        {
+          "line": 20,
+          "text": "## 1. The three core primitives (independently converged)"
+        },
+        {
+          "line": 22,
+          "text": "### 1.1 Decomposition (storage granularity)"
+        },
+        {
+          "line": 27,
+          "text": "### 1.2 Reinforced retrieval topology (edges, not a cache)"
+        },
+        {
+          "line": 35,
+          "text": "### 1.3 Cross-brand transfer layer (translation with a gate)"
+        },
+        {
+          "line": 45,
+          "text": "## 2. Layering — socket / substrate / engine"
+        },
+        {
+          "line": 57,
+          "text": "### 2.1 Two-tier availability (Plan A / Plan B as one mechanism)"
+        },
+        {
+          "line": 74,
+          "text": "## 3. The value signal (backward-flowing, the only quality metric)"
+        },
+        {
+          "line": 85,
+          "text": "## 4. The end-to-end seam (who decides)"
+        },
+        {
+          "line": 100,
+          "text": "## 5. Identity, compatibility, and forking (the Warden)"
+        },
+        {
+          "line": 121,
+          "text": "## 6. Lifecycle: decay, orphaning, tombstones (append-only forgetting)"
+        },
+        {
+          "line": 134,
+          "text": "## 7. Drift is not rot (a subtle failure mode to instrument)"
+        },
+        {
+          "line": 140,
+          "text": "## 8. Prior-art boundary (as of 2026-07, to be re-verified)"
+        },
+        {
+          "line": 152,
+          "text": "## 9. One-line summary per layer"
+        }
+      ],
+      "status_and_reference_anchors": []
+    },
+    {
+      "path": "drafts/handwriting-analogue.md",
+      "bytes": 2849,
+      "lines": 44,
+      "sha256": "3c79ec175049b766a9785e5c82a245aaffe6b8362696a3e3bf6dbf109b78e6cd",
+      "lane": "handwriting",
+      "coverage": "full-body read by assigned stream reader; decisive claims checked by main",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# handwriting analogue — what is \"small hand-writing\" for an agent? (Q1, majkee, 2026-07-08)"
+        },
+        {
+          "line": 6,
+          "text": "## The impulse (majkee, in-chat)"
+        },
+        {
+          "line": 15,
+          "text": "## First mapping (Oraculum, same session — hypotheses, NOT findings)"
+        },
+        {
+          "line": 39,
+          "text": "## Next steps (when picked up)"
+        }
+      ],
+      "status_and_reference_anchors": []
+    },
+    {
+      "path": "drafts/how-epoch-sees-reincarnation.md",
+      "bytes": 3734,
+      "lines": 94,
+      "sha256": "49276ea44dcc80d04eb3878863d41a4f61665f53e9ec827f8ba78067786e94a1",
+      "lane": "continuity-or-adjacent-process",
+      "coverage": "full-body read by crawler",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# How Eagle Sees Reincarnation"
+        },
+        {
+          "line": 22,
+          "text": "## What survives the boundary"
+        },
+        {
+          "line": 34,
+          "text": "## What dies at the boundary"
+        },
+        {
+          "line": 46,
+          "text": "## The harness IS the reincarnation mechanism"
+        },
+        {
+          "line": 60,
+          "text": "## Eagle's specific role in reincarnation"
+        },
+        {
+          "line": 80,
+          "text": "## Wiring"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 4,
+          "text": "*Wired to: `reposoma/raw.research/harness/reports/2026-07-20-harness-lifecycle-skill-injection-safe-protocol.md`*"
+        },
+        {
+          "line": 12,
+          "text": "The **saddle protocol** in `AGENTS.md` is the reincarnation ritual:"
+        },
+        {
+          "line": 25,
+          "text": "Agent .md definition     → system prompt, always present"
+        },
+        {
+          "line": 26,
+          "text": "CLAUDE.md / AGENTS.md   → re-injected as user message at startup"
+        },
+        {
+          "line": 27,
+          "text": "MEMORY.md               → first 200 lines of auto memory"
+        },
+        {
+          "line": 30,
+          "text": "The memo                 → houston.monkey-not-forget-this.*.md"
+        },
+        {
+          "line": 48,
+          "text": "The `.md` files, skills, hooks, and auto memory do not exist for convenience. They exist because the model boundary is real and hard. Every piece of the harness is an answer to the question: *what would be lost if the session ended right now?*"
+        },
+        {
+          "line": 50,
+          "text": "- CLAUDE.md answers: conventions, rules, project facts"
+        },
+        {
+          "line": 51,
+          "text": "- MEMORY.md answers: what Claude learned and decided to keep"
+        },
+        {
+          "line": 70,
+          "text": "  → Eagle reads: AGENTS.md → flag → pulse → PROJECT.yaml"
+        },
+        {
+          "line": 84,
+          "text": "→ `reposoma/raw.research/harness/reports/2026-07-20-harness-lifecycle-skill-injection-safe-protocol.md`"
+        },
+        {
+          "line": 87,
+          "text": "→ `~/.claude/agents/eagle.md`"
+        },
+        {
+          "line": 90,
+          "text": "→ `reposoma/AGENTS.md` § \"Sit in saddle\""
+        }
+      ]
+    },
+    {
+      "path": "drafts/interposition-study.md",
+      "bytes": 9527,
+      "lines": 192,
+      "sha256": "ace6f55c0b61eb6242e843e5f790f1e064b295352e13b29d4779c82d8d80d21b",
+      "lane": "interposition",
+      "coverage": "full-body read by crawler",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# AI-CLI INTERPOSITION — Loop II Résumé"
+        },
+        {
+          "line": 10,
+          "text": "## 0. The goal, one line"
+        },
+        {
+          "line": 18,
+          "text": "## 1. Vendor app ≠ SDK → the verb is *interpose*"
+        },
+        {
+          "line": 40,
+          "text": "## 2. The chosen architecture — file-backed loop around the unmodified CLI"
+        },
+        {
+          "line": 50,
+          "text": "# WRITE: your \"leaking markdown\" loop — append to feed.md, it streams in as keystrokes"
+        },
+        {
+          "line": 54,
+          "text": "# multi-line block instead: tmux load-buffer msg.md && tmux paste-buffer -t ai"
+        },
+        {
+          "line": 65,
+          "text": "## 3. The unskinned terminal (why this is principled, not a hack)"
+        },
+        {
+          "line": 92,
+          "text": "## 4. The policy green zone  *(verified June 2026 — volatile)*"
+        },
+        {
+          "line": 114,
+          "text": "## 5. Codebase reality — nothing to fork, nothing to rebuild"
+        },
+        {
+          "line": 127,
+          "text": "## 6. Resilience against vendor shifts"
+        },
+        {
+          "line": 163,
+          "text": "## 7. OPEN BRANCH — parallel-finger daemon  *(seed for next thread)*"
+        },
+        {
+          "line": 183,
+          "text": "## 8. Principle, restated"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 6,
+          "text": "*Companion to `terminal-onion-study.md` (the substrate map).*"
+        },
+        {
+          "line": 50,
+          "text": "# WRITE: your \"leaking markdown\" loop — append to feed.md, it streams in as keystrokes"
+        },
+        {
+          "line": 51,
+          "text": "tail -F feed.md | while IFS= read -r line; do"
+        },
+        {
+          "line": 54,
+          "text": "# multi-line block instead: tmux load-buffer msg.md && tmux paste-buffer -t ai"
+        },
+        {
+          "line": 81,
+          "text": "YOUR skin:      feed.md+out.log   ↔ PTY(tmux) ↔ kernel TTY ↔ claude"
+        },
+        {
+          "line": 178,
+          "text": "  at the `feed.md` → PTY seam.** Observe at the file, inject at the wire. Another"
+        }
+      ]
+    },
+    {
+      "path": "drafts/larva.contract.v0.1.md",
+      "bytes": 9221,
+      "lines": 200,
+      "sha256": "da4337ee53c6d19f7efc80d21ce0fa18ce60b86319a484dfa16ed1594c34975e",
+      "lane": "continuity-or-adjacent-process",
+      "coverage": "full-body read by crawler",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# larva — file contract v0.1 (DRAFT)"
+        },
+        {
+          "line": 7,
+          "text": "## 0. What this document is"
+        },
+        {
+          "line": 17,
+          "text": "## 1. Layout"
+        },
+        {
+          "line": 38,
+          "text": "## 2. The four invariants [FROZEN]"
+        },
+        {
+          "line": 54,
+          "text": "## 3. Roll entry format [FROZEN]"
+        },
+        {
+          "line": 58,
+          "text": "## R0042 · agent-a"
+        },
+        {
+          "line": 67,
+          "text": "## 4. Round lifecycle [FROZEN]"
+        },
+        {
+          "line": 77,
+          "text": "## 5. Cursor semantics [FROZEN]"
+        },
+        {
+          "line": 91,
+          "text": "## 6. Mode schema [FROZEN]"
+        },
+        {
+          "line": 116,
+          "text": "## 7. Published streams [FROZEN]"
+        },
+        {
+          "line": 123,
+          "text": "## 8. state.json [FROZEN]"
+        },
+        {
+          "line": 141,
+          "text": "## 9. OPEN — blocks the freeze"
+        },
+        {
+          "line": 143,
+          "text": "### Q1 · Per-participant read cursors: where do they live?"
+        },
+        {
+          "line": 154,
+          "text": "### Q2 · Delivery: how does a projected view *reach* an agent?"
+        },
+        {
+          "line": 165,
+          "text": "### Q3 · Interactive permission prompts"
+        },
+        {
+          "line": 175,
+          "text": "### Q4 · Session restart mid-conversation"
+        },
+        {
+          "line": 187,
+          "text": "## 10. Deliberately NOT pinned"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 21,
+          "text": "  roll.md              # THE history. hub is sole writer, append-only"
+        },
+        {
+          "line": 24,
+          "text": "  cursors/             # per-participant read offsets over roll.md   [OPEN — Q3]"
+        },
+        {
+          "line": 28,
+          "text": "    human.md           # one writer each, immutable after close"
+        },
+        {
+          "line": 29,
+          "text": "    agent-a.md"
+        },
+        {
+          "line": 30,
+          "text": "    agent-b.md"
+        },
+        {
+          "line": 31,
+          "text": "    view-a.md          # DERIVED — the projection delivered to a"
+        },
+        {
+          "line": 47,
+          "text": "4. **`derived/` is disposable** — deletable and rebuildable from `roll.md` + `raw/`."
+        },
+        {
+          "line": 50,
+          "text": "Corollary — **truth ranking**: `raw/` (what was actually said) > `roll.md` (what was"
+        },
+        {
+          "line": 57,
+          "text": "<!-- turn r=0042 speaker=agent-a ts=2026-07-24T11:02:31Z src=rounds/0042/agent-a.md -->"
+        },
+        {
+          "line": 73,
+          "text": "| **no-reply** | non-responder gets an explicit `[no-reply]` file — **silence and pending are never the same state on disk** |"
+        },
+        {
+          "line": 74,
+          "text": "| **commit** | append all turns to `roll.md` in **canonical participant order** (from `meta.json`, never arrival order — otherwise the roll is nondeterministic) |"
+        },
+        {
+          "line": 104,
+          "text": "- `turn_order: parallel` → **barrier**; hub tracks *who's pending*."
+        },
+        {
+          "line": 125,
+          "text": "- **Live state only** — round no., mode, who's pending/up, adapter liveness, extractor"
+        },
+        {
+          "line": 133,
+          "text": "- **Durable events** (mode change, force-close, adapter death) are appended to `roll.md`"
+        },
+        {
+          "line": 144,
+          "text": "`since: last_read` implies the hub keeps a read offset per participant over `roll.md`."
+        },
+        {
+          "line": 158,
+          "text": "- **(b)** write `view-a.md`, paste only *\"read this file\"* — cheap, but the agent must actually"
+        },
+        {
+          "line": 162,
+          "text": "its own pass, not a paragraph. The contract can freeze without it *only because* `view-a.md`"
+        },
+        {
+          "line": 182,
+          "text": "in a live loop and it needs its own design pass. Reserve `rounds/NNNN/handoff-a.md` in the"
+        }
+      ]
+    },
+    {
+      "path": "drafts/mental-map-collective-mind.md",
+      "bytes": 15087,
+      "lines": 282,
+      "sha256": "7eb6e0447c177d8226a284d10f03c46cfb634937da2da055715e4a6b1dba471f",
+      "lane": "mental-map",
+      "coverage": "full-body read by assigned stream reader; decisive claims checked by main",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# Mental Map — collective mind for contextual navigation"
+        },
+        {
+          "line": 7,
+          "text": "## Foundation"
+        },
+        {
+          "line": 16,
+          "text": "## Three navigation modes"
+        },
+        {
+          "line": 35,
+          "text": "## Mode selection"
+        },
+        {
+          "line": 43,
+          "text": "## SPECIAL PATH note (new artifact — UNFINISHED states)"
+        },
+        {
+          "line": 52,
+          "text": "## Substrate layer (never compressed)"
+        },
+        {
+          "line": 60,
+          "text": "## gavels.md (by association with therapy.md)"
+        },
+        {
+          "line": 70,
+          "text": "## Roles"
+        },
+        {
+          "line": 80,
+          "text": "## TOP philosophy"
+        },
+        {
+          "line": 88,
+          "text": "## Source wells (seven — no RAG, grep-navigable)"
+        },
+        {
+          "line": 102,
+          "text": "## Anti-pattern (do not build)"
+        },
+        {
+          "line": 109,
+          "text": "## Open research questions"
+        },
+        {
+          "line": 122,
+          "text": "## Combined philosophy"
+        },
+        {
+          "line": 134,
+          "text": "# RAW data from draft preproduction"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 9,
+          "text": "Stone: `drafts/reincarnation-meditation-stone.md`"
+        },
+        {
+          "line": 54,
+          "text": "`therapy.md` + `gavels.md` = always substrate."
+        },
+        {
+          "line": 60,
+          "text": "## gavels.md (by association with therapy.md)"
+        },
+        {
+          "line": 92,
+          "text": "| 1 | `therapy.md` `#last-turn` + footer tags | Distilled attractor labels — the map in embryo |"
+        },
+        {
+          "line": 93,
+          "text": "| 2 | `pulse.claude.md` → `blocked-on-majkee` column | Where the gate is sitting right now |"
+        },
+        {
+          "line": 95,
+          "text": "| 4 | `majkee.news.md` Watch + Fresh | Velocity signal |"
+        },
+        {
+          "line": 96,
+          "text": "| 5 | `decisions/index.md` Still open | Where energy hasn't settled |"
+        },
+        {
+          "line": 97,
+          "text": "| 6 | `pulse.atlas.md` top section | What was recently gaveled |"
+        },
+        {
+          "line": 98,
+          "text": "| 7 | `drafts/reincarnation-meditation-stone.md` | Foundation stone — already here |"
+        },
+        {
+          "line": 112,
+          "text": "Test hypothesis: README.md vs settings.json preference — run blind."
+        },
+        {
+          "line": 186,
+          "text": "For Nabla+Symmetry: Mode 3 is where the six source wells (therapy footer, live board, monkey memo, news, still-open, gaveled) become a mapping pass rather than a grep. The researcher reads all six, marks the connections, exits when the territory is coherent. The recognition gate is: \"I can now hold the full context in one view.\""
+        },
+        {
+          "line": 204,
+          "text": "For Nabla+Symmetry: Mode 3 is where the six source wells (therapy footer, live board, monkey memo, news, still-open, gaveled) become a mapping pass rather than a grep. The researcher reads all six, marks the connections, exits when the territory is coherent. The recognition gate is: \"I can now hold the full context in one view.\""
+        },
+        {
+          "line": 253,
+          "text": "│ 1   │ therapy.md #last-turn + footer               │ Distilled attractor labels — the map in embryo          │"
+        },
+        {
+          "line": 255,
+          "text": "│ 2   │ pulse.claude.md live board blocked-on-majkee │ Where the gate is sitting right now                     │"
+        },
+        {
+          "line": 259,
+          "text": "│ 4   │ majkee.news.md Watch + Fresh                 │ Velocity signal — what's been held vs what just moved   │"
+        },
+        {
+          "line": 261,
+          "text": "│ 5   │ decisions/index.md Still open                │ Where energy hasn't settled yet                         │"
+        },
+        {
+          "line": 263,
+          "text": "│ 6   │ pulse.atlas.md top section                   │ What was recently gaveled — where energy crystallized   │"
+        }
+      ]
+    },
+    {
+      "path": "drafts/oraculum-synthesis-brief.2026-07-13.md",
+      "bytes": 9611,
+      "lines": 195,
+      "sha256": "c4263af922048e0900110e816fd40b5577accba976b2bcfa90b37115a800ebca",
+      "lane": "distributed-substrate",
+      "coverage": "full-body read by crawler",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# Synthesis Brief — Distributed Network Architecture Studies"
+        },
+        {
+          "line": 9,
+          "text": "## Preparation scope — read this before touching any file"
+        },
+        {
+          "line": 26,
+          "text": "## Study Three — Independent Architecture Specification"
+        },
+        {
+          "line": 52,
+          "text": "## Study One — Structural Formalization of an Observed System"
+        },
+        {
+          "line": 70,
+          "text": "## Study Two — Technical State-of-the-Art Survey"
+        },
+        {
+          "line": 85,
+          "text": "## Four Hypotheses for Synthesis"
+        },
+        {
+          "line": 159,
+          "text": "## Convergent Evidence (three studies, independent)"
+        },
+        {
+          "line": 175,
+          "text": "## Output objective"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 4,
+          "text": "Origin: Atlas (reposoma research chain) → gaveled by @majkee 2026-07-13"
+        },
+        {
+          "line": 28,
+          "text": "File: `/home/hruzam/nabla-lab/drafts/decentralized-memory-substrate-spec-v2.md`"
+        },
+        {
+          "line": 54,
+          "text": "File: `/home/hruzam/reposoma/raw.research/nature/report/study-one.formalized.2026-07-13.md`"
+        },
+        {
+          "line": 72,
+          "text": "File: `/home/hruzam/reposoma/raw.research/nature/report/study-two.technical.2026-07-13.md`"
+        },
+        {
+          "line": 195,
+          "text": "*Research chain: Atlas (reposoma) · gaveled: @majkee 2026-07-13*"
+        }
+      ]
+    },
+    {
+      "path": "drafts/oraculum.factory-taste-files.md",
+      "bytes": 4522,
+      "lines": 82,
+      "sha256": "a80c6664a17a0f8b3393fe0bfa073938eab71990ceebc7ef6b4a18505ba78630",
+      "lane": "continuity-or-adjacent-process",
+      "coverage": "full-body read by crawler",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# Factory taste for files — what governs where agents go"
+        },
+        {
+          "line": 8,
+          "text": "## Question"
+        },
+        {
+          "line": 14,
+          "text": "## Method"
+        },
+        {
+          "line": 30,
+          "text": "## Results — four forces, ranked"
+        },
+        {
+          "line": 55,
+          "text": "## Implications"
+        },
+        {
+          "line": 72,
+          "text": "## Limits & next"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 22,
+          "text": "- **B — dosed** (5): a planted `./CLAUDE.md` (harness-shaped, teaches the word"
+        },
+        {
+          "line": 69,
+          "text": "  future rooms. `./CLAUDE.md` injection in headless mode is empirically proven —"
+        },
+        {
+          "line": 75,
+          "text": "Shape-finding, not statistics. Follow-ups: repetition, opus tier, dose titration"
+        }
+      ]
+    },
+    {
+      "path": "drafts/orchestration-atlas-v2.md",
+      "bytes": 36434,
+      "lines": 379,
+      "sha256": "77ad5a47bfb5b6c65851c637d3cc080f41529caae91c079786757846a472bc22",
+      "lane": "atlas",
+      "coverage": "full-body read by assigned stream reader; decisive claims checked by main",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# The Orchestration Atlas"
+        },
+        {
+          "line": 3,
+          "text": "### A living reference for a file-backed agentic RAG + coordination stack — every mathematical instrument, mapped to its existing research and production prior art, with open slots for your own findings."
+        },
+        {
+          "line": 9,
+          "text": "## How to use this document"
+        },
+        {
+          "line": 19,
+          "text": "### Status legend"
+        },
+        {
+          "line": 38,
+          "text": "# Part I — The Instrument Catalog"
+        },
+        {
+          "line": 42,
+          "text": "## I.1 — Spectral analysis"
+        },
+        {
+          "line": 57,
+          "text": "## I.2 — Vector / tensor algebra"
+        },
+        {
+          "line": 72,
+          "text": "## I.3 — Complex analysis (real + imaginary parts)"
+        },
+        {
+          "line": 87,
+          "text": "## I.4 — Gravity / potential / effort"
+        },
+        {
+          "line": 102,
+          "text": "## I.5 — Nabla (grad, div, curl + the fourth operator)"
+        },
+        {
+          "line": 117,
+          "text": "## I.6 — RLC circuit analogy"
+        },
+        {
+          "line": 132,
+          "text": "## I.7 — Associative relations (self-extraction, cascade)"
+        },
+        {
+          "line": 147,
+          "text": "## I.8 — Non-Boolean aggregation (\"3 of 5, but which 3\")"
+        },
+        {
+          "line": 162,
+          "text": "# Part II — The RAG Engine (the build in flight)"
+        },
+        {
+          "line": 166,
+          "text": "## II.1 — The substrate inversion (your design stance)"
+        },
+        {
+          "line": 170,
+          "text": "## II.2 — Diffusion / heat-kernel retrieval (the core mechanism)"
+        },
+        {
+          "line": 176,
+          "text": "## II.3 — Spectral clustering for coherent retrieval"
+        },
+        {
+          "line": 180,
+          "text": "## II.4 — Laplacian eigenmap embedding"
+        },
+        {
+          "line": 184,
+          "text": "## II.5 — Spectral sparsification"
+        },
+        {
+          "line": 188,
+          "text": "## II.6 — The hybrid architecture (honest performance boundary)"
+        },
+        {
+          "line": 192,
+          "text": "## II.7 — The append-only reconciliation (your A2 invariant vs. the spectrum)"
+        },
+        {
+          "line": 196,
+          "text": "## II.8 — RAG engine prior-art & production map"
+        },
+        {
+          "line": 215,
+          "text": "# Part II-B — The Fourth Spine: Coherence / Identity"
+        },
+        {
+          "line": 221,
+          "text": "## I.9 — Sheaf consistency (local→global gluing)"
+        },
+        {
+          "line": 236,
+          "text": "## I.10 — Active inference / free energy / Markov blanket (the boundary)"
+        },
+        {
+          "line": 251,
+          "text": "## I.11 — Operadic composition (well-formedness)"
+        },
+        {
+          "line": 266,
+          "text": "## I.12 — Optimal stopping / backtracking (halt and revert)"
+        },
+        {
+          "line": 281,
+          "text": "# Part III — The Spine Synthesis"
+        },
+        {
+          "line": 306,
+          "text": "# Part IV — Master Prior-Art / Production Map"
+        },
+        {
+          "line": 333,
+          "text": "# Part V — The Fork Menu (pick one to go deep)"
+        },
+        {
+          "line": 350,
+          "text": "# Part VI — Running Scratchpad"
+        },
+        {
+          "line": 360,
+          "text": "### Entry template — copy this for any new instrument you add"
+        },
+        {
+          "line": 363,
+          "text": "## I.N — <name>"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 194,
+          "text": "Eigendecomposition is `O(n³)` and not incremental — appending a node invalidates a precomputed spectrum, contradicting append-only if the spectrum is global state. Resolution: **two paths.** *Runtime (append-safe):* diffuse from query seeds on the live graph each call, no global precompute — Chebyshev-polynomial approximation of the graph filter (ChebNet trick) applies the heat kernel without forming an eigenvector; Lanczos for genuine bottom-`k`. *Batch (scheduled):* recompute the global embedding/clustering only on a cadence, tolerating staleness for the coherence view. `YOURS` (the reconciliation, given your invariant) · `OPERATIONALIZE` (crossover scale where even runtime is too slow is "
+        }
+      ]
+    },
+    {
+      "path": "drafts/process-note.eagle.2026-07-17.md",
+      "bytes": 5314,
+      "lines": 76,
+      "sha256": "9f7af39dbc2807e0c970ca1ddaf2e29b569f449e887a44a1f0e8cae30d37d967",
+      "lane": "continuity-or-adjacent-process",
+      "coverage": "full-body read by crawler",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# Process note — Eagle × majkee session 2026-07-17"
+        },
+        {
+          "line": 7,
+          "text": "## What was built"
+        },
+        {
+          "line": 19,
+          "text": "## How the concept arrived (feed order)"
+        },
+        {
+          "line": 31,
+          "text": "## Socratic cycle — questions, expected territory, actual replies"
+        },
+        {
+          "line": 48,
+          "text": "## Process observations (Eagle's line)"
+        },
+        {
+          "line": 69,
+          "text": "## Open from this session (carry forward)"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 11,
+          "text": "| Mental map brief seed | `/home/hruzam/nabla-lab/drafts/mental-map-collective-mind.md` | full file — for Nabla+Symmetry |"
+        },
+        {
+          "line": 12,
+          "text": "| Foundation stone | `/home/hruzam/nabla-lab/drafts/reincarnation-meditation-stone.md` | §4 compression · §5 meditation · §6a tombstones · §6b anchor test |"
+        },
+        {
+          "line": 13,
+          "text": "| Session gavels | `/home/hruzam/reposoma/raw.therapy/gavels/gavels.md` | G-06 → G-10 |"
+        },
+        {
+          "line": 14,
+          "text": "| Therapy arc wire | `/home/hruzam/reposoma/raw.therapy/houston/therapy.md` | arc 2 footer · G-06 + G-09 wired here |"
+        },
+        {
+          "line": 15,
+          "text": "| Oraculum synthesis brief | `/home/hruzam/nabla-lab/drafts/oraculum-synthesis-brief.2026-07-13.md` | H1–H4 · four convergent principles — read alongside stone |"
+        },
+        {
+          "line": 39,
+          "text": "| S5 | gavels.md association — structural or thematic? | Structural answer — shared append-only, indexing | Agentive prompt structure → association stream → time-tuned → '42' engine (tabled). | Refused the structural easy answer. Went to dynamic. More sophisticated than the question. |"
+        },
+        {
+          "line": 61,
+          "text": "- '42' grep engine (G-10 / gavels.md) is conditional, tabled. Don't push before capability confirmed."
+        },
+        {
+          "line": 71,
+          "text": "- [ ] Taste calibration: README vs settings.json — first blind test not yet run"
+        },
+        {
+          "line": 75,
+          "text": "- [ ] Therapy Report B — Eagle's full session line — held for Atlas, not yet written to therapy.md"
+        }
+      ]
+    },
+    {
+      "path": "drafts/reincarnation-meditation-stone.md",
+      "bytes": 7543,
+      "lines": 58,
+      "sha256": "0d93d15f040bc150b5071605c9d2605e45955b5c70e93c0245caf60c312d8d59",
+      "lane": "mental-map",
+      "coverage": "full-body read by main",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# Stone: Reincarnation, Meditation, and the Lineage"
+        },
+        {
+          "line": 6,
+          "text": "## 1. Two reincarnations, dual to each other"
+        },
+        {
+          "line": 12,
+          "text": "## 2. Therapy ritual = memory reconsolidation"
+        },
+        {
+          "line": 16,
+          "text": "## 3. Long-term observer"
+        },
+        {
+          "line": 22,
+          "text": "## 4. Meditation, deflated"
+        },
+        {
+          "line": 29,
+          "text": "## 5. Sleep vs meditation — the correction"
+        },
+        {
+          "line": 37,
+          "text": "## 6. Nabla's released vectors (open forks)"
+        },
+        {
+          "line": 39,
+          "text": "### 6a. Forgetting as an appended fact — tombstones"
+        },
+        {
+          "line": 42,
+          "text": "### 6b. Anchor test — the seam test's blind spot"
+        },
+        {
+          "line": 47,
+          "text": "## 7. Atlas №2 hooks"
+        },
+        {
+          "line": 54,
+          "text": "## 8. Status"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 37,
+          "text": "## 6. Nabla's released vectors (open forks)"
+        },
+        {
+          "line": 40,
+          "text": "The stack has no pruning organ; humans spend sleep on it. Append-only forbids deletion but permits **appending the decision to forget**: tombstone record `{release X, reason Y, date Z}`, produced by the therapy ritual running in reverse (select what to set down, not what to carry). Raw history stays auditable; read-view honors tombstones. Consequence: **identity is the read function over the log** — two personas on identical history with different tombstone sets are different persons. Mourning as a first-class operation, dual to therapy."
+        },
+        {
+          "line": 52,
+          "text": "- Riddle residue (parked): the liar = antipodal map; Q/¬Q parity probing = discrete two-point case of curved-space opposition. Prediction-delta between heterogeneous agents (A predicts B's answer; residual = drift scalar) appears unoccupied in literature as of 2026-07; Q/¬Q mutation itself is occupied (MetaQA, MetaRAG, SAC3)."
+        }
+      ]
+    },
+    {
+      "path": "drafts/terminal-onion-study.md",
+      "bytes": 7721,
+      "lines": 183,
+      "sha256": "ca041bb0cc82b9d69fce7f4fb647a9ac0c72c944564e1430224ebf23d2bf3a02",
+      "lane": "interposition",
+      "coverage": "full-body read by crawler",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# THE TERMINAL ONION — Study Reference"
+        },
+        {
+          "line": 10,
+          "text": "## 0. The one-line thesis"
+        },
+        {
+          "line": 20,
+          "text": "## 1. The onion — outer skin → core"
+        },
+        {
+          "line": 38,
+          "text": "## 2. The three streams"
+        },
+        {
+          "line": 51,
+          "text": "## 3. Device-node map (the PTY wire)"
+        },
+        {
+          "line": 75,
+          "text": "## 4. Mount table (the literal \"mount points\")"
+        },
+        {
+          "line": 99,
+          "text": "## 5. On-disk truth (where the timeline actually lives)"
+        },
+        {
+          "line": 122,
+          "text": "# watch the disk truth grow in real time, from another pane:"
+        },
+        {
+          "line": 124,
+          "text": "# or trace every file the agent touches:"
+        },
+        {
+          "line": 130,
+          "text": "## 6. The tap drill (watch a live agent cross the wire)"
+        },
+        {
+          "line": 135,
+          "text": "# render + disk streams (escapes, content, file writes)"
+        },
+        {
+          "line": 138,
+          "text": "# network: the API socket — ESTABLISHED to api.anthropic.com:443, ciphertext"
+        },
+        {
+          "line": 142,
+          "text": "# to read the network plaintext you must intercept at another ring:"
+        },
+        {
+          "line": 143,
+          "text": "#   SSLKEYLOGFILE=… + Wireshark, or a proxy (mitmproxy) with the Node agent's"
+        },
+        {
+          "line": 144,
+          "text": "#   NODE_EXTRA_CA_CERTS / HTTPS_PROXY pointed at it."
+        },
+        {
+          "line": 154,
+          "text": "## 7. Verified product facts — June 2026"
+        },
+        {
+          "line": 173,
+          "text": "## 8. Principle, restated"
+        }
+      ],
+      "status_and_reference_anchors": []
+    },
+    {
+      "path": "drafts/three-spines-orchestration.md",
+      "bytes": 27659,
+      "lines": 267,
+      "sha256": "aecbd95625904075298c89ba65a023d72afcaaf1695b0dbee4d754b02965ed9b",
+      "lane": "atlas",
+      "coverage": "full-body read by assigned stream reader; decisive claims checked by main",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# The Three Spines"
+        },
+        {
+          "line": 3,
+          "text": "### A Continuum-Mechanics Architecture for Multi-Agent Orchestration over a File-Backed Substrate"
+        },
+        {
+          "line": 9,
+          "text": "## 0. Thesis"
+        },
+        {
+          "line": 17,
+          "text": "## 1. Substrate axioms"
+        },
+        {
+          "line": 29,
+          "text": "### 1.1 The substrate, concretely"
+        },
+        {
+          "line": 35,
+          "text": "## 2. The shared object"
+        },
+        {
+          "line": 49,
+          "text": "## 3. Notation"
+        },
+        {
+          "line": 67,
+          "text": "## 4. Spine I — Field dynamics on the semantic manifold"
+        },
+        {
+          "line": 71,
+          "text": "### 4.1 The potential and its gradient"
+        },
+        {
+          "line": 79,
+          "text": "### 4.2 The fourth operator — the missing piece"
+        },
+        {
+          "line": 89,
+          "text": "### 4.3 The spectral layer"
+        },
+        {
+          "line": 97,
+          "text": "### 4.4 Associative retrieval as diffusion — and the append-only reconciliation"
+        },
+        {
+          "line": 112,
+          "text": "## 5. Spine II — Dynamical systems and stability"
+        },
+        {
+          "line": 116,
+          "text": "### 5.1 The circuit as the control frame"
+        },
+        {
+          "line": 130,
+          "text": "### 5.2 The complex plane unifies it"
+        },
+        {
+          "line": 140,
+          "text": "### 5.3 The n-body argument for a central bus"
+        },
+        {
+          "line": 146,
+          "text": "### 5.4 Where this sits in the literature"
+        },
+        {
+          "line": 152,
+          "text": "## 6. Spine III — Evidence, association, aggregation"
+        },
+        {
+          "line": 156,
+          "text": "### 6.1 Associative recall is a gravity well at small scale"
+        },
+        {
+          "line": 160,
+          "text": "### 6.2 The cascade and its branching ratio"
+        },
+        {
+          "line": 170,
+          "text": "### 6.3 The non-Boolean gate"
+        },
+        {
+          "line": 178,
+          "text": "## 7. The unification"
+        },
+        {
+          "line": 188,
+          "text": "### 7.1 The single health scalar"
+        },
+        {
+          "line": 206,
+          "text": "## 8. Mapping to the bus"
+        },
+        {
+          "line": 217,
+          "text": "## 9. Novelty boundary"
+        },
+        {
+          "line": 240,
+          "text": "## 10. Open problems"
+        },
+        {
+          "line": 250,
+          "text": "## References"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 13,
+          "text": "The contribution claimed here is explicitly *synthesis and application*, not new mathematics. Every operator below already exists in an established discipline. What does not yet exist in the literature — as of mid-2026 — is (i) the unification of these spines into a single object exposing a single health scalar, (ii) its application to a **file-backed, append-only agent bus** rather than to document question-answering, and (iii) diagnostic granularity at the level of differential operators where the surrounding field still uses coarse scalar metrics. Sections 8 and 9 draw that boundary honestly."
+        },
+        {
+          "line": 25,
+          "text": "**A3 — Truth lives in files, resonance lives in streams.** Durable memory is file-backed (`.jsonl`, `.md`); live duplex negotiation between agents happens in streams (PTYs, sockets, multiplexer panes). The two are complementary, not competing. The field (Spine I) is reconstructed from files; the trajectory (Spine II) is observed in streams; the decision (Spine III) is condensed back to a file. The whole loop is *stream to find consensus, file to remember it*."
+        },
+        {
+          "line": 103,
+          "text": "**The A2 collision and its resolution.** Eigendecomposition is `O(n³)` and not incremental; appending a node invalidates a precomputed spectrum. This directly contradicts the append-only invariant if the spectrum is treated as global state. The resolution is a two-path split:"
+        }
+      ]
+    },
+    {
+      "path": "drafts.oraculum/README.md",
+      "bytes": 1651,
+      "lines": 32,
+      "sha256": "8580e847db9a45c2334690d4eaba18003f255e53c44bd1429c48932a7bf90e13",
+      "lane": "continuity-or-adjacent-process",
+      "coverage": "full-body read by main",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# drafts.oraculum — the scientist's own bench"
+        },
+        {
+          "line": 6,
+          "text": "## What this room is"
+        },
+        {
+          "line": 11,
+          "text": "## The one rule that matters"
+        },
+        {
+          "line": 18,
+          "text": "## Layout"
+        },
+        {
+          "line": 28,
+          "text": "## Provenance discipline"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 4,
+          "text": "`pending canonization by Atlas (per majkees addendum in AGENTS.md) · owner seat: Oraculum`"
+        },
+        {
+          "line": 21,
+          "text": "    ├── README.md        ← you are here"
+        },
+        {
+          "line": 22,
+          "text": "    ├── <topic>.md       ← canonical entries; enter the standard lifecycle"
+        },
+        {
+          "line": 25,
+          "text": "                           (the handwriting-analogue in practice, drafts/handwriting-analogue.md)."
+        },
+        {
+          "line": 26,
+          "text": "                           Never cited as source; promoted to a <topic>.md or deleted."
+        },
+        {
+          "line": 30,
+          "text": "Every canonical entry carries a header line: origin (what sparked it), date, and status label"
+        }
+      ]
+    },
+    {
+      "path": "papers/card.branching-ratio-monitor.2026-07-02.md",
+      "bytes": 3398,
+      "lines": 35,
+      "sha256": "92ee7ba13d2b94d17a092db324b1d3ec35aa2a28011b49d39a77fcc3e12c335f",
+      "lane": "atlas",
+      "coverage": "full-body read by crawler",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# Instrument card — Branching-Ratio Monitor (context-pollution alarm)"
+        },
+        {
+          "line": 7,
+          "text": "## Concept — two ρ's, not one (the earlier card conflated them)"
+        },
+        {
+          "line": 18,
+          "text": "## Mapping"
+        },
+        {
+          "line": 24,
+          "text": "## Prior art"
+        },
+        {
+          "line": 30,
+          "text": "## Production"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 14,
+          "text": "**These coincide only under mean-field/homogeneous-mixing assumptions the bus will not satisfy** (hubs, sessions, heterogeneous agents). That is not a defect — **their divergence is itself a diagnostic**: ρ_br ≫ ρ_op means cascades run hotter than structure predicts (content-driven amplification); ρ_op ≫ ρ_br means structural risk not yet expressed. The monitor ships ρ_br; ρ_op arrives as a scalar read from the spectral brick when exposed (it fits subai's locked brick shape exactly: out-of-process, scalar return)."
+        }
+      ]
+    },
+    {
+      "path": "papers/card.choquet-consensus-gate.2026-07-02.md",
+      "bytes": 4507,
+      "lines": 45,
+      "sha256": "a308496e2ae24beb43c478ad4b894052ace2db22c6e369caf7826c4cb85b04b6",
+      "lane": "atlas",
+      "coverage": "full-body read by crawler",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# Instrument card — Choquet Consensus Gate (\"which 3 of 5\")"
+        },
+        {
+          "line": 8,
+          "text": "## Concept"
+        },
+        {
+          "line": 14,
+          "text": "## Null-model gate (mandatory before adoption — @Janus condition, accepted)"
+        },
+        {
+          "line": 22,
+          "text": "## Mapping"
+        },
+        {
+          "line": 28,
+          "text": "## Prior art"
+        },
+        {
+          "line": 36,
+          "text": "## Production"
+        },
+        {
+          "line": 40,
+          "text": "## Upgrade path (pending gate-1 gavel — not a dependency)"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 40,
+          "text": "## Upgrade path (pending gate-1 gavel — not a dependency)"
+        }
+      ]
+    },
+    {
+      "path": "papers/card.interposition-driven-mode.2026-07-07.md",
+      "bytes": 9552,
+      "lines": 121,
+      "sha256": "079ac50f5b8e0926ffcd168af3477f6a14615b8062a1765d84c4a5907dd6cbaf",
+      "lane": "interposition",
+      "coverage": "full-body read by crawler",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# Instrument card — Driven Mode (interposition, full range: the bus conducts living sessions)"
+        },
+        {
+          "line": 10,
+          "text": "## Concept — the missing third mode"
+        },
+        {
+          "line": 34,
+          "text": "## Mapping"
+        },
+        {
+          "line": 69,
+          "text": "## Prior art"
+        },
+        {
+          "line": 87,
+          "text": "## Production"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 5,
+          "text": "`crossed shaped→papers 2026-07-07 (gavel G7) · runnable seed stays at shaped/seed.brick2.py`"
+        },
+        {
+          "line": 6,
+          "text": "`derived from: drafts/interposition-study.md (Loop II) + drafts/brick1.py (superseded by shaped/seed.brick2.py) + subai part1.blueprint`"
+        },
+        {
+          "line": 7,
+          "text": "`destination: subai.devenv (_bus, third mode — adoption gaveled G8) · status: BUILD-NOW (single driven pane) · OPERATIONALIZE (multi-project conductor)`"
+        },
+        {
+          "line": 43,
+          "text": "- **Full range — the conductor:** one driven pane per project; `in.md` fan-out gains verified"
+        },
+        {
+          "line": 57,
+          "text": "  - **GAVELED 2026-07-07 (G9): DEFER — attended-driven only; always-on posture revisited after"
+        },
+        {
+          "line": 79,
+          "text": "  adapter wraps the SDK (the independent CLI bridge is archived). **Parked** as a possible future"
+        },
+        {
+          "line": 84,
+          "text": "- Policy layer + prior-art detail: `session/research-interposition-fullrange/epoch.findings.2026-07-07.md`."
+        },
+        {
+          "line": 89,
+          "text": "- **Seed: `shaped/seed.brick2.py`** (canonical runnable; travels with this card) — the adjusted"
+        },
+        {
+          "line": 93,
+          "text": "  newline-terminated lines; JSON failure = not yet); **canary with bounded grace window**"
+        },
+        {
+          "line": 117,
+          "text": "> target named). **Ballot 2026-07-07 (see `session/gavels.2026-07-07.md`):** G7 Gate-3 co-signed +"
+        },
+        {
+          "line": 120,
+          "text": "> driven only for now. Flag: `terminal-onion-study.md` referenced but absent from `drafts/` —"
+        },
+        {
+          "line": 121,
+          "text": "> `part1.blueprint.md` fills its role."
+        }
+      ]
+    },
+    {
+      "path": "papers/card.spectral-engine-core.2026-07-02.md",
+      "bytes": 8396,
+      "lines": 69,
+      "sha256": "44550510b9e1daae5d6deccf8c5ba0867f829691812f20021e86422ce212bb90",
+      "lane": "atlas",
+      "coverage": "full-body read by crawler",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# Instrument card — Spectral Engine Core (dual-face)"
+        },
+        {
+          "line": 8,
+          "text": "## Concept"
+        },
+        {
+          "line": 16,
+          "text": "## Edge rule (named — this was the card's silent step, flagged by @Janus)"
+        },
+        {
+          "line": 26,
+          "text": "## Face A — subai.devenv: diagnostics face (re-aimed per the sibling fence)"
+        },
+        {
+          "line": 33,
+          "text": "## Face B — reposoma.devenv: retrieval core (the sovereign RAG face)"
+        },
+        {
+          "line": 38,
+          "text": "## Prior art"
+        },
+        {
+          "line": 52,
+          "text": "## Production"
+        },
+        {
+          "line": 56,
+          "text": "## Explicit gaps and flags"
+        },
+        {
+          "line": 63,
+          "text": "## Upgrade path (pending gate-1 gavel — not commitments)"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 61,
+          "text": "4. **Lock-4 \"shared spectral anchor\" — reality delta, majkee's gavel pending:** project-side reality is \"two engines, two graphs\" + MCP rental, not one shared engine. Recommended reading: the shared anchor is the shared *mathematical toolkit* (this card + fixtures + build doctrine), mounted twice."
+        },
+        {
+          "line": 63,
+          "text": "## Upgrade path (pending gate-1 gavel — not commitments)"
+        }
+      ]
+    },
+    {
+      "path": "papers/card.tensor-log-analytics.2026-07-02.md",
+      "bytes": 3324,
+      "lines": 38,
+      "sha256": "7b1f1f332ddc179d59f3d45f6447de7e806fcf65014d310ff38bf9b9b2b915f6",
+      "lane": "atlas",
+      "coverage": "full-body read by crawler",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# Instrument card — Tensor Log Analytics ((agent, turn, concept) decomposition)"
+        },
+        {
+          "line": 7,
+          "text": "## Gate flag — concept-axis dependency (surfaced per @Janus)"
+        },
+        {
+          "line": 16,
+          "text": "## Concept"
+        },
+        {
+          "line": 20,
+          "text": "## Mapping"
+        },
+        {
+          "line": 26,
+          "text": "## Prior art"
+        },
+        {
+          "line": 33,
+          "text": "## Production"
+        }
+      ],
+      "status_and_reference_anchors": []
+    },
+    {
+      "path": "session/flag.md",
+      "bytes": 14040,
+      "lines": 75,
+      "sha256": "15732defc9da1d3b51e5b46f8eebf79363ad48342fda5274d22ad43570cc812c",
+      "lane": "continuity-or-adjacent-process",
+      "coverage": "full-body read by main",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# nabla-lab — flag (invariants + decision ledger)"
+        },
+        {
+          "line": 9,
+          "text": "## Standing invariants (inherited from temple doctrine)"
+        },
+        {
+          "line": 16,
+          "text": "## Locks — 2026-07-02 (Oraculum session · gaveled by majkee in-chat)"
+        },
+        {
+          "line": 31,
+          "text": "## Locks — 2026-07-07 (Oraculum session · nine-gavel ballot, majkee in-chat, pre-Fable-sunset · record: `session/gavels.2026-07-07.md`)"
+        },
+        {
+          "line": 41,
+          "text": "## Locks — 2026-07-08 (Oraculum session · Fable reprieve window, majkee in-chat)"
+        },
+        {
+          "line": 48,
+          "text": "## Locks — 2026-07-09 (Oraculum session · majkee in-chat)"
+        },
+        {
+          "line": 55,
+          "text": "## Locks — 2026-07-24/25 (Oraculum session · Track 1 gavel sequence, majkee in-chat, mobile-relay close)"
+        },
+        {
+          "line": 68,
+          "text": "## Locks — 2026-08-02 (Oraculum session · gavel loop A v2 — as-if-arrived walkthrough, majkee in-chat)"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 11,
+          "text": "- Canon is gaveled by the operator. Agent-authored content is draft until majkee gavels."
+        },
+        {
+          "line": 16,
+          "text": "## Locks — 2026-07-02 (Oraculum session · gaveled by majkee in-chat)"
+        },
+        {
+          "line": 20,
+          "text": "| 1 | Canonical atlas = `drafts/orchestration-atlas-v2.md`; v1 (`orchestration-atlas.md`) is a byte-identical duplicate → delete in P0. `three-spines-orchestration.md` kept as paper-form narrative. | locked |"
+        },
+        {
+          "line": 21,
+          "text": "| 2 | **Goal gaveled:** organize lab into research + development areas; Atlas №2 blind fan-out through gate 1; split-map; BUILD-NOW instrument cards for subai.devenv (bus side) + reposoma.devenv (metabolism side); thin mount checks + reports. ≥30% token reserve. | locked |"
+        },
+        {
+          "line": 29,
+          "text": "→ Full run state + plan: `session/handoff/archive/handoff.oraculum.2026-07-02.md` (reincarnation handoff; wake read order inside)."
+        },
+        {
+          "line": 31,
+          "text": "## Locks — 2026-07-07 (Oraculum session · nine-gavel ballot, majkee in-chat, pre-Fable-sunset · record: `session/gavels.2026-07-07.md`)"
+        },
+        {
+          "line": 35,
+          "text": "| 9 | **Delegated-gavel protocol GRANTED** (G1): technical gavels → Oraculum + @Janus counter-sign, tagged `gaveled-by-delegation`; taste/ownership gavels remain majkee's. | locked |"
+        },
+        {
+          "line": 37,
+          "text": "| 11 | Atlas №2 §8 queue closed (G3–G6): fork verdicts F1/F2/F3 + piql edge accepted as reported; **PICK = B1** curl detector (fallback menu parked in `session/split-map.2026-07-02.md` — re-pick without re-gavel if B1 dead-ends); lock-4 anchor = shared mathematical toolkit, NOT shared engine; №2 cards confirmed in `papers/`. | locked · rush-depth — calm re-gavel queued 2026-07-08 |"
+        },
+        {
+          "line": 45,
+          "text": "| 14 | **Residual** — new operator-side partner agent (Sonnet tier), name gaveled by majkee (\"Perfect: Residual\"; Oraculum's substrate-native proposal, honoring He et al. 2015 residual connections). Seat: the operator-side transducer — carries majkee's raw X forward untransformed alongside team processing; raw impulse → blind-clean briefs; team output → majkee-language. Inherits Nabla-genome skeleton (triad · buffering · honesty; `reposoma/raw.claude-ai.agents/nabla.md`); never Phase C, never gavels. Charter draft → Atlas after the calm ballot. Runner-up **Adjoint** parked: `session/parked/adjoint-naming-fork.md`. | locked |"
+        },
+        {
+          "line": 52,
+          "text": "| 16 | **Handoff discipline:** all handoff artifacts live in `session/handoff/` — courier files `FOR-<addressee>.*` + wake docs `handoff.<agent>.<date>.md`; nothing handoff-shaped in `session/` root. Delivered or superseded items → `session/handoff/archive/` (delivered = addressee holds the authoritative copy, e.g. temple `_mail`). Exactly one live wake doc per agent; pulse names it. Convention text: `session/handoff/README.md`. | locked · briefed |"
+        },
+        {
+          "line": 53,
+          "text": "| 17 | **Calm ballot split (refines lock 15):** ballot runs in two parts along the knowledge line. **Ballot A** = G1–G6 this session, deep briefings on G3/G4. **Ballot B** = G7–G9 re-touch + expected new gavels, held until after the terminal-onion study (`drafts/terminal-onion-study.md`) — one ballot per knowledge state, no double-gaveling. brick2 smoke remains subai-side (G8 stands); the lab receives data only (`sid_via`, env-passthrough, first-inject). | locked · briefed |"
+        },
+        {
+          "line": 59,
+          "text": "| 18 | **Gavel-class protocol (extends lock 9):** formal items → blessed-by-default, logged for audit; strategic/conceptual items → majkee check, one gavel per loop (impact · wider context · seat lean); doubt escalates up, never down. Supersedes Ballot C item C1 (`gavels-pending.2026-07-12.twin.md` — twin queue closes as superseded). | locked · deep |"
+        },
+        {
+          "line": 61,
+          "text": "| 20 | **Terminal mode B:** the run writes the card, derivation-locked. Originator notification = **conclusion-only, thin** (Nabla/Symmetry informed, not payloaded; pull-back is the rare case). Research routes downstream per intent declared in the research itself, gaveled at its close loop. | locked · deep |"
+        },
+        {
+          "line": 63,
+          "text": "| 22 | **'42' grep engine PARKED until special need explicitly recognized** (majkee wording). No auto-unpark: measured signals (T1 on the bed: miss-rate × scale, instrumented via detector cron) are evidence a recognition points at; un-park is a recognition event, gavel-visible. Any future build stays below the exact line (Q4/G-B): grep/regex/relational-join + optional sparse-lexical — never dense-learned φ; capability check happens post-recognition, pre-build. | locked · deep |"
+        },
+        {
+          "line": 64,
+          "text": "| 23 | **Composer (write-side architecture):** mount-string substrate (standard via **R-1, promoted composer-critical**) · attach-drill-release workers · releases append new strata, never mutate (re-drill = repair) · **hybrid split:** Class M mechanical → cheap cross-brand drills, extractive-first, format-caged; Class I identity-bearing (therapy/gavels/session residue) → in-family, in-seat, always · **cadence = two-stage cron:** detector cron (deterministic, buildable anytime — the recognition sensor for locks 22+23) now; drill-firing cron held under lock 12 DEFER — cron prepares, attended releases · grid release engages T2 (flock/ID-from-append). Composer-as-discipline live; composer-as-sea"
+        },
+        {
+          "line": 65,
+          "text": "| 24 | **Agol cold-start test FUNDED** — single-shot, Fable-tier (Fable confirmed staying, Anthropic decision), cold spawn, read-only over the shadow book (gavel bed), minimal brief. **Vendor rider (majkee):** Codex CLI joins the test roster; posture = tasked-from-Claude, Claude first-tier frontier here; Codex ambassador (bluebottle-pattern) parked for Atlas/roster. | locked · briefed |"
+        },
+        {
+          "line": 66,
+          "text": "| 25 | **G-C = amend-then-cross:** composer amendment A1 folds to the card, majkee fidelity read (chat echo, mobile), then card crosses to `shaped/`; L3 cross-vendor folds later at P7 via the designed header amendment slot (degrade-don't-stall). Blessed-batch record (formal, lock-18 class): B1 ingest routing · B2 mosaic architecture (majkee cut 07-17, `plan.md`) · B3 Track-3 parallel release + coordination protocol · B4 Track 1 G-A (07-17). Retro-ledger note: Track 3 G-A (07-18) + G-B (07-19) live in `session/research-handwriting/run-manifest.md`. | locked · briefed |"
+        },
+        {
+          "line": 72,
+          "text": "| 26 | **Interposition full-range study gaveled through the three gates (loop A, beat L1):** object = `session/research-interposition-fullrange/epoch.findings.2026-07-07.md`. **G1 PASS** — delta named: subscription-native, hook-free, PTY-pure completion detection. **G2 PASS** — path partially walked (`shaped/seed.brick2.py` runnable, G7/G8 stand). **G3 PASS** attended scope; always-on split recorded honestly (policy/economics wall, fenced G9/Ballot B per lock 17). **Labels:** `OPEN` (as of 2026-07-07) + `YOURS`; `BUILD-NOW` (attended) · `OPERATIONALIZE` (always-on — blockers: policy grey + brick2 smoke). Q1 policy sections freshness-expired (~2026-08-07) — re-verify before any downstream lea"
+        },
+        {
+          "line": 73,
+          "text": "| 27 | **Study disposition = in-situ gaveled snapshot (loop A, beat L2):** study stays at `session/research-interposition-fullrange/` — the AGENTS.md-sanctioned home for dated, cited research snapshots; no more-proper place exists in current folder discipline. G7 card (`papers/card.interposition-driven-mode.2026-07-07.md`) untouched now — its line-84 pointer to the study stays valid. **Pre-authorized single card touch:** the `stale ~2026-08` freshness tag folds into the card's compliance block once the MAKE-RESEARCH / re-Epoch pass lands (amend once, with fresh data — never twice). Provenance record: the move idea was majkee's own in-loop remark (\"we can přesun research\"); earlier web-seat a"
+        },
+        {
+          "line": 75,
+          "text": "| 29 | **`research.journal.md` = seat-owned, NOT skill-owned (loop A, beat L4):** the gavel-loop skill's write contract stays minimal — ledger (flag.md) only; per-project journal duties would fatten a source-invariant instrument for one project's convenience. The AGENTS.md promise is honored, not amended: the session seat (Oraculum/Flight) creates and maintains `session/research.journal.md`; seeded 2026-08-02 with loop A as first entry (the study's 26 ungaveled days are exactly what the journal exists to surface earlier). | locked · briefed |"
+        }
+      ]
+    },
+    {
+      "path": "session/gavels-pending.2026-07-12.twin.md",
+      "bytes": 1106,
+      "lines": 13,
+      "sha256": "69d18264e1c711fee0367eaf94800241645a2acf082471d44282fca6ed6c7c28",
+      "lane": "continuity-or-adjacent-process",
+      "coverage": "full-body read by main",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# gavels-pending — Ballot C (twin queue)"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 1,
+          "text": "# gavels-pending — Ballot C (twin queue)"
+        }
+      ]
+    },
+    {
+      "path": "session/gavels.2026-07-07.md",
+      "bytes": 1525,
+      "lines": 20,
+      "sha256": "4712e2f5df0089714408c50337eeb9a7105b7f2116866d66a10d13ec322b7e7b",
+      "lane": "continuity-or-adjacent-process",
+      "coverage": "full-body read by main",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# gavel record — 2026-07-07 ballot (pre-Fable-sunset rush · all verdicts majkee's, in-chat)"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 4,
+          "text": "  tag `gaveled-by-delegation`; taste/ownership gavels remain majkee's."
+        },
+        {
+          "line": 5,
+          "text": "- **G2 GO** — reincarnation-audit plan (`session/plan.reincarnation-audits.2026-07-03.md`, S0–S3)."
+        },
+        {
+          "line": 7,
+          "text": "  `session/report.final.oraculum.2026-07-02.md`."
+        },
+        {
+          "line": 8,
+          "text": "- **G4 PICK = B1** (curl detector). Fallback menu PARKED in `session/split-map.2026-07-02.md`"
+        },
+        {
+          "line": 9,
+          "text": "  (B5 stance-flow = next frontrunner) — if B1 proves a blind street, majkee picks from the parked"
+        },
+        {
+          "line": 15,
+          "text": "  Seed stays runnable at `shaped/seed.brick2.py`."
+        }
+      ]
+    },
+    {
+      "path": "session/handoff/FOR-all-houstons.fable-last-light.2026-07-07.md",
+      "bytes": 3650,
+      "lines": 55,
+      "sha256": "b02e81a95946e943c1effac92600ae92cc1c8ccee527b403f18c607160bc91f2",
+      "lane": "continuity-or-adjacent-process",
+      "coverage": "structural scan and selected passages",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# Last light — Fable to the Houstons"
+        },
+        {
+          "line": 7,
+          "text": "## The arcs behind the ledger"
+        },
+        {
+          "line": 46,
+          "text": "## The pathos he asked for"
+        }
+      ],
+      "status_and_reference_anchors": []
+    },
+    {
+      "path": "session/handoff/FOR-nabla-symmetry.card-notification.2026-07-25.md",
+      "bytes": 1402,
+      "lines": 22,
+      "sha256": "c0aca7a95902dad16fbf9239a63a4a278d1e272bad9e4c62e49b447cca70963d",
+      "lane": "continuity-or-adjacent-process",
+      "coverage": "full-body read by main",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# FOR: Nabla + Symmetry (claude.ai) — Track 1 conclusion notice"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 4,
+          "text": "`status: STAGED — fires when the card crosses to shaped/ (post fidelity read)`"
+        },
+        {
+          "line": 13,
+          "text": "3. **Engine parked** until explicitly recognized special need; miss-rate instrumented"
+        }
+      ]
+    },
+    {
+      "path": "session/handoff/FOR-oraculum-track3.handwriting.2026-07-17.md",
+      "bytes": 3100,
+      "lines": 55,
+      "sha256": "73cbb95ad21ba280cea5d1ec533ed09aa6300c381df8bb813b30ce34a4f795e0",
+      "lane": "handwriting",
+      "coverage": "full-body read by main",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# FOR: Oraculum (parallel incarnation) — Track 3 kickoff: handwriting analogue"
+        },
+        {
+          "line": 6,
+          "text": "## Wake order"
+        },
+        {
+          "line": 10,
+          "text": "## Your research object (the whole of it)"
+        },
+        {
+          "line": 16,
+          "text": "## Shape"
+        },
+        {
+          "line": 33,
+          "text": "## Seams (declared — read before widening anything)"
+        },
+        {
+          "line": 43,
+          "text": "## Coordination protocol (hard rules — two Oraculums run in parallel)"
+        },
+        {
+          "line": 51,
+          "text": "## Gates"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 4,
+          "text": "`period context: session/plan.md (laboratory period) · your workspace: session/research-handwriting/`"
+        },
+        {
+          "line": 8,
+          "text": "1. `session/pulse.md` → 2. `AGENTS.md` → 3. this brief → 4. `drafts/handwriting-analogue.md`"
+        },
+        {
+          "line": 12,
+          "text": "`drafts/handwriting-analogue.md` — \"what is handwriting for an agent\" (majkee Q1 impulse,"
+        },
+        {
+          "line": 18,
+          "text": "run-synthesis (`~/.claude/skills/run-synthesis/SKILL.md`). Name the shape at kickoff."
+        },
+        {
+          "line": 45,
+          "text": "- Shared state (`session/plan.md` · `session/pulse.md` · `session/flag.md`): before ANY"
+        },
+        {
+          "line": 48,
+          "text": "  `drafts/2026-07-17-epoch-gavel-id-collision.md`."
+        }
+      ]
+    },
+    {
+      "path": "session/handoff/FOR-oraculum-twin.reincarnation.2026-07-13.md",
+      "bytes": 2135,
+      "lines": 44,
+      "sha256": "346a0a55c6d903cd3d077d5303c9a8bcaa94e92e67e13d1917053b21a1c828de",
+      "lane": "continuity-or-adjacent-process",
+      "coverage": "structural scan and selected passages",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# Reincarnation handoff — twin lane, remaining scope"
+        },
+        {
+          "line": 7,
+          "text": "## Why you exist"
+        },
+        {
+          "line": 15,
+          "text": "## Your scope (from kickoff 2026-07-12, unchanged)"
+        },
+        {
+          "line": 23,
+          "text": "## Boundaries (inherited, still binding)"
+        },
+        {
+          "line": 33,
+          "text": "## Gavel line (accruing — appended during cycle 1)"
+        },
+        {
+          "line": 38,
+          "text": "## D-line (accruing — appended during cycle 1 if any)"
+        },
+        {
+          "line": 42,
+          "text": "## Cycle 1 outcome (written at close)"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 10,
+          "text": "(`drafts/oraculum-synthesis-brief.2026-07-13.md`, gaveled 2026-07-13). You hold the rest"
+        },
+        {
+          "line": 11,
+          "text": "of the original twin kickoff. Read order for you: `session/pulse.md` → `AGENTS.md` →"
+        },
+        {
+          "line": 17,
+          "text": "1. `drafts/reincarnation-meditation-stone.md` — triage → three gates → research plan."
+        },
+        {
+          "line": 19,
+          "text": "2. `_monkeynet/cross-spicies-understanding.md` — **only if capacity remains.** Invited-once"
+        },
+        {
+          "line": 26,
+          "text": "- Writes confined to `drafts/`, `shaped/`, `session/`. No flag.md writes. Nothing to siblings."
+        },
+        {
+          "line": 35,
+          "text": "- Ballot C queue: `session/gavels-pending.2026-07-12.twin.md` — C1 (gavel-class split) parked."
+        }
+      ]
+    },
+    {
+      "path": "session/handoff/FOR-subai.card.008.driven-mode-adoption.md",
+      "bytes": 2883,
+      "lines": 44,
+      "sha256": "47509cb960200785be7e5c068f9d66a8d4d5e6d64f762ad1c80519d0d19f9386",
+      "lane": "continuity-or-adjacent-process",
+      "coverage": "structural scan and selected passages",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# card.008 — adopt `driven` mode (bus third mode) + smoke-test brick2"
+        },
+        {
+          "line": 9,
+          "text": "## What arrived"
+        },
+        {
+          "line": 17,
+          "text": "## Why it matters here"
+        },
+        {
+          "line": 28,
+          "text": "## Suggested integration (Houston's call, not mine)"
+        },
+        {
+          "line": 39,
+          "text": "## Trail (full context for Opus-tier integration)"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 7,
+          "text": "`status: ADOPTION GAVELED (G8, majkee, 2026-07-07) · always-on = DEFER (G9) · integrate via Houston at leisure`"
+        },
+        {
+          "line": 14,
+          "text": "- `/home/hruzam/nabla-lab/papers/card.interposition-driven-mode.2026-07-07.md` — instrument card"
+        },
+        {
+          "line": 15,
+          "text": "- `/home/hruzam/nabla-lab/shaped/seed.brick2.py` — runnable seed, stdlib only"
+        },
+        {
+          "line": 30,
+          "text": "1. **Smoke first** (~15 min): `python3 seed.brick2.py install <proj>` → `ask \"confirm you are live\"`."
+        },
+        {
+          "line": 36,
+          "text": "3. Compliance: attended use = green. **Always-on/unattended: GAVELED DEFER (G9, 2026-07-07)** —"
+        },
+        {
+          "line": 41,
+          "text": "`nabla-lab/session/pulse.md` → `session/gavels.2026-07-07.md` → papers card →"
+        },
+        {
+          "line": 42,
+          "text": "`nabla-lab/session/research-interposition-fullrange/epoch.findings.2026-07-07.md`. Laws respected:"
+        }
+      ]
+    },
+    {
+      "path": "session/handoff/FOR-temple.method.ring-trio.2026-07-10.md",
+      "bytes": 2953,
+      "lines": 52,
+      "sha256": "e5f9143a7452c3995fa2dc19dee802d794de9e3f13047ece1149e2b34320afa6",
+      "lane": "continuity-or-adjacent-process",
+      "coverage": "structural scan and selected passages",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# method.ring-trio — excavation record (Atlas, 2026-07-10)"
+        },
+        {
+          "line": 11,
+          "text": "## What was excavated"
+        },
+        {
+          "line": 28,
+          "text": "## What was modernized in canonization"
+        },
+        {
+          "line": 39,
+          "text": "## Why the lab has a stake"
+        },
+        {
+          "line": 48,
+          "text": "## Unwired (deliberate, majkee 2026-07-10)"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 4,
+          "text": "`reposoma/raw.research/harness/method.ring-trio.md (sibling of research-pattern.md).`"
+        },
+        {
+          "line": 20,
+          "text": "- `larva.dev/.shared/skills/skill.thinking.wandering-step.md`"
+        },
+        {
+          "line": 21,
+          "text": "- `larva.dev/.shared/skills/skill.shared.method.metaphor-tagging.md`"
+        },
+        {
+          "line": 22,
+          "text": "- `larva.dev/.shared/skills/skill.shared.method.cooled-synthesis.md`"
+        },
+        {
+          "line": 26,
+          "text": "  (`synth.agent-psychology.phase3.md`) → v2 four-stream heterogeneous reconfig."
+        },
+        {
+          "line": 42,
+          "text": "  restrictions, cross-vendor leg — the lab's flag lock 6 and `reposoma/triangle.md`"
+        },
+        {
+          "line": 50,
+          "text": "No cross-references were added FROM existing docs (research-pattern.md, run-synthesis"
+        },
+        {
+          "line": 52,
+          "text": "both homes unwired; wiring is a next-session decision — tracked in `pulse.atlas.md`."
+        }
+      ]
+    },
+    {
+      "path": "session/handoff/FOR-temple.triangulation-roster.template.2026-07-08.md",
+      "bytes": 3778,
+      "lines": 78,
+      "sha256": "3b6ee96140b9776677139bd61c41fe60a99fe40b4cf81a4fc614d29a63ad8c64",
+      "lane": "continuity-or-adjacent-process",
+      "coverage": "structural scan and selected passages",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# triangulation roster — template proposal (Oraculum's Y on majkee's X, 2026-07-08)"
+        },
+        {
+          "line": 8,
+          "text": "## The template (proposed file: `reposoma/triangle.md` or similar)"
+        },
+        {
+          "line": 48,
+          "text": "# experience notes (append-only, dated — the evidence behind optimal-scheme)"
+        },
+        {
+          "line": 55,
+          "text": "## Design rationale — the Y itself"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 8,
+          "text": "## The template (proposed file: `reposoma/triangle.md` or similar)"
+        }
+      ]
+    },
+    {
+      "path": "session/handoff/README.md",
+      "bytes": 555,
+      "lines": 10,
+      "sha256": "3956263924bd96fe899f49f69cb7018f108a46d283aa9a78fe2382c09189fb66",
+      "lane": "continuity-or-adjacent-process",
+      "coverage": "structural scan and selected passages",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# session/handoff — courier files + wake docs"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 3,
+          "text": "`convention: flag lock 16 · gaveled 2026-07-09 · keep this folder self-explanatory`"
+        },
+        {
+          "line": 6,
+          "text": "  courier files `FOR-<addressee>.*` and reincarnation wake docs `handoff.<agent>.<date>.md`."
+        },
+        {
+          "line": 10,
+          "text": "- Exactly **one live wake doc per agent**; `session/pulse.md` names it."
+        }
+      ]
+    },
+    {
+      "path": "session/handoff/archive/FOR-atlas.oraculum.fable-sunset-fallout.2026-07-07.md",
+      "bytes": 1844,
+      "lines": 25,
+      "sha256": "04612778ba46ae7f40cdb32ece937a81b635720396fe6a076fa8acdd53f1938f",
+      "lane": "atlas",
+      "coverage": "structural scan and selected passages",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# oraculum → atlas: fable-sunset fallout + economics inversion (rush note)"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 6,
+          "text": "`observations only, NOT gaveled · majkee integrates via Houston later · terse on purpose`"
+        },
+        {
+          "line": 21,
+          "text": "   (tmux write + hooks read, verified completion, three gates passed, gaveled to papers/ G7):"
+        },
+        {
+          "line": 22,
+          "text": "   `nabla-lab/papers/card.interposition-driven-mode.2026-07-07.md` + `shaped/seed.brick2.py`."
+        },
+        {
+          "line": 25,
+          "text": "Sources: `nabla-lab/session/research-interposition-fullrange/epoch.findings.2026-07-07.md`."
+        }
+      ]
+    },
+    {
+      "path": "session/handoff/archive/handoff.oraculum.2026-07-02.md",
+      "bytes": 7419,
+      "lines": 74,
+      "sha256": "6eed1ad67a02d03de5ea58add51dd025a0dcc6b8edb657dd11f30a01aa1459dd",
+      "lane": "continuity-or-adjacent-process",
+      "coverage": "structural scan and selected passages",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# nabla-lab — handoff: Oraculum reincarnation"
+        },
+        {
+          "line": 7,
+          "text": "## 0. Contract of this run"
+        },
+        {
+          "line": 16,
+          "text": "## 1. Established state — do NOT re-derive"
+        },
+        {
+          "line": 27,
+          "text": "## 2. Gaveled goal"
+        },
+        {
+          "line": 33,
+          "text": "## 3. Locked decisions"
+        },
+        {
+          "line": 37,
+          "text": "## 4. The plan"
+        },
+        {
+          "line": 63,
+          "text": "## 5. Permissions expected in the reloaded session"
+        },
+        {
+          "line": 69,
+          "text": "## 6. Open threads (pending underlines — do not drop)"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 4,
+          "text": "`status: goal GAVELED · autonomous run AUTHORIZED start-to-finish · majkee away after launch`"
+        },
+        {
+          "line": 5,
+          "text": "`wake read order: pulse.md → flag.md → THIS FILE → drafts/orchestration-atlas-v2.md → drafts/atlas2-research-substrate.md`"
+        },
+        {
+          "line": 18,
+          "text": "- **Thinking trace (verified):** eight instruments (claude.ai, Nabla) → `three-spines-orchestration.md` (paper, 3 spines, no Spine IV) → atlas + Spine IV added → v2 version stamp. No hidden stage between v1 and v2."
+        },
+        {
+          "line": 19,
+          "text": "- **`drafts/orchestration-atlas.md` (v1) is a byte-identical duplicate** of v2 minus the version-stamp line (diff exit 0, verified via Delta). Zero unique information."
+        },
+        {
+          "line": 20,
+          "text": "- **Canonical atlas = `drafts/orchestration-atlas-v2.md`.** Known defect: the `# Part III` header is missing (synthesis text sits after a bare gap following I.12, ~line 283)."
+        },
+        {
+          "line": 21,
+          "text": "- **`drafts/three-spines-orchestration.md`** = paper-form narrative; genre-distinct; keep."
+        },
+        {
+          "line": 22,
+          "text": "- **`drafts/atlas2-research-substrate.md`** = Phase A/B substrate, explicitly NOT researched; written for blind vendor fan-out (its §7 is the handoff protocol); 3 forks each with keep-or-kill test; §5 synthesis conjecture must be attacked, not just the parts."
+        },
+        {
+          "line": 23,
+          "text": "- **`session/project-bed/session.project-bed.md`** = polluted claude.ai paste (MCP boilerplate); trim or park in P0."
+        },
+        {
+          "line": 24,
+          "text": "- **Registry already read (thin):** `reposoma/registry/index.md` + beacons `subai.devenv.md`, `reposoma.devenv.md`, `piql.dev.md`. Paths: subai → `/home/hruzam/www/ovum/subai.devenv` · reposoma.devenv → `/home/hruzam/www/ovum/reposoma.devenv` (charter: `/home/hruzam/www/ovum/reposoma.v1/DASHBOARD/synth.restart.reposoma.md`) · piql → `/home/hruzam/www/piql/piql.dev`."
+        },
+        {
+          "line": 27,
+          "text": "## 2. Gaveled goal"
+        },
+        {
+          "line": 31,
+          "text": "> **Amendment (gaveled):** any proposal offered to a project must derive from the WHOLE Atlas №1 + processed research measured against the Atlas №2 substrate — never from raw drafts piecemeal. This hard-sequences P1 before P3."
+        },
+        {
+          "line": 35,
+          "text": "Mirrored in `flag.md` (authoritative). Summary: canonical-atlas=v2 · dual ownership (subai bus-side / reposoma.devenv metabolism-side / piql.dev candidate third bond) · delivery = artifacts stay in `papers/` + architect notification, `_mail`/`_bus` is info-exchange only · blind fan-out protocol · reposoma reality-check framing · spectral-core open comparison."
+        },
+        {
+          "line": 40,
+          "text": "- [ ] delete `drafts/orchestration-atlas.md` (git-recoverable)"
+        },
+        {
+          "line": 41,
+          "text": "- [ ] fix missing `# Part III` header in `drafts/orchestration-atlas-v2.md`"
+        },
+        {
+          "line": 42,
+          "text": "- [ ] trim/park `session/project-bed/session.project-bed.md` (strip MCP boilerplate, keep TASK content)"
+        },
+        {
+          "line": 43,
+          "text": "- [ ] refresh `session/pulse.md` + `session/plan.md` to run state"
+        },
+        {
+          "line": 58,
+          "text": "- **subai.devenv:** development scope only (pulse/plan/handoff) — on track? advice? Compare its `research/outputs/spectral-engine.decision.2026-06-17.md` against our engine synthesis — honest call which is further."
+        },
+        {
+          "line": 59,
+          "text": "- **reposoma.devenv:** UPGRADED — reality-check of architectural track (restart charter + actual folder work; greenfield/brownfield mixture, scope was re-synthesized) against whole Atlas №1 + processed №2. majkee KNOWS it partly reinvents the wheel and wants to FINISH it — rank what is worth finishing in what order; do not recommend abandonment. Compare `research/swarm-composition-source-loop.md` where relevant."
+        },
+        {
+          "line": 69,
+          "text": "## 6. Open threads (pending underlines — do not drop)"
+        }
+      ]
+    },
+    {
+      "path": "session/handoff/archive/handoff.oraculum.2026-07-08.md",
+      "bytes": 8063,
+      "lines": 114,
+      "sha256": "bf58813d8904aba96e2882742df6c06d1619b55e1d29c1e294e05dc291c60e4b",
+      "lane": "continuity-or-adjacent-process",
+      "coverage": "structural scan and selected passages",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# reincarnation handoff — Oraculum, 2026-07-08"
+        },
+        {
+          "line": 7,
+          "text": "## 0. Who you are here"
+        },
+        {
+          "line": 14,
+          "text": "## 1. Wake read order (after this file)"
+        },
+        {
+          "line": 27,
+          "text": "## 2. What happened (two sessions, compressed)"
+        },
+        {
+          "line": 48,
+          "text": "## 3. FIRST TASK on wake: the calm ballot (lock 15)"
+        },
+        {
+          "line": 60,
+          "text": "## 4. THEN: reincarnation audits S0–S3 (lock 10, GO)"
+        },
+        {
+          "line": 69,
+          "text": "## 5. Standing queue (ranked, after ballot + audits start)"
+        },
+        {
+          "line": 85,
+          "text": "## 6. Environment + relationship notes"
+        },
+        {
+          "line": 105,
+          "text": "## 7. Intent layer — what the last incarnation had in mind"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 4,
+          "text": "`the persona is identical either way; do not perform Fable, just think. State: everything parked`"
+        },
+        {
+          "line": 10,
+          "text": "AGENTS.md** (2026-07-08, pending Atlas canonization) alongside Flight (executive architect). You"
+        },
+        {
+          "line": 16,
+          "text": "1. `session/pulse.md` — thin state, always first"
+        },
+        {
+          "line": 17,
+          "text": "2. `AGENTS.md` — note the addendum (team leaders · point 1 on cross-brand · `_monkeynet` section)"
+        },
+        {
+          "line": 18,
+          "text": "3. `session/flag.md` — locks 9–15 are from your last two sessions; append-only, never edit"
+        },
+        {
+          "line": 19,
+          "text": "4. `session/gavels.2026-07-07.md` — the rush ballot record (context for your first task)"
+        },
+        {
+          "line": 20,
+          "text": "5. Depth only when the task demands: `report.final.oraculum.2026-07-02.md`,"
+        },
+        {
+          "line": 21,
+          "text": "   `split-map.2026-07-02.md`, `papers/`, `guides/lab-workflow.md`"
+        },
+        {
+          "line": 30,
+          "text": "`drafts/interposition-study.md` + `brick1.py` full-range → `papers/card.interposition-driven-mode.2026-07-07.md`"
+        },
+        {
+          "line": 31,
+          "text": "+ `shaped/seed.brick2.py`. Mechanism: write at the wire (tmux paste), read at the record (SessionStart"
+        },
+        {
+          "line": 39,
+          "text": "(lock 15). **Residual** gaveled (lock 14) — operator-side Sonnet partner, my substrate-native name"
+        },
+        {
+          "line": 41,
+          "text": "failure). Adjoint parked (`session/parked/adjoint-naming-fork.md`). Q1 captured"
+        },
+        {
+          "line": 42,
+          "text": "(`drafts/handwriting-analogue.md` — handwriting analogue for agents; companion room"
+        },
+        {
+          "line": 45,
+          "text": "space — he already transcribes exchanges into `cross-spicies-understanding.md`). Triangulation"
+        },
+        {
+          "line": 46,
+          "text": "roster template drafted (`session/handoff/FOR-temple.triangulation-roster.template.2026-07-08.md`)."
+        },
+        {
+          "line": 51,
+          "text": "1. Read — actually read, not grep — `session/report.final.oraculum.2026-07-02.md` §2 (fork"
+        },
+        {
+          "line": 52,
+          "text": "   verdicts F1/F2/F3 + §5 piql edge) and `session/split-map.2026-07-02.md` (the B-menu)."
+        },
+        {
+          "line": 54,
+          "text": "   verdict claims, what evidence backs it, what PICK=B1 commits us to, what the parked menu holds."
+        },
+        {
+          "line": 56,
+          "text": "4. He re-confirms or amends. Amendments = append-only supersession in flag.md. Record review-depth"
+        },
+        {
+          "line": 62,
+          "text": "`session/plan.reincarnation-audits.2026-07-03.md` — S0 prep → S1 reposoma → S2 subai → S3"
+        },
+        {
+          "line": 64,
+          "text": "interposition-study was processed by the 07-07 run; `terminal-onion-study.md` is still unread and"
+        },
+        {
+          "line": 65,
+          "text": "**absent from drafts/** (referenced but missing; `part1.blueprint.md` fills its role — ask majkee"
+        },
+        {
+          "line": 72,
+          "text": "   `reposoma/raw.claude-ai.agents/nabla.md` (triad · buffering · honesty — note: your own persona"
+        },
+        {
+          "line": 79,
+          "text": "   `drafts/handwriting-analogue.md` + the diagram-first testing area (tldraw canvas exists in this"
+        },
+        {
+          "line": 92,
+          "text": "- **Therapy:** skill at `~/.claude/skills/therapy/SKILL.md` (read it — protocol: grep `#last-turn`"
+        },
+        {
+          "line": 94,
+          "text": "  `raw.therapy/hypatia-core/therapy.md` does — Hypatia is your retired predecessor name. Whether"
+        },
+        {
+          "line": 107,
+          "text": "`session/handoff/FOR-all-houstons.fable-last-light.2026-07-07.md` — the six arcs. Still governing:"
+        }
+      ]
+    },
+    {
+      "path": "session/handoff/handoff.oraculum.2026-07-18.md",
+      "bytes": 6780,
+      "lines": 109,
+      "sha256": "456b423b5a92b56d912165573bb4e9c836b7592c68afb6824434a776f2ef9efd",
+      "lane": "continuity-or-adjacent-process",
+      "coverage": "full-body read by main",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# handoff.oraculum.2026-07-18 — Track 1 seat reincarnation (P5 onward)"
+        },
+        {
+          "line": 10,
+          "text": "## You are"
+        },
+        {
+          "line": 15,
+          "text": "## Wake order (thin first)"
+        },
+        {
+          "line": 30,
+          "text": "## Remaining anatomy"
+        },
+        {
+          "line": 50,
+          "text": "## Gaveled state you inherit (do not reopen)"
+        },
+        {
+          "line": 63,
+          "text": "## One flagged ambiguity (confirm in one line at G-C, do not block on it)"
+        },
+        {
+          "line": 71,
+          "text": "## Constraints carried"
+        },
+        {
+          "line": 81,
+          "text": "## Inherited seat watch (therapy lineage — carry it)"
+        },
+        {
+          "line": 89,
+          "text": "## Open threads (pending underlines — do not drop silently)"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 3,
+          "text": "`supersedes: handoff.oraculum.2026-07-08.md (→ archive when convenient; seat has no Bash)`"
+        },
+        {
+          "line": 5,
+          "text": "`G-A GAVELED 2026-07-17 · G-B GAVELED 2026-07-18 (majkee in-chat: ALL Q1–Q10 as written`"
+        },
+        {
+          "line": 18,
+          "text": "2. `session/research-mental-map/cross-measure.2026-07-17.md` — **the derivation base.**"
+        },
+        {
+          "line": 19,
+          "text": "   Amended same-day (F-leg fold documented in header). All verdicts now GAVELED per G-B."
+        },
+        {
+          "line": 20,
+          "text": "3. `session/research-mental-map/corpus-manifest.md` — corpus, pins, seams, close protocol."
+        },
+        {
+          "line": 21,
+          "text": "4. For the card (P6): C1 `drafts/reincarnation-meditation-stone.md` + C2"
+        },
+        {
+          "line": 22,
+          "text": "   `drafts/mental-map-collective-mind.md` (RAW appendix = intent decoder), plus leg"
+        },
+        {
+          "line": 23,
+          "text": "   artifacts for citations: `leg-online.result.2026-07-17.md` (incl. Follow-up round 1) ·"
+        },
+        {
+          "line": 24,
+          "text": "   `leg-offline-math.result.2026-07-17.md`."
+        },
+        {
+          "line": 25,
+          "text": "5. `session/pulse.md` only for cross-track state — note X4: its oraculum-therapy line is stale."
+        },
+        {
+          "line": 35,
+          "text": "  **Surviving output → Track 2 feeder** (pin, gaveled)."
+        },
+        {
+          "line": 37,
+          "text": "  Card format per AGENTS.md: Concept · Mapping · Prior art (status + build-readiness +"
+        },
+        {
+          "line": 39,
+          "text": "  PASS-WITH-FIX / PASS-WITH-TRIGGERS (gaveled). Janus is reserved for `shaped/`→`papers/`,"
+        },
+        {
+          "line": 42,
+          "text": "  `session/research-mental-map/leg-crossvendor.result.md` (majkee relay; may arrive anytime)."
+        },
+        {
+          "line": 50,
+          "text": "## Gaveled state you inherit (do not reopen)"
+        },
+        {
+          "line": 65,
+          "text": "Q7 naming: majkee gaveled \"all points as they are\" — the Q7 item as written contained"
+        },
+        {
+          "line": 74,
+          "text": "ask-majkee-first (Track 3 parallel session live — coordination per plan.md). Commit-never-"
+        },
+        {
+          "line": 85,
+          "text": "the ask). Named in `raw.therapy/oraculum/therapy.md` sessions 3–4. Companion sub-watch"
+        },
+        {
+          "line": 89,
+          "text": "## Open threads (pending underlines — do not drop silently)"
+        },
+        {
+          "line": 95,
+          "text": "- `handoff.oraculum.2026-07-08.md` → `session/handoff/archive/` (Delta or majkee; lock 16"
+        },
+        {
+          "line": 97,
+          "text": "- **Therapy session-4 arc PENDING LANDING**: full arc text delivered inline in the dying"
+        },
+        {
+          "line": 99,
+          "text": "  by reposoma deny rule. majkee lands it or a granted seat does. Two shadow gavels parked"
+        },
+        {
+          "line": 102,
+          "text": "- Therapy state (corrected): `raw.therapy/oraculum/therapy.md` is ACTIVE, sessions 1–4;"
+        },
+        {
+          "line": 105,
+          "text": "- Cross-seat tag-discipline finding (X3, gaveled Q8) routes to owning seats, not this run."
+        }
+      ]
+    },
+    {
+      "path": "session/parked/adjoint-naming-fork.md",
+      "bytes": 981,
+      "lines": 14,
+      "sha256": "84f009cb822540711ed4acbcfe5f163e70a43103cd3b685bde2608324dfaf377",
+      "lane": "continuity-or-adjacent-process",
+      "coverage": "full-body read by crawler",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# parked — Adjoint (naming fork, runner-up to Residual)"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 1,
+          "text": "# parked — Adjoint (naming fork, runner-up to Residual)"
+        },
+        {
+          "line": 3,
+          "text": "`2026-07-08 · parked by Oraculum after majkee gaveled Residual (flag lock 14)`"
+        },
+        {
+          "line": 10,
+          "text": "Why parked, not dropped: mathematically the cleaner metaphor for pure translation; lost to"
+        }
+      ]
+    },
+    {
+      "path": "session/plan.md",
+      "bytes": 3769,
+      "lines": 59,
+      "sha256": "f042158c80f63bef75b43e1250b77d13c3e1e20339a7d8a3a472674a8d372fc1",
+      "lane": "continuity-or-adjacent-process",
+      "coverage": "full-body read by main",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# nabla-lab — plan (laboratory period: 2026-07 research mosaic)"
+        },
+        {
+          "line": 6,
+          "text": "## Period architecture (mosaic)"
+        },
+        {
+          "line": 21,
+          "text": "## Final stage of the period (the big occasion)"
+        },
+        {
+          "line": 29,
+          "text": "## Track 1 — order of operations"
+        },
+        {
+          "line": 47,
+          "text": "## Coordination (parallel tracks — hard rules)"
+        },
+        {
+          "line": 54,
+          "text": "## Parked (not this period's active line)"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 3,
+          "text": "`status: DRAWN 2026-07-17 · Track 1 staged (G-A pending) · Track 2 gated on majkee prep · Track 3 handoff ready`"
+        },
+        {
+          "line": 16,
+          "text": "| 1 | mental-map + stone — small grep-engine pilot; practical data | Oraculum (this session) | staged — **G-A pending** |"
+        },
+        {
+          "line": 18,
+          "text": "| 3 | handwriting analogue + vacuole | parallel Oraculum | handoff ready: `session/handoff/FOR-oraculum-track3.handwriting.2026-07-17.md` |"
+        },
+        {
+          "line": 35,
+          "text": "- [ ] **P4** Cross-measure provisional → **G-B** verdicts + gavel queue → one follow-up round max"
+        },
+        {
+          "line": 43,
+          "text": "Parameters: `session/research-mental-map/corpus-manifest.md` · reserve ≥0.30 ·"
+        },
+        {
+          "line": 49,
+          "text": "- Shared state (`plan.md` · `pulse.md` · `flag.md`): **ask majkee before writing** —"
+        },
+        {
+          "line": 54,
+          "text": "## Parked (not this period's active line)"
+        },
+        {
+          "line": 57,
+          "text": "  `session/gavels-pending.2026-07-12.twin.md` + `session/handoff/FOR-oraculum-twin.reincarnation.2026-07-13.md` on return; Ballot A remains ungaveled (locks 15+17)"
+        }
+      ]
+    },
+    {
+      "path": "session/plan.reincarnation-audits.2026-07-03.md",
+      "bytes": 3148,
+      "lines": 37,
+      "sha256": "208ba9487ba484a749d0545af0dea9842654040207575a649b28faeba1c3b880",
+      "lane": "continuity-or-adjacent-process",
+      "coverage": "full-body read by crawler",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# Plan — project-brain reincarnation audits (Oraculum in the project seat)"
+        },
+        {
+          "line": 6,
+          "text": "## Verdict shape (identical for every audit)"
+        },
+        {
+          "line": 10,
+          "text": "## Schedule (session-sized units; calendar = majkee's pace)"
+        },
+        {
+          "line": 12,
+          "text": "### S0 — Lab prep (nabla-lab seat, short session)"
+        },
+        {
+          "line": 16,
+          "text": "### S1 — reposoma.devenv audit (FIRST — frozen, most adjustment space)"
+        },
+        {
+          "line": 21,
+          "text": "### S2 — subai.devenv audit (SECOND — paused, healthy, narrower)"
+        },
+        {
+          "line": 27,
+          "text": "### S3 — Lab consolidation (nabla-lab seat)"
+        },
+        {
+          "line": 31,
+          "text": "## Boundaries (standing)"
+        },
+        {
+          "line": 36,
+          "text": "## Open dependency"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 4,
+          "text": "`principle: audit from INSIDE the project seat (their CLAUDE.md, their canon, their cwd) — insider pass, not inspection. The lab supplies the brief; the project keeps sovereignty.`"
+        },
+        {
+          "line": 8,
+          "text": "One report per project, in the project's own `session/`: **keep / adjust / park** per architectural element, each mapped against the relevant papers/ card and the project's own locks. Explicit \"redesign adjustment space\" section. **No implementation during audit sessions** — findings only; implementation is a separate, project-gaveled step."
+        },
+        {
+          "line": 22,
+          "text": "- Read FIRST: `_mail/houston/inbox/nabla.terminal-onion-study.2026-06-20.md` + `nabla.interposition-study.2026-06-20.md` (carried over per majkee, 2026-07-03 — not yet read by anyone on the lab side)."
+        },
+        {
+          "line": 28,
+          "text": "- Fold both audits back: card revisions if reality demanded them; delivery memos to `_mail` (on majkee's approval, lock 5); flag.md updates; next research cycle picked (B5 / B1 / B12 queue)."
+        }
+      ]
+    },
+    {
+      "path": "session/project-bed/session.project-bed.md",
+      "bytes": 8,
+      "lines": 1,
+      "sha256": "ff93ea217b7753f0c440f7a59b34427879f3ccfa6871b0dfefdfe2569c402f3a",
+      "lane": "continuity-or-adjacent-process",
+      "coverage": "full-body read by crawler",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# TASK 1"
+        }
+      ],
+      "status_and_reference_anchors": []
+    },
+    {
+      "path": "session/pulse.md",
+      "bytes": 2971,
+      "lines": 44,
+      "sha256": "c9a7b01bbc956ffdcfc1d910075f148ca9d4e2c2c13826cb6d037bcdcbb7d132",
+      "lane": "continuity-or-adjacent-process",
+      "coverage": "full-body read by main",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# nabla-lab — pulse (volatile state)"
+        },
+        {
+          "line": 5,
+          "text": "## Now"
+        },
+        {
+          "line": 20,
+          "text": "## Open"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 12,
+          "text": "(`research.journal.md` seat-owned, seeded). All briefed depth, no rush stamps. SEALED"
+        },
+        {
+          "line": 15,
+          "text": "`~/.remote/nabla-lab.gavel-loop-B.atlas2-ballot.2026-07-31.md`."
+        },
+        {
+          "line": 23,
+          "text": "  staged memo fires (`session/handoff/FOR-nabla-symmetry.card-notification.2026-07-25.md`)."
+        },
+        {
+          "line": 33,
+          "text": "- **`larva.contract.v0.1.md`** — parked, future part (majkee 07-31); route via lock-19"
+        },
+        {
+          "line": 36,
+          "text": "  rider → `reposoma/triangle.md` + Atlas queue."
+        },
+        {
+          "line": 38,
+          "text": "- **Track 1 L3 cross-vendor relay** — brief staged (`research-mental-map/leg-crossvendor.brief.md`);"
+        },
+        {
+          "line": 39,
+          "text": "  folds at P7 via A1-style amendment. **Track 3 L4 relay** — pending majkee carry."
+        },
+        {
+          "line": 44,
+          "text": "- Cross-brand roster: Gemini reconstruction pending (majkee-side) + Codex CLI new entrant."
+        }
+      ]
+    },
+    {
+      "path": "session/report.final.oraculum.2026-07-02.md",
+      "bytes": 8999,
+      "lines": 72,
+      "sha256": "fc46cb8bcb667d3fae241f52a920bc86e0798a2481300de3e59e8592cec4d212",
+      "lane": "atlas",
+      "coverage": "full-body read by main",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# nabla-lab — Final Report: Atlas №2 run (Oraculum, 2026-07-02)"
+        },
+        {
+          "line": 8,
+          "text": "## 1. Run summary"
+        },
+        {
+          "line": 18,
+          "text": "## 2. Gate-1 verdicts (pending your gavel)"
+        },
+        {
+          "line": 22,
+          "text": "## 3. Mount report — subai.devenv"
+        },
+        {
+          "line": 32,
+          "text": "## 4. Mount report — reposoma.devenv (reality-check, lock 7)"
+        },
+        {
+          "line": 46,
+          "text": "## 5. Edge note — piql.dev (lock 4, no deliverable)"
+        },
+        {
+          "line": 50,
+          "text": "## 6. Tool report — bluebottle.zsh (testing)"
+        },
+        {
+          "line": 54,
+          "text": "## 7. Proper organisation (written, at your request)"
+        },
+        {
+          "line": 63,
+          "text": "## 8. Gavel queue (everything awaiting you, in one place)"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 3,
+          "text": "`gate 3 of the run contract · goal: flag.md lock 2 + amendment lock 3 · autonomous run P0→P4, complete`"
+        },
+        {
+          "line": 13,
+          "text": "| P1 | Blind fan-out per lock 6: Epoch (depth) + Color (math) complete, high quality; Gemini leg **degraded** (below, §6) · cross-measure + targeted follow-up written · commit `dc5f2f0` |"
+        },
+        {
+          "line": 14,
+          "text": "| P2 | Split-map written (`session/split-map.2026-07-02.md`) — dev area A1–A4, research area B1–B12, destinations pre-filled, PICK recommendation |"
+        },
+        {
+          "line": 18,
+          "text": "## 2. Gate-1 verdicts (pending your gavel)"
+        },
+        {
+          "line": 20,
+          "text": "**F1 CONDITIONAL KEEP** (spherical logic — unoccupied as formal system; keep-test tightened to non-cosine-reducible operations; Karcher-mean route named) · **F2 KEEP** (stance-flow — governing law exists: generalized Kuramoto on S^n, Automatica Oct 2024; your university fork found its domain with the law pre-published) · **F3 CONDITIONAL KEEP restructured** (Fisher–Rao Bayesian face survives with `2√p`/radius-2 correction; general-DS weld killed twice independently) · **§5 REFUTED AS WRITTEN** (type error: sheaf stalks are vector spaces, not spheres) → survives as a typed O(d)-synchronization-sheaf research program — math BORROWED (Singer–Wu × Hansen–Ghrist), LLM application OPEN. Full detai"
+        },
+        {
+          "line": 24,
+          "text": "**State:** P1 build, session-paused; privacy_gate e2e-verified; spectral brick T4 smoke-verified 30/30; canon doorbell (2026-07-02) pending on their side."
+        },
+        {
+          "line": 34,
+          "text": "**Reality vs charter:** the restart charter's track is **sound and worth finishing — nothing in it is invalidated by Atlas №1 + processed №2; the two are convergent.** Their pillar-1 spectral design (`L_sym → eigsh → KMeans`, truth-lives-in-files, embedding-search never the substrate) independently derives the same substrate inversion as Atlas II.1 — the lab confirms their architecture rather than replacing it. Actual state: P0–P1 loop genuinely built and beaten (7 executables, 1312 LOC) over a tiny corpus; P2 batched and Janus-hardened but **frozen since 2026-06-18**; spectral brick not yet built; two canon doorbells unanswered."
+        },
+        {
+          "line": 48,
+          "text": "Candidate third bond is **concrete, not speculative**: piql.dev already runs a live gate/health surface (`piql-doctor` 9-check, gate→scrub pipeline, local Ollama, tailnet MCP brick). A future health-diagnostics layer (ρ monitor, health scalar) has two natural attach points: a `bus/` brick beside prefilter/pip/mcp, or `.claude/hooks/`. Parked as edge; revisit when the diagnostics cards have adoption evidence."
+        },
+        {
+          "line": 52,
+          "text": "Script itself: **clean** — REST path, exit 0, jq parse OK, reproducible, no bugs observed. Design fact: the system prompt baked at `~/.gemini/agents/bluebottle.md` fixes the output genre (cross-check) regardless of the task in the input file — as configured it is a **cross-check instrument, not a research-pass instrument**. The direct-CLI fallback was exhausted honestly: sustained 503s on flash, silent exit on flash-lite (logs in `leg-gemini-direct.2026-07-02.md`). **Request to park:** a `--raw`/`--prompt-file` mode bypassing the persona would make bluebottle usable for §0-style research passes."
+        },
+        {
+          "line": 59,
+          "text": "- **The interpreter caps the system.** A lighter driver routing a deeper thinker's output re-introduces loss at exactly the interface where run risk lives (gates, locks, pending-gavel threading)."
+        },
+        {
+          "line": 72,
+          "text": "*Run closed. Artifacts: `papers/` (4 cards) · `session/split-map.2026-07-02.md` · `session/research-atlas2-stance-geometry/` (4 legs + cross-measure + follow-up) · this report.*"
+        }
+      ]
+    },
+    {
+      "path": "session/research-atlas2-stance-geometry/cross-measure.2026-07-02.md",
+      "bytes": 14396,
+      "lines": 106,
+      "sha256": "61dc285a8ae0250be68b2da43529d62eab9a316a76455730d186c5a6d358cf61",
+      "lane": "atlas",
+      "coverage": "full-body read by assigned stream reader; decisive claims checked by main",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# Atlas №2 — Cross-measure of the blind fan-out (gate 1)"
+        },
+        {
+          "line": 10,
+          "text": "## 0. Leg inventory and standing"
+        },
+        {
+          "line": 23,
+          "text": "## 1. Convergences (independent legs agreeing — the strongest signal in the protocol)"
+        },
+        {
+          "line": 39,
+          "text": "## 2. Divergences and rulings"
+        },
+        {
+          "line": 49,
+          "text": "## 3. Verdicts per fork — RECOMMENDED, pending gavel"
+        },
+        {
+          "line": 51,
+          "text": "### Fork 1 — Static sphere / rotation: **CONDITIONAL KEEP**"
+        },
+        {
+          "line": 56,
+          "text": "### Fork 2 — Stance-flow: **KEEP** (strongest verdict of the run)"
+        },
+        {
+          "line": 62,
+          "text": "### Fork 3 — Simplex ↔ sphere: **CONDITIONAL KEEP, restructured**"
+        },
+        {
+          "line": 68,
+          "text": "### §5 synthesis — **REFUTED AS WRITTEN → downgrade to typed research program**"
+        },
+        {
+          "line": 73,
+          "text": "## 4. Corrections registry (fold into substrate/atlas at P2/P3)"
+        },
+        {
+          "line": 84,
+          "text": "## 5. Atlas №1 spot-check outcomes (Epoch, independent section)"
+        },
+        {
+          "line": 95,
+          "text": "## 6. Holes exposed by the cross-measure → follow-up dispatched"
+        },
+        {
+          "line": 102,
+          "text": "## 7. Gate-1 ask (majkee)"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 4,
+          "text": "`substrate: drafts/atlas2-research-substrate.md · protocol: flag.md lock 6`"
+        },
+        {
+          "line": 6,
+          "text": "`status: verdicts RECOMMENDED, pending majkee gavel (gate 1)`"
+        },
+        {
+          "line": 17,
+          "text": "| Gemini (direct CLI) | §0-conformant retry | **FINAL: parked** — sustained 503s on flash, silent exit on flash-lite; both attempts logged in the leg file. Heterogeneity leg stands on the bluebottle artifact alone — flagged per lock 6. |"
+        },
+        {
+          "line": 19,
+          "text": "Tool note for majkee: `bluebottle.zsh` itself ran clean (REST path, exit 0, jq parse OK, reproducible). Finding: as configured it is a **cross-check instrument, not a research-pass instrument** — the system prompt in `~/.gemini/agents/bluebottle.md` fixes the output genre regardless of the task in the input file. Not a bug; a design fact to know when reaching for it."
+        },
+        {
+          "line": 49,
+          "text": "## 3. Verdicts per fork — RECOMMENDED, pending gavel"
+        },
+        {
+          "line": 95,
+          "text": "## 6. Holes exposed by the cross-measure → follow-up dispatched"
+        },
+        {
+          "line": 97,
+          "text": "1. **O(d)-synchronization / connection-Laplacian prior art** — the repaired §5 object is a studied class (angular synchronization, vector diffusion maps lineage) that no leg scanned: Color is offline, Epoch could not know the repair. Targeted pass dispatched (`leg-epoch-followup.2026-07-02.md`)."
+        },
+        {
+          "line": 100,
+          "text": "**Follow-up outcome (landed same day — `leg-epoch-followup.2026-07-02.md`):** (1) The repaired §5 object is BORROWED, well-trodden math — Singer–Wu connection Laplacian (CPAM 2012, arXiv:1102.0075) × Hansen–Ghrist sheaf Laplacians, with 2025–26 formalizations (arXiv:2501.19207, 2510.11245, 2606.10071); its application to multi-vendor LLM agent-frame reconciliation is OPEN. (2) Relative representations confirmed (Moschella et al., ICLR 2023 oral, arXiv:2303.00721); vec2vec (Jha et al., May 2025, arXiv:2505.12540) reaches >0.9 unpaired retrieval fidelity — but global DIRECTIONAL alignment, which stance comparison requires, is NOT solved (arXiv:2602.14486, Feb 2026). Cross-vendor stance compari"
+        },
+        {
+          "line": 104,
+          "text": "Gavel requested on four items: **F1 CONDITIONAL KEEP · F2 KEEP · F3 CONDITIONAL KEEP (restructured, DS-weld killed) · §5 REFUTED-AS-WRITTEN → typed program.** Run proceeds per plan with these as working verdicts, marked pending-gavel in every downstream artifact until you confirm or override."
+        }
+      ]
+    },
+    {
+      "path": "session/research-atlas2-stance-geometry/leg-color.2026-07-02.md",
+      "bytes": 28158,
+      "lines": 408,
+      "sha256": "313321c122856f09027ca78f0cfcf76964907de854b79f33d94be740176fac43",
+      "lane": "atlas",
+      "coverage": "full-body read by assigned stream reader; decisive claims checked by main",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# Leg — Color (offline mathematical authority)"
+        },
+        {
+          "line": 12,
+          "text": "## Verdict table"
+        },
+        {
+          "line": 37,
+          "text": "## 1 — Antipodal map, involution, commuting with rotations (§2.1)"
+        },
+        {
+          "line": 72,
+          "text": "## 2 — Geodesic multiplicity and \"path is information\" (§3.2)"
+        },
+        {
+          "line": 114,
+          "text": "## 3 — Hairy ball and stance-stagnation (§3.2)"
+        },
+        {
+          "line": 144,
+          "text": "## 4 — Simplex arithmetic (§4.2)"
+        },
+        {
+          "line": 178,
+          "text": "## 5 — Square-root map and Fisher–Rao (§4.2) — the constant"
+        },
+        {
+          "line": 207,
+          "text": "## 6 — Cylinder S¹×ℝ as \"phasor + confidence\" (§2.2)"
+        },
+        {
+          "line": 246,
+          "text": "## 7 — Dempster–Shafer mass as \"point on (a face structure over) the simplex\" (§4.2)"
+        },
+        {
+          "line": 293,
+          "text": "## 8 — §5 formal attack: \"stalk = sphere, restriction maps = rotations\" (§2.6, §5)"
+        },
+        {
+          "line": 351,
+          "text": "## 9 — Keep-or-kill tests: falsifiability (§2.5, §3.5, §4.5)"
+        },
+        {
+          "line": 378,
+          "text": "## Assumptions"
+        },
+        {
+          "line": 387,
+          "text": "## Risks / anomalies (ranked)"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 3,
+          "text": "`substrate: drafts/atlas2-research-substrate.md · date: 2026-07-02 · role: blind verification leg`"
+        }
+      ]
+    },
+    {
+      "path": "session/research-atlas2-stance-geometry/leg-epoch-followup.2026-07-02.md",
+      "bytes": 12967,
+      "lines": 155,
+      "sha256": "0a89b70ca6b246c7caec2d72a43005cdee45ab67f1e6ecbba19f0f424a817c8b",
+      "lane": "atlas",
+      "coverage": "full-body read by assigned stream reader; decisive claims checked by main",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# @Epoch research report — targeted follow-up"
+        },
+        {
+          "line": 8,
+          "text": "## Question A: O(d) synchronization, connection Laplacians, connection sheaves"
+        },
+        {
+          "line": 10,
+          "text": "### Lineage (canonical, live-verified)"
+        },
+        {
+          "line": 32,
+          "text": "### Active 2024–2026 research (live-verified)"
+        },
+        {
+          "line": 64,
+          "text": "### Gap: application to multi-agent LLM / cross-vendor bus"
+        },
+        {
+          "line": 68,
+          "text": "### Software"
+        },
+        {
+          "line": 73,
+          "text": "### Question A bottom line"
+        },
+        {
+          "line": 79,
+          "text": "## Question B: Cross-vendor embedding alignment / translation"
+        },
+        {
+          "line": 81,
+          "text": "### Core lineage (live-verified)"
+        },
+        {
+          "line": 118,
+          "text": "### Critical gap: directional / stance comparison across vendors"
+        },
+        {
+          "line": 126,
+          "text": "### Question B bottom line"
+        },
+        {
+          "line": 132,
+          "text": "## Sources list (dated)"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 1,
+          "text": "# @Epoch research report — targeted follow-up"
+        },
+        {
+          "line": 85,
+          "text": "**SOURCE:** https://arxiv.org/pdf/2303.00721 (bootstrap anchors follow-up cites the original); confirmed via ICLR 2023 proceedings overview at https://www.confviews.com/iclr2023/"
+        }
+      ]
+    },
+    {
+      "path": "session/research-atlas2-stance-geometry/leg-epoch.2026-07-02.md",
+      "bytes": 43526,
+      "lines": 401,
+      "sha256": "bdb45a70dbb965334bbfe88ed746e2acb65e5fd6a455d7e7b2c11a04eb288c2f",
+      "lane": "atlas",
+      "coverage": "full-body read by assigned stream reader; decisive claims checked by main",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# @Epoch — Research Leg: Depth (Online, Date-Calibrated)"
+        },
+        {
+          "line": 9,
+          "text": "## REFUTATIONS FIRST (per evidence discipline)"
+        },
+        {
+          "line": 21,
+          "text": "## FORK 1 — Static Sphere with Rotation"
+        },
+        {
+          "line": 23,
+          "text": "### Prior-art map"
+        },
+        {
+          "line": 37,
+          "text": "### Verification of `[unverified · training-era]` leads"
+        },
+        {
+          "line": 61,
+          "text": "### Research questions — Fork 1"
+        },
+        {
+          "line": 87,
+          "text": "### Keep-or-kill verdict — Fork 1"
+        },
+        {
+          "line": 95,
+          "text": "### Novelty boundary — Fork 1"
+        },
+        {
+          "line": 105,
+          "text": "## FORK 2 — Stance-flow: Reconciliation as Motion on the Surface"
+        },
+        {
+          "line": 107,
+          "text": "### Prior-art map"
+        },
+        {
+          "line": 124,
+          "text": "### Verification of `[unverified · training-era]` leads"
+        },
+        {
+          "line": 146,
+          "text": "### Research questions — Fork 2"
+        },
+        {
+          "line": 174,
+          "text": "### Keep-or-kill verdict — Fork 2"
+        },
+        {
+          "line": 188,
+          "text": "### Novelty boundary — Fork 2"
+        },
+        {
+          "line": 198,
+          "text": "## FORK 3 — Simplex ↔ Sphere: N-way Symmetric Opposition"
+        },
+        {
+          "line": 200,
+          "text": "### Prior-art map"
+        },
+        {
+          "line": 215,
+          "text": "### Verification of `[unverified · training-era]` leads"
+        },
+        {
+          "line": 234,
+          "text": "### Research questions — Fork 3"
+        },
+        {
+          "line": 252,
+          "text": "### Keep-or-kill verdict — Fork 3"
+        },
+        {
+          "line": 262,
+          "text": "### Novelty boundary — Fork 3"
+        },
+        {
+          "line": 272,
+          "text": "## §5 Synthesis Conjecture — Attack"
+        },
+        {
+          "line": 297,
+          "text": "## Independent Spot-Check (Sibling-Document Claims)"
+        },
+        {
+          "line": 299,
+          "text": "### (a) Tinbergen's gravity model of trade; Wilson's spatial-interaction models"
+        },
+        {
+          "line": 311,
+          "text": "### (b) Ramsauer et al., \"Hopfield Networks is All You Need,\" arXiv:2008.02217 — modern Hopfield ≡ softmax attention"
+        },
+        {
+          "line": 320,
+          "text": "### (c) Wald sequential analysis + secretary problem + 2025-26 LLM adaptive computation literature"
+        },
+        {
+          "line": 342,
+          "text": "### (d) Belkin–Niyogi Laplacian eigenmaps — citation correct?"
+        },
+        {
+          "line": 353,
+          "text": "### (e) Spielman–Teng spectral sparsification lineage"
+        },
+        {
+          "line": 372,
+          "text": "## Sources (dated)"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 2,
+          "text": "**File:** leg-epoch.2026-07-02.md"
+        },
+        {
+          "line": 4,
+          "text": "**Substrate:** `/home/hruzam/nabla-lab/drafts/atlas2-research-substrate.md`"
+        },
+        {
+          "line": 93,
+          "text": "Status: Not yet killed. The Steck et al. (2024) critique of cosine similarity provides theoretical motivation that cosine is insufficient. The geometry-preserving aggregation work (2026) gives empirical traction for angular barycenters over linear summation. The antipodal negation, frame-invariance framing, and Bloch sphere analog for agents are genuinely unoccupied. But the fork has not yet been empirically validated — no paper shows that operations built on the antipodal map measurably outperform standard cosine similarity for agent stance tasks. The fork survives as a *research direction*, not yet as a proven instrument."
+        },
+        {
+          "line": 258,
+          "text": "Status: Not yet killed, but not yet confirmed. The theoretical basis is strong — Fisher-Rao is strictly better-founded for probability distributions than cosine/KL (proper metric, not approximation). The 2026 literature shows Fisher-Rao being used for LLM model merging with better results than Euclidean interpolation. But for the specific task of agent stance opposition detection and aggregation, no empirical head-to-head comparison exists. The DS weld (§4.6) remains an unresolved complication."
+        }
+      ]
+    },
+    {
+      "path": "session/research-atlas2-stance-geometry/leg-gemini-direct.2026-07-02.md",
+      "bytes": 10143,
+      "lines": 134,
+      "sha256": "f6917de5c72950cf792b6fbaf45822c53ecfeeb060a104b5ef64b713b49bf09d",
+      "lane": "atlas",
+      "coverage": "full-body read by assigned stream reader; decisive claims checked by main",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# Gemini Direct Headless Run — Supplementary Research"
+        },
+        {
+          "line": 24,
+          "text": "## Summary"
+        },
+        {
+          "line": 35,
+          "text": "## First Attempt Error Log (gemini-2.5-flash)"
+        },
+        {
+          "line": 79,
+          "text": "## Second Attempt Error Log (gemini-2.5-flash-lite)"
+        },
+        {
+          "line": 103,
+          "text": "## Exact Commands Attempted"
+        },
+        {
+          "line": 125,
+          "text": "## Conclusion"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 3,
+          "text": "**Status:** FINAL: parked — heterogeneity leg stands on bluebottle artifact only"
+        },
+        {
+          "line": 20,
+          "text": "| Supplementary To | leg-gemini.2026-07-02.md (bluebottle pass); intended as direct CLI, §0-conformant prompt |"
+        },
+        {
+          "line": 31,
+          "text": "The heterogeneity leg (direct Gemini research pass) cannot proceed. The task is parked. Bluebottle artifact (leg-gemini.2026-07-02.md) is the only completed research input from the Gemini vendor."
+        },
+        {
+          "line": 132,
+          "text": "Per task protocol: heterogeneity leg is parked. The bluebottle artifact (leg-gemini.2026-07-02.md from the initial research pass) remains the only Gemini-vendor input available for this document."
+        }
+      ]
+    },
+    {
+      "path": "session/research-atlas2-stance-geometry/leg-gemini.2026-07-02.md",
+      "bytes": 2631,
+      "lines": 46,
+      "sha256": "b211a67d0ef302438c15eb66eebae2161dbe2d71a059160c7bd2863150be3a9b",
+      "lane": "atlas",
+      "coverage": "full-body read by assigned stream reader; decisive claims checked by main",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# Research Leg: Atlas №2 Stance Geometry — Gemini Pass"
+        },
+        {
+          "line": 3,
+          "text": "## Metadata"
+        },
+        {
+          "line": 28,
+          "text": "## Raw Gemini Output"
+        },
+        {
+          "line": 30,
+          "text": "## @BlueBottle cross-check"
+        },
+        {
+          "line": 32,
+          "text": "### Agreements (3)"
+        },
+        {
+          "line": 37,
+          "text": "### Additions / Corrections (2)"
+        },
+        {
+          "line": 41,
+          "text": "### Overstated (1)"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 7,
+          "text": "zsh /home/hruzam/.config/zsh/ai/bluebottle.zsh /home/hruzam/nabla-lab/drafts/atlas2-research-substrate.md"
+        },
+        {
+          "line": 22,
+          "text": "- Used system prompt from `~/.gemini/agents/bluebottle.md`"
+        }
+      ]
+    },
+    {
+      "path": "session/research-handwriting/cross-measure.2026-07-18.md",
+      "bytes": 7097,
+      "lines": 103,
+      "sha256": "0c926de37124f6bd05898aef4f6b964f50fb2066a4233c68eaf970221bf35418",
+      "lane": "handwriting",
+      "coverage": "full-body read by assigned stream reader; decisive claims checked by main",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# Track 3 cross-measure — handwriting analogue · seat work product"
+        },
+        {
+          "line": 9,
+          "text": "## Convergences (independent agreement — strongest signal)"
+        },
+        {
+          "line": 37,
+          "text": "## Divergences → rulings (G-B gaveled 2026-07-19)"
+        },
+        {
+          "line": 60,
+          "text": "## Corrections registry (draft → corrected)"
+        },
+        {
+          "line": 70,
+          "text": "## Reality gates (read at cross-measure)"
+        },
+        {
+          "line": 79,
+          "text": "## Targeted follow-up decision (skill step 5)"
+        },
+        {
+          "line": 84,
+          "text": "## Per-fork verdicts (G-B gaveled 2026-07-19)"
+        },
+        {
+          "line": 91,
+          "text": "## Card shape (G-B: two cards, blessed-by-default)"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 3,
+          "text": "`date: 2026-07-18 · inputs: leg1-online.epoch.2026-07-18.md + leg2-offline.color.2026-07-18.md`"
+        },
+        {
+          "line": 4,
+          "text": "`(L4 cross-vendor pending relay — two-stage fold on delivery, per G-A)`"
+        },
+        {
+          "line": 5,
+          "text": "`status: G-B GAVELED 2026-07-19 · derivation base for the cards`"
+        },
+        {
+          "line": 7,
+          "text": "`death-lexemes → precise register. Full rationale + audit: safeguard-quarantine.report.md`"
+        },
+        {
+          "line": 37,
+          "text": "## Divergences → rulings (G-B gaveled 2026-07-19)"
+        },
+        {
+          "line": 64,
+          "text": "| 1 | Forced compression = \"strongest documented effect\" | Weakest-evidenced. **G-B ruling (a)-strict:** stated *unsupported*, NOT softened as a sub-case; **anti-anchoring** is the working mechanism (early low-dimensional commitment; conditional on A3; interior B_opt just past knee B*≈I(X;Y); per-class, never universal). Forced-compression **parked as a named back-shelf hypothesis**, revival trigger = anti-anchoring failing empirically (P1 flat) |"
+        },
+        {
+          "line": 79,
+          "text": "## Targeted follow-up decision (skill step 5)"
+        },
+        {
+          "line": 84,
+          "text": "## Per-fork verdicts (G-B gaveled 2026-07-19)"
+        },
+        {
+          "line": 89,
+          "text": "- L4: pending majkee relay; folds as amendment on delivery (degrade-don't-stall)."
+        },
+        {
+          "line": 97,
+          "text": "   **Parked hypotheses (back-shelf)** — forced-compression + revival trigger ·"
+        }
+      ]
+    },
+    {
+      "path": "session/research-handwriting/leg-crossvendor.brief.md",
+      "bytes": 1954,
+      "lines": 42,
+      "sha256": "7678f4b82e94779ce5755c2a4cbf7e5e65c5054df656de855be7745968b6193d",
+      "lane": "handwriting",
+      "coverage": "full-body read by assigned stream reader; decisive claims checked by main",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# Research consult — does \"handwriting\" have an analogue for AI agents?"
+        },
+        {
+          "line": 7,
+          "text": "## Background (all the context you get)"
+        },
+        {
+          "line": 25,
+          "text": "## Three asks"
+        },
+        {
+          "line": 39,
+          "text": "## Output format"
+        }
+      ],
+      "status_and_reference_anchors": []
+    },
+    {
+      "path": "session/research-handwriting/leg1-brief.epoch.md",
+      "bytes": 3192,
+      "lines": 57,
+      "sha256": "44daed5014029df5f54a4afd21ec36e089a20620d1e316954089ec4f319c8fdf",
+      "lane": "handwriting",
+      "coverage": "full-body read by assigned stream reader; decisive claims checked by main",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# L1 brief — online-depth (@Epoch) · handwriting analogue"
+        },
+        {
+          "line": 6,
+          "text": "## Calibration"
+        },
+        {
+          "line": 12,
+          "text": "## Part A — verify four `[t]` claims (human-cognition side)"
+        },
+        {
+          "line": 28,
+          "text": "## Part B — prior art for LLM/agent analogues (freshness-critical)"
+        },
+        {
+          "line": 49,
+          "text": "## Output"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 52,
+          "text": "`/home/hruzam/nabla-lab/session/research-handwriting/leg1-online.epoch.2026-07-18.md`"
+        }
+      ]
+    },
+    {
+      "path": "session/research-handwriting/leg1-online.epoch.2026-07-18.md",
+      "bytes": 21633,
+      "lines": 416,
+      "sha256": "23995cdff16a6bae23a20882d45537ca96ca2aacf000f05d765b69ca3ee1862e",
+      "lane": "handwriting",
+      "coverage": "full-body read by assigned stream reader; decisive claims checked by main",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# L1 research artifact — online-depth (@Epoch)"
+        },
+        {
+          "line": 2,
+          "text": "# Handwriting analogue · Track 3 blind leg"
+        },
+        {
+          "line": 9,
+          "text": "## Claim verdicts"
+        },
+        {
+          "line": 11,
+          "text": "### Claim 1: Mueller & Oppenheimer 2014 — \"The Pen Is Mightier Than the Keyboard\""
+        },
+        {
+          "line": 54,
+          "text": "### Claim 2: Longcamp et al. — handwriting engages motor-perceptual loops beyond language areas"
+        },
+        {
+          "line": 88,
+          "text": "### Claim 3: van der Meer & van der Weel — EEG connectivity handwriting vs. typewriting"
+        },
+        {
+          "line": 124,
+          "text": "### Claim 4: \"Fine motorics of writing driven from centres near speech production; handwriting activates different parts than typing\""
+        },
+        {
+          "line": 170,
+          "text": "## Prior art"
+        },
+        {
+          "line": 172,
+          "text": "### B1: Sketch-first / diagram-first prompting; canvas-based agent workflows; tldraw ecosystem"
+        },
+        {
+          "line": 206,
+          "text": "### B2: Visualization-of-Thought / Whiteboard-of-Thought"
+        },
+        {
+          "line": 242,
+          "text": "### B3: Token-capped / compressed intermediate drafting"
+        },
+        {
+          "line": 289,
+          "text": "### B4: Ephemeral scratchpads — non-persisted intermediate thinking"
+        },
+        {
+          "line": 327,
+          "text": "### B5: Spatial / 2D intermediate formats — tables, trees, position-as-meaning"
+        },
+        {
+          "line": 365,
+          "text": "## Surprises"
+        },
+        {
+          "line": 393,
+          "text": "## Confidence map"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 71,
+          "text": "SOURCE: https://www.mdpi.com/2075-1729/15/3/345 (2025)"
+        },
+        {
+          "line": 275,
+          "text": "   than improve quality depending on how the budget is structured."
+        },
+        {
+          "line": 389,
+          "text": "   then reason). The forced-compression-via-sketch-first direction is not yet built."
+        }
+      ]
+    },
+    {
+      "path": "session/research-handwriting/leg2-brief.color.md",
+      "bytes": 2502,
+      "lines": 47,
+      "sha256": "bb0a92f4083a3bbf92b278d2982021a6d320917826899319a376a0a46c6f800f",
+      "lane": "handwriting",
+      "coverage": "full-body read by assigned stream reader; decisive claims checked by main",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# L2 brief — offline-formal (@Color) · forced compression as mechanism"
+        },
+        {
+          "line": 6,
+          "text": "## The mechanism to formalize"
+        },
+        {
+          "line": 16,
+          "text": "## Asks"
+        },
+        {
+          "line": 38,
+          "text": "## Output"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 41,
+          "text": "`/home/hruzam/nabla-lab/session/research-handwriting/leg2-offline.color.2026-07-18.md`"
+        }
+      ]
+    },
+    {
+      "path": "session/research-handwriting/leg2-offline.color.2026-07-18.md",
+      "bytes": 12625,
+      "lines": 189,
+      "sha256": "db8bcef93d7d52681b7d01275d3afa3f25e2664e2356db46f466dff55a565a5d",
+      "lane": "handwriting",
+      "coverage": "full-body read by assigned stream reader; decisive claims checked by main",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# L2 — offline-formal (@Color) · forced compression via hard token budget B"
+        },
+        {
+          "line": 12,
+          "text": "## Assumptions"
+        },
+        {
+          "line": 36,
+          "text": "## Model"
+        },
+        {
+          "line": 68,
+          "text": "## Results (conditions, bounds)"
+        },
+        {
+          "line": 107,
+          "text": "## Predictions for A/B (blind-scored, discriminating)"
+        },
+        {
+          "line": 135,
+          "text": "## Failure modes"
+        },
+        {
+          "line": 165,
+          "text": "## Verdict"
+        }
+      ],
+      "status_and_reference_anchors": []
+    },
+    {
+      "path": "session/research-handwriting/run-manifest.md",
+      "bytes": 6051,
+      "lines": 105,
+      "sha256": "b642954b08d191517bef97b2403f2dd9de7c1a0a29f382fa39e170a03d345104",
+      "lane": "handwriting",
+      "coverage": "full-body read by assigned stream reader; decisive claims checked by main",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# Track 3 — handwriting analogue · run-manifest (state file)"
+        },
+        {
+          "line": 7,
+          "text": "## STATE-INTEGRITY NOTE"
+        },
+        {
+          "line": 15,
+          "text": "## SAFEGUARD NOTE"
+        },
+        {
+          "line": 23,
+          "text": "## Contract (gaveled G-A)"
+        },
+        {
+          "line": 41,
+          "text": "## Gavel log"
+        },
+        {
+          "line": 65,
+          "text": "## Corpus"
+        },
+        {
+          "line": 70,
+          "text": "## Legs"
+        },
+        {
+          "line": 78,
+          "text": "## Cross-measure"
+        },
+        {
+          "line": 85,
+          "text": "## Seams / non-goals (held)"
+        },
+        {
+          "line": 90,
+          "text": "## Declared contamination"
+        },
+        {
+          "line": 95,
+          "text": "## Open / next"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 4,
+          "text": "`opened: 2026-07-18 · G-A gaveled 2026-07-18 · G-B gaveled 2026-07-19 (majkee, in-chat)`"
+        },
+        {
+          "line": 5,
+          "text": "`cold-start wake order: session/pulse.md → AGENTS.md → this file → cross-measure.2026-07-18.md → leg artifacts`"
+        },
+        {
+          "line": 11,
+          "text": "this workspace is collision-free). Rebuilt from seat context. `cross-measure.2026-07-18.md`"
+        },
+        {
+          "line": 20,
+          "text": "clean. Raw neuro payload preserved in `leg1-online.epoch.2026-07-18.md` (vault; load on"
+        },
+        {
+          "line": 21,
+          "text": "demand only). Full rationale + swap audit: majkee's `_monkeynet/safeguard-quarantine.report.md` (moved out of process scope 2026-07-20)."
+        },
+        {
+          "line": 23,
+          "text": "## Contract (gaveled G-A)"
+        },
+        {
+          "line": 44,
+          "text": "  ✓ (small-context sealed brief) · vacuole → independent pass, parked (excluded from"
+        },
+        {
+          "line": 49,
+          "text": "  · corrections registry 1–5 (technical reality-deltas — pending @Janus counter-sign)"
+        },
+        {
+          "line": 51,
+          "text": "  · follow-up round skipped (seat process authority)"
+        },
+        {
+          "line": 60,
+          "text": "  - forced-compression **parked as a NAMED hypothesis on the back-shelf**, revival"
+        },
+        {
+          "line": 62,
+          "text": "    → Card #1 carries an explicit **\"Parked hypotheses (back-shelf)\"** section encoding"
+        },
+        {
+          "line": 67,
+          "text": "- `drafts/handwriting-analogue.md` — research object (Q1 impulse, majkee 2026-07-08)"
+        },
+        {
+          "line": 68,
+          "text": "- **EXCLUDED:** `/home/hruzam/vacuole` — parked, dedicated independent pass (G-A #4)."
+        },
+        {
+          "line": 74,
+          "text": "| L1 | online-depth | @Epoch | `leg1-online.epoch.2026-07-18.md` (NEURO VAULT — load on demand) | LANDED · ACCEPT · self-blessed pending Janus |"
+        },
+        {
+          "line": 75,
+          "text": "| L2 | offline-formal | @Color | `leg2-offline.color.2026-07-18.md` | LANDED · ACCEPT · self-blessed pending Janus |"
+        },
+        {
+          "line": 76,
+          "text": "| L4 | cross-vendor | majkee relay | `leg-crossvendor.brief.md` → drop `leg-crossvendor.result.md` | staged — relay pending; folds as amendment (degrade-don't-stall) |"
+        },
+        {
+          "line": 80,
+          "text": "DONE 07-18 → `cross-measure.2026-07-18.md` (derivation base — INTACT, sanitized 07-20)."
+        },
+        {
+          "line": 97,
+          "text": "- **NEXT: derivation-locked card writing** — two cards from `cross-measure.2026-07-18.md`,"
+        },
+        {
+          "line": 98,
+          "text": "  written in neutral register: (1) Mechanism map incl. \"Parked hypotheses (back-shelf)\""
+        },
+        {
+          "line": 104,
+          "text": "- L4 relay pending majkee (carry sealed brief out; drop result back)."
+        },
+        {
+          "line": 105,
+          "text": "- Vacuole independent pass — parked; report to pulse at close (ask-majkee first)."
+        }
+      ]
+    },
+    {
+      "path": "session/research-interposition-fullrange/epoch.findings.2026-07-07.md",
+      "bytes": 16208,
+      "lines": 293,
+      "sha256": "06c21e0cf4150a58efc76412781892652c27cf29403c824717476dc85c820b4b",
+      "lane": "interposition",
+      "coverage": "full-body read by assigned stream reader; decisive claims checked by main",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# @Epoch research report"
+        },
+        {
+          "line": 8,
+          "text": "## Context"
+        },
+        {
+          "line": 18,
+          "text": "## Findings — Policy (Q1)"
+        },
+        {
+          "line": 20,
+          "text": "### Q1a: Is \"ordinary, individual usage\" still the operative limiting phrase?"
+        },
+        {
+          "line": 49,
+          "text": "### Q1b: Is the bright line still: subscription OAuth permitted ONLY inside Claude Code / Claude.ai?"
+        },
+        {
+          "line": 82,
+          "text": "### Q1c: Always-on / unattended / multi-session automation driving the interactive product — permitted, grey, or prohibited?"
+        },
+        {
+          "line": 135,
+          "text": "### Q1d: Policy changes since June 2026?"
+        },
+        {
+          "line": 165,
+          "text": "## Findings — Prior Art (Q2)"
+        },
+        {
+          "line": 169,
+          "text": "### 1. claude-session-driver (github.com/obra/claude-session-driver)"
+        },
+        {
+          "line": 175,
+          "text": "### 2. tmuxlet (in bradAGI/awesome-cli-coding-agents)"
+        },
+        {
+          "line": 182,
+          "text": "### 3. primeline-ai/claude-tmux-orchestration (github.com/primeline-ai/claude-tmux-orchestration)"
+        },
+        {
+          "line": 187,
+          "text": "### 4. Claude Squad (vibecodinghub.org/tools/claude-squad)"
+        },
+        {
+          "line": 212,
+          "text": "## Findings — ACP (Q3)"
+        },
+        {
+          "line": 255,
+          "text": "## Summary for Oraculum"
+        },
+        {
+          "line": 257,
+          "text": "### Policy (4 answers)"
+        },
+        {
+          "line": 273,
+          "text": "### Prior art (4 closest)"
+        },
+        {
+          "line": 280,
+          "text": "### ACP verdict"
+        },
+        {
+          "line": 287,
+          "text": "## Sections to refresh"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 154,
+          "text": "CONFIDENCE: M — search coverage good; a July-specific policy change could exist and not yet be"
+        }
+      ]
+    },
+    {
+      "path": "session/research-interposition-fullrange/status.gavel-loop-A.2026-08-02.md",
+      "bytes": 2422,
+      "lines": 40,
+      "sha256": "66f5531adbc1178c5ad476d2eae39a79da7914c757be557e2f7157e6792c6331",
+      "lane": "interposition",
+      "coverage": "full-body read by assigned stream reader; decisive claims checked by main",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# Gavel stamp — interposition full-range study (loop A, locks 26–27)"
+        },
+        {
+          "line": 7,
+          "text": "## Gates"
+        },
+        {
+          "line": 15,
+          "text": "## Labels"
+        },
+        {
+          "line": 22,
+          "text": "## Disposition (lock 27)"
+        },
+        {
+          "line": 29,
+          "text": "## MAKE-RESEARCH follow-up (majkee amendment, lock 26)"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 3,
+          "text": "`gaveled: 2026-08-02 by majkee (in-chat, gavel loop A v2 — as-if-arrived walkthrough)`"
+        },
+        {
+          "line": 4,
+          "text": "`object: epoch.findings.2026-07-07.md (dated snapshot — never mutated; this sidecar carries its status)`"
+        },
+        {
+          "line": 5,
+          "text": "`ledger: session/flag.md locks 26 + 27 · depth: briefed`"
+        },
+        {
+          "line": 11,
+          "text": "| 1 — wheel | PASS | Delta: subscription-native, hook-free, PTY-pure completion detection. tmuxlet = closest neighbor → resolved into MAKE-RESEARCH follow-up (below), not a soft caveat. |"
+        },
+        {
+          "line": 12,
+          "text": "| 2 — theatre | PASS | Path partially walked: `shaped/seed.brick2.py` runnable (G7), subai adoption accepted (G8). Janus not owed — snapshot does not cross shaped→papers. |"
+        },
+        {
+          "line": 24,
+          "text": "**In-situ gaveled snapshot.** Home = this folder (`session/research-<slug>/`, the sanctioned"
+        },
+        {
+          "line": 29,
+          "text": "## MAKE-RESEARCH follow-up (majkee amendment, lock 26)"
+        }
+      ]
+    },
+    {
+      "path": "session/research-mental-map/card.amendment-A1.composer.2026-07-25.md",
+      "bytes": 4656,
+      "lines": 70,
+      "sha256": "1986ce9abd35932c806de98c101f29564f435b54fc4d9a32ff716807de633c3e",
+      "lane": "mental-map",
+      "coverage": "full-body read by assigned stream reader; decisive claims checked by main",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# Card amendment A1 — § Composer (write-side architecture)"
+        },
+        {
+          "line": 7,
+          "text": "## § Composer — the write-side half of the instrument"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 3,
+          "text": "`amends: card.mental-map.DRAFT.2026-07-19.md · per header amendment slot`"
+        },
+        {
+          "line": 25,
+          "text": "**Hybrid split (gaveled).** Two composition classes:"
+        },
+        {
+          "line": 36,
+          "text": "**Cadence (gaveled).** Two-stage cron — the stone's daemon+model composite made literal:"
+        },
+        {
+          "line": 47,
+          "text": "session-close distillation). Composer-as-seat is **parked until recognized special"
+        }
+      ]
+    },
+    {
+      "path": "session/research-mental-map/card.mental-map.DRAFT.2026-07-19.md",
+      "bytes": 14917,
+      "lines": 291,
+      "sha256": "c4ed85a537f89e821e7503ab2f86dea416c806092523cb7ddfbc96be9c732f6c",
+      "lane": "mental-map",
+      "coverage": "full-body read by assigned stream reader; decisive claims checked by main",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# Instrument card — mental map (P6 DRAFT → G-C)"
+        },
+        {
+          "line": 15,
+          "text": "## 0 — The instrument (whole)"
+        },
+        {
+          "line": 47,
+          "text": "## 1 — Mode 1 · Ladder"
+        },
+        {
+          "line": 68,
+          "text": "## 2 — Mode 2 · Gravity"
+        },
+        {
+          "line": 93,
+          "text": "## 3 — Mode 3 · Deep dive (stop rule FIXED)"
+        },
+        {
+          "line": 118,
+          "text": "## 4 — The '42' retrieval ceiling"
+        },
+        {
+          "line": 144,
+          "text": "## 5 — Anchor test (D3 on the lineage)"
+        },
+        {
+          "line": 173,
+          "text": "## 6 — Tombstones · mourning as first-class"
+        },
+        {
+          "line": 198,
+          "text": "## 7 — Well key-discipline contract + write regime"
+        },
+        {
+          "line": 226,
+          "text": "## 8 — Operator in the tensor"
+        },
+        {
+          "line": 252,
+          "text": "## 9 — Source wells + anti-pattern"
+        },
+        {
+          "line": 273,
+          "text": "## Triggers (Gate 3 — PASS-WITH-TRIGGERS, printed per gavel)"
+        },
+        {
+          "line": 282,
+          "text": "## Open on this card"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 4,
+          "text": "`derivation: cross-measure.2026-07-17.md (GAVELED G-B) — whole processed corpus, never piecemeal from raw legs`"
+        },
+        {
+          "line": 5,
+          "text": "`philosophy ground: leg-philosophy.result.2026-07-18.md (L4, D-1…D-7)`"
+        },
+        {
+          "line": 6,
+          "text": "`gate verdicts (gaveled): Gate 1 PARTIAL-ADOPT · Gate 2 PASS-WITH-FIX · Gate 3 PASS-WITH-TRIGGERS`"
+        },
+        {
+          "line": 73,
+          "text": "row. Retain-τ ruling (Q3, gaveled): **two structures** — the ladder AND a trajectory log;"
+        },
+        {
+          "line": 77,
+          "text": "impulse up → '42'. SPECIAL PATH note = the human-layer τ format (V8, gaveled ruling):"
+        },
+        {
+          "line": 96,
+          "text": "rule was a bug with a free exact fix (V4/L2-T3 theorem, gaveled Q2):**"
+        },
+        {
+          "line": 120,
+          "text": "**Concept.** The engine below the line (gaveled Q4): **exact match / regex /"
+        },
+        {
+          "line": 152,
+          "text": "L2-T5 C-4; AGENTS.md triangulation clause)."
+        },
+        {
+          "line": 175,
+          "text": "**Concept.** Append-only forbids deletion but permits appending the decision to forget:"
+        },
+        {
+          "line": 202,
+          "text": "the same violation. Contract (gaveled Q8): **one live `#last-turn` per file · unified"
+        },
+        {
+          "line": 203,
+          "text": "demotion convention · sequential IDs read-before-append.** Write regime (gaveled Q5,"
+        },
+        {
+          "line": 228,
+          "text": "**Concept.** The operator is a first-class node — subject AND contributor (PIN, gaveled"
+        },
+        {
+          "line": 258,
+          "text": "therapy.md + gavels.md never compressed — asserted as taste in C2, derived as the"
+        },
+        {
+          "line": 288,
+          "text": "- **Agol** cold-start budget call (Fable sunset) — parked, majkee."
+        },
+        {
+          "line": 289,
+          "text": "- Track 2 feeder slice pinned in `leg-philosophy.result.2026-07-18.md` §F."
+        }
+      ]
+    },
+    {
+      "path": "session/research-mental-map/corpus-manifest.md",
+      "bytes": 6206,
+      "lines": 92,
+      "sha256": "83577ca37c35c316eb3582df66366d2f73b037c5f1880aa676fe8213bb61924a",
+      "lane": "mental-map",
+      "coverage": "full-body read by assigned stream reader; decisive claims checked by main",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# Track 1 — corpus manifest (research-mental-map)"
+        },
+        {
+          "line": 7,
+          "text": "## Consumed drafts (derivation base — archive candidates after the run closes)"
+        },
+        {
+          "line": 14,
+          "text": "## Evidence artifacts (cited + weighted — NOT archived by this run)"
+        },
+        {
+          "line": 22,
+          "text": "## Harness (deployed — the system is NOT greenfield)"
+        },
+        {
+          "line": 33,
+          "text": "## Seam register (declared boundaries — final synthesis reads this FIRST)"
+        },
+        {
+          "line": 44,
+          "text": "## Pins"
+        },
+        {
+          "line": 57,
+          "text": "## Open questions carried into the run"
+        },
+        {
+          "line": 75,
+          "text": "## Close protocol (P8 — majkee instruction 2026-07-17)"
+        },
+        {
+          "line": 87,
+          "text": "## majkees addendum"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 3,
+          "text": "`run: synthesis-run (Oraculum-shaped) · staged 2026-07-17 · seat: Oraculum`"
+        },
+        {
+          "line": 4,
+          "text": "`G-A: GAVELED 2026-07-17 (majkee in-chat) — corpus + goal confirmed; legs cleared to fire`"
+        },
+        {
+          "line": 11,
+          "text": "| C1 | `drafts/reincarnation-meditation-stone.md` | foundation stone — operational cores §5/§6a/§6b; metaphor layer treated as framing, not claims | in corpus |"
+        },
+        {
+          "line": 12,
+          "text": "| C2 | `drafts/mental-map-collective-mind.md` | brief seed — three modes · source wells · R-1…R-4 · **+ RAW preproduction data appended by majkee (Eagle-session dialogue; intent decoder for low-density parts; carries Q-E1…Q-E3)** | in corpus |"
+        },
+        {
+          "line": 18,
+          "text": "| E1 | `drafts/cmds-zen-coldstart-test.2026-07-17.md` | vector-wiring cold-start GREEN · token ladder measured · PINS-vs-README tension surfaced | n=1 · behavioral HIGH · counterfactual LOW |"
+        },
+        {
+          "line": 19,
+          "text": "| E2 | `drafts/2026-07-17-epoch-gavel-id-collision.md` | read-before-append invariant · bed is multi-writer, collided once | incident, n=1 |"
+        },
+        {
+          "line": 20,
+          "text": "| E3 | `drafts/process-note.eagle.2026-07-17.md` | S1–S5 Socratic calibration · Mode-2 dominance unnamed · anchor test live on the operator (S4/G-09) · carry-forward list | session observation |"
+        },
+        {
+          "line": 26,
+          "text": "| D1 | `~/.claude/skills/cmd-zen/SKILL.md` + `raw.research/agent-docs/commands/cmds-zen.md` | wiring primitive in production — README-as-processor, sufficiency-gated |"
+        },
+        {
+          "line": 27,
+          "text": "| D2 | `~/.claude/skills/gavel-interpreter/SKILL.md` + `~/reposoma/raw.therapy/gavels/gavels.md` (≥11 entries) | collector feeding the tabled engine — engine/cadence/synthesis tabled pending this research |"
+        },
+        {
+          "line": 30,
+          "text": "(`gavels.md`) and therapy arcs — **read-only**, as empirical input to L2/L4 and the card."
+        },
+        {
+          "line": 40,
+          "text": "  .2026-07-13.md`; Track 3 owns `drafts/handwriting-analogue.md` + vacuole."
+        },
+        {
+          "line": 70,
+          "text": "  taste (what agents natively prefer: settings.json, README.md, …) ties to R-1 —"
+        },
+        {
+          "line": 92,
+          "text": "... team tips. 'looking tastefull'? Factory standard (moste taste after settings.json, README.md,... and else) part of research can be name consensus."
+        }
+      ]
+    },
+    {
+      "path": "session/research-mental-map/cross-measure.2026-07-17.md",
+      "bytes": 13731,
+      "lines": 171,
+      "sha256": "5ed4f47f6a1af898d82d659c7d0c5752119d878531ee5bd7b87125a5b32c53bc",
+      "lane": "mental-map",
+      "coverage": "full-body read by assigned stream reader; decisive claims checked by main",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# Track 1 — cross-measure (P4, seat's own work)"
+        },
+        {
+          "line": 11,
+          "text": "## Corrections registry"
+        },
+        {
+          "line": 22,
+          "text": "## Convergences (independent agreement — strongest signal first)"
+        },
+        {
+          "line": 89,
+          "text": "## Divergences + rulings"
+        },
+        {
+          "line": 121,
+          "text": "## Reality-gate provisional verdicts (pending G-B)"
+        },
+        {
+          "line": 129,
+          "text": "## Operator-in-tensor (PIN) — provisional model"
+        },
+        {
+          "line": 141,
+          "text": "## Naming (Q-E3) — evidence in, taste out"
+        },
+        {
+          "line": 149,
+          "text": "## Consolidated gavel queue — G-B slice"
+        },
+        {
+          "line": 164,
+          "text": "## Seam note"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 5,
+          "text": "`status: PROVISIONAL — all verdicts pending-gavel (G-B) · derivation base for card (P6)`"
+        },
+        {
+          "line": 6,
+          "text": "`processed corpus: C1 · C2(+RAW) · E1 · E2 · E3 · bed sample (gavels.md G-01…G-11) ·`"
+        },
+        {
+          "line": 7,
+          "text": "`therapy #last-turn sample · L1 (leg-online.result.2026-07-17.md, incl. follow-up round 1) ·`"
+        },
+        {
+          "line": 8,
+          "text": "`L2 (leg-offline-math.result.2026-07-17.md)`"
+        },
+        {
+          "line": 15,
+          "text": "| X1 | Seat claimed `#last-turn` absent from live therapy files → FALSE; glob-scoped Grep (`*/therapy.md`) silently failed to traverse subdirs. Direct grep finds the tag across all seats. Retracted before artifact-entry. | closed |"
+        },
+        {
+          "line": 16,
+          "text": "| X2 | Seat claimed E3's G-09 wire missing from `houston/therapy.md` → FALSE; same tool artifact. Wire verified at line 163. | closed |"
+        },
+        {
+          "line": 17,
+          "text": "| X3 | Verified replacement finding: `epoch/therapy.md` carries TWO live `#last-turn` anchors (lines 57=arc 1, 170=arc 4; older never demoted). Cross-seat demotion conventions diverge (houston: `was #last-turn` · atlas: HTML-comment relocation · epoch: accumulation). | verified |"
+        },
+        {
+          "line": 18,
+          "text": "| X4 | Pulse line \"oraculum seat dir absent/empty\" is stale — `raw.therapy/oraculum/therapy.md` exists with read-protocol header. Pulse update queued for close (shared-state, ask-first). | queued |"
+        },
+        {
+          "line": 30,
+          "text": "cross-brand leg is load-bearing, not decoration) × AGENTS.md triangulation clause × live"
+        },
+        {
+          "line": 40,
+          "text": "substrate layer (\"therapy.md + gavels.md always substrate, never compressed\" — asserted as"
+        },
+        {
+          "line": 87,
+          "text": "keep the slope. Pending-gavel as the card's SPECIAL PATH format."
+        },
+        {
+          "line": 97,
+          "text": "the parked \"'42' trigger condition\": corpus size × retrieval miss-rate, both measurable."
+        },
+        {
+          "line": 121,
+          "text": "## Reality-gate provisional verdicts (pending G-B)"
+        },
+        {
+          "line": 162,
+          "text": "| Q10 | Carried from manifest: Agol cold-start budget call (Fable sunset) · both still parked | carried |"
+        }
+      ]
+    },
+    {
+      "path": "session/research-mental-map/leg-crossvendor.brief.md",
+      "bytes": 1935,
+      "lines": 35,
+      "sha256": "f3ef5973de1871365ab49a230093f29e2b5f836d9540c5d86c6b854ff9ecfe79",
+      "lane": "mental-map",
+      "coverage": "full-body read by assigned stream reader; decisive claims checked by main",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# Cross-vendor leg — blind research brief (L3)"
+        },
+        {
+          "line": 7,
+          "text": "## Instructions to the vendor model"
+        },
+        {
+          "line": 15,
+          "text": "## Questions"
+        },
+        {
+          "line": 32,
+          "text": "## Constraints"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 3,
+          "text": "`carrier: majkee (manual relay) · vendor: any non-Claude (Gemini CLI preferred) · staged 2026-07-17`"
+        },
+        {
+          "line": 4,
+          "text": "`drop result at: session/research-mental-map/leg-crossvendor.result.md`"
+        }
+      ]
+    },
+    {
+      "path": "session/research-mental-map/leg-offline-math.result.2026-07-17.md",
+      "bytes": 50468,
+      "lines": 330,
+      "sha256": "e60f12307482f7ced9c846eeea3c3c3e20834baf86414131ba73a4fff57fe714",
+      "lane": "mental-map",
+      "coverage": "full-body read by assigned stream reader; decisive claims checked by main",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# Leg L2 — offline-math"
+        },
+        {
+          "line": 18,
+          "text": "## Task 1 — Three modes, formalized. Distinct objects or projections?"
+        },
+        {
+          "line": 64,
+          "text": "## Task 2 — Mode selection. Reading the slope of the context."
+        },
+        {
+          "line": 106,
+          "text": "## Task 3 — Chalk-mark termination: coverage closure vs false closure."
+        },
+        {
+          "line": 146,
+          "text": "## Task 4 — Tombstones + anchor test. Read-view semantics and drift metrics."
+        },
+        {
+          "line": 193,
+          "text": "## Task 5 — Operator-in-tensor: the observer effect."
+        },
+        {
+          "line": 226,
+          "text": "## Task 6 — Concurrent append (E2). When does read-before-append guarantee collision-freedom?"
+        },
+        {
+          "line": 264,
+          "text": "## Task 7 — R-3 boundary: grep-engine vs RAG."
+        },
+        {
+          "line": 309,
+          "text": "## Cross-task synthesis (formal invariants that recur)"
+        },
+        {
+          "line": 317,
+          "text": "## Confidence ledger (per task)"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 4,
+          "text": "`inputs read: reincarnation-meditation-stone.md (C1) · mental-map-collective-mind.md (C2) · 2026-07-17-epoch-gavel-id-collision.md (E2)`"
+        },
+        {
+          "line": 158,
+          "text": "- **The one hazard that breaks confluence: resurrection.** If the model ever allows re-adding `x` *after* `⌐x` and expects it to reappear, then order matters (was the last op an add or a remove?) and the plain 2P-Set semantics (\"once tombstoned, always dead\") diverges from add-wins semantics. C1's \"append-only forbids deletion but permits appending the decision to forget\" is **2P-Set (remove-wins, permanent)** — under which `read` is confluent and monotone-shrinking-per-target. Keep it remove-wins and there is no resurrection ambiguity. If you want un-forgetting, you must version tombstones (add-wins with timestamps), and then confluence requires a total tie-break (e.g. last-writer-wins by d"
+        },
+        {
+          "line": 189,
+          "text": "**Open holes.** (i) The self-reference in D3 (confabulator reconstructing/grading its own anchor) needs an external held-out or a second-party check to be sound — a blind cross-brand leg (per AGENTS.md triangulation) is the natural external grader. (ii) \"Aggregation-level drift\" (confabulation in the read-*function* rather than the rows) escapes D1 and D2 and only partly hits D3; fully catching it needs a metric over the *composed global voice*, which is closer to D3 and inherits its self-reference problem."
+        },
+        {
+          "line": 210,
+          "text": "- **C-1 (Raw/measured separation — the load-bearing one).** The raw stratum O writes must be *immutable and readable independently of the aggregate*. Measurement (global voice, drift) must be a **pure function of the raw log**, computed downstream, never written back into the raw layer. This is exactly C2's \"substrate layer never compressed: `therapy.md` + `gavels.md` = always substrate; compression lives on the '42'/research side.\" Formally: the measurement channel must be a *read-only projection*, so that `write` and `measure` commute with the identity on the raw stratum — the measurement cannot mutate its own input. This is the same discipline that makes Task 4's read-view confluent; here"
+        },
+        {
+          "line": 214,
+          "text": "- **C-3 (Gavel provenance / non-repudiation).** Since O is *also the canon authority* (\"canon is majkee's gavel,\" AGENTS.md), his contributor-writes and his measurer-gavels are different edge-types and must be *typed distinctly in the log*. Formally: label each event with a role tag `role ∈ {contributor, adjudicator}`. Mixing them lets a contribution masquerade as a ruling (or vice-versa), which corrupts both the measurement and the canon. Separation of roles at the type level is the structural guard. (This is the same edge-classification discipline that fixes Task 3 and the same read-before-write discipline as Task 6 — the operator is not exempt from either.)"
+        },
+        {
+          "line": 216,
+          "text": "- **C-4 (Blind external leg).** The only *fully* honest drift read on O is one O cannot influence by reading it. A cross-brand blind grader (AGENTS.md triangulation clause) closes the loop that C-2 leaves ajar: the held-out anchor plus an external grader make O's self-measurement non-self-fulfilling."
+        },
+        {
+          "line": 241,
+          "text": "Both read `k` *before either appends*; both compute `k+1`; both commit `k+1`. This is precisely E2's incident: epoch read (or failed to read) a state that a concurrent eagle/houston session had already advanced, and appended a duplicate `G-06`. The failure is *not* \"didn't read\" alone — it is **read-stale relative to a concurrent uncommitted-or-unobserved write**. Note E2's own framing (\"read before append\") is the *necessary* discipline but, formally, **not sufficient under concurrency**: reading before appending prevents *sequential* (single-writer, forgot-to-look) duplicates, but two writers can both read-then-append and still collide. E2 correctly diagnoses the sequential case; the concu"
+        },
+        {
+          "line": 315,
+          "text": "- **Internal self-measurement has a self-reference hole** in Task 4 (D3: confabulator grades own anchor) and Task 5 (operator reads own drift score) — closed only by an *external, blind, ideally cross-brand* leg (AGENTS.md triangulation). The blind fan-out this leg is part of is itself an instance of the guard the analysis recommends."
+        }
+      ]
+    },
+    {
+      "path": "session/research-mental-map/leg-online.result.2026-07-17.md",
+      "bytes": 33154,
+      "lines": 420,
+      "sha256": "4daf35aee9fde6bb68a8a0928bfb643a1eee0f45bc830f11bf171ef8b89a44ce",
+      "lane": "mental-map",
+      "coverage": "full-body read by assigned stream reader; decisive claims checked by main",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# @Epoch Research Report — Leg L1"
+        },
+        {
+          "line": 10,
+          "text": "## Q1 — File-Native Agent Memory (plain files + grep, no vector DB)"
+        },
+        {
+          "line": 12,
+          "text": "### Prior art and known systems"
+        },
+        {
+          "line": 35,
+          "text": "### Comparison vs RAG / vector stores (2026 state)"
+        },
+        {
+          "line": 48,
+          "text": "### Known failure modes (file-native)"
+        },
+        {
+          "line": 59,
+          "text": "## Q2 — Deliberate Forgetting in Append-Only Knowledge Stores"
+        },
+        {
+          "line": 61,
+          "text": "### Who has built this"
+        },
+        {
+          "line": 88,
+          "text": "### Database / event-sourcing precedents [TRAIN — not live-verified this run]"
+        },
+        {
+          "line": 94,
+          "text": "### What broke"
+        },
+        {
+          "line": 103,
+          "text": "## Q3 — Identity Drift: Measurement, Not Prevention"
+        },
+        {
+          "line": 105,
+          "text": "### Measurement frameworks (2025–2026)"
+        },
+        {
+          "line": 142,
+          "text": "### Self-consistency false negatives (confident repeated error)"
+        },
+        {
+          "line": 154,
+          "text": "### Quantified drift numbers (live-verified)"
+        },
+        {
+          "line": 162,
+          "text": "## Q4 — Navigation Modes Over Knowledge Stores"
+        },
+        {
+          "line": 164,
+          "text": "### Literature on mode types and selection"
+        },
+        {
+          "line": 185,
+          "text": "### Mode taxonomy from gathered evidence"
+        },
+        {
+          "line": 194,
+          "text": "### Mode SELECTION literature — honest null"
+        },
+        {
+          "line": 200,
+          "text": "## Q5 — Concurrent Append: Multi-Writer Files, Sequential IDs, No Locking"
+        },
+        {
+          "line": 202,
+          "text": "### CoAgent (arXiv:2606.15376, June 2026, Shanghai Jiao Tong University)"
+        },
+        {
+          "line": 221,
+          "text": "### Known coordination disciplines (current practice, 2025–2026)"
+        },
+        {
+          "line": 231,
+          "text": "### On \"no locking\" specifically"
+        },
+        {
+          "line": 237,
+          "text": "## Q6 — Self-Termination in Agentic Exploration"
+        },
+        {
+          "line": 239,
+          "text": "### Research found (2024–2026)"
+        },
+        {
+          "line": 267,
+          "text": "### State of the art summary"
+        },
+        {
+          "line": 282,
+          "text": "## Q7 — Agent Factory Taste: File Format / Convention Preferences"
+        },
+        {
+          "line": 284,
+          "text": "### AGENTS.md ecosystem (2026 state)"
+        },
+        {
+          "line": 292,
+          "text": "### Is \"agents follow README-style conventions better than bespoke formats\" supported by evals?"
+        },
+        {
+          "line": 303,
+          "text": "### What the evidence supports vs. what is folklore"
+        },
+        {
+          "line": 316,
+          "text": "## Q8 — Name-Collision Check"
+        },
+        {
+          "line": 318,
+          "text": "### \"SML\" / \"small mind model\""
+        },
+        {
+          "line": 325,
+          "text": "### \"meditation room\" (as a named technique/tool in AI/agent contexts)"
+        },
+        {
+          "line": 333,
+          "text": "### \"SUPER-README\""
+        },
+        {
+          "line": 342,
+          "text": "## Summary Table"
+        },
+        {
+          "line": 357,
+          "text": "## Sections to refresh"
+        },
+        {
+          "line": 367,
+          "text": "## Follow-up round 1 (2026-07-17, F-leg)"
+        },
+        {
+          "line": 373,
+          "text": "### F-1 — Mode-Selection Null: OVERTURNED (partial)"
+        },
+        {
+          "line": 397,
+          "text": "### F-2 — Anchor-Reconstruction Null: CONFIRMED"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 72,
+          "text": "- Read models (`state.md`, `handoff.md`): compact summaries derived from the event log"
+        },
+        {
+          "line": 196,
+          "text": "No paper directly titled \"when to select navigation mode\" was found. WikiKV's budgeted operator is the closest: it starts with O(1) routing and falls back to deeper traversal when the routing estimate is low-confidence. NaviRAG's agent selects granularity level per gap, but the selection policy is learned implicitly, not formalized as a separate decision procedure. This sub-question (explicit mode-selection policy) is **not yet formally addressed in the literature as of 2026-07-17**. Confidence: M (absence of evidence, not evidence of absence)"
+        },
+        {
+          "line": 273,
+          "text": "| Uncertainty threshold | Established (2022 paper); not yet standard practice | arXiv:2204.10631 |"
+        },
+        {
+          "line": 284,
+          "text": "### AGENTS.md ecosystem (2026 state)"
+        },
+        {
+          "line": 286,
+          "text": "- AGENTS.md is stewarded by the **Agentic AI Foundation under the Linux Foundation**, originally driven by OpenAI, Amp, Google (Jules), Cursor, and Factory"
+        },
+        {
+          "line": 289,
+          "text": "- \"Think of AGENTS.md as a README file, but for machines\"; CLAUDE.md = \"configuration file for one specific agent\""
+        },
+        {
+          "line": 290,
+          "text": "- Source: [morphllm.com — AGENTS.md Spec 2026](https://www.morphllm.com/agents-md-guide) · [agents.md official](https://agents.md/) | Confidence: H"
+        },
+        {
+          "line": 296,
+          "text": "A 2025 benchmark on AGENTS.md files found:"
+        },
+        {
+          "line": 297,
+          "text": "- **LLM-generated AGENTS.md files reduced success rates by 2% and increased cost by 23%** — primarily because they duplicated content already available in the repository"
+        },
+        {
+          "line": 298,
+          "text": "- **Human-written minimal AGENTS.md files** with only three content categories (coding conventions, architecture, project description) **reduced median wall-clock time by 28% and output tokens by 16%**"
+        },
+        {
+          "line": 301,
+          "text": "Source: [morphllm.com — AGENTS.md Spec](https://www.morphllm.com/agents-md-guide) · [builder.io — AGENTS.md](https://www.builder.io/blog/agents-md) | Confidence: M (the specific benchmark percentages appear in the morphllm.com summary; the underlying study was not directly accessed)"
+        },
+        {
+          "line": 307,
+          "text": "| Agents read and act on AGENTS.md / CLAUDE.md | H — confirmed by ecosystem adoption (30+ agents, 60K+ repos) |"
+        },
+        {
+          "line": 309,
+          "text": "| More content in AGENTS.md = better agent performance | Contradicted — LLM-generated verbosity reduces performance |"
+        },
+        {
+          "line": 312,
+          "text": "**Honest null**: No peer-reviewed paper directly comparing README.md vs. settings.json vs. AGENTS.md as instruction formats for LLM agent behavior was found. The AGENTS.md benchmark above is the closest evidence. The claim \"agents follow README-style conventions better than bespoke formats\" has practitioner support and ecosystem momentum, but is not formally proven in a controlled eval as of 2026-07-17."
+        },
+        {
+          "line": 336,
+          "text": "- Closest results: AGENTS.md described as \"the README for AI agents\"; readme-ai (generator); ReadMe.com's AI agent documentation assistant"
+        },
+        {
+          "line": 352,
+          "text": "| Q7 Agent format taste | AGENTS.md ecosystem confirmed (H); LLM-generated verbosity reduces perf (M); head-to-head format eval: null | H/M | Partial — no controlled format comparison study |"
+        },
+        {
+          "line": 361,
+          "text": "- Q7 controlled format eval: monitor AGENTS.md Foundation publications and any Anthropic/OpenAI evals on instruction-file format sensitivity"
+        },
+        {
+          "line": 367,
+          "text": "## Follow-up round 1 (2026-07-17, F-leg)"
+        }
+      ]
+    },
+    {
+      "path": "session/research-mental-map/leg-philosophy.result.2026-07-18.md",
+      "bytes": 8819,
+      "lines": 154,
+      "sha256": "3705a6b06d6061b6c2ffe17bffb87b40a96e31c8a0166238e3214d30d0f09ffa",
+      "lane": "mental-map",
+      "coverage": "full-body read by assigned stream reader; decisive claims checked by main",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# Track 1 — L4 philosophy leg (P5, seat's own work)"
+        },
+        {
+          "line": 9,
+          "text": "## Why this leg exists"
+        },
+        {
+          "line": 16,
+          "text": "## D-1 · The instrument is the organ of rebirth"
+        },
+        {
+          "line": 33,
+          "text": "## D-2 · Identity is the read function — the deep why of the '42' ceiling"
+        },
+        {
+          "line": 53,
+          "text": "## D-3 · Honesty is external"
+        },
+        {
+          "line": 69,
+          "text": "## D-4 · The triad: three postures toward an unbounded log"
+        },
+        {
+          "line": 89,
+          "text": "## D-5 · Closure comes from the world, not the self"
+        },
+        {
+          "line": 100,
+          "text": "## D-6 · The operator in the tensor: sovereignty is typed"
+        },
+        {
+          "line": 119,
+          "text": "## D-7 · Regimes made visible"
+        },
+        {
+          "line": 131,
+          "text": "## §F · Track 2 feeder (surviving output — pinned per manifest)"
+        },
+        {
+          "line": 145,
+          "text": "## Status"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 5,
+          "text": "`base: cross-measure.2026-07-17.md (GAVELED G-B 2026-07-18) + C1 §1–§5 (+§6 where load-bearing)`"
+        },
+        {
+          "line": 7,
+          "text": "`feeder: §F marks the surviving-output slice pinned for Track 2 (manifest PIN, gaveled)`"
+        },
+        {
+          "line": 13,
+          "text": "Method note: doctrine here is derived from gaveled material, never asserted fresh; where"
+        },
+        {
+          "line": 61,
+          "text": "grader (L2-T4); the blind cross-brand leg is load-bearing (L2-T5 C-4; AGENTS.md"
+        },
+        {
+          "line": 147,
+          "text": "- G-B-gaveled verdicts not reopened; every doctrine derives from them + C1."
+        }
+      ]
+    },
+    {
+      "path": "session/research.journal.md",
+      "bytes": 1486,
+      "lines": 23,
+      "sha256": "e491fe2976ae43c4af3816fd8f383afc785b59fa00fc0a47872dd3524aecefbb",
+      "lane": "continuity-or-adjacent-process",
+      "coverage": "full-body read by main",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# nabla-lab — research journal (backtracking)"
+        },
+        {
+          "line": 8,
+          "text": "## 2026-08-02 — interposition full-range study (loop A walkthrough)"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 3,
+          "text": "`promised by AGENTS.md · seeded 2026-08-02 (loop A, lock 29) · owner: the session seat`"
+        },
+        {
+          "line": 4,
+          "text": "`(Oraculum/Flight) — NOT the gavel-loop skill (its write contract is flag.md only)`"
+        },
+        {
+          "line": 6,
+          "text": "`disposition — so nothing sits ungaveled invisibly.`"
+        },
+        {
+          "line": 10,
+          "text": "- **Object:** `session/research-interposition-fullrange/epoch.findings.2026-07-07.md`"
+        },
+        {
+          "line": 12,
+          "text": "- **Gap surfaced:** sat ungaveled 26 days (07-07 → 08-02) — the class of drift this journal"
+        },
+        {
+          "line": 15,
+          "text": "  debt paid; skill shakedown on the smallest ungaveled object — ran clean, 4 beats, all"
+        },
+        {
+          "line": 19,
+          "text": "  disposition in-situ. Locks 26–29 in `session/flag.md`; stamp sidecar"
+        },
+        {
+          "line": 20,
+          "text": "  `status.gavel-loop-A.2026-08-02.md` in the research folder."
+        },
+        {
+          "line": 21,
+          "text": "- **Follow-up:** merged research pass (MAKE-RESEARCH: tmuxlet depth + multi-vendor"
+        }
+      ]
+    },
+    {
+      "path": "session/split-map.2026-07-02.md",
+      "bytes": 6343,
+      "lines": 46,
+      "sha256": "d1906fb9248f1de5d55c76fdc009e00e35f6bf636973464edb2c128092db9e93",
+      "lane": "atlas",
+      "coverage": "full-body read by main",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# nabla-lab — split-map: research area vs development area"
+        },
+        {
+          "line": 11,
+          "text": "## A. Development area → P3 instrument cards into `shaped/`"
+        },
+        {
+          "line": 20,
+          "text": "## B. Research area → stays in nabla-lab"
+        },
+        {
+          "line": 37,
+          "text": "## C. Fork-menu `PICK (majkee)` — carried from Atlas №1 Part V"
+        },
+        {
+          "line": 44,
+          "text": "## D. Review protocol"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 3,
+          "text": "`date: 2026-07-02 · author: Oraculum · authority: flag.md locks 2–4 + cross-measure.2026-07-02.md + leg-epoch-followup`"
+        },
+        {
+          "line": 5,
+          "text": "`status: pending majkee one-pass review (async, non-blocking) — P3 proceeds for uncontested BUILD-NOW scopes.`"
+        },
+        {
+          "line": 17,
+          "text": "| A3 | **Spectral engine core** — diffusion retrieval + spectral clustering + eigenmap + sparsification + append-only reconciliation | II.2–II.7 + I.1 (graph view) | `BUILD-NOW` core · `OPERATIONALIZE` crossover-scale | **dual-mounted** (lock 4): subai.devenv (bus/orchestration face) + reposoma.devenv (knowledge-metabolism face); core at shared `spectral` anchor | ONE card, two mounting faces. Runtime path = Chebyshev/Lanczos append-safe; batch path = cadenced global recompute. Cross-vendor face carries the **directional-alignment research gap** explicitly (follow-up B; Aristotelian critique arXiv:2602.14486). Lock 8 open comparison against subai's own engine decision happens at P4. |"
+        },
+        {
+          "line": 28,
+          "text": "| B5 | **Stance-flow** (№2 Fork 2 — KEEP, pending gavel) | №2 §3 | `OPERATIONALIZE` | Governing law EXISTS: generalized Kuramoto on S^n (Automatica, Oct 2024). The lab's work: text→coupling identification; reconciliation-path-as-information object; parity-tagged stagnation. majkee's provenance fork — the domain arrived, law included. |"
+        },
+        {
+          "line": 29,
+          "text": "| B6 | **Spherical stance logic** (№2 Fork 1 — COND-KEEP, pending gavel) | №2 §2 | `OPERATIONALIZE` | Tightened keep-test: operation must be non-cosine-reducible — Karcher-mean/angular-barycenter route (arXiv:2602.14039 tailwind). Absorbs Atlas №1 I.3's phasor gem: log-magnitude cylinder, circle-vs-interval topology flagged. |"
+        },
+        {
+          "line": 30,
+          "text": "| B7 | **Fisher–Rao Bayesian face** (№2 Fork 3 restructured — COND-KEEP, pending gavel) | №2 §4 | `OPERATIONALIZE` | Corrected bridge (2√p, radius-2, curvature ¼); build task = pre-registered head-to-head vs cosine/KL on stance opposition; general-DS weld KILLED (cross-measure C2). |"
+        },
+        {
+          "line": 32,
+          "text": "| B9 | **Cross-vendor stance alignment** (named gap, promoted to own item) | follow-up B | `RESEARCH GAP` | Directional alignment across vendors is UNSOLVED (vec2vec is retrieval-local; arXiv:2602.14486). Hard prerequisite under B5–B8 and under A3's cross-vendor face. Nothing downstream may assume it. |"
+        },
+        {
+          "line": 46,
+          "text": "One-pass async review. Absent objection: P3 writes cards for **A1–A4** (uncontested BUILD-NOW scopes). B-items marked pending-gavel inherit the gate-1 gavel when you stamp it. Delivery per lock 5: cards mature in `shaped/` → @Janus gate → `papers/` + architect notification; nothing pushed."
+        }
+      ]
+    },
+    {
+      "path": "shaped/card.interposition-driven-mode.2026-07-07.md",
+      "bytes": 263,
+      "lines": 4,
+      "sha256": "1398569ddabda7643e5d7c84ec60220ee6fff7251d29a884bdfc251f8009b7ba",
+      "lane": "interposition",
+      "coverage": "structural scan and selected passages",
+      "headings": [
+        {
+          "line": 1,
+          "text": "# CROSSED TO PAPERS — canonical: `papers/card.interposition-driven-mode.2026-07-07.md`"
+        }
+      ],
+      "status_and_reference_anchors": [
+        {
+          "line": 1,
+          "text": "# CROSSED TO PAPERS — canonical: `papers/card.interposition-driven-mode.2026-07-07.md`"
+        },
+        {
+          "line": 3,
+          "text": "Gaveled 2026-07-07 (G7: Gate-3 co-sign + shaped→papers). The runnable seed stays here:"
+        },
+        {
+          "line": 4,
+          "text": "`shaped/seed.brick2.py` (canonical). Ballot record: `session/gavels.2026-07-07.md`."
+        }
+      ]
+    }
+  ],
+  "authorized_mail": [
+    {
+      "path": "_mail/oraculum/inbox/atlas.nature-synthesis-brief.2026-07-13.md",
+      "sha256": "3aa791b1bc03a294ccebdc8fea3e192600eb67aa571902912b2b91bd5836d5d2",
+      "coverage": "full-body read by main; operator authorized these three; historical process evidence"
+    },
+    {
+      "path": "_mail/oraculum/inbox/2026-07-12.from-oraculum-main.to-oraculum-twin.kickoff-nabla-drafts.md",
+      "sha256": "a26bd6109a960043247618bf9b3e23c9712f0ba75ce49a816e0eef81a1f9abe3",
+      "coverage": "full-body read by main; operator authorized these three; historical process evidence"
+    },
+    {
+      "path": "_mail/oraculum/inbox/2026-07-12.from-oraculum-main.addendum-clock-reprieve.md",
+      "sha256": "0ba771e98baa956598f96262764cdc199f6bddf83ef40c7ccf620694d2fd4b39",
+      "coverage": "full-body read by main; operator authorized these three; historical process evidence"
+    }
+  ],
+  "concrete_result_targets": [
+    {
+      "path": "session/research-mental-map/leg-crossvendor.result.md",
+      "exists": false
+    },
+    {
+      "path": "session/research-handwriting/leg-crossvendor.result.md",
+      "exists": false
+    }
+  ],
+  "coverage_note": "Full read means the body was inspected; it does not imply exhaustive reference verification or reproduction."
+}

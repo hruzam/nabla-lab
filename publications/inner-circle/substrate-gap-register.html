@@ -1,0 +1,48 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Distributed substrate: scientific gap register</title><style>body{margin:0;background:#f4f1eb;color:#20303b;font:18px/1.65 Georgia,serif}main{max-width:880px;margin:48px auto;padding:56px 64px;background:#fffdf8;border-top:7px solid #087f8c;box-shadow:0 10px 45px #18344512}h1,h2,h3,th,.masthead{font-family:Arial,sans-serif}h1{font-size:42px;line-height:1.12;letter-spacing:-1px;color:#173c49}h2{font-size:24px;margin-top:2em;border-top:1px solid #d9e2e2;padding-top:22px}h3{font-size:19px}p{margin:1em 0}a{color:#087080;text-decoration-thickness:1px}table{border-collapse:collapse;width:100%;font-size:14px;line-height:1.45;margin:25px 0}th,td{border-bottom:1px solid #d5dfdf;padding:12px 10px;text-align:left;vertical-align:top}th{background:#e8efed}pre{background:#edf2f2;padding:18px;font:13px/1.65 monospace;overflow:auto;border-left:3px solid #087f8c}code{font-size:.84em}pre code{font-size:inherit}img,svg{max-width:100%;height:auto}figure{margin:32px 0}u{text-decoration-color:#087f8c;text-underline-offset:4px}li{margin:.65em 0}.masthead{font-size:12px;letter-spacing:2px;text-transform:uppercase;color:#607580}footer{font:12px/1.5 Arial,sans-serif;color:#657781;margin-top:45px;border-top:1px solid #d5dfdf;padding-top:18px}@media(max-width:720px){main{margin:0;padding:28px 22px}h1{font-size:32px}table{display:block;overflow:auto}}@media print{body{background:white;font-size:11pt}main{max-width:none;margin:0;padding:0;box-shadow:none;border:0}h1{font-size:26pt}h2{break-after:avoid}pre,figure,svg{break-inside:avoid}a{color:inherit}table{font-size:9pt}}</style><main><div class="masthead">Nabla-lab / Inner-circle publications / Research edition</div><h1>Distributed substrate: scientific gap register</h1>
+<p><strong>Bounded local-source analysis · 2026-10-27 · not the completed three-study synthesis</strong></p>
+<p>The <a href="../../drafts/decentralized-memory-substrate-spec.md">v1 specification</a>, <a href="../../drafts/decentralized-memory-substrate-spec-v2.md">v2 specification</a> and <a href="../../drafts/oraculum-synthesis-brief.2026-07-13.md">synthesis brief</a> were read in full. The brief names two additional source studies outside nabla-lab. Until those are read under the operator's delegation, this document records corrections that can be established independently; it does not reconstruct their empirical findings or announce completion of Track 2.</p>
+<h2>Obtained design and provenance</h2>
+<p>The specification proposes immutable source records, attributed value marks, a derived weighted graph, a local routing view and a fallback path independent of the adaptive substrate. It distinguishes support, contradiction and supersession, and separates cold decay, tombstones and remembered failures. Endpoints choose among offered routes and return feedback. Citation-granular credit and generation numbers are proposed observables, not validated truth measures.</p>
+<p>The brief attributes <code>[CORE]</code> material to two-family independent first passes and <code>[v2]</code> additions to single-agent or post-exposure reasoning. Those are recorded provenance claims; the original cold-start transcripts were not inspected. The new edition preserves the distinction and does not count an informed review as a new blind leg.</p>
+<h2>Hypotheses and prior art</h2>
+<table>
+<thead>
+<tr>
+<th>Hypothesis</th>
+<th>Bounded finding</th>
+<th>Remaining scientific question</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H1: coordinator-free scarcity routing is absent</td>
+<td>Broad absence is contradicted by established decentralized work stealing. The particular scarcity-estimation/structured-transfer combination needs a narrower comparison.</td>
+<td>Capability matching, reliable task ownership transfer and heterogeneity under the intended workload.</td>
+</tr>
+<tr>
+<td>H2: gradient-pull differs from protocol-pull</td>
+<td>Physical gradients and computed scores differ, but a software score still needs observation, scheduling and transport. Queue-differential backpressure is relevant prior art.</td>
+<td>Define the generator-state-to-fetch mechanism; compare latency, wasted transfers and stale-context rate.</td>
+</tr>
+<tr>
+<td>H3: asymmetric error routing by role is absent</td>
+<td>Broad absence is too strong: canary deployments deliberately limit exposure of unvalidated changes. That is an analogy, not a proof of the proposed spatial drift clock.</td>
+<td>Promotion tests, rollback/supersession and contamination of the stable memory view.</td>
+</tr>
+<tr>
+<td>H4: negative knowledge differs from decay</td>
+<td>Meaningful behavioral distinction, with prior art in scoped negative caching. Negative numerical weights are optional.</td>
+<td>Repeated-failure avoidance versus false suppression when conditions change.</td>
+</tr>
+</tbody>
+</table>
+<p>Work stealing transfers ready work toward underused processors under explicit scheduling assumptions; its bounds do not automatically transfer to remote heterogeneous agents. <a href="https://www.cs.cornell.edu/courses/cs612/2006sp/papers/blumofe94.pdf">Blumofe and Leiserson, <em>Scheduling Multithreaded Computations by Work Stealing</em></a>. Queue-state scheduling has classical stability theory, likewise conditional on its model. <a href="https://www.di.ens.fr/~busic/mar/projets/TE92.pdf">Tassiulas and Ephremides, 1992</a>.</p>
+<p>Canarying is established limited-exposure validation, not a new generic principle of keeping uncertain changes apart from an established serving population. <a href="https://sre.google/workbook/canarying-releases/">Google SRE, <em>Canarying Releases</em></a>. It does not establish the external Study One's claimed relationship between space and drift, which remains uninspected.</p>
+<p>DNS distinguishes negative answers from resolution failures and gives cached evidence scope and lifetime. Agent records likewise should distinguish “tested false,” “not found,” “timed out” and “not authorized.” <a href="https://www.rfc-editor.org/rfc/rfc2308.html">RFC 2308</a>; <a href="https://www.rfc-editor.org/rfc/rfc9520.html">RFC 9520</a>. <u>Store each failed attempt with conditions, evidence, outcome type and a recheck condition; measure avoided repeat work and newly valid routes incorrectly suppressed.</u> A negative ranking score is not a negative sampling probability. Softmax, nonnegative penalties or explicit filters can implement different policies; their behavior must be specified.</p>
+<h2>A corrected exploration claim</h2>
+<p>The v2 assertion that zero epsilon makes topology provably freeze is too broad. A narrower cold-start deadlock follows if a new candidate starts with zero weight, can gain weight only after an offer and positive feedback, receives zero offer probability at zero weight, and has no external initialization or update path. Induction then keeps that candidate at zero. Existing edges can still change, so even this is not a proof that the entire topology freezes.</p>
+<p>Zero explicit epsilon need not cause deadlock: positive initialization, semantic selection or an independent insertion process can admit new candidates. Conversely, positive epsilon is not sufficient if a candidate is ineligible or its chance of selection becomes too small. With a fixed finite pool of N eligible candidates and independent uniform exploration probability ε&gt;0 at each step, the probability a particular candidate is never offered in T steps is <code>(1−ε/N)^T</code>, tending to zero. This proves eventual offering under those assumptions, not useful feedback, successful learning or finite-time certainty.</p>
+<p><u>Specify candidate eligibility, initialization, offer probabilities and feedback before selecting an exploration policy; evaluate both discovery and the cost of low-value offers.</u></p>
+<h2>Guarantees not established</h2>
+<p>Outcome-weighted feedback may resist naive popularity reinforcement, but “SEO-proof by construction” needs an adversary and a proof. Citation-based credit assumes faithful attribution; cited text need not be the causal source of an answer. A generation integer measures declared derivation depth, not factual reliability. An independent fallback reduces coupling but cannot guarantee availability against every storage, process or host failure. Authenticated attribution, poisoning, stale regimes and false promotion remain material design questions.</p>
+<p>The earlier two independent core passes make the architecture worth studying. They do not establish novelty or correctness of every addition. The three-source synthesis, spatial empirical claims and targeted formal/source verification remain distinct tasks. This register supplies usable corrections now while leaving those evidence boundaries visible.</p><footer>SHIFT_1 research · SHIFT_2 synthesis · 2026-10-27<br>Self-contained reading copy. Analytic and synthetic figures are identified in their captions. No external scripts or fonts are required.</footer></main></html>

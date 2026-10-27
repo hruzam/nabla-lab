@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="720" height="390" preserveAspectRatio="xMinYMin meet" viewBox="0 0 720 390" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="720" height="390"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-390)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="18" y="365" style="font-family: Helvetica-Bold; font-size: 16px;fill: rgb(9%,15%,21%); stroke:none;" transform="translate(0,730) scale(1,-1)">A categorical metric occupies one orthant</text>
+			<text x="18" y="345" style="font-family: Helvetica; font-size: 10px;fill: rgb(32%,40%,45%); stroke:none;" transform="translate(0,690) scale(1,-1)">Analytic binary Fisher-Rao distance from p = (0.5, 0.5)</text>
+			<g transform="">
+				<g transform="">
+					<g transform="">
+						<path d="M 65,76 L 690,76 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<path d="M 65,76 L 65,71 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 190,76 L 190,71 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 315,76 L 315,71 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 440,76 L 440,71 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 565,76 L 565,71 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 690,76 L 690,71 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,65,71)">
+							<text x="-2.25" y="-9.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-18) scale(1,-1)">0</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,190,71)">
+							<text x="-5.625" y="-9.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-18) scale(1,-1)">0.2</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,315,71)">
+							<text x="-5.625" y="-9.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-18) scale(1,-1)">0.4</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,440,71)">
+							<text x="-5.625" y="-9.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-18) scale(1,-1)">0.6</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,565,71)">
+							<text x="-5.625" y="-9.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-18) scale(1,-1)">0.8</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,690,71)">
+							<text x="-2.25" y="-9.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-18) scale(1,-1)">1</text>
+						</g>
+					</g>
+				</g>
+				<g transform="">
+					<g transform="">
+						<path d="M 65,76 L 65,321 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<path d="M 65,76 L 60,76 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 65,152.5625 L 60,152.5625 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 65,229.125 L 60,229.125 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 65,305.6875 L 60,305.6875 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,60,76)">
+							<text x="-4.5" y="-3.6000000000000005" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-7) scale(1,-1)">0</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,60,152.5625)">
+							<text x="-11.25" y="-3.6000000000000005" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-7) scale(1,-1)">0.5</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,60,229.125)">
+							<text x="-4.5" y="-3.6000000000000005" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-7) scale(1,-1)">1</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,60,305.6875)">
+							<text x="-11.25" y="-3.6000000000000005" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-7) scale(1,-1)">1.5</text>
+						</g>
+					</g>
+				</g>
+				<path d="M 65,152.5625 L 690,152.5625 Z" style="stroke: rgb(89%,91%,92%); stroke-linecap: butt; stroke-width: 0.25;"/>
+				<path d="M 65,229.125 L 690,229.125 Z" style="stroke: rgb(89%,91%,92%); stroke-linecap: butt; stroke-width: 0.25;"/>
+				<path d="M 65,305.6875 L 690,305.6875 Z" style="stroke: rgb(89%,91%,92%); stroke-linecap: butt; stroke-width: 0.25;"/>
+				<g transform="">
+					<polyline points="65 316.5282, 68.125 294.855, 71.25 285.8519, 74.375 278.926, 77.5 273.0722, 80.625 267.9017, 83.75 263.2153, 86.875 258.8945, 90 254.8623, 93.125 251.0654, 96.25 247.4647, 99.375 244.031, 102.5 240.7414, 105.625 237.5779, 108.75 234.5257, 111.875 231.5727, 115 228.709, 118.125 225.9259, 121.25 223.2161, 124.375 220.5733, 127.5 217.9921, 130.625 215.4676, 133.75 212.9957, 136.875 210.5726, 140 208.1948, 143.125 205.8595, 146.25 203.5639, 149.375 201.3055, 152.5 199.0822, 155.625 196.8919, 158.75 194.7327, 161.875 192.603, 165 190.5012, 168.125 188.4257, 171.25 186.3754, 174.375 184.3489, 177.5 182.345, 180.625 180.3628, 183.75 178.4012, 186.875 176.4593, 190 174.5361, 193.125 172.6309, 196.25 170.7428, 199.375 168.8712, 202.5 167.0153, 205.625 165.1745, 208.75 163.3482, 211.875 161.5357, 215 159.7366, 218.125 157.9502, 221.25 156.1761, 224.375 154.4137, 227.5 152.6628, 230.625 150.9227, 233.75 149.193, 236.875 147.4734, 240 145.7635, 243.125 144.063, 246.25 142.3713, 249.375 140.6883, 252.5 139.0135, 255.625 137.3467, 258.75 135.6876, 261.875 134.0358, 265 132.391, 268.125 130.7531, 271.25 129.1216, 274.375 127.4965, 277.5 125.8773, 280.625 124.2639, 283.75 122.6561, 286.875 121.0535, 290 119.456, 293.125 117.8633, 296.25 116.2753, 299.375 114.6917, 302.5 113.1123, 305.625 111.5369, 308.75 109.9653, 311.875 108.3974, 315 106.8329, 318.125 105.2717, 321.25 103.7136, 324.375 102.1583, 327.5 100.6058, 330.625 99.05577, 333.75 97.50815, 336.875 95.96275, 340 94.41939, 343.125 92.8779, 346.25 91.33814, 349.375 89.79992, 352.5 88.2631, 355.625 86.72752, 358.75 85.19302, 361.875 83.65944, 365 82.12663, 368.125 80.59444, 371.25 79.0627, 374.375 77.53128, 377.5 76, 380.625 77.53128, 383.75 79.0627, 386.875 80.59444, 390 82.12663, 393.125 83.65944, 396.25 85.19302, 399.375 86.72752, 402.5 88.2631, 405.625 89.79992, 408.75 91.33814, 411.875 92.8779, 415 94.41939, 418.125 95.96275, 421.25 97.50815, 424.375 99.05577, 427.5 100.6058, 430.625 102.1583, 433.75 103.7136, 436.875 105.2717, 440 106.8329, 443.125 108.3974, 446.25 109.9653, 449.375 111.5369, 452.5 113.1123, 455.625 114.6917, 458.75 116.2753, 461.875 117.8633, 465 119.456, 468.125 121.0535, 471.25 122.6561, 474.375 124.2639, 477.5 125.8773, 480.625 127.4965, 483.75 129.1216, 486.875 130.7531, 490 132.391, 493.125 134.0358, 496.25 135.6876, 499.375 137.3467, 502.5 139.0135, 505.625 140.6883, 508.75 142.3713, 511.875 144.063, 515 145.7635, 518.125 147.4734, 521.25 149.193, 524.375 150.9227, 527.5 152.6628, 530.625 154.4137, 533.75 156.1761, 536.875 157.9502, 540 159.7366, 543.125 161.5357, 546.25 163.3482, 549.375 165.1745, 552.5 167.0153, 555.625 168.8712, 558.75 170.7428, 561.875 172.6309, 565 174.5361, 568.125 176.4593, 571.25 178.4012, 574.375 180.3628, 577.5 182.345, 580.625 184.3489, 583.75 186.3754, 586.875 188.4257, 590 190.5012, 593.125 192.603, 596.25 194.7327, 599.375 196.8919, 602.5 199.0822, 605.625 201.3055, 608.75 203.5639, 611.875 205.8595, 615 208.1948, 618.125 210.5726, 621.25 212.9957, 624.375 215.4676, 627.5 217.9921, 630.625 220.5733, 633.75 223.2161, 636.875 225.9259, 640 228.709, 643.125 231.5727, 646.25 234.5257, 649.375 237.5779, 652.5 240.7414, 655.625 244.031, 658.75 247.4647, 661.875 251.0654, 665 254.8623, 668.125 258.8945, 671.25 263.2153, 674.375 267.9017, 677.5 273.0722, 680.625 278.926, 683.75 285.8519, 686.875 294.855, 690 316.5282" style="stroke: rgb(3%,49%,54%); stroke-linecap: round; stroke-width: 2.2; fill: None; fill-rule: evenodd;"/>
+				</g>
+			</g>
+			<text x="65" y="330" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,660) scale(1,-1)">Fisher-Rao distance</text>
+			<text x="326.115" y="45" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,90) scale(1,-1)">q in (q, 1-q)</text>
+			<text x="65" y="20" style="font-family: Times-Roman; font-size: 9px;fill: rgb(3%,49%,54%); stroke:none;" transform="translate(0,40) scale(1,-1)">categorical distance</text>
+		</g>
+	</g>
+</svg>

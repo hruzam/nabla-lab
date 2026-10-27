@@ -1,0 +1,236 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Stance geometry: what the sphere can carry</title><style>body{margin:0;background:#f4f1eb;color:#20303b;font:18px/1.65 Georgia,serif}main{max-width:880px;margin:48px auto;padding:56px 64px;background:#fffdf8;border-top:7px solid #087f8c;box-shadow:0 10px 45px #18344512}h1,h2,h3,th,.masthead{font-family:Arial,sans-serif}h1{font-size:42px;line-height:1.12;letter-spacing:-1px;color:#173c49}h2{font-size:24px;margin-top:2em;border-top:1px solid #d9e2e2;padding-top:22px}h3{font-size:19px}p{margin:1em 0}a{color:#087080;text-decoration-thickness:1px}table{border-collapse:collapse;width:100%;font-size:14px;line-height:1.45;margin:25px 0}th,td{border-bottom:1px solid #d5dfdf;padding:12px 10px;text-align:left;vertical-align:top}th{background:#e8efed}pre{background:#edf2f2;padding:18px;font:13px/1.65 monospace;overflow:auto;border-left:3px solid #087f8c}code{font-size:.84em}pre code{font-size:inherit}img,svg{max-width:100%;height:auto}figure{margin:32px 0}u{text-decoration-color:#087f8c;text-underline-offset:4px}li{margin:.65em 0}.masthead{font-size:12px;letter-spacing:2px;text-transform:uppercase;color:#607580}footer{font:12px/1.5 Arial,sans-serif;color:#657781;margin-top:45px;border-top:1px solid #d5dfdf;padding-top:18px}@media(max-width:720px){main{margin:0;padding:28px 22px}h1{font-size:32px}table{display:block;overflow:auto}}@media print{body{background:white;font-size:11pt}main{max-width:none;margin:0;padding:0;box-shadow:none;border:0}h1{font-size:26pt}h2{break-after:avoid}pre,figure,svg{break-inside:avoid}a{color:inherit}table{font-size:9pt}}</style><main><div class="masthead">Nabla-lab / Inner-circle publications / Research edition</div><h1>Stance geometry: what the sphere can carry</h1>
+<p><strong>A bounded study of opposition, reconciliation and categorical evidence</strong></p>
+<p><em>Research edition 1 · 2026-10-27 · SHIFT_2 synthesis of SHIFT_1 research by Nabla, majkee and the lab's research legs. Historical source material is preserved. This edition is a theoretical synthesis with analytic illustrations; it reports no new agent experiment.</em></p>
+<h2>Abstract</h2>
+<p>An agent's position can be represented as a direction, but geometry does not by itself make that direction a meaningful stance. This study separates four questions: what rotations preserve; what a specified interaction law predicts; how categorical probabilities acquire spherical geometry; and how different representation frames can be compared. The resulting mathematics is usable under stated assumptions. The stronger claim that these constructions form one validated logic of agent disagreement is unsupported. We give a solved two-agent model, derive the categorical metric, retain the earlier rejection of an unrestricted Dempster–Shafer weld, and specify the measurements needed before applying the model. The scope closes with a typed construction and a falsifiable implementation approach, not a claim of empirical superiority.</p>
+<h2>1. Question and evidence boundary</h2>
+<p>The question is whether curved geometry supplies operations and predictions that improve our understanding of agent disagreement. SHIFT_1's Atlas №2 proposed three forks: static spherical operations, stance-flow, and a simplex–sphere bridge. Its research retained the first and third conditionally, found a governing-law literature for the second, and rejected the original all-in-one sheaf synthesis as typed. The later decision ledger accepted those verdicts. This study carries those results forward.</p>
+<p>The literature check is targeted, not an exhaustive novelty search. No claim that an application is universally absent is made. Primary sources establish mathematical constructions and particular reported experiments; they do not establish that embeddings from this lab measure stance reliably.</p>
+<h2>2. A stance is a measurement before it is a point</h2>
+<p>Let a proposed measurement map send a text and question to a nonzero vector, then normalize it to a state x in the unit sphere S^(d−1). Its Euclidean inner product gives angular distance <code>d(x,y) = arccos(xᵀy)</code>. This construction preserves a chosen coordinate geometry. It does not show that a semantic contradiction maps to the antipode −x.</p>
+<p>Two distinct facts are useful. An orthogonal frame change R preserves the metric because <code>(Rx)ᵀ(Ry) = xᵀy</code>. The antipodal operation is equivariant because <code>R(−x) = −Rx</code>. The second identity does not prove the first, and neither supplies truth values, conjunction or entailment. An involution is only one algebraic property of negation.</p>
+<p>The geometry must follow the task. A bipolar agree–disagree scale is naturally an interval; joining its endpoints into a circle changes its meaning. A periodic phase with positive strength may use a cylinder with log-strength. A shared categorical distribution is a third object. These are modeling choices, not interchangeable pictures.</p>
+<p><strong>Correction to the earlier survival test.</strong> A spherical Fréchet mean minimizes a weighted sum of squared angular distances. Its nonlinear behavior can differ from normalizing an arithmetic mean. But the complete Gram matrix of a finite configuration determines that configuration up to an orthogonal transformation in a common ambient dimension; “not recoverable from pairwise cosines” is therefore too strong. Intrinsic means can be nonunique, particularly for symmetric or antipodal configurations; any selection rule must be specified. The useful test is performance against an explicit comparator under the same information budget, not an impossible independence from the geometry's own distances.</p>
+<h2>3. A law that selects motion</h2>
+<p>Consider the following deliberately restricted model: two identical agents on a circle, no natural-frequency difference, symmetric attractive coupling κ &gt; 0, and continuous time. Set δ = θ₂ − θ₁ on the branch 0 ≤ δ ≤ π. Their angular separation obeys</p>
+<pre><code class="language-text">θ̇₁ = κ sin(θ₂ − θ₁),       θ̇₂ = κ sin(θ₁ − θ₂)
+δ̇ = −2κ sin δ
+δ(t) = 2 arctan[tan(δ₀/2) exp(−2κt)],   0 ≤ δ₀ &lt; π.
+</code></pre>
+<p>This is an analytic example of the classical attractive circle model, not a reproduction of every generalized spherical model. The published generalized Kuramoto work permits richer, model-specific equilibria [R1]. Its early online date was October 2024; its journal issue was January 2025.</p>
+<p>For our chosen law, <code>E = κ(1 − cos δ)</code> gives <code>Ė = −2κ² sin²δ ≤ 0</code>. Consensus is stable in relative separation; the exact antipode δ = π is stationary and unstable to a relative perturbation. Exact opposition does not spontaneously choose a direction. An initial perturbation, noise model or intervention must provide symmetry breaking.</p>
+<figure><svg role="img" aria-label="Analytic separation trajectories for the specified two-agent model." width="720" height="390" preserveAspectRatio="xMinYMin meet" viewBox="0 0 720 390" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="720" height="390"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-390)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="18" y="365" style="font-family: Helvetica-Bold; font-size: 16px;fill: rgb(9%,15%,21%); stroke:none;" transform="translate(0,730) scale(1,-1)">A specified law selects a path</text>
+			<text x="18" y="345" style="font-family: Helvetica; font-size: 10px;fill: rgb(32%,40%,45%); stroke:none;" transform="translate(0,690) scale(1,-1)">Analytic two-agent attractive circle model; coupling = 1</text>
+			<g transform="">
+				<g transform="">
+					<g transform="">
+						<path d="M 65,76 L 690,76 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<path d="M 65,76 L 65,71 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 169.166667,76 L 169.166667,71 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 273.333333,76 L 273.333333,71 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 377.5,76 L 377.5,71 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 481.666667,76 L 481.666667,71 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 585.833333,76 L 585.833333,71 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 690,76 L 690,71 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,65,71)">
+							<text x="-2.25" y="-9.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-18) scale(1,-1)">0</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,169.166667,71)">
+							<text x="-5.625" y="-9.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-18) scale(1,-1)">0.5</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,273.333333,71)">
+							<text x="-2.25" y="-9.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-18) scale(1,-1)">1</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,377.5,71)">
+							<text x="-5.625" y="-9.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-18) scale(1,-1)">1.5</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,481.666667,71)">
+							<text x="-2.25" y="-9.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-18) scale(1,-1)">2</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,585.833333,71)">
+							<text x="-5.625" y="-9.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-18) scale(1,-1)">2.5</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,690,71)">
+							<text x="-2.25" y="-9.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-18) scale(1,-1)">3</text>
+						</g>
+					</g>
+				</g>
+				<g transform="">
+					<g transform="">
+						<path d="M 65,76 L 65,321 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<path d="M 65,76 L 60,76 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 65,142.216216 L 60,142.216216 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 65,208.432432 L 60,208.432432 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 65,274.648649 L 60,274.648649 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,60,76)">
+							<text x="-4.5" y="-3.6000000000000005" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-7) scale(1,-1)">0</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,60,142.216216)">
+							<text x="-9.0" y="-3.6000000000000005" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-7) scale(1,-1)">50</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,60,208.432432)">
+							<text x="-13.5" y="-3.6000000000000005" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-7) scale(1,-1)">100</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,60,274.648649)">
+							<text x="-13.5" y="-3.6000000000000005" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-7) scale(1,-1)">150</text>
+						</g>
+					</g>
+				</g>
+				<path d="M 65,142.216216 L 690,142.216216 Z" style="stroke: rgb(89%,91%,92%); stroke-linecap: butt; stroke-width: 0.25;"/>
+				<path d="M 65,208.432432 L 690,208.432432 Z" style="stroke: rgb(89%,91%,92%); stroke-linecap: butt; stroke-width: 0.25;"/>
+				<path d="M 65,274.648649 L 690,274.648649 Z" style="stroke: rgb(89%,91%,92%); stroke-linecap: butt; stroke-width: 0.25;"/>
+				<g transform="">
+					<polyline points="65 234.9189, 69.16667 232.2645, 73.33333 229.5598, 77.5 226.8073, 81.66667 224.0099, 85.83333 221.1708, 90 218.2933, 94.16667 215.381, 98.33333 212.438, 102.5 209.4684, 106.6667 206.4764, 110.8333 203.4667, 115 200.4438, 119.1667 197.4126, 123.3333 194.3778, 127.5 191.3443, 131.6667 188.3169, 135.8333 185.3005, 140 182.2997, 144.1667 179.3191, 148.3333 176.3632, 152.5 173.4361, 156.6667 170.542, 160.8333 167.6845, 165 164.8673, 169.1667 162.0936, 173.3333 159.3663, 177.5 156.6882, 181.6667 154.0616, 185.8333 151.4886, 190 148.9711, 194.1667 146.5105, 198.3333 144.1081, 202.5 141.7649, 206.6667 139.4815, 210.8333 137.2585, 215 135.0962, 219.1667 132.9945, 223.3333 130.9534, 227.5 128.9725, 231.6667 127.0513, 235.8333 125.1893, 240 123.3858, 244.1667 121.6398, 248.3333 119.9505, 252.5 118.3168, 256.6667 116.7376, 260.8333 115.2117, 265 113.738, 269.1667 112.3152, 273.3333 110.942, 277.5 109.6171, 281.6667 108.3393, 285.8333 107.1072, 290 105.9194, 294.1667 104.7747, 298.3333 103.6718, 302.5 102.6093, 306.6667 101.586, 310.8333 100.6006, 315 99.65181, 319.1667 98.7385, 323.3333 97.85944, 327.5 97.01345, 331.6667 96.19939, 335.8333 95.41615, 340 94.66264, 344.1667 93.9378, 348.3333 93.24061, 352.5 92.57006, 356.6667 91.9252, 360.8333 91.30507, 365 90.70878, 369.1667 90.13544, 373.3333 89.58419, 377.5 89.05423, 381.6667 88.54474, 385.8333 88.05496, 390 87.58415, 394.1667 87.13159, 398.3333 86.69659, 402.5 86.27848, 406.6667 85.87661, 410.8333 85.49037, 415 85.11916, 419.1667 84.76241, 423.3333 84.41955, 427.5 84.09005, 431.6667 83.7734, 435.8333 83.4691, 440 83.17668, 444.1667 82.89567, 448.3333 82.62564, 452.5 82.36616, 456.6667 82.11681, 460.8333 81.87721, 465 81.64698, 469.1667 81.42575, 473.3333 81.21318, 477.5 81.00892, 481.6667 80.81265, 485.8333 80.62406, 490 80.44285, 494.1667 80.26874, 498.3333 80.10144, 502.5 79.9407, 506.6667 79.78625, 510.8333 79.63784, 515 79.49525, 519.1667 79.35825, 523.3333 79.22661, 527.5 79.10013, 531.6667 78.9786, 535.8333 78.86184, 540 78.74965, 544.1667 78.64186, 548.3333 78.53829, 552.5 78.43878, 556.6667 78.34317, 560.8333 78.2513, 565 78.16304, 569.1667 78.07824, 573.3333 77.99676, 577.5 77.91847, 581.6667 77.84326, 585.8333 77.77099, 590 77.70155, 594.1667 77.63484, 598.3333 77.57074, 602.5 77.50915, 606.6667 77.44998, 610.8333 77.39313, 615 77.33851, 619.1667 77.28603, 623.3333 77.2356, 627.5 77.18716, 631.6667 77.14061, 635.8333 77.09589, 640 77.05292, 644.1667 77.01164, 648.3333 76.97197, 652.5 76.93386, 656.6667 76.89724, 660.8333 76.86206, 665 76.82826, 669.1667 76.79578, 673.3333 76.76458, 677.5 76.7346, 681.6667 76.7058, 685.8333 76.67812, 690 76.65154" style="stroke: rgb(3%,49%,54%); stroke-linecap: round; stroke-width: 2.2; fill: None; fill-rule: evenodd;"/>
+					<polyline points="65 301.1351, 69.16667 300.5976, 73.33333 300.0384, 77.5 299.4569, 81.66667 298.8521, 85.83333 298.2232, 90 297.5691, 94.16667 296.8891, 98.33333 296.182, 102.5 295.4469, 106.6667 294.6828, 110.8333 293.8886, 115 293.0631, 119.1667 292.2053, 123.3333 291.314, 127.5 290.388, 131.6667 289.4262, 135.8333 288.4272, 140 287.3899, 144.1667 286.313, 148.3333 285.1951, 152.5 284.035, 156.6667 282.8314, 160.8333 281.5829, 165 280.2882, 169.1667 278.9461, 173.3333 277.5551, 177.5 276.114, 181.6667 274.6216, 185.8333 273.0766, 190 271.4779, 194.1667 269.8242, 198.3333 268.1145, 202.5 266.3478, 206.6667 264.5233, 210.8333 262.64, 215 260.6974, 219.1667 258.6947, 223.3333 256.6318, 227.5 254.5082, 231.6667 252.3239, 235.8333 250.0791, 240 247.774, 244.1667 245.4093, 248.3333 242.9858, 252.5 240.5045, 256.6667 237.9667, 260.8333 235.3742, 265 232.7287, 269.1667 230.0325, 273.3333 227.2882, 277.5 224.4984, 281.6667 221.6662, 285.8333 218.7951, 290 215.8886, 294.1667 212.9507, 298.3333 209.9853, 302.5 206.9969, 306.6667 203.9899, 310.8333 200.969, 315 197.9389, 319.1667 194.9043, 323.3333 191.8703, 327.5 188.8415, 331.6667 185.8228, 335.8333 182.819, 340 179.8346, 344.1667 176.8741, 348.3333 173.9417, 352.5 171.0416, 356.6667 168.1775, 360.8333 165.353, 365 162.5715, 369.1667 159.836, 373.3333 157.1492, 377.5 154.5135, 381.6667 151.9311, 385.8333 149.4038, 390 146.9333, 394.1667 144.5207, 398.3333 142.1672, 402.5 139.8734, 406.6667 137.6399, 410.8333 135.467, 415 133.3548, 419.1667 131.3032, 423.3333 129.3118, 427.5 127.3804, 431.6667 125.5082, 435.8333 123.6946, 440 121.9387, 444.1667 120.2396, 448.3333 118.5963, 452.5 117.0077, 456.6667 115.4727, 460.8333 113.99, 465 112.5584, 469.1667 111.1767, 473.3333 109.8436, 477.5 108.5577, 481.6667 107.3177, 485.8333 106.1224, 490 104.9703, 494.1667 103.8602, 498.3333 102.7908, 502.5 101.7608, 506.6667 100.7689, 510.8333 99.81384, 515 98.89447, 519.1667 98.00955, 523.3333 97.15791, 527.5 96.33839, 531.6667 95.54988, 535.8333 94.79129, 540 94.06155, 544.1667 93.35963, 548.3333 92.68453, 552.5 92.03528, 556.6667 91.41093, 560.8333 90.81056, 565 90.2333, 569.1667 89.67828, 573.3333 89.14468, 577.5 88.6317, 581.6667 88.13855, 585.8333 87.66451, 590 87.20883, 594.1667 86.77083, 598.3333 86.34983, 602.5 85.9452, 606.6667 85.55629, 610.8333 85.18251, 615 84.82329, 619.1667 84.47806, 623.3333 84.14628, 627.5 83.82744, 631.6667 83.52103, 635.8333 83.22658, 640 82.94363, 644.1667 82.67172, 648.3333 82.41044, 652.5 82.15936, 656.6667 81.9181, 660.8333 81.68627, 665 81.4635, 669.1667 81.24945, 673.3333 81.04377, 677.5 80.84614, 681.6667 80.65624, 685.8333 80.47378, 690 80.29845" style="stroke: rgb(78%,41%,19%); stroke-linecap: round; stroke-width: 2.2; fill: None; fill-rule: evenodd;"/>
+					<polyline points="65 314.3784, 69.16667 314.3784, 73.33333 314.3784, 77.5 314.3784, 81.66667 314.3784, 85.83333 314.3784, 90 314.3784, 94.16667 314.3784, 98.33333 314.3784, 102.5 314.3784, 106.6667 314.3784, 110.8333 314.3784, 115 314.3784, 119.1667 314.3784, 123.3333 314.3784, 127.5 314.3784, 131.6667 314.3784, 135.8333 314.3784, 140 314.3784, 144.1667 314.3784, 148.3333 314.3784, 152.5 314.3784, 156.6667 314.3784, 160.8333 314.3784, 165 314.3784, 169.1667 314.3784, 173.3333 314.3784, 177.5 314.3784, 181.6667 314.3784, 185.8333 314.3784, 190 314.3784, 194.1667 314.3784, 198.3333 314.3784, 202.5 314.3784, 206.6667 314.3784, 210.8333 314.3784, 215 314.3784, 219.1667 314.3784, 223.3333 314.3784, 227.5 314.3784, 231.6667 314.3784, 235.8333 314.3784, 240 314.3784, 244.1667 314.3784, 248.3333 314.3784, 252.5 314.3784, 256.6667 314.3784, 260.8333 314.3784, 265 314.3784, 269.1667 314.3784, 273.3333 314.3784, 277.5 314.3784, 281.6667 314.3784, 285.8333 314.3784, 290 314.3784, 294.1667 314.3784, 298.3333 314.3784, 302.5 314.3784, 306.6667 314.3784, 310.8333 314.3784, 315 314.3784, 319.1667 314.3784, 323.3333 314.3784, 327.5 314.3784, 331.6667 314.3784, 335.8333 314.3784, 340 314.3784, 344.1667 314.3784, 348.3333 314.3784, 352.5 314.3784, 356.6667 314.3784, 360.8333 314.3784, 365 314.3784, 369.1667 314.3784, 373.3333 314.3784, 377.5 314.3784, 381.6667 314.3784, 385.8333 314.3784, 390 314.3784, 394.1667 314.3784, 398.3333 314.3784, 402.5 314.3784, 406.6667 314.3784, 410.8333 314.3784, 415 314.3784, 419.1667 314.3784, 423.3333 314.3784, 427.5 314.3784, 431.6667 314.3784, 435.8333 314.3784, 440 314.3784, 444.1667 314.3784, 448.3333 314.3784, 452.5 314.3784, 456.6667 314.3784, 460.8333 314.3784, 465 314.3784, 469.1667 314.3784, 473.3333 314.3784, 477.5 314.3784, 481.6667 314.3784, 485.8333 314.3784, 490 314.3784, 494.1667 314.3784, 498.3333 314.3784, 502.5 314.3784, 506.6667 314.3784, 510.8333 314.3784, 515 314.3784, 519.1667 314.3784, 523.3333 314.3784, 527.5 314.3784, 531.6667 314.3784, 535.8333 314.3784, 540 314.3784, 544.1667 314.3784, 548.3333 314.3784, 552.5 314.3784, 556.6667 314.3784, 560.8333 314.3784, 565 314.3784, 569.1667 314.3784, 573.3333 314.3784, 577.5 314.3784, 581.6667 314.3784, 585.8333 314.3784, 590 314.3784, 594.1667 314.3784, 598.3333 314.3784, 602.5 314.3784, 606.6667 314.3784, 610.8333 314.3784, 615 314.3784, 619.1667 314.3784, 623.3333 314.3784, 627.5 314.3784, 631.6667 314.3784, 635.8333 314.3784, 640 314.3784, 644.1667 314.3784, 648.3333 314.3784, 652.5 314.3784, 656.6667 314.3784, 660.8333 314.3784, 665 314.3784, 669.1667 314.3784, 673.3333 314.3784, 677.5 314.3784, 681.6667 314.3784, 685.8333 314.3784, 690 314.3784" style="stroke: rgb(15%,23%,38%); stroke-linecap: round; stroke-width: 2.2; fill: None; fill-rule: evenodd;"/>
+				</g>
+			</g>
+			<text x="65" y="330" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,660) scale(1,-1)">separation (degrees)</text>
+			<text x="313.055" y="45" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,90) scale(1,-1)">time (model units)</text>
+			<text x="65" y="20" style="font-family: Times-Roman; font-size: 9px;fill: rgb(3%,49%,54%); stroke:none;" transform="translate(0,40) scale(1,-1)">initial 120 deg</text>
+			<text x="270" y="20" style="font-family: Times-Roman; font-size: 9px;fill: rgb(78%,41%,19%); stroke:none;" transform="translate(0,40) scale(1,-1)">initial 170 deg</text>
+			<text x="475" y="20" style="font-family: Times-Roman; font-size: 9px;fill: rgb(15%,23%,38%); stroke:none;" transform="translate(0,40) scale(1,-1)">exact antipode</text>
+		</g>
+	</g>
+</svg>
+</figure>
+<p><em>Figure 1. Analytic illustration, κ = 1. The 120° and 170° initial separations approach consensus; an exact 180° separation remains stationary. The curves are evaluations of the displayed equation, not observed conversations. CSV values accompany the figure.</em></p>
+<p>Geodesic ambiguity is a boundary-value issue. On a sphere, distinct non-antipodal points have a unique shortest geodesic; allowing longer windings changes the path count. Given an initial position and velocity, the geodesic initial-value problem is locally unique. Thus “the reconciliation path contains information” must mean a measurable association between path features and an independently specified outcome. Geometry alone does not establish that association.</p>
+<p>The hairy-ball theorem concerns continuous tangent vector fields on even-dimensional spheres. It does not guarantee a permanently immovable agent in a time-varying, coupled multi-agent system. That interpretation requires a separate dynamical argument.</p>
+<h2>4. Categorical geometry with the scale restored</h2>
+<p>Let p be a strictly positive probability vector over m shared categories, with coordinates summing to one. Tangent changes satisfy <code>Σ dpᵢ = 0</code>. The categorical Fisher metric is</p>
+<pre><code class="language-text">ds² = Σ (dpᵢ)² / pᵢ.
+φ(p) = (2√p₁, …, 2√pₘ),       ||φ(p)|| = 2.
+||dφ||² = Σ (dpᵢ)² / pᵢ.
+d_FR(p,q) = 2 arccos[Σ √(pᵢqᵢ)].
+</code></pre>
+<p>This supplies the factor that the original substrate missed: the isometric image is the positive orthant of a radius-2 sphere, with boundary points obtained by limits [R2]. The pullback of the unit-sphere metric under <code>√p</code> is one quarter of the stated Fisher metric; distances scale by one half. The orthant is not the whole sphere and has no antipodal categorical pair. Its maximal distance is π, reached between different pure categories in the closure.</p>
+<figure><svg role="img" aria-label="Categorical Fisher–Rao distance in a binary example." width="720" height="390" preserveAspectRatio="xMinYMin meet" viewBox="0 0 720 390" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="720" height="390"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-390)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="18" y="365" style="font-family: Helvetica-Bold; font-size: 16px;fill: rgb(9%,15%,21%); stroke:none;" transform="translate(0,730) scale(1,-1)">A categorical metric occupies one orthant</text>
+			<text x="18" y="345" style="font-family: Helvetica; font-size: 10px;fill: rgb(32%,40%,45%); stroke:none;" transform="translate(0,690) scale(1,-1)">Analytic binary Fisher-Rao distance from p = (0.5, 0.5)</text>
+			<g transform="">
+				<g transform="">
+					<g transform="">
+						<path d="M 65,76 L 690,76 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<path d="M 65,76 L 65,71 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 190,76 L 190,71 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 315,76 L 315,71 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 440,76 L 440,71 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 565,76 L 565,71 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 690,76 L 690,71 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,65,71)">
+							<text x="-2.25" y="-9.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-18) scale(1,-1)">0</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,190,71)">
+							<text x="-5.625" y="-9.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-18) scale(1,-1)">0.2</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,315,71)">
+							<text x="-5.625" y="-9.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-18) scale(1,-1)">0.4</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,440,71)">
+							<text x="-5.625" y="-9.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-18) scale(1,-1)">0.6</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,565,71)">
+							<text x="-5.625" y="-9.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-18) scale(1,-1)">0.8</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,690,71)">
+							<text x="-2.25" y="-9.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-18) scale(1,-1)">1</text>
+						</g>
+					</g>
+				</g>
+				<g transform="">
+					<g transform="">
+						<path d="M 65,76 L 65,321 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<path d="M 65,76 L 60,76 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 65,152.5625 L 60,152.5625 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 65,229.125 L 60,229.125 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 65,305.6875 L 60,305.6875 Z" style="stroke: rgb(64%,69%,73%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,60,76)">
+							<text x="-4.5" y="-3.6000000000000005" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-7) scale(1,-1)">0</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,60,152.5625)">
+							<text x="-11.25" y="-3.6000000000000005" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-7) scale(1,-1)">0.5</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,60,229.125)">
+							<text x="-4.5" y="-3.6000000000000005" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-7) scale(1,-1)">1</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,60,305.6875)">
+							<text x="-11.25" y="-3.6000000000000005" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-7) scale(1,-1)">1.5</text>
+						</g>
+					</g>
+				</g>
+				<path d="M 65,152.5625 L 690,152.5625 Z" style="stroke: rgb(89%,91%,92%); stroke-linecap: butt; stroke-width: 0.25;"/>
+				<path d="M 65,229.125 L 690,229.125 Z" style="stroke: rgb(89%,91%,92%); stroke-linecap: butt; stroke-width: 0.25;"/>
+				<path d="M 65,305.6875 L 690,305.6875 Z" style="stroke: rgb(89%,91%,92%); stroke-linecap: butt; stroke-width: 0.25;"/>
+				<g transform="">
+					<polyline points="65 316.5282, 68.125 294.855, 71.25 285.8519, 74.375 278.926, 77.5 273.0722, 80.625 267.9017, 83.75 263.2153, 86.875 258.8945, 90 254.8623, 93.125 251.0654, 96.25 247.4647, 99.375 244.031, 102.5 240.7414, 105.625 237.5779, 108.75 234.5257, 111.875 231.5727, 115 228.709, 118.125 225.9259, 121.25 223.2161, 124.375 220.5733, 127.5 217.9921, 130.625 215.4676, 133.75 212.9957, 136.875 210.5726, 140 208.1948, 143.125 205.8595, 146.25 203.5639, 149.375 201.3055, 152.5 199.0822, 155.625 196.8919, 158.75 194.7327, 161.875 192.603, 165 190.5012, 168.125 188.4257, 171.25 186.3754, 174.375 184.3489, 177.5 182.345, 180.625 180.3628, 183.75 178.4012, 186.875 176.4593, 190 174.5361, 193.125 172.6309, 196.25 170.7428, 199.375 168.8712, 202.5 167.0153, 205.625 165.1745, 208.75 163.3482, 211.875 161.5357, 215 159.7366, 218.125 157.9502, 221.25 156.1761, 224.375 154.4137, 227.5 152.6628, 230.625 150.9227, 233.75 149.193, 236.875 147.4734, 240 145.7635, 243.125 144.063, 246.25 142.3713, 249.375 140.6883, 252.5 139.0135, 255.625 137.3467, 258.75 135.6876, 261.875 134.0358, 265 132.391, 268.125 130.7531, 271.25 129.1216, 274.375 127.4965, 277.5 125.8773, 280.625 124.2639, 283.75 122.6561, 286.875 121.0535, 290 119.456, 293.125 117.8633, 296.25 116.2753, 299.375 114.6917, 302.5 113.1123, 305.625 111.5369, 308.75 109.9653, 311.875 108.3974, 315 106.8329, 318.125 105.2717, 321.25 103.7136, 324.375 102.1583, 327.5 100.6058, 330.625 99.05577, 333.75 97.50815, 336.875 95.96275, 340 94.41939, 343.125 92.8779, 346.25 91.33814, 349.375 89.79992, 352.5 88.2631, 355.625 86.72752, 358.75 85.19302, 361.875 83.65944, 365 82.12663, 368.125 80.59444, 371.25 79.0627, 374.375 77.53128, 377.5 76, 380.625 77.53128, 383.75 79.0627, 386.875 80.59444, 390 82.12663, 393.125 83.65944, 396.25 85.19302, 399.375 86.72752, 402.5 88.2631, 405.625 89.79992, 408.75 91.33814, 411.875 92.8779, 415 94.41939, 418.125 95.96275, 421.25 97.50815, 424.375 99.05577, 427.5 100.6058, 430.625 102.1583, 433.75 103.7136, 436.875 105.2717, 440 106.8329, 443.125 108.3974, 446.25 109.9653, 449.375 111.5369, 452.5 113.1123, 455.625 114.6917, 458.75 116.2753, 461.875 117.8633, 465 119.456, 468.125 121.0535, 471.25 122.6561, 474.375 124.2639, 477.5 125.8773, 480.625 127.4965, 483.75 129.1216, 486.875 130.7531, 490 132.391, 493.125 134.0358, 496.25 135.6876, 499.375 137.3467, 502.5 139.0135, 505.625 140.6883, 508.75 142.3713, 511.875 144.063, 515 145.7635, 518.125 147.4734, 521.25 149.193, 524.375 150.9227, 527.5 152.6628, 530.625 154.4137, 533.75 156.1761, 536.875 157.9502, 540 159.7366, 543.125 161.5357, 546.25 163.3482, 549.375 165.1745, 552.5 167.0153, 555.625 168.8712, 558.75 170.7428, 561.875 172.6309, 565 174.5361, 568.125 176.4593, 571.25 178.4012, 574.375 180.3628, 577.5 182.345, 580.625 184.3489, 583.75 186.3754, 586.875 188.4257, 590 190.5012, 593.125 192.603, 596.25 194.7327, 599.375 196.8919, 602.5 199.0822, 605.625 201.3055, 608.75 203.5639, 611.875 205.8595, 615 208.1948, 618.125 210.5726, 621.25 212.9957, 624.375 215.4676, 627.5 217.9921, 630.625 220.5733, 633.75 223.2161, 636.875 225.9259, 640 228.709, 643.125 231.5727, 646.25 234.5257, 649.375 237.5779, 652.5 240.7414, 655.625 244.031, 658.75 247.4647, 661.875 251.0654, 665 254.8623, 668.125 258.8945, 671.25 263.2153, 674.375 267.9017, 677.5 273.0722, 680.625 278.926, 683.75 285.8519, 686.875 294.855, 690 316.5282" style="stroke: rgb(3%,49%,54%); stroke-linecap: round; stroke-width: 2.2; fill: None; fill-rule: evenodd;"/>
+				</g>
+			</g>
+			<text x="65" y="330" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,660) scale(1,-1)">Fisher-Rao distance</text>
+			<text x="326.115" y="45" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,90) scale(1,-1)">q in (q, 1-q)</text>
+			<text x="65" y="20" style="font-family: Times-Roman; font-size: 9px;fill: rgb(3%,49%,54%); stroke:none;" transform="translate(0,40) scale(1,-1)">categorical distance</text>
+		</g>
+	</g>
+</svg>
+</figure>
+<p><em>Figure 2. Analytic illustration: distance from p = (0.5, 0.5) to q = (q, 1−q). Endpoints are limiting values. This curve shows a metric, not a demonstrated improvement in stance detection.</em></p>
+<p>For instance, <code>(0.9, 0.1)</code> and <code>(0.1, 0.9)</code> have distance <code>2 arccos(0.6) ≈ 1.85459</code>. A computational check can recover this value without any agent data. A useful evaluation must separately establish category agreement, calibration and an outcome that the metric predicts.</p>
+<p>A Dempster–Shafer basic mass assignment distributes mass over nonempty subsets of a hypothesis set. It is a probability vector in a larger simplex, so a square-root embedding of that vector is possible. However, this embedding alone does not encode subset intersections, conflict normalization or the combination rule. The earlier rejection is retained: embedding a mass vector is not a derivation of Dempster's rule from Fisher geometry. Restricting to ordinary categorical probabilities avoids that particular type mismatch; it does not automatically validate any aggregation rule.</p>
+<h2>5. Comparison across frames</h2>
+<p>In a linear cellular sheaf, each vertex and edge carries a vector space; linear restriction maps compare incident vertex states. A sphere can be a constrained state set inside a vector space, but it cannot simply replace the vector-space stalk while keeping all linear machinery unchanged. Discourse sheaves supply a useful model of frame-dependent comparison [R3].</p>
+<p>With chosen Euclidean inner products, write the comparison residual as <code>Bx</code>, and the sheaf Laplacian as <code>BᵀB</code>. Its kernel always contains zero. Consequently, “no global section” is not the right statement of conflict for this homogeneous model. The practical question is whether specified observations admit a consistent extension under pinned, affine or normalization constraints. Constraining those states makes the question nontrivial.</p>
+<p>Relative representations offer an established way to compare encodings through common anchors [R4]. The follow-up on bootstrapping anchors is a separate paper [R5]. These works motivate a candidate measurement design; they do not prove that all vendors share one orthogonal semantic frame. Unequal representation dimensions, anchor selection and held-out directional preservation all require explicit treatment.</p>
+<h2>6. Implementation approach and decisive tests</h2>
+<h3>Results recovered by the full SHIFT_1 comparison</h3>
+<p><strong>Equal opposition has a dimension requirement.</strong> For N&gt;1 unit vectors with common off-diagonal inner product c, <code>||Σvᵢ||²=N+N(N−1)c≥0</code>, hence <code>c≥−1/(N−1)</code>. Equality means the common-angle configuration is centered. Its Gram matrix has eigenvalues 0 on the all-ones direction and N/(N−1) on the other N−1 directions, so it needs ambient dimension at least N−1. The maximal common angle is <code>arccos(−1/(N−1))</code>: 180°, 120° and about 109.47° for N=2,3,4. Equidistance alone does not imply this bound is attained: orthonormal vectors are equidistant at 90°. Nor does sum-zero alone imply equal pairwise angles. This restores Color's capacity result with both necessary hypotheses explicit. It is a capacity bound for this particular arrangement, not a count of how many semantically distinct opinions an embedding can represent.</p>
+<p>The Epoch leg associates this with spherical codes, equiangular tight frames and softmax rank bottlenecks. These are relevant but distinct problems: equal negative signed inner products are stronger than equal absolute inner products, and a softmax output-rank limit is not the same as the regular-simplex bound. <a href="https://arxiv.org/abs/2404.07647">Godey et al., <em>Why do small language models underperform? Studying Language Model Saturation via the Softmax Bottleneck</em></a> supplies model-capacity prior art, not empirical validation of the proposed stance limit.</p>
+<p><strong>Measurement has prior negative evidence.</strong> The original Epoch leg warned about prompt/paraphrase sensitivity and consensus dynamics. Its cited <a href="https://aclanthology.org/2024.findings-naacl.211/">NAACL 2024 opinion-dynamics study</a> reports a bias toward accurate information under its simulated conditions, with prompt interventions changing dynamics. This supports measuring elicitation effects; it does not prove every model or prompt collapses to consensus. Stability across paraphrases and sensitivity to instructed social roles belong in the measurement experiment.</p>
+<p><strong>Frame synchronization is borrowed mathematics.</strong> <a href="https://arxiv.org/abs/1102.0075">Singer and Wu's vector diffusion maps</a> provide the connection-Laplacian lineage for orthogonal comparisons. The <a href="../../../session/research-atlas2-stance-geometry/leg-epoch-followup.2026-07-02.md">SHIFT_1 follow-up</a> explicitly classifies that mathematical repair as established and the cross-vendor stance application as open. Preserving retrieval neighbors is not the same validation target as preserving a named semantic contrast direction. Measure both; do not convert a neighbor-retrieval score into a stance-alignment theorem. This distinction does not claim that all alignment methods were evaluated only on nearest neighbors.</p>
+<p><strong>A complete spherical logic remains an open construction.</strong> The original research asked for operations analogous to negation, conjunction and aggregation with explicit axioms. An antipodal involution and a geometric mean do not supply such a logic. This edition closes their geometric analysis, while retaining the logic question as unresolved; the historical search did not prove universal absence.</p>
+<p><u>Recommendation — define a project-neutral stance-measurement interface before selecting geometry: question, text, timestamp, category schema, representation version, uncertainty and provenance.</u></p>
+<p>The minimum empirical study has three separate outputs. First, repeated measurements on paraphrases and known opposition pairs estimate stability and semantic validity. Second, a fitted motion model is tested on held-out trajectories against persistence and simple endpoint baselines. Third, categorical distances are compared on a preregistered task against ordinary probability baselines. Split by question or session so near-duplicate turns do not leak across training and evaluation.</p>
+<p><u>Recommendation — require a held-out task benefit over the same-information baseline; report uncertainty, failure examples and sensitivity to dimension, prompts and anchors.</u></p>
+<p>For a numerical prototype, store raw texts immutably and derive versioned states. Implement the analytic two-agent fixture before fitting any multi-agent law. Check norm preservation, energy descent in the specified attractive model, exact-antipode behavior and the categorical distance formula. These are construction checks, not proofs that a conversation follows the model. No downstream project or model vendor is assigned this work.</p>
+<h2>7. Scope closure and limitations</h2>
+<p>The theoretical scope is closed: rotations preserve declared geometry; a specified law yields testable motion; categorical Fisher geometry has a corrected scale and a restricted domain; and linear comparison across frames has explicit types. The unrestricted unification is rejected. Empirical benefit for agent disagreement remains unmeasured in this reconstruction. A failed stance-measurement test would be a substantive negative result, not a reason to decorate the model with more geometry.</p>
+<h2>References and provenance</h2>
+<ul>
+<li><strong>R1.</strong> Zhang, Z., Al-Abri, S., and Zhang, F. <em>A generalized Kuramoto model for opinion dynamics on the unit sphere</em>. Automatica 171, 111957, 2025; online 2024-10-02. <a href="https://doi.org/10.1016/j.automatica.2024.111957">Publisher</a>, <a href="https://researchportal.hkust.edu.hk/en/publications/a-generalized-kuramoto-model-for-opinion-dynamics-on-the-unit-sph/">author-institution publication record</a>. Checked: bibliographic record, abstract and accessible model/stability discussion; no claim of reproducing its general theorem.</li>
+<li><strong>R2.</strong> Miyamoto, H. K., Meneghetti, F. C. C., Pinele, J., and Costa, S. I. R. <em>On Closed-Form Expressions for the Fisher–Rao Distance</em>. <a href="https://arxiv.org/html/2304.14885v3">Version 3</a>. Checked: categorical/spherical construction; the local derivation above makes its convention explicit.</li>
+<li><strong>R3.</strong> Hansen, J., and Ghrist, R. <em>Opinion Dynamics on Discourse Sheaves</em>. <a href="https://arxiv.org/html/2005.12798">Full text</a>. Checked: linear comparison maps, global sections and diffusion, including collapse to zero when nontrivial sections are absent.</li>
+<li><strong>R4.</strong> Moschella, L., et al. <em>Relative representations enable zero-shot latent space communication</em>. ICLR 2023. <a href="https://arxiv.org/abs/2209.15430">arXiv:2209.15430</a>. Checked: identity and reported anchor-based representation method; no transfer of its benchmark claims to stance data.</li>
+<li><strong>R5.</strong> Cannistraci, I., et al. <em>Bootstrapping Parallel Anchors for Relative Representations</em>. 2023. <a href="https://arxiv.org/abs/2303.00721">arXiv:2303.00721</a>. Checked: identity and abstract; this is not R4.</li>
+<li><strong>Local provenance.</strong> <a href="../../../drafts/atlas2-research-substrate.md">Original substrate</a>, <a href="../../../session/research-atlas2-stance-geometry/cross-measure.2026-07-02.md">cross-measure</a>, <a href="../../../session/research-atlas2-stance-geometry/leg-color.2026-07-02.md">Color derivations</a>, <a href="../../../session/research-atlas2-stance-geometry/leg-epoch-followup.2026-07-02.md">Epoch follow-up</a>, <a href="../../../session/flag.md">ledger</a>, <a href="../provenance.md">study provenance map</a>. These document SHIFT_1's work and its later acceptance; they are not prerequisites for reading this study.</li>
+</ul>
+<p><em>Verification date: 2026-10-27. Figures and tables in this edition are synthetic or analytic unless explicitly identified otherwise.</em></p><footer>SHIFT_1 research · SHIFT_2 synthesis · 2026-10-27<br>Self-contained reading copy. Analytic and synthetic figures are identified in their captions. No external scripts or fonts are required.</footer></main></html>
