@@ -33,6 +33,12 @@ The lab does not own implementations.
 
 No project-scoped CLI agents. Globals are spawned per need from the main session.
 
+For this lab's reporting, `$SHIFT_1` names the historical Claude/claude.ai team and
+its source record; `$SHIFT_2` names Oraculum-main and the available native Codex
+helpers. On entry, identify the active shift, project sources and actually reachable
+helpers. Acknowledge a shift/assignment already supplied; ask only for what is missing.
+Both shifts use the same project continuity and gates.
+
 ## Three reality gates
 
 Run on every draft before it moves from `drafts/` to `shaped/`:
@@ -60,7 +66,13 @@ A draft clears all three or parks with an honest status label (`THEORY` · `OPER
     ├── drafts/                ← raw incoming (voice notes, poetry, rough sketches)
     ├── shaped/                ← cleared artifacts (instrument cards, papers, seeds)
     ├── papers/                ← finalized; ready to push downstream
+    ├── publications/          ← separately assigned internal research editions; README is the entrance
     └── _mail/                 ← inter-agent mail bus (ask-first; gitignored except README + .gitignore)
+
+The shared reading entrance is [publications/README.md](publications/README.md),
+which leads to the inner-circle index. These operator-assigned internal editions
+can stand alone for reading; their publication does not clear the `papers/` gate,
+authorize downstream implementation or rewrite historical research.
 
 ## Output format (instrument card)
 

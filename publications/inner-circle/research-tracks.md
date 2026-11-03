@@ -2,6 +2,8 @@
 
 **Research provenance and coverage · 2026-10-27 · local SHIFT_1 corpus reconstructed by SHIFT_2**
 
+**Subsequent comparative addition:** [Jev in Oraculum's research practice](jev-judgment/study.md) uses Cartan's separately authorized October reader brief to compare a proposed judgment component with these older streams. It is a new paper, not part of the 72-file summer-corpus inventory or evidence that a historical missing leg was completed.
+
 ## Abstract
 
 The two named Atlas files lead to a completed geometry research cluster and four locally released instrument cards. They also connect to a broader research mosaic, deliberately divided into mental-map, distributed-substrate and handwriting tracks. Interposition has its own companion-study, prior-art and instrument-card trail. These streams cannot be collapsed into seven Atlas topics without losing research. This reconstruction inventories the current local corpus, separates explicit ancestry from shared inputs and adjacent work, and identifies the scientific evidence still absent. Project alignment, delivery and gavel loops are recorded only as historical boundaries; they are not prerequisites for reading the new publications.

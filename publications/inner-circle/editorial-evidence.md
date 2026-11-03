@@ -6,7 +6,7 @@ This record belongs to the studies, not to the project's live session state. It 
 
 ## Work and attribution
 
-SHIFT_1 supplied the Atlas drafts and broader research mosaic, source-research legs, mathematical analysis, cross-measures, split-map, instrument releases and later decisions. SHIFT_2's Oraculum main integrated the trail, checked decisive anchors and authored ten manuscripts. Existing sources were not rewritten.
+SHIFT_1 supplied the Atlas drafts and broader research mosaic, source-research legs, mathematical analysis, cross-measures, split-map, instrument releases and later decisions. SHIFT_2's Oraculum main integrated the trail, checked decisive anchors and authored ten recovered-research manuscripts plus the new Jev comparative paper. Existing sources were not rewritten.
 
 The operator delegated the destination choice and required discoverability, theoretical and implementation sections, citations, graphs, and project-neutral recommendations where no downstream assignment exists. He subsequently assigned a separate publication home; the collection moved to `publications/inner-circle/`, reached from the local Oraculum germline addendum and `publications/README.md`. These are internal publications. A named Janus pass and genuine cross-vendor validation were not performed; project alignment and gavel loops are later work.
 
@@ -31,7 +31,7 @@ The source researcher handle was `/root/houston_routes`, reused for each stream;
 - **Local history:** four July 2 cards exist in `papers/`; the final report and lock 11 document their release/acceptance. The lock's rush-depth/calm-review qualification remains visible in the provenance map. Notifications, receipt and downstream adoption were not independently verified.
 - **Primary literature:** decisive constructions were checked in accessible papers or primary records. Recent stopping and active-inference claims are explicitly abstract-level checks. Some publisher pages and the auxiliary capacity conference PDF were unavailable to later checks; displayed capacity constraints were verified algebraically instead. No exhaustive new novelty survey is claimed.
 - **Mathematics:** worked equations and counterexamples received separate internal reviews. Reviewer suggestions were incorporated. This is not a formal proof-assistant certificate.
-- **Figures:** eleven analytic/synthetic figures, supplied as SVG/PDF/CSV, were generated from the stated formulas. They are not empirical curves. Numerical construction checks and reader-link checks are recorded in `verification.json`.
+- **Figures:** twelve analytic/synthetic figures, supplied as SVG/PDF/CSV, were generated from the stated formulas. They are not empirical curves. Numerical construction checks and reader-link checks are recorded in `verification.json`.
 - **Writing:** prose follows the operator's requested standalone scientific format and direct style. The writing-style skill's connector actions were unavailable; no retrieved personal-writing match is claimed.
 - **Boundaries:** no sibling repository was investigated for the Atlas study task, no implementation was released, and no old research queue or gavel was activated. The earlier Houston setup investigation was a separate explicitly delegated orientation task.
 
@@ -45,6 +45,12 @@ The Atlas crawler's full-body comparison identified omitted material in the init
 
 The substrate gap register draws on full local specification/brief reads and selected primary literature. The two external source studies remain outside this pass pending the operator's specific delegation. No completed three-source synthesis is claimed. This informed research team does not replace historical blind cross-vendor legs.
 
-## Remaining empirical work
+## Jev comparative paper
+
+At majkee's explicit request, Oraculum added `jev-judgment/study.md` as a separate paper locating Jev's proposed role beside the older studies. The authorized Cartan reader brief was read in full; its external project pointers were not followed. The main checked TypeSafe's interface/role/confidence documentation, the OpenRouter Decisions contract and primary calibration/model-judge research. The paper distinguishes source claims, Oraculum's proposed placement and unperformed experiments.
+
+The retained `/root/publication_math_review` helper (requested generic Sol/high) performed a position-aware read-only review of the paper and brief, with selected primary-documentation checks. Verdict: PASS, no material corrections. It checked the probability bounds, confidence example, proposed evidence-state protocol and dated implementation provenance. It neither performed inference nor inspected implementation. This is an internal expert pass, not the named Janus or cross-vendor gate. The new figure derives joint-probability bounds analytically; it is not Jev performance data.
+
+## Remaining empirical work across the collection
 
 Stance validity, cross-vendor frame preservation, retrieval advantage, coalition decision benefit, causal propagation, stable log factors, controller performance and stopping quality require data. The studies specify tests and clearly identify these gaps. Closing a theoretical/review scope does not turn those experiments into completed results.

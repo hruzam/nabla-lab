@@ -1,10 +1,10 @@
 # Inner-circle publications — the reading room
 
-**Research editions · SHIFT_2 synthesis of SHIFT_1 work · 2026-10-27**
+**Research editions · recovered SHIFT_1 work and new comparative studies · 2026-10-27**
 
 These studies recover research behind the two Atlas drafts and the connected SHIFT_1 research mosaic. Each answers a bounded question, states its assumptions, distinguishes established results from proposed applications, and supplies an implementation approach without assigning work to another project. The reading endpoints stand alone. The historical sources remain unchanged. This separate publication home was assigned by majkee; project alignment and gavel loops come later.
 
-The original research and releases belong to **SHIFT_1**. **SHIFT_2** traces their provenance, checks decisive sources, adds explicit derivations and illustrations, and writes these research editions. New editions are research outputs for review, not a new Janus countersignature, artifact promotion or implementation authorization.
+The historical research and releases belong to **SHIFT_1**. **SHIFT_2** traces their provenance, checks decisive sources, adds explicit derivations and illustrations, and writes these research editions. Jev is a new comparative paper prompted by Cartan's reader brief; it is not retroactively attributed to the summer research. New editions are research outputs for review, not a new Janus countersignature, artifact promotion or implementation authorization.
 
 ## Reading endpoints
 
@@ -20,8 +20,9 @@ The original research and releases belong to **SHIFT_1**. **SHIFT_2** traces the
 | Mental map and lineage | What can reconstruction, retrieval and coverage actually certify? | [Study](mental-map/study.md) · [Designed reading copy](mental-map/study.html) |
 | Scratch instruments | When might an intermediate representation improve work? | [Study](scratch-instruments/study.md) · [Designed reading copy](scratch-instruments/study.html) |
 | Interactive interposition | What establishes a completed, correlated turn? | [Study](interactive-interposition/study.md) · [Designed reading copy](interactive-interposition/study.html) |
+| Jev in Oraculum's research practice | Where can bounded typed judgments contribute beside the older studies? | [Study](jev-judgment/study.md) · [Designed reading copy](jev-judgment/study.html) |
 
-The first seven editions address the Atlas cluster; three additional editions recover mental-map, handwriting and interposition research in their own scopes. The full-body comparison also restored Atlas results omitted in the first editorial pass. [Research tracks and coverage](research-tracks.md) records the broader trail and missing evidence; [the substrate gap register](substrate-gap-register.md) records corrections without pretending the uninspected external studies have been synthesized. Start with any study; provenance is optional background.
+The first seven editions address the Atlas cluster; three additional editions recover mental-map, handwriting and interposition research in their own scopes. The Jev paper is a new comparative study based on Cartan's reader brief, with Oraculum's proposed role and a testable evaluation. The full-body comparison also restored Atlas results omitted in the first editorial pass. [Research tracks and coverage](research-tracks.md) records the broader trail and missing evidence; [the substrate gap register](substrate-gap-register.md) records corrections without pretending the uninspected external studies have been synthesized. Start with any study; provenance is optional background.
 
 ## What a closed scope means here
 

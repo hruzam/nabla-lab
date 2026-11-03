@@ -2,7 +2,7 @@
 
 **2026-10-27 · analytic illustrations and constructed examples only**
 
-All eleven figures were produced with ReportLab's vector drawing/chart tools. SVG is used in the Markdown reading copies and embedded inline in the HTML. A matching PDF and CSV are supplied beside each SVG. No figure uses an agent transcript, a fitted parameter or a measured performance result. The formulas below and the CSVs are the reproducibility record; no external service is required to view the HTML.
+All twelve figures were produced with ReportLab's vector drawing/chart tools. SVG is used in the Markdown reading copies and embedded inline in the HTML. A matching PDF and CSV are supplied beside each SVG. No figure uses an agent transcript, a fitted parameter or a measured performance result. The formulas below and the CSVs are the reproducibility record; no external service is required to view the HTML.
 
 | Study / file stem | Construction | Domain and interpretation |
 |---|---|---|
@@ -17,6 +17,7 @@ All eleven figures were produced with ReportLab's vector drawing/chart tools. SV
 | `mental-map/figures/coverage` | Visited fractions `[1/3,2/3,2/3,2/3]` vs `[1/3,2/3,2/3,1]` | Processing steps 0…3; graph s→a→s with branch s→b; halted curve held fixed |
 | `scratch-instruments/figures/budget` | `1−exp(−b)−a·b` for a=0.2,1,1.2 | b=0…4, step 0.01; dimensionless illustration; boundary/interior optima |
 | `interactive-interposition/figures/completion` | `1[t≥2]+1[t≥3]` and `2·1[t≥3]` | t=0…4, step 0.01; available observations vs acceptance signal scaled to 2; synthetic timeline |
+| `jev-judgment/figures/joint-bounds` | `max(0,2p−1)`, `p²`, `p` | p=0…1, step 0.005; lower bound, independent case, upper bound for joint correctness; not measured Jev scores |
 
 ## What can be checked independently
 
@@ -31,5 +32,6 @@ All eleven figures were produced with ReportLab's vector drawing/chart tools. SV
 - The graph revisit leaves coverage at 2/3; the exhausted traversal reaches 1 on the specified graph.
 - The budget model's interior maximum for a=0.2 lies at log(5); for a≥1 its maximum is at zero.
 - At time 2 only one completion observation exists; acceptance is zero until both are available at time 3. The drawn segments interpolate the sampled step signals; no continuous rise is intended.
+- The independence curve lies within the joint-probability bounds. At p=0.8 the lower, independent and upper values are 0.6, 0.64 and 0.8. Separately, binary Choice confidence for top probability 0.8 is 0.6 under the documented formula.
 
 Numerical checks validate the displayed constructions and data transcription. They do not validate semantic stance measurements, causal influence, archive factorization, retrieval benefit or a safe stopping policy.

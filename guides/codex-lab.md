@@ -25,6 +25,26 @@ written only when its destination is assigned. A lab session pen, durable test l
 or domain artifact is not granted by startup. No historical queue, overdue deadline,
 relay or gavel is activated by orientation. Keep the existing `session/` topology.
 
+## Scope before drafting and closure
+
+For a research assignment, reconcile the seeds with existing plans/manifests before
+choosing editions. Keep a compact map: seeds → named tracks → explicit source links
+→ reading depth (full, selected or structural) → evidence gaps → publication scope.
+Use existing coverage/provenance records and the assigned publication evidence home;
+this map is task evidence, not another pulse or permanent duplicate inventory.
+
+Before drafting and again before closure, check the map against the requested scope.
+A selective crawl does not establish full scientific coverage. Mark unread, absent,
+out-of-scope and already-researched evidence separately; verify decisive source bodies.
+Report each delivered scope and remaining assignment item explicitly. Do not turn
+unperformed experiments or historical downstream gates into newly assigned work.
+
+When Majkee delegates choosing a document home, resolve it from project instructions
+and existing assignments, then state the choice. The shared publication entrance is
+`../publications/README.md`; this series is under `publications/inner-circle/`.
+Ask only when assignment authority or competing destinations/gates remain unclear.
+Choosing a home does not grant a session pen, another project's scope or promotion.
+
 ## Choose the smallest useful helper set
 
 Luna/Terra/Sol below are computational choices, not identities or authority ranks.
@@ -64,17 +84,24 @@ evidence return. Helpers return text by default. A future, distinct operator gra
 write to one exact owned path; it must accommodate other participants' changes.
 Every helper remains nondelegating; nested preprocessing is dispatched by the main.
 
-Keep a compact ledger in the response, or an operator-assigned test record:
+Keep a compact ledger in the response, or the assigned task/publication evidence record:
 
 ```text
-Q/task | helper handle | question/corpus | requested role/model/effort
-observed model/effort (or unknown) | blind/aware | state | evidence/return | gap
+Q/task | helper handle | question/corpus + read depth | requested role/model/effort
+observed model/effort (or unknown) | blind/aware | state | evidence/return
+main decisive check | remaining gap | durable generation/check reference, if applicable
 ```
 
 Do not equate requested configuration with observed runtime or claim cost savings
 without usage evidence. Check decisive returned citations in the source, including
 awkward conflicts. Keep crawler returns thin; send only relevant evidence to the
 thinking helper. Caller owns synthesis and unresolved forks.
+
+For generated figures/reading copies, preserve the generation/check commands and
+inputs with the assigned evidence. Use the durable [publication tools](../publications/inner-circle/tools/README.md).
+Render only the intended study unless a full rebuild is necessary. Keep unchanged
+figure bytes, check rendering before searching its output, and record checks after
+execution. A clean main context is useful; total cost savings require measurements.
 
 ## Role and harness boundaries
 

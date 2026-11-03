@@ -1,6 +1,6 @@
 {
   "date": "2026-10-27",
-  "scope": "ten inner-circle research editions and bounded coverage/gap registers; no empirical agent validation",
+  "scope": "eleven inner-circle research editions and bounded coverage/gap registers; no empirical agent validation",
   "checks": {
     "local_markdown_links": true,
     "standalone_html_figures": true,
@@ -15,6 +15,8 @@
     "sampling_boundaries": true,
     "cycle_residual": true,
     "all_figure_formats": true,
+    "jev_joint_bounds": true,
+    "jev_choice_confidence_example": true,
     "coverage_counterexample": true,
     "budget_boundary_and_interior": true,
     "completion_conjunction": true,
@@ -23,7 +25,7 @@
     "germline_discovery_link": true
   },
   "all_pass": true,
-  "local_links_checked": 124,
+  "local_links_checked": 142,
   "missing_links": [],
   "html": [
     {
@@ -46,6 +48,12 @@
     },
     {
       "path": "mental-map/study.html",
+      "inline_figures": 1,
+      "external_assets": [],
+      "remaining_image_tags": []
+    },
+    {
+      "path": "jev-judgment/study.html",
       "inline_figures": 1,
       "external_assets": [],
       "remaining_image_tags": []
@@ -87,8 +95,8 @@
       "remaining_image_tags": []
     }
   ],
-  "study_count": 10,
-  "figure_count": 11,
+  "study_count": 11,
+  "figure_count": 12,
   "shapley_counterexample_values": [
     0.25,
     0.25,
@@ -101,7 +109,8 @@
     "flow PDF raster preview",
     "coalition PDF raster preview",
     "scratch budget PDF raster preview",
-    "completion timeline PDF raster preview"
+    "completion timeline PDF raster preview",
+    "Jev joint-probability bounds PDF raster preview"
   ],
   "html_browser_preview": "Earlier Firefox headless attempt crashed with exit 139; HTML structure/assets checked, live browser layout not claimed"
 }
