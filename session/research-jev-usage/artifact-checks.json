@@ -1,0 +1,9 @@
+{
+  "date": "2026-11-03",
+  "files_checked": 14,
+  "local_links_checked": 162,
+  "broken_local_links": [],
+  "study_embedded_svg": 2,
+  "svg_xml_valid": true,
+  "scope": "local file existence, HTML structure and figure XML; no external URL availability or browser interaction assertion"
+}

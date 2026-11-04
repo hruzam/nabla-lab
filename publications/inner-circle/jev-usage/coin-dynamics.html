@@ -1,0 +1,67 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Coin dynamics and session evidence — what survives the later drafts</title><style>body{margin:0;background:#f4f1eb;color:#20303b;font:18px/1.65 Georgia,serif}main{max-width:880px;margin:48px auto;padding:56px 64px;background:#fffdf8;border-top:7px solid #087f8c;box-shadow:0 10px 45px #18344512}h1,h2,h3,th,.masthead{font-family:Arial,sans-serif}h1{font-size:42px;line-height:1.12;letter-spacing:-1px;color:#173c49}h2{font-size:24px;margin-top:2em;border-top:1px solid #d9e2e2;padding-top:22px}h3{font-size:19px}p{margin:1em 0}a{color:#087080;text-decoration-thickness:1px}table{border-collapse:collapse;width:100%;font-size:14px;line-height:1.45;margin:25px 0}th,td{border-bottom:1px solid #d5dfdf;padding:12px 10px;text-align:left;vertical-align:top}th{background:#e8efed}pre{background:#edf2f2;padding:18px;font:13px/1.65 monospace;overflow:auto;border-left:3px solid #087f8c}code{font-size:.84em}pre code{font-size:inherit}img,svg{max-width:100%;height:auto}figure{margin:32px 0}u{text-decoration-color:#087f8c;text-underline-offset:4px}li{margin:.65em 0}.masthead{font-size:12px;letter-spacing:2px;text-transform:uppercase;color:#607580}footer{font:12px/1.5 Arial,sans-serif;color:#657781;margin-top:45px;border-top:1px solid #d5dfdf;padding-top:18px}@media(max-width:720px){main{margin:0;padding:28px 22px}h1{font-size:32px}table{display:block;overflow:auto}}@media print{body{background:white;font-size:11pt}main{max-width:none;margin:0;padding:0;box-shadow:none;border:0}h1{font-size:26pt}h2{break-after:avoid}pre,figure,svg{break-inside:avoid}a{color:inherit}table{font-size:9pt}}</style></head><body><main><div class="masthead">Nabla-lab / Inner-circle / 2026-11-04 collection fold</div><h1 id="coin-dynamics-and-session-evidence-what-survives-the-later-drafts">Coin dynamics and session evidence — what survives the later drafts</h1>
+<p><em>2026-11-04 · research synthesis · intake closed; empirical hypotheses parked.</em></p>
+<p><a href="index.html">Collection</a> · <a href="study.html">Main mathematical study</a> · <a href="research-directions.html">Research directions</a></p>
+<h2 id="the-useful-question">The useful question</h2>
+<p>Majkee's edge-space idea asks whether a binary readout hides states with different possible motions or different appropriate actions. This is a worthwhile modeling question. The later drafts explore three routes: a physical coin or cylinder, a geometric observation map, and a session observer. They are not interchangeable proofs of one another.</p>
+<p>The source threads and design sketch are preserved in the <a href="../../../session/research-jev-usage/archived-inputs/README.md">source archive</a>. This chapter folds the bounded mathematical and source reviews performed after the first Jev edition; it preserves disagreements rather than silently upgrading analogies into theorems.</p>
+<h2 id="1-geometry-symmetry-and-the-state-being-observed">1. Geometry, symmetry and the state being observed</h2>
+<p>For a face normal <code>n</code> on the unit sphere, the linear readout <code>ℓ(n)=n_z</code> vanishes on the equator. The kernel belongs to the linear map on ambient space; its intersection with the sphere is the equator. Changing physical thickness does not thicken that kernel. It can change which initial conditions settle on the side.</p>
+<p>The reflection <code>(nx,ny,nz) → (nx,ny,−nz)</code> fixes the equator. The antipodal map <code>n → −n</code> has no fixed point on the sphere. A claim that "the edge is fixed by the flip" therefore requires the exact flip map. A zero scalar readout need not mean a unique physical state.</p>
+<p>A face normal omits rotation about that normal. A model of a moving marked coin may also need full orientation, angular momentum, position, velocity and contact state. Counting dimensions in the normal sphere alone does not count all mechanical degrees of freedom. The original rotation construction in the <a href="study.html">main study</a> makes a narrower point: two states can have the same scalar confidence and different orientation labels, requiring an additional observable.</p>
+<h2 id="2-physical-thickness-and-probability">2. Physical thickness and probability</h2>
+<p>For an ideal homogeneous right circular cylinder on a plane, diameter <code>d</code>, thickness <code>h</code>, and normal tilt <code>α</code> in <code>[0,π]</code>, the proposed gravitational potential is</p>
+<p><code>U(α) = (mg/2) [h |cos α| + d sin α]</code>.</p>
+<p>For positive <code>d,h</code>, the two face positions and the side position are local minima of this constrained potential. Maxima occur at <code>α*=atan(d/h)</code> and <code>π−α*</code>. Near the side, writing <code>α=π/2+δ</code>,</p>
+<p><code>U/(mg) = d/2 + (h/2)|δ| − (d/4)δ² + O(|δ|³)</code>.</p>
+<p>The cusp matters: a smooth curvature or Hessian test cannot simply be applied there. Under <strong>uniform orientation on the sphere and the stated quasi-static basin assignment</strong>, the side-band probability is <code>h/sqrt(d²+h²)</code>. This is a conditional geometric calculation, not a universal toss law. Launch conditions, spin, friction, impacts and bouncing change the outcome distribution. The authors' <a href="https://physicstoday.aip.org/quick-study/probability-physics-and-the-coin-toss">coin-toss overview</a> explains why the mechanism and initial distribution matter; <a href="https://arxiv.org/abs/1008.4559">Yong and Mahadevan's primary study</a> develops a dynamical model.</p>
+<p>The approximately one-in-6000 nickel number in the draft is not adopted here as a universal empirical frequency. Comparing a static formula with a dynamical model requires matching assumptions and provenance first.</p>
+<p>For an explicitly chosen overdamped stochastic model with spherical area as the reference measure, a Gibbs density would be <code>ρ ∝ exp(−U/κ)</code>. Its tilt-angle marginal has the additional Jacobian: <code>q(α) ∝ sin α exp(−U(α)/κ)</code>. Pointwise density ratios do not equal integrated outcome probabilities. A Kramers approximation also requires its regularity and noise assumptions; smooth-well prefactors cannot be imported unchanged into a cusp model. These are conditional modeling statements, not a calibrated description of a tossed coin.</p>
+<h2 id="3-flow-contraction-and-information-loss">3. Flow, contraction and information loss</h2>
+<p>Negative divergence measures local volume contraction and does not imply attraction of every direction. For example, <code>F(x,y)=(−2x,y)</code> contracts area while the origin is a saddle. Negative-real-part eigenvalues of the equilibrium Jacobian are a sufficient local asymptotic-stability condition under the usual smoothness assumptions, not a necessary one: <code>x' = −x³</code> has an attracting origin with zero derivative there.</p>
+<p>Finite-time flow invertibility must specify domains of existence. For this same scalar field,</p>
+<p><code>φ_t(x)=x/sqrt(1+2t x²)</code> for <code>t&gt;0</code>.</p>
+<p>Its derivative is positive, but its image is bounded. Thus it is invertible onto its image, not onto all of the real line. The draft's linear positive-semidefinite gradient-flow example does converge to a projection onto the matrix kernel; this does not establish that arbitrary dynamics have such a limit.</p>
+<p>Ordinary event logs do not supply a differentiable state flow or its derivatives. FTLE, separatrices and Filippov sliding require a defined dynamical model. The labels Suspect, Wedged or Contended do not by themselves establish crossing, escaping or sliding. Ideal sliding and implementation chatter also need to be distinguished.</p>
+<h2 id="4-session-evidence-preserve-the-mechanism-without-overclaiming">4. Session evidence: preserve the mechanism without overclaiming</h2>
+<p>The practical contribution is to preserve observations and derive revisable interpretations. Keep process existence, progress, expected waiting, ownership and freshness as distinguishable axes. A timeout or heartbeat statistic supplies evidence about a timing model; it is not proof of process death. The φ-accrual detector's <code>−log10(1−F(t))</code> is a tail-surprise statistic under its fitted distribution, not automatically a posterior probability of failure. <a href="https://dspace.jaist.ac.jp/dspace/bitstream/10119/4784/1/IS-RR-2004-010.pdf">Primary report</a>.</p>
+<p>FLP concerns deterministic consensus under specified asynchronous failure assumptions; it is not a blanket theorem that every operational status question is undecidable. <a href="https://groups.csail.mit.edu/tds/papers/Lynch/jacm85.pdf">Original paper</a>. Lease and fencing designs need explicit authority and resource enforcement; a suspicion label does not authorize releasing another process's holdings. <a href="https://martin.kleppmann.com/2016/02/08/how-to-do-distributed-locking.html">Fencing explanation</a>.</p>
+<p>Time spent in a mode measures occupancy. Basin stability concerns the probability of recovery under a specified distribution of perturbations/initial conditions. <a href="https://www.pik-potsdam.de/members/kurths/recent-selected-publications/nphys2516.pdf">Primary basin-stability paper</a>. A simple two-state continuous-time model exposes the difference: with rates <code>a: R→E</code> and <code>b: E→R</code>, stationary edge occupancy is <code>a/(a+b)</code>, while recovery by time <code>T</code> from E has probability <code>1−exp(−bT)</code>. Scaling both rates preserves occupancy and changes recovery times. A rare failure can also dominate total loss.</p>
+<p>Changing a classifier threshold changes the interpretation of evidence. Changing the cylinder's shape changes a physical model. Treat their relationship as an analogy until a correspondence is defined. The <a href="research-directions.html">research-directions chapter</a> specifies experiments that separate representation loss, history loss and missing observations.</p>
+<h2 id="5-hypotheses-kept-open-with-their-evidence-requirements">5. Hypotheses kept open, with their evidence requirements</h2>
+<table>
+<thead>
+<tr>
+<th>Hypothesis or analogy</th>
+<th>What would make it testable?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>"The edge has different possible moves"</td>
+<td>Specify full state, observation map, allowed dynamics and an outcome that distinguishes states sharing one readout.</td>
+</tr>
+<tr>
+<td>Thickness reallocates outcome probability</td>
+<td>Fix geometry, launch/settling protocol and initial distribution; measure outcome frequencies and uncertainty.</td>
+</tr>
+<tr>
+<td>Session edge states carry most of the practical weight</td>
+<td>Measure consequence, detection delay and recovery outcomes as well as occupancy.</td>
+</tr>
+<tr>
+<td>A third answer symbol changes a logic puzzle</td>
+<td>State admissible questions and answer semantics; counting three symbols alone does not construct a valid solution.</td>
+</tr>
+<tr>
+<td>Wheels or another algebra illuminate the edge</td>
+<td>State the algebra and changed laws, then identify an actual task requiring them. No adoption follows from a shared metaphor.</td>
+</tr>
+<tr>
+<td>A frame-breaking loop has a halting-theorem interpretation</td>
+<td>Define a formal reduction and its domain. An informal loop or paradox is not such a proof.</td>
+</tr>
+</tbody>
+</table>
+<p>The last three rows remain research pointers from the source lens, not newly verified prior-art results. Their source references were not exhaustively rechecked in this fold. Boolean, multivalued, geometric and dynamical models should be selected by the decision they support.</p>
+<h2 id="evidence-status">Evidence status</h2>
+<p>The equations and counterexamples above are bounded derivations checked in the research review. The primary sources support the mechanisms identified beside them. The collection contains synthetic construction checks, not physical toss measurements or Jev/session benchmarks. The earlier read-only math and source helpers informed this synthesis; same-provider review is not cross-vendor triangulation. Original drafts remain byte-preserved and retain their own historical provenance labels.</p><footer>SHIFT_2 research and synthesis. Analytic figures are not model performance data. No external fonts or scripts are required.</footer></main></body></html>

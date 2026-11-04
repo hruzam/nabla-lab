@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-04",
+  "authority": "majkee: close and prune Jev briefing intake",
+  "operation": "byte-preserving move; remove empty intake directory",
+  "old_directory": "drafts/jev",
+  "new_directory": "session/research-jev-usage/archived-inputs",
+  "sha256": {
+    "The Coin Effect — Mathematical Foundations.md": "3aa39c2d301ee61018a0f043ebb38fe46430e1e7c90ef25aed555a1dec847019",
+    "The Integration Circuit — JEV, LLM, and the Coin Effect in Practice.md": "5fac56d2deb64dd9ee74ab42b676c8de3d69e50bf9a1750cbc9a66c4370f1f5d",
+    "design.edge-first-session-state.2026-09-29.md": "ec0b7da9b24a2edf715b00f59d5612b852110e1a373a33721c255d423589de51",
+    "jev-tunnel_builder-brief_2026-09-24.md": "9cb89e9e8ca294dfcfd90ee22017a50a364d63286d4e16fc6c35046f0a5cbf14",
+    "thread.edge-space.2026-09-29.md": "893e0f3cd4e0b19c9f88e2ab19db4f59b46bf0e40135c18dc2fad11d6668a1d5",
+    "thread.nabla-coin.2026-09-29.md": "57b9169db494b72800c9bd9f2a5ccf9e259dbfa98600289ce17632cfa89ac5e4"
+  },
+  "bytes_unchanged": true,
+  "intake_directory_absent": true
+}

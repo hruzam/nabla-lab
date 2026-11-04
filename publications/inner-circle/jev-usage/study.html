@@ -1,0 +1,214 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Jev: uses, limits and the Coin Effect</title><style>body{margin:0;background:#f4f1eb;color:#20303b;font:18px/1.65 Georgia,serif}main{max-width:880px;margin:48px auto;padding:56px 64px;background:#fffdf8;border-top:7px solid #087f8c;box-shadow:0 10px 45px #18344512}h1,h2,h3,th,.masthead{font-family:Arial,sans-serif}h1{font-size:42px;line-height:1.12;letter-spacing:-1px;color:#173c49}h2{font-size:24px;margin-top:2em;border-top:1px solid #d9e2e2;padding-top:22px}h3{font-size:19px}p{margin:1em 0}a{color:#087080;text-decoration-thickness:1px}table{border-collapse:collapse;width:100%;font-size:14px;line-height:1.45;margin:25px 0}th,td{border-bottom:1px solid #d5dfdf;padding:12px 10px;text-align:left;vertical-align:top}th{background:#e8efed}pre{background:#edf2f2;padding:18px;font:13px/1.65 monospace;overflow:auto;border-left:3px solid #087f8c}code{font-size:.84em}pre code{font-size:inherit}img,svg{max-width:100%;height:auto}figure{margin:32px 0}u{text-decoration-color:#087f8c;text-underline-offset:4px}li{margin:.65em 0}.masthead{font-size:12px;letter-spacing:2px;text-transform:uppercase;color:#607580}footer{font:12px/1.5 Arial,sans-serif;color:#657781;margin-top:45px;border-top:1px solid #d5dfdf;padding-top:18px}@media(max-width:720px){main{margin:0;padding:28px 22px}h1{font-size:32px}table{display:block;overflow:auto}}@media print{body{background:white;font-size:11pt}main{max-width:none;margin:0;padding:0;box-shadow:none;border:0}h1{font-size:26pt}h2{break-after:avoid}pre,figure,svg{break-inside:avoid}a{color:inherit}table{font-size:9pt}}</style></head><body><main><div class="masthead">Nabla-lab / Inner-circle / 2026-11-03 research edition / November 4 reading pointers</div><h1 id="jev-uses-limits-and-the-coin-effect">Jev: uses, limits and the Coin Effect</h1>
+<p><strong>A usage atlas, mathematical audit and experimental program for majkee's science</strong></p>
+<p><em>Inner-circle research edition · 2026-11-03 · Oraculum, SHIFT_2. Literature and local-source synthesis with explicit derivations. No live Jev inference or task-performance experiment was performed.</em></p>
+<p><a href="usage-atlas.html">Usage atlas</a> · <a href="experiments.html">Experiment cards</a> · <a href="implementer-brief.html">Implementer brief</a> · <a href="../../../session/research-jev-usage/README.md">Evidence and review</a></p>
+<p><strong>November 4 reading note:</strong> the intake is closed. <a href="index.html">Collection map and later chapters</a>; <a href="../../../session/research-jev-usage/archived-inputs/README.md">byte-preserved source archive</a>. References below to <code>drafts/jev/</code> describe the original intake location.</p>
+<h2 id="abstract">Abstract</h2>
+<p>Jev can contribute where a research process has a finite question, relevant evidence and an independently assessable outcome. This edition surveys those opportunities across the lab's compendium, then examines the proposed Coin Effect: binary element judgments, a third EDGE state, a coalition rule and selective question reformulation. The strongest immediate mathematical connection is partial evaluation of a monotone Boolean function. Its endpoint certificate is valid, but its interpretation, pivotal-element selection and empirical usefulness require separate arguments. A geometrical model can also make the rotating Boolean ball precise; it shows exactly which orientation information a single binary observation cannot recover. The proposed research proceeds from deterministic fixtures to controlled judgment experiments. Its output is an implementer-facing specification and test program, not a claim that the system is already useful or that a new logic has been discovered.</p>
+<h2 id="1-research-question-and-publication-boundary">1. Research question and publication boundary</h2>
+<p>The operator asks where Jev can help his scientific and engineering practice, including unusual hypotheses that deserve serious tests. The earlier <a href="../jev-judgment/study.html">Jev edition</a> supplied a bounded role comparison and an omission-review proposal. The new inputs are the three files under <code>drafts/jev/</code>: the September builder brief and the October mathematical and integration drafts. They contain proposals, historical capabilities and claims requiring correction.</p>
+<p>The question is broader than brief checking: <strong>which useful observations can Jev supply, which mathematical operations should consume them, and what would establish an advantage over simpler alternatives?</strong> The <a href="usage-atlas.html">atlas</a> covers every current compendium stream and adjacent use families. This is systematic coverage of a declared corpus, not a proof that every conceivable use has been found.</p>
+<p>This is an operator-assigned internal edition. The <a href="../index.html">reading-room contract</a> and <a href="../editorial-evidence.html">editorial evidence</a> permit research publication independently of later adoption and gavel loops. Existing sources, decisions and the October edition remain unchanged. No <code>papers/</code> promotion, sibling implementation inspection or historical session takeover follows. The scientific assessments below are not a named Janus signature or a genuine cross-vendor review.</p>
+<h2 id="2-the-instrument-refreshed">2. The instrument, refreshed</h2>
+<p>Current documentation lists Jev 1.14 and 1.13; a moving alias is unsuitable for a version-specific measurement study. Standard text limits are 64k per request and 32k for state plus a question; an opt-in long-context mode raises both to 262k. These are documentation observations, not tested local access. <a href="https://docs.typesafe.ai/models">TypeSafe models</a>.</p>
+<table>
+<thead>
+<tr>
+<th>Interface</th>
+<th>Appropriate research use</th>
+<th>Interpretation boundary</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Choice</td>
+<td>Pick a supplied category, contrast, candidate or evidence relation</td>
+<td>Categories need not be ordered. A forced option set may omit the appropriate answer.</td>
+</tr>
+<tr>
+<td>Noul</td>
+<td>Judge a precisely stated yes/no proposition</td>
+<td>The reported yes probability is distinct from evidence completeness and measured accuracy.</td>
+</tr>
+<tr>
+<td>Score</td>
+<td>Rate an ordered, explicitly described rubric</td>
+<td>Expected index is a coding of rubric levels, not automatically a physical magnitude.</td>
+</tr>
+<tr>
+<td>Images and Box</td>
+<td>Prototype diagram/object observations and localization</td>
+<td>Experimental capability; does not supply pose, topology or metric geometry by itself.</td>
+</tr>
+</tbody>
+</table>
+<p>Sources: <a href="https://docs.typesafe.ai/primitives/choice">Choice</a>, <a href="https://docs.typesafe.ai/primitives/noul">Noul</a>, <a href="https://docs.typesafe.ai/primitives/score">Score</a>, <a href="https://docs.typesafe.ai/images">images</a>, <a href="https://docs.typesafe.ai/primitives/box">Box</a>. The models table labels input as text, while specific image documentation qualifies experimental support; preserve that distinction rather than silently choosing one description. Image input is documented for 1.13 and 1.14; Box requires 1.14. On TypeSafe's direct API both require the opt-in <code>TypeSafe-Danger-Zone-Images: true</code> header; this does not specify OpenRouter's request shape. Box is not part of the September three-type pilot contract.</p>
+<p>Many questions can share one evidence state. Parallel evaluation is not statistical independence, and an adaptive question whose wording depends on a returned answer belongs to a later step. <a href="https://docs.typesafe.ai/patterns/fan-out">Fan-out</a>. The September brief's batching recommendation and the circuit's one-call-per-element wording should therefore be reconciled: batch questions whose wording does not depend on another answer when their evidence is shared, then measure whether speculative extra questions are worth their cost.</p>
+<p>OpenRouter documents a distinct <a href="https://openrouter.ai/docs/api/api-reference/alphadecisions/submit-a-decisions-request">Decisions endpoint</a>; provider schemas and model identifiers must be kept separate from the direct TypeSafe API. No credentials, billing account, latency or successful response were tested here. Published token prices cannot settle total cost: evidence preparation, retries, reasoning calls and human review remain part of the experiment.</p>
+<p>For a binary Choice, current documented confidence is <code>c=|2p−1|</code>, the same number as its top-two margin. More generally Choice confidence is <code>(p_max−1/n)/(1−1/n)</code>. It is a distribution statistic, not another independently observed estimate of correctness. <a href="https://docs.typesafe.ai/confidence">Confidence</a>. Consequently adding this binary confidence to a margin detector supplies no second signal. Score's confidence has different semantics and must not be substituted without an explicit contract.</p>
+<p>Two current external reports make blanket calibration assumptions particularly inappropriate. Deußer et al. evaluate pinned Jev 1.13 across 37 datasets and sequential tasks; their results support some selective-prediction uses but show task and threshold dependence. They use frozen prompts and held-out threshold tuning, while acknowledging comparison and memorization limits. Single-step results do not establish sequential reliability. <a href="https://arxiv.org/html/2609.37647v2">Benchmark, v2</a>.</p>
+<p>Porcedda's Sys1Cal examines recovery of known synthetic probabilities and proposes an unresolved-mass explanation of differences between primitives. Its own limitations call that explanation observational. Corrected point estimates and wider interval compatibility use different metrics; an improved interval score cannot be read as equivalent point accuracy. A pinned version and held-out correction split were not established in our inspected passages. <a href="https://arxiv.org/html/2609.35342v1">Sys1Cal-v1</a>. This is unusually relevant prior art for the Coin question, but it does not establish an internal third truth state. Our experiments test competing explanations.</p>
+<h2 id="3-four-objects-that-must-remain-distinct">3. Four objects that must remain distinct</h2>
+<p>Let <code>E</code> be supplied evidence, <code>q</code> a question, <code>r</code> a rubric, <code>m</code> a model and <code>Y~J_m(E,q,r)</code> the returned judgment. A controller validates Y; an interpretation produces an observation; a policy chooses a subsequent action. Neither validation nor the policy changes what was observed.</p>
+<p>The Coin proposal involves four separable objects:</p>
+<ol>
+<li><strong>World or problem state:</strong> what the case actually is.</li>
+<li><strong>Measurement:</strong> what the evidence and Jev response reveal about that state.</li>
+<li><strong>Representation:</strong> FACE, TAIL, EDGE, orientation or geometric coordinates assigned by a declared rule.</li>
+<li><strong>Decision:</strong> accept, reject, defer, acquire evidence or reformulate.</li>
+</ol>
+<p>A near-half binary output can result from incomplete evidence, ambiguity, conflicting sources, model error or a deliberately balanced stochastic problem. The same number does not distinguish those causes. Calling it EDGE creates a useful operational category if the decision rule needs one; it does not identify a new state of the underlying world.</p>
+<p>Likewise, separate support and refutation observations can encode neither/support/refutation/both. That evidence protocol is not the same as probability near one half, an invalid receipt, a deadline or a physical coin on its rim. Retain these failure and evidence states separately.</p>
+<p>The documented interface does not prohibit an explicit third Choice category. A category does not become ordered merely by receiving probability mass. The binary-derived EDGE and an explicitly defined third-class classifier answer different questions; the experiment should compare them when independently labeled third-class cases exist.</p>
+<h2 id="4-what-the-coalition-mathematics-establishes">4. What the coalition mathematics establishes</h2>
+<h3 id="41-identity-matters-but-weighted-thresholds-are-only-one-subclass">4.1 Identity matters, but weighted thresholds are only one subclass</h3>
+<p>Let <code>v:2^N→{0,1}</code> satisfy <code>v(∅)=0</code>, <code>v(N)=1</code> and monotonicity. This defines a simple game, equivalently a normalized nonconstant monotone Boolean function. It need not be a weighted threshold function.</p>
+<p>A small counterexample is</p>
+<pre><code class="language-text">v(x) = (x₁ AND x₂) OR (x₃ AND x₄).
+</code></pre>
+<p>Coalitions 12 and 34 win; 13 and 24 lose. If weights and quota q represented this game, adding the winning inequalities would give <code>Σwᵢ≥2q</code>, while adding the losing inequalities would give the same sum <code>&lt;2q</code>: contradiction. A fifth dummy voter makes n odd without changing the argument. Odd group size resolves ties for ordinary majority; it does not impose complement decisiveness on every simple game.</p>
+<p>The <a href="../coalition-evidence/study.html">coalition study</a> already distinguishes richer coalition models from their weighted baseline. Its <a href="../../../papers/card.choquet-consensus-gate.2026-07-02.md">historical card</a> makes adoption conditional on held-out benefit. The new Coin usage does not erase that condition. Minimal winning coalitions are a valid representation, but listing them can itself be large; a majority game has many minimal winners despite having a short threshold description.</p>
+<h3 id="42-the-two-completion-theorem">4.2 The two-completion theorem</h3>
+<p>Let A contain known FACE elements and U the unresolved elements. Known TAIL elements are outside both. Every compatible completion S satisfies <code>A⊆S⊆A∪U</code>. Therefore</p>
+<pre><code class="language-text">v(A) ≤ v(S) ≤ v(A∪U).
+</code></pre>
+<p>If the endpoint values agree, every completion has that value. If they differ, the completion set contains both answers. This proves the certificate under the stated monotone, fixed-rule semantics. No independence probabilities, odd n, model calibration or rotation are required.</p>
+<p>This is a special case of established ternary/hazard-free extension semantics: return a stable Boolean value when every resolution agrees, otherwise an unresolved value. <a href="https://eccc.weizmann.ac.il/report/2021/100/download">Ikenmeyer, Komarath and Saurabh, equation 1.1</a>. The endpoint shortcut follows here from monotonicity. It does not prove that every gatewise three-valued evaluation of an arbitrary circuit has the same semantics.</p>
+<p>Monotonicity is essential: XOR has equal values at 00 and 11 but a different value at 01. Compatible completions matter too. If constraints exclude some assignments, disagreement of unconstrained endpoints may overstate uncertainty. Agreement remains a sound certificate over any compatible subset, provided the fixed coordinates and rule are sound; detecting disagreement precisely may need constraint reasoning.</p>
+<p>The certificate is conditional on the assigned FACE/TAIL values. A confidently misclassified fixed predicate can produce a wrong but perfectly certified group answer. Structural correctness does not repair a measurement error. If the real target is exactly this fixed game of true predicates, a wrong determinate answer requires at least one incorrect assigned predicate. The union bound therefore gives <code>P(wrong and determinate) ≤ Σᵢ P(predicate i assigned incorrectly)</code> without independence. Rule misspecification requires another error term. This limited guarantee is not inherited calibration or a bound on conditional selective risk without accounting for coverage.</p>
+<h3 id="43-finding-pivotal-elements-is-a-separate-problem">4.3 Finding pivotal elements is a separate problem</h3>
+<p>An unresolved element i is <strong>potentially pivotal</strong> when there exists <code>T⊆U\{i}</code> with</p>
+<pre><code class="language-text">v(A∪T)=0 and v(A∪T∪{i})=1.
+</code></pre>
+<p>Endpoint disagreement implies at least one such element: follow any chain adding unresolved elements one by one from the losing lower endpoint to the winning upper endpoint; some step changes the value. Conversely, a pivotal completion forces the endpoints to differ. This is an existential statement, not a claim that every unresolved element is pivotal in every completion.</p>
+<p>This definition and chain proof use unrestricted Boolean completions. Under the constraint <code>x₁=x₂</code>, feasible states 00 and 11 can disagree while neither single-bit intermediate is feasible. Constraint-aware pivotality or acquisition must therefore be specified separately; an unconstrained potential pivot need not be a feasible isolated intervention.</p>
+<p>For an all-unresolved AND of two inputs, each is potentially pivotal. Changing either alone from the all-zero endpoint does nothing. Thus single flips at one endpoint can miss useful observations. Two group evaluations establish uncertainty but do not return the full pivotal set. Exhaustive evaluation is acceptable for a tiny fixture; a larger system needs a declared representation and algorithmic cost.</p>
+<p>Banzhaf swing counts count pivotal assignments under a specified averaging convention. They are not counts of prime implicants. For <code>f=x₁ OR (x₂ AND x₃)</code>, the derivative in x₁ is <code>NOT x₂ OR NOT x₃</code>: three satisfying assignments, two prime implicants. Power averaged over possible coalitions is also distinct from expected benefit of the next costly observation.</p>
+<p>For majority seven with exactly four unresolved elements, let k of the three fixed elements be FACE. Then <code>0≤k≤3</code>, so <code>v⁻=0</code> and <code>v⁺=1</code>. Every unresolved element is potentially pivotal. The draft's example suggesting none commonly matters in that configuration is false for majority. A different rule may behave differently and must be named.</p>
+<figure>
+
+<svg width="720" height="300" preserveAspectRatio="xMinYMin meet" viewBox="0 0 720 300" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="720" height="300"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-300)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="24" y="274" style="font-family: Helvetica; font-size: 17px;fill: rgb(12%,18%,23%); stroke:none;" transform="translate(0,548) scale(1,-1)">Endpoint certificates across all 243 partial assignments</text>
+			<text x="24" y="251" style="font-family: Helvetica; font-size: 11px;fill: rgb(12%,18%,23%); stroke:none;" transform="translate(0,502) scale(1,-1)">Synthetic pair-coalition game with a fifth dummy element</text>
+			<rect x="100" y="60" width="95" height="101.25" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,54%); fill-rule: evenodd;"/>
+			<text x="135" y="169.25" style="font-family: Helvetica; font-size: 14px;fill: rgb(12%,18%,23%); stroke:none;" transform="translate(0,338) scale(1,-1)">75</text>
+			<text x="98" y="38" style="font-family: Helvetica; font-size: 11px;fill: rgb(12%,18%,23%); stroke:none;" transform="translate(0,76) scale(1,-1)">TAIL</text>
+			<rect x="305" y="60" width="95" height="68.85000000000002" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,54%); fill-rule: evenodd;"/>
+			<text x="340" y="136.85000000000002" style="font-family: Helvetica; font-size: 14px;fill: rgb(12%,18%,23%); stroke:none;" transform="translate(0,273) scale(1,-1)">51</text>
+			<text x="303" y="38" style="font-family: Helvetica; font-size: 11px;fill: rgb(12%,18%,23%); stroke:none;" transform="translate(0,76) scale(1,-1)">FACE</text>
+			<rect x="510" y="60" width="95" height="157.95000000000002" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(71%,36%,14%); fill-rule: evenodd;"/>
+			<text x="545" y="225.95000000000002" style="font-family: Helvetica; font-size: 14px;fill: rgb(12%,18%,23%); stroke:none;" transform="translate(0,451) scale(1,-1)">117</text>
+			<text x="508" y="38" style="font-family: Helvetica; font-size: 11px;fill: rgb(12%,18%,23%); stroke:none;" transform="translate(0,76) scale(1,-1)">GROUP_EDGE</text>
+			<text x="24" y="14" style="font-family: Helvetica; font-size: 10px;fill: rgb(12%,18%,23%); stroke:none;" transform="translate(0,28) scale(1,-1)">Zero disagreements with full-completion evaluation; counts are not task prevalence.</text>
+		</g>
+	</g>
+</svg>
+</figure>
+<p><em>Synthetic exhaustive fixture: the 243 partial assignments of the four-input pair rule with a fifth dummy element yield 75 fixed TAIL results, 51 fixed FACE results and 117 unresolved group results. Endpoint and full-completion evaluation agree in every case. These are counts of constructed configurations, not an estimate of real-case prevalence.</em></p>
+<h2 id="5-what-edge-and-orientation-could-mean">5. What EDGE and orientation could mean</h2>
+<p>Three coarse states with two EDGE orientations produce four atomic cases: <code>{FACE, TAIL, EDGE_POS, EDGE_NEG}</code>. If orientation can be unobserved, its missingness requires another explicit representation. There is no reason to force this object into the conventional ordered <code>(j,k)</code> simple-game definition; that definition assumes ordered input grades. <a href="https://upcommons.upc.edu/entities/publication/ce299cbe-6842-47ef-bd0e-86fb713225fc">Freixas and Zwicker</a>.</p>
+<p>There are three viable research interpretations:</p>
+<table>
+<thead>
+<tr>
+<th>Interpretation</th>
+<th>What EDGE means</th>
+<th>What would establish value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Selective judgment</td>
+<td>The current measurement does not justify commitment</td>
+<td>Better error/coverage/effort trade-off than matched-budget baselines</td>
+</tr>
+<tr>
+<td>Structured acquisition</td>
+<td>A case needs a particular additional observation or reformulation</td>
+<td>A pre-outcome orientation signal selects a better next action than fixed/random/cost-only routing</td>
+</tr>
+<tr>
+<td>Richer state theory</td>
+<td>The state possesses distinctions absent from the Boolean projection</td>
+<td>Explicit operations and observations that distinguish competing state models</td>
+</tr>
+</tbody>
+</table>
+<p>The first two are buildable research proposals without settling the third. Selective classification is established prior art. <a href="https://proceedings.neurips.cc/paper/2017/hash/4a8423d5e91fda00bb7e46540e2b0cf1-Abstract.html">Geifman and El-Yaniv</a>. The acquisition interpretation connects to <a href="https://arxiv.org/abs/2208.03810">stochastic Boolean function evaluation</a>; assumptions about independent bits and exact tests do not automatically transfer to correlated, fallible language judgments.</p>
+<p>An appropriate next-observation criterion is expected reduction in decision loss after seeing its outcome, less acquisition cost. Merely having a nonzero swing count is not enough: an observation may be expensive, unreliable, redundant or almost never decision-changing under the actual case distribution. Greedy guarantees require additional properties, such as those studied in <a href="https://arxiv.org/abs/1003.3967">adaptive submodularity</a>; they are not granted by the word “pivotal.”</p>
+<p>Rephrasing can change the proposition instead of resolving it. Any resolution step must record whether it adds evidence, changes the measurement procedure, or creates a new predicate. The old group rule can be reused only when its inputs retain the promised meanings.</p>
+<p>A near-tie's larger probability is not necessarily noise. Under correct probabilities, equal error costs and no reject action, choosing the larger probability minimizes expected classification error. Deferral becomes preferable only under a declared action/loss model. Nor must EDGE be rare: its useful rate depends on the task and acceptable risk, not a universal minority target.</p>
+<h2 id="6-a-precise-rotating-boolean-ball">6. A precise rotating Boolean ball</h2>
+<p>This is a proposed formalization for majkee to refine, not a claim to recover his complete intention. Let x be a unit vector and a,b orthogonal unit measurement axes. Define</p>
+<pre><code class="language-text">pₐ(x) = (1 + a·x)/2,
+EDGE if |a·x| ≤ τ,     0 ≤ τ &lt; 1,
+orientation = sign(b·x), when b·x ≠ 0.
+</code></pre>
+<p>Outside the band, the sign of <code>a·x</code> supplies a binary reading. The linear probability map is a stipulated analytic observation model, not a measured law of Jev. At <code>b·x=0</code>, orientation is undefined and must not be guessed.</p>
+<p>Reflect x across the plane perpendicular to b. Because <code>a·b=0</code>, the reflection preserves <code>a·x</code> and therefore pₐ, while reversing <code>b·x</code>. Two opposite orientations consequently produce exactly the same binary measurement. <strong>Orientation is unidentifiable from that measurement alone.</strong> An additional axis, sensor, contextual observation or recorded trajectory is necessary.</p>
+<p>A passive rotation sends <code>(x,a,b)</code> to <code>(Rx,Ra,Rb)</code> for an orthogonal R; all displayed dot products remain unchanged. An active rotation of x with fixed axes can change the reading. Rotating the axes with x fixed changes the question. These are different experiments. Ordinary rotations preserve the sphere's topology; a claim of topological reconfiguration needs a specified change of state space, identifications, admissible paths or observation relation.</p>
+<figure>
+
+<svg width="720" height="330" preserveAspectRatio="xMinYMin meet" viewBox="0 0 720 330" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="720" height="330"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-330)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="24" y="305" style="font-family: Helvetica; font-size: 17px;fill: rgb(12%,18%,23%); stroke:none;" transform="translate(0,610) scale(1,-1)">One binary observation cannot recover orientation</text>
+			<text x="24" y="284" style="font-family: Helvetica; font-size: 11px;fill: rgb(12%,18%,23%); stroke:none;" transform="translate(0,568) scale(1,-1)">Analytic construction; no measured Jev data</text>
+			<rect x="136.2" y="56" width="37.599999999999994" height="188" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,93%,92%); fill-rule: evenodd;"/>
+			<circle cx="155" cy="150" r="94" style="stroke: rgb(12%,18%,23%); stroke-linecap: butt; stroke-width: 1; fill: none; fill-rule: evenodd;"/>
+			<path d="M 46,150 L 269,150 Z" style="stroke: rgb(83%,87%,87%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 155,46 L 155,254 Z" style="stroke: rgb(83%,87%,87%); stroke-linecap: butt; stroke-width: 1;"/>
+			<circle cx="155" cy="56" r="5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(71%,36%,14%); fill-rule: evenodd;"/>
+			<circle cx="155" cy="244" r="5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,54%); fill-rule: evenodd;"/>
+			<text x="175" y="249" style="font-family: Helvetica; font-size: 10px;fill: rgb(3%,49%,54%); stroke:none;" transform="translate(0,498) scale(1,-1)">EDGE_POS: p = 0.5</text>
+			<text x="175" y="44" style="font-family: Helvetica; font-size: 10px;fill: rgb(71%,36%,14%); stroke:none;" transform="translate(0,88) scale(1,-1)">EDGE_NEG: p = 0.5</text>
+			<text x="273" y="146" style="font-family: Helvetica; font-size: 12px;fill: rgb(12%,18%,23%); stroke:none;" transform="translate(0,292) scale(1,-1)">a</text>
+			<text x="143" y="259" style="font-family: Helvetica; font-size: 12px;fill: rgb(12%,18%,23%); stroke:none;" transform="translate(0,518) scale(1,-1)">b</text>
+			<text x="44" y="16" style="font-family: Helvetica; font-size: 10px;fill: rgb(12%,18%,23%); stroke:none;" transform="translate(0,32) scale(1,-1)">Shaded band: |a.x| &lt;= 0.2</text>
+			<path d="M 380,68 L 690,68 Z" style="stroke: rgb(12%,18%,23%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 380,68 L 380,238 Z" style="stroke: rgb(12%,18%,23%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 380,68 L 690,68 Z" style="stroke: rgb(83%,87%,87%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="353" y="65" style="font-family: Helvetica; font-size: 10px;fill: rgb(12%,18%,23%); stroke:none;" transform="translate(0,130) scale(1,-1)">0</text>
+			<path d="M 380,153 L 690,153 Z" style="stroke: rgb(83%,87%,87%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="353" y="150.0" style="font-family: Helvetica; font-size: 10px;fill: rgb(12%,18%,23%); stroke:none;" transform="translate(0,300) scale(1,-1)">0.5</text>
+			<path d="M 380,238 L 690,238 Z" style="stroke: rgb(83%,87%,87%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="353" y="235" style="font-family: Helvetica; font-size: 10px;fill: rgb(12%,18%,23%); stroke:none;" transform="translate(0,470) scale(1,-1)">1</text>
+			<polyline points="380 68, 380.8611 68.01295, 381.7222 68.05178, 382.5833 68.11649, 383.4444 68.20706, 384.3056 68.32345, 385.1667 68.46564, 386.0278 68.63358, 386.8889 68.82721, 387.75 69.04649, 388.6111 69.29134, 389.4722 69.56169, 390.3333 69.85745, 391.1944 70.17854, 392.0556 70.52486, 392.9167 70.8963, 393.7778 71.29276, 394.6389 71.7141, 395.5 72.1602, 396.3611 72.63092, 397.2222 73.12613, 398.0833 73.64566, 398.9444 74.18937, 399.8056 74.75709, 400.6667 75.34864, 401.5278 75.96384, 402.3889 76.60251, 403.25 77.26445, 404.1111 77.94945, 404.9722 78.65732, 405.8333 79.38784, 406.6944 80.14078, 407.5556 80.91591, 408.4167 81.713, 409.2778 82.53181, 410.1389 83.37208, 411 84.23356, 411.8611 85.11598, 412.7222 86.01909, 413.5833 86.94259, 414.4444 87.88622, 415.3056 88.84969, 416.1667 89.83269, 417.0278 90.83494, 417.8889 91.85612, 418.75 92.89592, 419.6111 93.95404, 420.4722 95.03014, 421.3333 96.1239, 422.1944 97.23498, 423.0556 98.36305, 423.9167 99.50777, 424.7778 100.6688, 425.6389 101.8457, 426.5 103.0383, 427.3611 104.246, 428.2222 105.4686, 429.0833 106.7057, 429.9444 107.9569, 430.8056 109.2218, 431.6667 110.5, 432.5278 111.7912, 433.3889 113.0949, 434.25 114.4108, 435.1111 115.7385, 435.9722 117.0774, 436.8333 118.4274, 437.6944 119.7879, 438.5556 121.1584, 439.4167 122.5387, 440.2778 123.9283, 441.1389 125.3267, 442 126.7336, 442.8611 128.1484, 443.7222 129.5708, 444.5833 131.0004, 445.4444 132.4366, 446.3056 133.8792, 447.1667 135.3275, 448.0278 136.7812, 448.8889 138.2399, 449.75 139.7031, 450.6111 141.1703, 451.4722 142.6411, 452.3333 144.1151, 453.1944 145.5918, 454.0556 147.0707, 454.9167 148.5514, 455.7778 150.0335, 456.6389 151.5165, 457.5 153, 458.3611 154.4835, 459.2222 155.9665, 460.0833 157.4486, 460.9444 158.9293, 461.8056 160.4082, 462.6667 161.8849, 463.5278 163.3589, 464.3889 164.8297, 465.25 166.2969, 466.1111 167.7601, 466.9722 169.2188, 467.8333 170.6725, 468.6944 172.1208, 469.5556 173.5634, 470.4167 174.9996, 471.2778 176.4292, 472.1389 177.8516, 473 179.2664, 473.8611 180.6733, 474.7222 182.0717, 475.5833 183.4613, 476.4444 184.8416, 477.3056 186.2121, 478.1667 187.5726, 479.0278 188.9226, 479.8889 190.2615, 480.75 191.5892, 481.6111 192.9051, 482.4722 194.2088, 483.3333 195.5, 484.1944 196.7782, 485.0556 198.0431, 485.9167 199.2943, 486.7778 200.5314, 487.6389 201.754, 488.5 202.9617, 489.3611 204.1543, 490.2222 205.3312, 491.0833 206.4922, 491.9444 207.6369, 492.8056 208.765, 493.6667 209.8761, 494.5278 210.9699, 495.3889 212.046, 496.25 213.1041, 497.1111 214.1439, 497.9722 215.1651, 498.8333 216.1673, 499.6944 217.1503, 500.5556 218.1138, 501.4167 219.0574, 502.2778 219.9809, 503.1389 220.884, 504 221.7664, 504.8611 222.6279, 505.7222 223.4682, 506.5833 224.287, 507.4444 225.0841, 508.3056 225.8592, 509.1667 226.6122, 510.0278 227.3427, 510.8889 228.0505, 511.75 228.7356, 512.6111 229.3975, 513.4722 230.0362, 514.3333 230.6514, 515.1944 231.2429, 516.0556 231.8106, 516.9167 232.3543, 517.7778 232.8739, 518.6389 233.3691, 519.5 233.8398, 520.3611 234.2859, 521.2222 234.7072, 522.0833 235.1037, 522.9444 235.4751, 523.8056 235.8215, 524.6667 236.1425, 525.5278 236.4383, 526.3889 236.7087, 527.25 236.9535, 528.1111 237.1728, 528.9722 237.3664, 529.8333 237.5344, 530.6944 237.6765, 531.5556 237.7929, 532.4167 237.8835, 533.2778 237.9482, 534.1389 237.9871, 535 238, 535.8611 237.9871, 536.7222 237.9482, 537.5833 237.8835, 538.4444 237.7929, 539.3056 237.6765, 540.1667 237.5344, 541.0278 237.3664, 541.8889 237.1728, 542.75 236.9535, 543.6111 236.7087, 544.4722 236.4383, 545.3333 236.1425, 546.1944 235.8215, 547.0556 235.4751, 547.9167 235.1037, 548.7778 234.7072, 549.6389 234.2859, 550.5 233.8398, 551.3611 233.3691, 552.2222 232.8739, 553.0833 232.3543, 553.9444 231.8106, 554.8056 231.2429, 555.6667 230.6514, 556.5278 230.0362, 557.3889 229.3975, 558.25 228.7356, 559.1111 228.0505, 559.9722 227.3427, 560.8333 226.6122, 561.6944 225.8592, 562.5556 225.0841, 563.4167 224.287, 564.2778 223.4682, 565.1389 222.6279, 566 221.7664, 566.8611 220.884, 567.7222 219.9809, 568.5833 219.0574, 569.4444 218.1138, 570.3056 217.1503, 571.1667 216.1673, 572.0278 215.1651, 572.8889 214.1439, 573.75 213.1041, 574.6111 212.046, 575.4722 210.9699, 576.3333 209.8761, 577.1944 208.765, 578.0556 207.6369, 578.9167 206.4922, 579.7778 205.3312, 580.6389 204.1543, 581.5 202.9617, 582.3611 201.754, 583.2222 200.5314, 584.0833 199.2943, 584.9444 198.0431, 585.8056 196.7782, 586.6667 195.5, 587.5278 194.2088, 588.3889 192.9051, 589.25 191.5892, 590.1111 190.2615, 590.9722 188.9226, 591.8333 187.5726, 592.6944 186.2121, 593.5556 184.8416, 594.4167 183.4613, 595.2778 182.0717, 596.1389 180.6733, 597 179.2664, 597.8611 177.8516, 598.7222 176.4292, 599.5833 174.9996, 600.4444 173.5634, 601.3056 172.1208, 602.1667 170.6725, 603.0278 169.2188, 603.8889 167.7601, 604.75 166.2969, 605.6111 164.8297, 606.4722 163.3589, 607.3333 161.8849, 608.1944 160.4082, 609.0556 158.9293, 609.9167 157.4486, 610.7778 155.9665, 611.6389 154.4835, 612.5 153, 613.3611 151.5165, 614.2222 150.0335, 615.0833 148.5514, 615.9444 147.0707, 616.8056 145.5918, 617.6667 144.1151, 618.5278 142.6411, 619.3889 141.1703, 620.25 139.7031, 621.1111 138.2399, 621.9722 136.7812, 622.8333 135.3275, 623.6944 133.8792, 624.5556 132.4366, 625.4167 131.0004, 626.2778 129.5708, 627.1389 128.1484, 628 126.7336, 628.8611 125.3267, 629.7222 123.9283, 630.5833 122.5387, 631.4444 121.1584, 632.3056 119.7879, 633.1667 118.4274, 634.0278 117.0774, 634.8889 115.7385, 635.75 114.4108, 636.6111 113.0949, 637.4722 111.7912, 638.3333 110.5, 639.1944 109.2218, 640.0556 107.9569, 640.9167 106.7057, 641.7778 105.4686, 642.6389 104.246, 643.5 103.0383, 644.3611 101.8457, 645.2222 100.6688, 646.0833 99.50777, 646.9444 98.36305, 647.8056 97.23498, 648.6667 96.1239, 649.5278 95.03014, 650.3889 93.95404, 651.25 92.89592, 652.1111 91.85612, 652.9722 90.83494, 653.8333 89.83269, 654.6944 88.84969, 655.5556 87.88622, 656.4167 86.94259, 657.2778 86.01909, 658.1389 85.11598, 659 84.23356, 659.8611 83.37208, 660.7222 82.53181, 661.5833 81.713, 662.4444 80.91591, 663.3056 80.14078, 664.1667 79.38784, 665.0278 78.65732, 665.8889 77.94945, 666.75 77.26445, 667.6111 76.60251, 668.4722 75.96384, 669.3333 75.34864, 670.1944 74.75709, 671.0556 74.18937, 671.9167 73.64566, 672.7778 73.12613, 673.6389 72.63092, 674.5 72.1602, 675.3611 71.7141, 676.2222 71.29276, 677.0833 70.8963, 677.9444 70.52486, 678.8056 70.17854, 679.6667 69.85745, 680.5278 69.56169, 681.3889 69.29134, 682.25 69.04649, 683.1111 68.82721, 683.9722 68.63358, 684.8333 68.46564, 685.6944 68.32345, 686.5556 68.20706, 687.4167 68.11649, 688.2778 68.05178, 689.1389 68.01295, 690 68" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 2; fill: None; fill-rule: evenodd;"/>
+			<circle cx="457.5" cy="153.0" r="4" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(71%,36%,14%); fill-rule: evenodd;"/>
+			<circle cx="612.5" cy="153.0" r="4" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,54%); fill-rule: evenodd;"/>
+			<text x="368.0" y="48" style="font-family: Helvetica; font-size: 9px;fill: rgb(12%,18%,23%); stroke:none;" transform="translate(0,96) scale(1,-1)">-180</text>
+			<text x="445.5" y="48" style="font-family: Helvetica; font-size: 9px;fill: rgb(12%,18%,23%); stroke:none;" transform="translate(0,96) scale(1,-1)">-90</text>
+			<text x="523.0" y="48" style="font-family: Helvetica; font-size: 9px;fill: rgb(12%,18%,23%); stroke:none;" transform="translate(0,96) scale(1,-1)">0</text>
+			<text x="600.5" y="48" style="font-family: Helvetica; font-size: 9px;fill: rgb(12%,18%,23%); stroke:none;" transform="translate(0,96) scale(1,-1)">90</text>
+			<text x="678.0" y="48" style="font-family: Helvetica; font-size: 9px;fill: rgb(12%,18%,23%); stroke:none;" transform="translate(0,96) scale(1,-1)">180</text>
+			<text x="430" y="24" style="font-family: Helvetica; font-size: 11px;fill: rgb(12%,18%,23%); stroke:none;" transform="translate(0,48) scale(1,-1)">State angle phi (degrees)</text>
+			<text x="390" y="253" style="font-family: Helvetica; font-size: 12px;fill: rgb(12%,18%,23%); stroke:none;" transform="translate(0,506) scale(1,-1)">p = (1 + cos phi) / 2</text>
+		</g>
+	</g>
+</svg>
+</figure>
+<p><em>Analytic illustration: x=(cos φ,sin φ,0), a=(1,0,0), b=(0,1,0). The two points at φ=±π/2 both give p=1/2 but have opposite orientation. This is not measured Jev behavior.</em></p>
+<p>The <a href="../stance-geometry/study.html">stance study</a> supplies another legitimate geometry: categorical probabilities embed as <code>2√p</code> into a positive sphere orthant with the Fisher metric. That constrained geometry should not be identified with an unrestricted orientation sphere. A complete logic would additionally need operations, designated values and laws; a rotating representation alone does not provide conjunction, inference or truth semantics.</p>
+<h2 id="7-research-priorities-and-three-reality-assessments">7. Research priorities and three reality assessments</h2>
+<p><strong>First:</strong> evidence support and brief completeness. Both offer inspectable packets and later adjudication. The vendor already provides <a href="https://docs.typesafe.ai/cookbooks/citation_check">citation-checking</a> and <a href="https://docs.typesafe.ai/cookbooks/classifying_rag_passages">passage-classification</a> examples, so broad novelty claims fail the wheel check. The lab's possible contribution is its particular evidence contract and measured incremental benefit. Compare deterministic checks, repeat human review and a specialized grounding model such as <a href="https://aclanthology.org/2024.emnlp-main.499/">MiniCheck</a>.</p>
+<p><strong>Second:</strong> the Coin circuit as selective acquisition. Its theorem survives with explicit assumptions. The concrete path is a small, fully enumerated decision fixture followed by a measured semantic task. Its open obstacles are sound predicates, useful orientation, dependence and acquisition cost. The richer-ontology interpretation remains <code>THEORY</code>; the task-value question remains <code>OPERATIONALIZE</code>, not demonstrated readiness.</p>
+<p><strong>Third:</strong> stance and representation experiments. Use Jev as one measured observer and compare against known transformations and independent labels. Keep more ambitious tensor, propagation and control applications behind their observability tests. Experimental image capability makes diagram tests conceivable; it does not establish a rotation sensor.</p>
+<p>The <a href="experiments.html">experiment cards</a> predeclare contrasts, outcomes and failure interpretations. The <a href="implementer-brief.html">implementer brief</a> specifies the minimal records and testable boundaries. No arbitrary count of fifty examples is treated as enough to decide every hypothesis.</p>
+<h2 id="8-scope-closure">8. Scope closure</h2>
+<p>This edition closes a bounded usage survey, mathematical correction and experiment-design assignment. The two-completion certificate and the orientation non-identifiability argument are explicit results under declared assumptions. They do not depend on buying a model call. Current documentation and external evaluations make Jev a plausible instrument for some semantic measurements, but local usefulness, calibration and economic benefit remain unmeasured.</p>
+<p><u>Recommendation: begin with a deterministic mathematical fixture and an evidence-review comparison; then test whether oriented acquisition earns an advantage over ordinary abstention. Preserve the richer state hypothesis until an experiment can distinguish it from its simpler alternatives.</u></p>
+<p>The remaining operator-facing question is the intended rotating-ball construction. The mathematical alternatives here permit a precise follow-up without requiring the present usage survey to pretend that ambiguity has been resolved.</p>
+<h2 id="references-and-provenance">References and provenance</h2>
+<p>Primary sources are linked beside their claims; <a href="../../../session/research-jev-usage/sources.md">sources.md</a> records reading depth and access limits. The main integrates read-only source, mathematical and mapping passes; <a href="../../../session/research-jev-usage/verification.md">verification.md</a> records subsequent review and finite checks. All original drafts and historical editions are preserved. Figures are analytic or synthetic. No private account operations, paid inference, implementation release, cross-vendor signature or gavel occurred.</p><footer>SHIFT_2 research and synthesis. Analytic figures are not model performance data. No external fonts or scripts are required.</footer></main></body></html>

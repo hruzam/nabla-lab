@@ -1,0 +1,61 @@
+{
+  "date": "2026-11-03",
+  "scope": "offline mathematical construction and document generation only",
+  "python": "3.14.7",
+  "markdown": "3.10.3",
+  "partial_assignments": 243,
+  "completions": 1024,
+  "verdict_counts": {
+    "-1": 117,
+    "1": 51,
+    "0": 75
+  },
+  "pivot_histogram": {
+    "4": 3,
+    "2": 42,
+    "3": 12,
+    "0": 126,
+    "1": 60
+  },
+  "endpoint_or_pivot_discrepancies": 0,
+  "majority_configurations_checked": 280,
+  "zero_of_50_one_sided_95_upper_bound": 0.058155079116972264,
+  "original_inputs_unchanged_during_build": true,
+  "source_sha256": {
+    "drafts/jev/The Coin Effect \u2014 Mathematical Foundations.md": "3aa39c2d301ee61018a0f043ebb38fe46430e1e7c90ef25aed555a1dec847019",
+    "drafts/jev/The Integration Circuit \u2014 JEV, LLM, and the Coin Effect in Practice.md": "5fac56d2deb64dd9ee74ab42b676c8de3d69e50bf9a1750cbc9a66c4370f1f5d",
+    "drafts/jev/jev-tunnel_builder-brief_2026-09-24.md": "9cb89e9e8ca294dfcfd90ee22017a50a364d63286d4e16fc6c35046f0a5cbf14",
+    "publications/inner-circle/cascade-diagnostics/study.md": "8c020af4587fc8516da7a6e645f048736a8a5b4b8858c17edf6b5304f590f443",
+    "publications/inner-circle/coalition-evidence/study.md": "43ab243092e943e8a92660c66e13546a6dff2d04662421cad422dd2571360885",
+    "publications/inner-circle/coherence-composition/study.md": "94d848950e426b42e07b467738cba01d594d1012a0df8c5c2601298260ec7124",
+    "publications/inner-circle/flow-control-stopping/study.md": "b4b39f50b22eb92c01152e6f6b56e668a538c54a2c4ed3fc7544d509c270cb91",
+    "publications/inner-circle/interactive-interposition/study.md": "3235f7e1a11b2545bf8f07b12e110b6410789206339f7edcb2f8ac9694c7303a",
+    "publications/inner-circle/jev-judgment/study.md": "967cc4548acfd09cc572f32274fb831f8eedeb2722f30f50c3c5001fd13b97ae",
+    "publications/inner-circle/mental-map/study.md": "3a53992e60b32835445ea5d81490fa41d548b67a28e57baa7cd3c62fcbe2050c",
+    "publications/inner-circle/scratch-instruments/study.md": "e43ee3cad58edba7c73d2167423cf3778b31d3df940406cd56b02addc96a9b52",
+    "publications/inner-circle/spectral-retrieval/study.md": "dcbe463f90764ea7a5f9999645b6610f3d6519b517401300e7cfc4914a8a4f51",
+    "publications/inner-circle/stance-geometry/study.md": "2cec06d0481a8db7e8f4966129e67b4fed562d4846306bcb4f691c84905a90e2",
+    "publications/inner-circle/tensor-analytics/study.md": "8ba3ccdcee7297cf25e919156c4bcc67ccb3a91e04fab0e0b5cb2264fe0e5797",
+    "publications/inner-circle/substrate-gap-register.md": "b967991ea7a3b3e10fb19417406d0ee9280ecb01dd2663a92f8b5489e6b91030",
+    "publications/inner-circle/research-tracks.md": "ff8fe9f648bd6a8f0ecce35938ed5ad1b4b3c42c7bac850b7669a69ce52089ea",
+    "publications/inner-circle/provenance.md": "e2c25190c19e9a85eb3c039851a56f103a4259d1c5e137e03c4c107d29f669d4",
+    "publications/inner-circle/editorial-evidence.md": "4fef4d7fc816f544e1b663e7f23962b636075277cc7a40593e5e25cdc8ddcbc7",
+    "session/flag.md": "15732defc9da1d3b51e5b46f8eebf79363ad48342fda5274d22ad43570cc812c"
+  },
+  "generated_html": [
+    "publications/inner-circle/jev-usage/study.html",
+    "publications/inner-circle/jev-usage/implementer-brief.html",
+    "publications/inner-circle/jev-usage/experiments.html",
+    "publications/inner-circle/jev-usage/usage-atlas.html",
+    "publications/inner-circle/index.html"
+  ],
+  "figure_sha256": {
+    "publications/inner-circle/jev-usage/figures/completions.csv": "4ef44d66d54ef853a8ba2934c92f48ba03106686b9d088b861f21d68121bafac",
+    "publications/inner-circle/jev-usage/figures/completions.pdf": "b59ac7f423ccd7c2ed93587c962bdfb81a216a7b458f374f714ad2380ed5cfa7",
+    "publications/inner-circle/jev-usage/figures/completions.svg": "9c5ad9d9d801aa8a7acc0dd8b3b533dab528f43f3d8c3299423af8eaa8d044f8",
+    "publications/inner-circle/jev-usage/figures/rotation.csv": "2689ebbae0c2667d2ecdd7f7e13fd5818ec3ed0bcb297917b445cd9f7a623b76",
+    "publications/inner-circle/jev-usage/figures/rotation.pdf": "197c3e87c69ba012f390f0e6e5e586d67da84f2c29ccb6ff840d8365c51b35fb",
+    "publications/inner-circle/jev-usage/figures/rotation.svg": "8eb3fe0ad6a8808356442f1a3058c7a3c6ecc568076131da838cf6009d6826c0"
+  },
+  "live_inference": false
+}

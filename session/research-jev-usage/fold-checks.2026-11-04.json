@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-04",
+  "scope": "document fold, source archive and local discovery/link checks; no live inference or browser runtime test",
+  "files_checked": 22,
+  "local_links_checked": 256,
+  "broken_links": [],
+  "archived_sources": 6,
+  "source_bytes_preserved": true,
+  "november_3_receipts_and_figures_unchanged": true,
+  "briefing_directory_absent": true,
+  "html_has_no_scripts": true,
+  "fresh_session_load_tested": false
+}

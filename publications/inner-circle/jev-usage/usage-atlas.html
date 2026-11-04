@@ -1,0 +1,240 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Jev usage atlas</title><style>body{margin:0;background:#f4f1eb;color:#20303b;font:18px/1.65 Georgia,serif}main{max-width:880px;margin:48px auto;padding:56px 64px;background:#fffdf8;border-top:7px solid #087f8c;box-shadow:0 10px 45px #18344512}h1,h2,h3,th,.masthead{font-family:Arial,sans-serif}h1{font-size:42px;line-height:1.12;letter-spacing:-1px;color:#173c49}h2{font-size:24px;margin-top:2em;border-top:1px solid #d9e2e2;padding-top:22px}h3{font-size:19px}p{margin:1em 0}a{color:#087080;text-decoration-thickness:1px}table{border-collapse:collapse;width:100%;font-size:14px;line-height:1.45;margin:25px 0}th,td{border-bottom:1px solid #d5dfdf;padding:12px 10px;text-align:left;vertical-align:top}th{background:#e8efed}pre{background:#edf2f2;padding:18px;font:13px/1.65 monospace;overflow:auto;border-left:3px solid #087f8c}code{font-size:.84em}pre code{font-size:inherit}img,svg{max-width:100%;height:auto}figure{margin:32px 0}u{text-decoration-color:#087f8c;text-underline-offset:4px}li{margin:.65em 0}.masthead{font-size:12px;letter-spacing:2px;text-transform:uppercase;color:#607580}footer{font:12px/1.5 Arial,sans-serif;color:#657781;margin-top:45px;border-top:1px solid #d5dfdf;padding-top:18px}@media(max-width:720px){main{margin:0;padding:28px 22px}h1{font-size:32px}table{display:block;overflow:auto}}@media print{body{background:white;font-size:11pt}main{max-width:none;margin:0;padding:0;box-shadow:none;border:0}h1{font-size:26pt}h2{break-after:avoid}pre,figure,svg{break-inside:avoid}a{color:inherit}table{font-size:9pt}}</style></head><body><main><div class="masthead">Nabla-lab / Inner-circle / 2026-11-03 research edition / November 4 reading pointers</div><h1 id="jev-usage-atlas">Jev usage atlas</h1>
+<p><em>2026-11-03 · proposed applications, not measured product performance.</em></p>
+<p><a href="study.html">Study</a> · <a href="experiments.html">Experiments</a> · <a href="implementer-brief.html">Implementer brief</a></p>
+<h2 id="how-to-use-this-map">How to use this map</h2>
+<p>Each row names a possible measurement and the decision it would inform. Priority A means a good first evaluation target; B means a useful follow-up with a named prerequisite; C means a longer research question. These priorities are Oraculum's recommendations, not lab readiness labels or adoption permission. “Negative” means the proposed role lacks the required information or duplicates a deterministic operation.</p>
+<p>For every row, retain evidence identifiers, rubric and model versions, raw judgment, interpretation, action/disposition, cost and independently assessed outcome. “Support” always names an evidence boundary. A system can verify that supplied text supports a false statement; truth beyond that text is a separate target.</p>
+<h2 id="immediate-scientific-and-engineering-uses">Immediate scientific and engineering uses</h2>
+<table>
+<thead>
+<tr>
+<th>ID / priority</th>
+<th>Problem and supplied evidence</th>
+<th>Proposed question and consumer action</th>
+<th>Simpler comparator</th>
+<th>Failure corner and decisive test</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>U01 / A</td>
+<td>Delegation omissions; task, allowed sources, expected return</td>
+<td>Per-criterion Noul/Choice for missing input; head revises material omissions</td>
+<td>Schema checklist and a second head review</td>
+<td>Cosmetic alarms or shared blind spots; independently adjudicate additional omissions and later rework (E2)</td>
+</tr>
+<tr>
+<td>U02 / A</td>
+<td>Claim grounding; claim plus exact source span and context</td>
+<td>Choice: supported/refuted/insufficient; reviewer inspects disputed spans</td>
+<td>Exact quote matching, trained entailment/grounding model</td>
+<td>Source asserts but does not prove claim; adversarial negation, absent context and conflicting passages (E2)</td>
+</tr>
+<tr>
+<td>U03 / A</td>
+<td>RETURN assessability; requirement plus supplied result/artifact excerpts</td>
+<td>Judge whether each requirement has inspectable support; request missing evidence</td>
+<td>Required-field checks and direct artifact inspection</td>
+<td>Fluent self-report masquerades as evidence; blinded false-success and missing-artifact fixtures</td>
+</tr>
+<tr>
+<td>U04 / B</td>
+<td>Candidate literature relevance; question and retrieved abstract/section</td>
+<td>Score relevance under a fixed rubric; rank permitted reading candidates</td>
+<td>Lexical retrieval or existing reranker</td>
+<td>Missed candidate cannot be recovered by judging a shortlist; measure recall loss and review time (E6)</td>
+</tr>
+<tr>
+<td>U05 / B</td>
+<td>Conflicting evidence; attributed, dated statements with scope</td>
+<td>Separate support/refutation judgments; retain four evidence combinations</td>
+<td>Explicit contradiction rules and human annotation</td>
+<td>Missingness confused with conflict, stale scope, shared source; compare independently labeled evidence packets</td>
+</tr>
+<tr>
+<td>U06 / B</td>
+<td>Human decision packet; proposal, alternatives and intended audience</td>
+<td>Score clarity/completeness; author revises packet</td>
+<td>Readability checklist and blinded human comprehension</td>
+<td>Style preference substitutes for comprehension; measure answer accuracy and reading effort</td>
+</tr>
+<tr>
+<td>U07 / B</td>
+<td>Taxonomy or skill suggestion; bounded catalog with descriptions</td>
+<td>Choice over candidates plus fit/none predicate; head considers suggestion</td>
+<td>Keyword routing and existing classifier</td>
+<td>Unavailable option, overlapping descriptions, option order; held-out routing with rejected/out-of-catalog cases</td>
+</tr>
+<tr>
+<td>U08 / B</td>
+<td>Worker-tier recommendation; task and available capabilities</td>
+<td>Shadow Choice recommendation; compare later outcomes</td>
+<td>Fixed tier and established head choice</td>
+<td>Historical choice is not optimality; randomized/crossover outcomes under allowed budgets, not agreement alone</td>
+</tr>
+<tr>
+<td>U09 / B</td>
+<td>Resolution strategy; unresolved predicate and available evidence actions</td>
+<td>Judge a predeclared action-relevant feature; separate policy selects evidence acquisition</td>
+<td>Best constant strategy, random, least cost, uncertainty-only</td>
+<td>Unreliable orientation or changed target; paired strategy outcomes and cost-sensitive evaluation (E4)</td>
+</tr>
+<tr>
+<td>U10 / B</td>
+<td>Prompt/evidence contamination; instruction-bearing source snippets</td>
+<td>Flag suspicious passage for inspection; preserve source context</td>
+<td>Provenance separation, exact policy checks</td>
+<td>Semantic detector itself influenced by planted instruction; attack fixtures and false-positive costs; never treat score as authorization</td>
+</tr>
+<tr>
+<td>U11 / B</td>
+<td>Known-probability questions; synthetic case with exact probability</td>
+<td>Compare Noul, binary Choice and a declared Score encoding</td>
+<td>Exact arithmetic</td>
+<td>Primitive mismatch, representation sensitivity, leakage through paraphrases; split by latent problem (E1)</td>
+</tr>
+<tr>
+<td>U12 / C</td>
+<td>Diagram and coin-image observations; labeled images with controlled views</td>
+<td>Experimental Choice/Box observations; compare against known state</td>
+<td>Geometry from generator, ordinary vision/localization model</td>
+<td>Occlusion, scale, crop and lighting confused with rotation; controlled image fixture and localization/pose metrics (E5 extension)</td>
+</tr>
+</tbody>
+</table>
+<p>These applications are related to existing methods, not new merely because Jev is the judge. Vendor <a href="https://docs.typesafe.ai/cookbooks/citation_check">citation</a>, <a href="https://docs.typesafe.ai/cookbooks/classifying_rag_passages">retrieval</a> and <a href="https://docs.typesafe.ai/cookbooks/skill_suggestion">skill-selection</a> examples show overlapping proposals. <a href="https://aclanthology.org/N18-1074/">FEVER</a> supplies an established evidence-label distinction; <a href="https://aclanthology.org/2024.emnlp-main.499/">MiniCheck</a> supplies a concrete grounding comparator. Their results do not determine performance on this lab's corpus.</p>
+<h2 id="all-compendium-streams-and-their-mathematical-boundary">All compendium streams and their mathematical boundary</h2>
+<p>The eleven reading editions and the separate substrate register were read by the mapping pass. The connections below preserve their explicit assumptions and open experiments. Relevant originals were checked selectively; the <a href="../../../session/research-jev-usage/README.md">coverage record</a> names depth.</p>
+<table>
+<thead>
+<tr>
+<th>Stream / ID / priority</th>
+<th>Measurement → possible use</th>
+<th>Existing mathematics or restriction</th>
+<th>Comparator and first decisive check</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../stance-geometry/study.html">Stance geometry</a> / U13 / B</td>
+<td>Text-category probabilities → test a representation or trajectory</td>
+<td>Fisher geometry has a declared scale/domain; rotation invariance is not semantic validity</td>
+<td>Same-information probability/Cartesian representation; paraphrase stability, opposition fixtures and held-out outcomes (E5)</td>
+</tr>
+<tr>
+<td><a href="../spectral-retrieval/study.html">Spectral retrieval</a> / U14 / B</td>
+<td>Candidate support scores → inspection or reranking</td>
+<td>Graph diffusion operates on a given graph; Jev neither supplies unseen candidates nor certifies graph meaning</td>
+<td>Fixed candidate pool, lexical/reranker baseline, recall and end-task loss (E6)</td>
+</tr>
+<tr>
+<td><a href="../coalition-evidence/study.html">Coalition evidence</a> / U15 / B</td>
+<td>Identified judgments → compare quorum, capacity and monotone rules</td>
+<td>Capacity constraints and shared-evidence dependence remain explicit; a score is not reliability</td>
+<td>Weighted quorum before learned interactions; grouped held-out outcomes, then E3/E4</td>
+</tr>
+<tr>
+<td><a href="../cascade-diagnostics/study.html">Cascade diagnostics</a> / U16 / C</td>
+<td>Timestamped event labels → populate a propagation study</td>
+<td>Exogenous drive, observation loss and the offspring operator are separate; label similarity is not causation</td>
+<td>Synthetic known process first, then independent event labels and observation-error sensitivity</td>
+</tr>
+<tr>
+<td><a href="../tensor-analytics/study.html">Tensor analytics</a> / U17 / C</td>
+<td>Versioned rubric measurements → populate agent–turn–concept arrays</td>
+<td>Factor ambiguity and invariance of reconstruction under common time permutation remain; factor names are not discovered meanings</td>
+<td>Synthetic recovery, count/matrix baselines, held-out entries and order-sensitive prediction</td>
+</tr>
+<tr>
+<td><a href="../flow-control-stopping/study.html">Flow/control/stopping</a> / U18 / C</td>
+<td>Remaining-evidence or defect judgment → inform an explicit continuation policy</td>
+<td>Loss, information set and dynamics must be specified; a score cannot establish optimal stopping</td>
+<td>Fixed budget and simple rules; matched resources, repeated correlated errors and failure to make progress</td>
+</tr>
+<tr>
+<td><a href="../coherence-composition/study.html">Coherence/composition</a> / U19 / B</td>
+<td>Typed evidence labels → populate constrained comparison ports</td>
+<td><code>ker B</code> consistency and <code>Bx=b</code> solvability are model-relative; zero maps can erase meaning</td>
+<td>Known contradictory/consistent fixtures plus collapsed-map control; verify labels independently before algebra</td>
+</tr>
+<tr>
+<td><a href="../mental-map/study.html">Mental map/lineage</a> / U20 / B</td>
+<td>Reconstruction against revealed anchors → flag contradictions or omissions</td>
+<td>Graph reachability certifies only the supplied graph and complete successor enumeration</td>
+<td>Commit reconstruction before held-out anchors; exact graph coverage separately from semantic fidelity</td>
+</tr>
+<tr>
+<td><a href="../scratch-instruments/study.html">Scratch instruments</a> / U21 / B</td>
+<td>Blinded rubric scoring → evaluate intermediate representations</td>
+<td>The same judge cannot both optimize and independently validate its own preferred format</td>
+<td>Separate human/independent evaluator; randomize format and budget independently</td>
+</tr>
+<tr>
+<td><a href="../interactive-interposition/study.html">Interactive interposition</a> / U22 / negative for completion authority</td>
+<td>Semantic completeness judgment → optional review after transport has completed</td>
+<td>Completion requires session/request correlation and terminal lifecycle evidence</td>
+<td>Deterministic protocol completion; never substitute a model's “done” judgment for the receipt</td>
+</tr>
+<tr>
+<td><a href="../jev-judgment/study.html">Earlier Jev judgment</a> / U01–03 / A</td>
+<td>Extra observation at a frozen research boundary</td>
+<td>Existing paper establishes a role hypothesis and probability bounds, not measured usefulness</td>
+<td>Checklist, repeated review and specialized judge; E2 extends its original trial</td>
+</tr>
+<tr>
+<td><a href="../substrate-gap-register.html">Distributed substrate</a> / U23 / C</td>
+<td>Relevance/failure-category judgments → proposed routing metadata</td>
+<td>Two external study bodies remain outside this assignment; no completed three-source synthesis or causal-credit measure is supplied</td>
+<td>Scope-local frozen workload; compare explicit routing rules before adaptive claims; do not claim to close the historical stream</td>
+</tr>
+</tbody>
+</table>
+<h2 id="uses-to-reject-or-narrow">Uses to reject or narrow</h2>
+<table>
+<thead>
+<tr>
+<th>Proposed use</th>
+<th>Finding</th>
+<th>Narrower useful role</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Prove a theorem by repeated Jev agreement</td>
+<td>Negative: agreement supplies no derivation or proof object</td>
+<td>Classify candidate proof steps for inspection; a mathematician or formal checker establishes validity</td>
+</tr>
+<tr>
+<td>Detect a true third state from one near-half probability</td>
+<td>Negative as identification: multiple mechanisms produce the same observable</td>
+<td>Test selective prediction; add independent observations to distinguish hypotheses</td>
+</tr>
+<tr>
+<td>Calculate a known Boolean function, graph reachability or numeric formula</td>
+<td>Usually unnecessary model inference</td>
+<td>Let deterministic code calculate; study Jev only at the semantic measurement boundary</td>
+</tr>
+<tr>
+<td>Certify truth, fidelity or completeness of excluded records</td>
+<td>Information boundary prevents certification</td>
+<td>State exactly which supplied evidence supports the bounded judgment</td>
+</tr>
+<tr>
+<td>Treat repeated questions as independent experts</td>
+<td>Unsupported dependence assumption</td>
+<td>Record shared evidence/model provenance and estimate joint failures</td>
+</tr>
+<tr>
+<td>Turn a confidence threshold into permission or a universal stop rule</td>
+<td>Undefined action authority/loss</td>
+<td>Keep the permitted action policy explicit and measure its outcomes</td>
+</tr>
+<tr>
+<td>Recover physical angle from Box coordinates or text certainty alone</td>
+<td>Observation model absent</td>
+<td>Use calibrated visual geometry or a synthetic generator with known pose</td>
+</tr>
+</tbody>
+</table>
+<h2 id="ranked-recommendation">Ranked recommendation</h2>
+<p>U01/U02 provide the first practical usefulness comparison; U11 diagnoses probability semantics without pretending to identify internals. U15/U09 form the central Coin research path: sound deterministic composition followed by selective acquisition. U13 supplies the separate rotating-ball representation test. Other rows remain available to the implementer with their evidence requirements, rather than being quietly collapsed into a single universal “judge” role.</p><footer>SHIFT_2 research and synthesis. Analytic figures are not model performance data. No external fonts or scripts are required.</footer></main></body></html>
