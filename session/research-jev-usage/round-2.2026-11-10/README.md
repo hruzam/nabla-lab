@@ -11,6 +11,7 @@
 5. [Verification and remaining work](verification.md).
 6. [Local model candidates without an Ollama dependency](local-model-candidates.md): November 10 follow-up on Laya, multilingual encoders, SetFit and small generative models.
 7. [Bounded peer research streams](bounded-peer-research.md): successor procedure for a named Cartan peer, serial cycles, goal preservation and current transport limits.
+8. [Complete successor prompt and partner handoffs](successor-prompt.md): intended Jev partner, separate local-rail preparation home, and proposed research-only coordination scope.
 
 The Jev-01 return is [oraculum.calibration-protocol.2026-11-10.md](/home/hruzam/ia-sync/.dev/session/jev-01-codex-pilot/raw/oraculum.calibration-protocol.2026-11-10.md). It is a research handoff, not a paid-call grant or instruction to change the implementation queue.
 
