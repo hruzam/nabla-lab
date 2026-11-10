@@ -1,0 +1,66 @@
+{
+  "captured_utc": "2026-11-10T07:54:52.283814+00:00",
+  "purpose": "Source byte identities; hashes do not imply full reading",
+  "sources": [
+    {
+      "path": "/home/hruzam/reposoma/.majkee/projects/first_nabla-lab-then-JEV-relation-implemetnation_wave/laya-local-operations-manual.md",
+      "bytes": 50500,
+      "sha256": "bce13360aa12a1b8a9b50007574feb8282e78d5440fad4ad389ef564158b8ad1"
+    },
+    {
+      "path": "/home/hruzam/reposoma/.majkee/projects/tiny-controllers-change-weights_asymmetry/Asymmetry.incremental-observer.cli-handoff.md",
+      "bytes": 49103,
+      "sha256": "88f2124978ab7557b8024a1236a2d9b063953b7f4a6953b439d5f700d151cbf7"
+    },
+    {
+      "path": "/home/hruzam/reposoma/.majkee/projects/tiny-controllers-change-weights_asymmetry/Asymmetry.model-substrates.cli-handoff.md",
+      "bytes": 14636,
+      "sha256": "4c823222ee19fa625364d7e11ea4c6a4ba98c524647f7cefa8dfe71efecd518d"
+    },
+    {
+      "path": "/home/hruzam/reposoma/.majkee/projects/tiny-controllers-change-weights_asymmetry/Asymmetry.tiny-controllers.playground.md",
+      "bytes": 22944,
+      "sha256": "1c7dbe7980d270cc0486854c93b14c5298fbb2e7b654db3d4c186cd89252fe74"
+    },
+    {
+      "path": "/home/hruzam/reposoma/.majkee/projects/cache-methods/README.md",
+      "bytes": 1716,
+      "sha256": "c41c401c67adbfcbce8032e38aae8f1ea5f3241220d16eb676b38e3f29a2056d"
+    },
+    {
+      "path": "/home/hruzam/reposoma/.majkee/projects/cache-methods/akv.md",
+      "bytes": 1513,
+      "sha256": "7b3f1aa109962287c32b152c28e10ba39ee162a955a0d0d83531db08f7ba2a27"
+    },
+    {
+      "path": "/home/hruzam/reposoma/.majkee/projects/cache-methods/application-caches.md",
+      "bytes": 2661,
+      "sha256": "8ac40984ce93ce5569f72cda7725b9de56d2eaf9f6aad98ae14284eed228677c"
+    },
+    {
+      "path": "/home/hruzam/reposoma/.majkee/projects/cache-methods/cross-model-kv.md",
+      "bytes": 1239,
+      "sha256": "9382c3858d99a27a8c99e51017a8140eb187c87ff6b58df8741f4b368b025e5d"
+    },
+    {
+      "path": "/home/hruzam/reposoma/.majkee/projects/cache-methods/kv-caches.md",
+      "bytes": 1885,
+      "sha256": "84e11a289271ff4c5d3e883b07e14435b945531469edd99aef9d83b4b35d5fb6"
+    },
+    {
+      "path": "/home/hruzam/reposoma/.majkee/projects/cache-methods/load-threshold.md",
+      "bytes": 1931,
+      "sha256": "ccdaaec7d8b0e69146b2d8949f9641d2e048f1b1c8b44c6a96a969a2ad226e48"
+    },
+    {
+      "path": "/home/hruzam/reposoma/raw.guides/machine-home/GUIDE.md",
+      "bytes": 12273,
+      "sha256": "fc260d565347dc6cd59b55a4fe3c7bd7ba7e249022e44af06cbe626483ee5f9a"
+    },
+    {
+      "path": "/home/hruzam/reposoma/raw.guides/machine-office/GUIDE.md",
+      "bytes": 7473,
+      "sha256": "a8a4fcfeac08ae1b54c861eb76bd282c1a5cd950b0048f2c8ce8d9fe6eb7f8c2"
+    }
+  ]
+}

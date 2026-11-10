@@ -64,3 +64,14 @@ E0 fixtures pass in the actual implementation, raw distributions and predicate v
 5. **Separate diagnosis from recovery.** A classifier result is evidence for an action policy, not authority to kill, reap or release ownership. Recovery experiments need their own preconditions and outcome design.
 
 See [research directions](research-directions.md) for the comparison protocol and [coin dynamics](coin-dynamics.md) for corrections to the later drafts. This dated addendum is the builder-facing delta; no message was sent or external implementation changed.
+
+## November 5 addendum — CLI transcript records and useful vectors
+
+Majkee requested a bounded downstream handoff using the wider publication collection. [Full requirements and acceptance fixtures for Cartan / Jev-01](/home/hruzam/ia-sync/.dev/session/jev-01-codex-pilot/raw/oraculum.transcript-measurements-handoff.2026-11-05.md). The briefing intake remains closed; this adds a reuse contract, not another research queue.
+
+- **Capture first:** recoverable source content/references, source session/speaker distinct from the recorder and requester, source order/time distinct from import time, explicit typed relations, coverage/gaps/missingness, request/response correlation and versioned observation provenance.
+- **Save actual measurements:** complete labelled categorical probabilities when supplied, predicate/rubric profiles, named concept features and operational observations. Retain units, ordered axes, measurement schema, producer/version, input snapshot, scope and observation/eligibility masks. Do not fabricate unavailable vectors or turn missingness into zero.
+- **Derive later:** embeddings, categorical geometry, graph coordinates, tensor factors, aggregate coalition scores and dynamic statistics. Preserve their source snapshots and model/frame versions; these are optional views, not extra ground truth or mandatory logging dependencies.
+- **Preserve compatibility:** reuse Jev's existing caller provenance, immutable event identities and outcome separation. A copied transcript's speakers need their own source provenance. Cartan must design a versioned extension/export before introducing fields; legacy bytes, strict schemas and existing same-session boundaries remain authoritative.
+
+The handoff covers all ten non-Jev publication streams as well as the Jev/Coin work. It proposes P0 capture, P1 existing measurements and P2 optional derivations, with synthetic acceptance cases. No actual transcript was read/copied and no Jev implementation or live vault was changed.

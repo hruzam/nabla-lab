@@ -2,6 +2,8 @@
 
 **Intake closed and collection parked by majkee, 2026-11-04.** Available for wider internal use. Experiments are proposals, not pending briefing chores or demonstrated Jev performance. Reopen a specific experiment only through a new assignment.
 
+**November 10 follow-up:** majkee assigned a bounded new round on calibration, selective observation, controllable weights, cache methods and recursive computation. Its [research substrate and receipts](../../../session/research-jev-usage/round-2.2026-11-10/README.md) are separate from the parked editions. This does not reopen the old briefing folder or claim completed model/workload evaluation.
+
 ## Pick a chapter by the job
 
 | Your question | Read |
@@ -14,6 +16,7 @@
 | Can history, decision trees or capability routing help? | [Representation, history and selective observation](research-directions.md) |
 | What was Jev's earlier proposed role beside Oraculum? | [October comparative study](../jev-judgment/study.md) |
 | What was actually checked, and where are the original inputs? | [Evidence entrance](../../../session/research-jev-usage/README.md) · [Archived sources](../../../session/research-jev-usage/archived-inputs/README.md) |
+| What follows Cartan's real-call calibration observation and the local weight/cache sources? | [November 10 protocol and implementation substrate](../../../session/research-jev-usage/round-2.2026-11-10/README.md) |
 
 The November 3 study, atlas and experiment cards remain dated outputs. The November 4 chapters fold the later three drafts and decision-methods consultation. The six source drafts were moved byte-for-byte out of `drafts/jev/`; this closes the intake without destroying provenance. Their original dates and claims remain historical, qualified by the research chapters.
 

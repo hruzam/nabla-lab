@@ -1,0 +1,51 @@
+{
+  "kind": "bounded scientific calculations, not workload/model benchmark",
+  "captured_utc": "2026-11-10T07:54:32.561513+00:00",
+  "python": "3.14.7",
+  "source_sha256": "51290447c138df5658ea781eedf39a499b02c05a9980a5ff70300fdde91ad39b",
+  "tiny_network": {
+    "parameters": 161,
+    "float32_payload_bytes": 644,
+    "binary_vectors_checked": 256,
+    "mismatches": 0,
+    "training_performed": false
+  },
+  "tent_map": {
+    "arithmetic": "fractions.Fraction (exact rational)",
+    "parameters": [
+      "1/2",
+      "1",
+      "3/2",
+      "2"
+    ],
+    "expression_parity_cases": 5160,
+    "branch_endpoint_midpoint_slope_checks": 2046,
+    "maximum_depth": 10,
+    "dyadic_cases": 518,
+    "maximum_dyadic_exponent": 8,
+    "maximum_steps_to_zero": 9,
+    "contraction_bound_checks": 129,
+    "general_proof": "see implementation-substrate.md; finite checks alone are not proof"
+  },
+  "conditional_union": {
+    "group_count": 15,
+    "lower": "0.02",
+    "upper": "0.03",
+    "aggregate": "0.15",
+    "coherent_if_same_exhaustive_events": false,
+    "hypothetical_rounding": "nearest .01, convention not established",
+    "rounded_group_upper_sum": "0.105",
+    "rounded_aggregate_lower": "0.145"
+  },
+  "sample_size_illustration": {
+    "zero_misses_positive_trials": 59,
+    "one_sided_95_upper_miss_rate": 0.049507609888227,
+    "assumptions": "independent Bernoulli positive trials, fixed rule; not general calibration sufficiency"
+  },
+  "limits": [
+    "No Jev/model inference, training or cache replay",
+    "No performance/speedup or host capacity benchmark",
+    "No new theorem or independent empirical accuracy claim"
+  ],
+  "status": "PASS"
+}

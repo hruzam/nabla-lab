@@ -1,0 +1,41 @@
+{
+  "captured_utc": "2026-11-10T07:54:52.280712+00:00",
+  "hostname": "hruzam-120922",
+  "machine_name": "office",
+  "kernel": "7.1.3-1-MANJARO",
+  "architecture": "x86_64",
+  "cpu_model": "12th Gen Intel(R) Core(TM) i5-12400",
+  "logical_cpus": 12,
+  "memory": {
+    "MemTotal_kib": 16131320,
+    "MemAvailable_kib": 1410268,
+    "SwapTotal_kib": 0,
+    "SwapFree_kib": 0
+  },
+  "home_disk_bytes": {
+    "total": 277535051776,
+    "used": 56523735040,
+    "free": 206838763520
+  },
+  "python": "3.14.7",
+  "python_executable": "/usr/bin/python",
+  "distributions_in_this_interpreter": {
+    "numpy": null,
+    "scipy": null,
+    "torch": null,
+    "transformers": null,
+    "huggingface-hub": null,
+    "scikit-learn": null,
+    "laya": null,
+    "numba": null,
+    "sympy": null
+  },
+  "graphics_pci": [
+    "00:02.0 VGA compatible controller: Intel Corporation Alder Lake-S GT1 [UHD Graphics 730] (rev 0c)"
+  ],
+  "limits": [
+    "Read-only local observation; available memory varies.",
+    "No remote home probe; no environment-wide package inventory.",
+    "No inference, training, hardware acceleration or performance benchmark."
+  ]
+}
